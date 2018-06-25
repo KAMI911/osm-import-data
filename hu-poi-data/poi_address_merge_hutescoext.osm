@@ -1,40 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- Original coordinates: POINT (47.503887 21.630595) -->
   <node action="modify" changeset="99999" id="-1" lat="47.503887" lon="21.630595" timestamp="" uid="4579407" user="KAMI" version="99999">
-    <tag k="name" v="Tesco Extra"/>
-    <tag k="addr:city" v="Debrecen"/>
-    <tag k="addr:postcode" v="4030"/>
-    <tag k="addr:street" v="Mikepércsi út"/>
-    <tag k="addr:housenumber" v="73/a"/>
-    <tag k="branch" v="Debrecen Repülőtér Extra"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-debrecen-repuloter-extra"/>
-    <tag k="payment:cash" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
     <tag k="shop" v="supermarket"/>
     <tag k="brand" v="Tesco"/>
-    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="website" v="https://www.tesco.hu"/>
-    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
     <tag k="operator" v="Tesco Global Áruházak Zrt."/>
-  </node>
-  <node action="modify" changeset="99999" id="-2" lat="47.53037" lon="21.61049" timestamp="" uid="4579407" user="KAMI" version="99999">
-    <tag k="name" v="Tesco Extra"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="addr:postcode" v="4030"/>
+    <tag k="branch" v="Debrecen Repülőtér Extra"/>
+    <tag k="addr:housenumber" v="73/a"/>
     <tag k="addr:city" v="Debrecen"/>
-    <tag k="addr:postcode" v="4031"/>
-    <tag k="addr:street" v="Kishegyesi út"/>
-    <tag k="addr:housenumber" v="1-11"/>
-    <tag k="branch" v="Extra Debrecen - Kishegyesi út"/>
+    <tag k="name" v="Tesco Extra"/>
+    <tag k="source" v="website"/>
+    <tag k="addr:street" v="Mikepércsi út"/>
+  </node>
+  <!-- Original coordinates: POINT (47.53037 21.61049) -->
+  <node action="modify" changeset="99999" id="-2" lat="47.53037" lon="21.61049" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-extra-debrecen-kishegyesi-ut"/>
-    <tag k="payment:cash" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
     <tag k="shop" v="supermarket"/>
     <tag k="brand" v="Tesco"/>
-    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="website" v="https://www.tesco.hu"/>
-    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
     <tag k="operator" v="Tesco Global Áruházak Zrt."/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="addr:postcode" v="4031"/>
+    <tag k="branch" v="Extra Debrecen - Kishegyesi út"/>
+    <tag k="addr:housenumber" v="1-11"/>
+    <tag k="addr:city" v="Debrecen"/>
+    <tag k="name" v="Tesco Extra"/>
+    <tag k="source" v="website"/>
+    <tag k="addr:street" v="Kishegyesi út"/>
   </node>
-  <way action="modify" changeset="1" id="191492777" timestamp="1514218592000000000" uid="4579407" user="KAMI" version="5">
+  <!-- OSM link: https://osm.org/way/191492777 -->
+  <!-- Original coordinates: POINT (47.50504 19.11738) -->
+  <way action="modify" changeset="1" id="191492777" timestamp="2017-12-25T16:1632Z" uid="4579407" user="KAMI" version="5">
     <nd ref="2020631534"/>
     <nd ref="2020631539"/>
     <nd ref="2020631417"/>
@@ -50,57 +54,63 @@
     <nd ref="2020631426"/>
     <nd ref="2020631379"/>
     <nd ref="2020631534"/>
-    <tag k="name" v="Tesco Extra"/>
-    <tag k="addr:city" v="Budapest"/>
+    <tag k="brand" v="Tesco"/>
+    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
+    <tag k="wheelchair" v="yes"/>
     <tag k="addr:postcode" v="1149"/>
-    <tag k="addr:street" v="Pillangó utca"/>
-    <tag k="addr:housenumber" v="15"/>
     <tag k="branch" v="Extra Fogarasi út"/>
+    <tag k="building" v="retail"/>
+    <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="addr:street" v="Pillangó utca"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-extra-fogarasi-ut"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
-    <tag k="shop" v="supermarket"/>
-    <tag k="brand" v="Tesco"/>
-    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="website" v="https://www.tesco.hu"/>
     <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
     <tag k="operator" v="Tesco Global Áruházak Zrt."/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="name" v="Tesco Extra"/>
+    <tag k="source" v="website"/>
   </way>
+  <!-- Original coordinates: POINT (48.12795 20.78274) -->
   <node action="modify" changeset="99999" id="-4" lat="48.12795" lon="20.78274" timestamp="" uid="4579407" user="KAMI" version="99999">
-    <tag k="name" v="Tesco Extra"/>
-    <tag k="addr:city" v="Miskolc"/>
-    <tag k="addr:postcode" v="3526"/>
-    <tag k="addr:street" v="Szentpéteri kapu"/>
-    <tag k="addr:housenumber" v="103"/>
-    <tag k="branch" v="Extra Miskolc - Szentpéteri kapu"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-extra-miskolc-szentpeteri-kapu"/>
-    <tag k="payment:cash" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
     <tag k="shop" v="supermarket"/>
     <tag k="brand" v="Tesco"/>
-    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="website" v="https://www.tesco.hu"/>
-    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
     <tag k="operator" v="Tesco Global Áruházak Zrt."/>
-  </node>
-  <node action="modify" changeset="99999" id="-5" lat="47.17615" lon="20.16658" timestamp="" uid="4579407" user="KAMI" version="99999">
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="addr:postcode" v="3526"/>
+    <tag k="branch" v="Extra Miskolc - Szentpéteri kapu"/>
+    <tag k="addr:housenumber" v="103"/>
+    <tag k="addr:city" v="Miskolc"/>
     <tag k="name" v="Tesco Extra"/>
-    <tag k="addr:city" v="Szolnok"/>
-    <tag k="addr:postcode" v="5000"/>
-    <tag k="addr:street" v="Téglagyári út"/>
-    <tag k="addr:housenumber" v="30"/>
-    <tag k="branch" v="Extra Szolnok "/>
+    <tag k="source" v="website"/>
+    <tag k="addr:street" v="Szentpéteri kapu"/>
+  </node>
+  <!-- Original coordinates: POINT (47.17615 20.16658) -->
+  <node action="modify" changeset="99999" id="-5" lat="47.17615" lon="20.16658" timestamp="" uid="4579407" user="KAMI" version="99999">
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-extra-szolnok"/>
-    <tag k="payment:cash" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
     <tag k="shop" v="supermarket"/>
     <tag k="brand" v="Tesco"/>
-    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="website" v="https://www.tesco.hu"/>
-    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
     <tag k="operator" v="Tesco Global Áruházak Zrt."/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="addr:postcode" v="5000"/>
+    <tag k="branch" v="Extra Szolnok "/>
+    <tag k="addr:housenumber" v="30"/>
+    <tag k="addr:city" v="Szolnok"/>
+    <tag k="name" v="Tesco Extra"/>
+    <tag k="source" v="website"/>
+    <tag k="addr:street" v="Téglagyári út"/>
   </node>
-  <way action="modify" changeset="1" id="78342617" timestamp="1520541993000000000" uid="4579407" user="KAMI" version="12">
+  <!-- OSM link: https://osm.org/way/78342617 -->
+  <!-- Original coordinates: POINT (47.55583 19.07974) -->
+  <way action="modify" changeset="1" id="78342617" timestamp="2018-03-08T20:4633Z" uid="4579407" user="KAMI" version="12">
     <nd ref="919682524"/>
     <nd ref="4443877094"/>
     <nd ref="4443832093"/>
@@ -113,39 +123,50 @@
     <nd ref="919682527"/>
     <nd ref="4443916290"/>
     <nd ref="919682524"/>
-    <tag k="name" v="Tesco Extra"/>
-    <tag k="addr:city" v="Budapest"/>
-    <tag k="addr:postcode" v="1138"/>
-    <tag k="addr:street" v="Gács utca"/>
-    <tag k="addr:housenumber" v="3"/>
-    <tag k="branch" v="Extra Váci út "/>
+    <tag k="brand" v="Tesco"/>
+    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
+    <tag k="wheelchair" v="yes"/>
     <tag k="phone" v="+36208274599"/>
+    <tag k="addr:postcode" v="1138"/>
+    <tag k="opening_hours" v="Mo-Su 00:00-24:00"/>
+    <tag k="branch" v="Extra Váci út "/>
+    <tag k="building" v="retail"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="addr:street" v="Gács utca"/>
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-extra-vaci-ut"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
-    <tag k="shop" v="supermarket"/>
-    <tag k="brand" v="Tesco"/>
-    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="website" v="https://www.tesco.hu"/>
+    <tag k="name:en" v="Tesco extra"/>
+    <tag k="building:levels" v="2"/>
     <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
     <tag k="operator" v="Tesco Global Áruházak Zrt."/>
-  </way>
-  <node action="modify" changeset="1" id="4781258096" lat="46.26835" lon="20.13889" timestamp="1504586366000000000" uid="4579407" user="KAMI" version="3">
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="name:fr" v="Tesco extra"/>
+    <tag k="addr:city" v="Budapest"/>
     <tag k="name" v="Tesco Extra"/>
-    <tag k="addr:city" v="Szeged"/>
-    <tag k="addr:postcode" v="6724"/>
-    <tag k="addr:street" v="Rókusi körút"/>
-    <tag k="addr:housenumber" v="42-64"/>
-    <tag k="branch" v="Szeged Extra - Rókusi krt."/>
-    <tag k="phone" v="+36208273999"/>
+    <tag k="source" v="website"/>
+  </way>
+  <!-- OSM link: https://osm.org/node/4781258096 -->
+  <!-- Original coordinates: POINT (46.26835 20.13889) -->
+  <node action="modify" changeset="1" id="4781258096" lat="46.26835" lon="20.13889" timestamp="2017-09-05T04:3926Z" uid="4579407" user="KAMI" version="3">
     <tag k="website" v="https://www.tesco.hu/aruhazak/aruhaz/tesco-szeged-extra-rokusi-krt"/>
-    <tag k="payment:cash" v="yes"/>
     <tag k="youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
-    <tag k="shop" v="supermarket"/>
+    <tag k="addr:city" v="Szeged"/>
     <tag k="brand" v="Tesco"/>
-    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
-    <tag k="website" v="https://www.tesco.hu"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="source" v="website"/>
+    <tag k="phone" v="+36208273999"/>
+    <tag k="addr:postcode" v="6724"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="branch" v="Szeged Extra - Rókusi krt."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="addr:housenumber" v="42-64"/>
     <tag k="payment:debit_cards" v="yes"/>
+    <tag k="name" v="Tesco Extra"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="toilets:wheelchair" v="limited"/>
     <tag k="operator" v="Tesco Global Áruházak Zrt."/>
+    <tag k="addr:street" v="Rókusi körút"/>
+    <tag k="facebook" v="https://www.facebook.com/tescoaruhazak/"/>
   </node>
 </osm>
