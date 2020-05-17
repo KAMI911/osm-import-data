@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/2510920571 -->
+  <!-- Original coordinates: POINT (47.25158 16.91036) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Sárvár'			'Sárvár'
+addr:housenumber                 E		'18'			'18'
+addr:postcode                    E		'9600'			'9600'
+addr:street                      E		'Ikervári utca'			'Ikervári utca'
+amenity                          E		'fuel'			'fuel'
+brand                            E		'Avia'			'Avia'
+brand:wikidata                   E		'Q300147'			'Q300147'
+brand:wikipedia                  E		'de:Avia International'			'de:Avia International'
+compressed_air                   E		'yes'			'yes'
+contact:email                    E		'avia@avia.hu'			'avia@avia.hu'
+contact:facebook                 E		'https://www.facebook.com/AVIAHungary'			'https://www.facebook.com/AVIAHungary'
+contact:phone                    E		'+36 95 326 373;+36 20 205 6121'			'+36 95 326 373;+36 20 205 6121'
+contact:website                  E		'https://www.avia.hu/toltoallomas/?id=4'			'https://www.avia.hu/toltoallomas/?id=4'
+contact:youtube                  E		'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'			'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'
+food                             E		'yes'			'yes'
+fuel:diesel                      E		'yes'			'yes'
+fuel:e85                         E		'no'			'no'
+fuel:lpg                         E		'yes'			'yes'
+fuel:octane_95                   E		'yes'			'yes'
+fuel:octane_98                   E		'no'			'no'
+name                             E		'Avia'			'Avia'
+operator                         E		'AVIA Hungária Kft.'			'AVIA Hungária Kft.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+rent:lpg_bottles                 E		'yes'			'yes'
+restaurant                       E		'no'			'no'
+source:www.avia.hu:date          M		'2020\-05\-17'			'2020\-01\-04'
+truck                            E		'no'			'no'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2510920571&addtags=%7Caddr%3Acity%3DS%C3%A1rv%C3%A1r%7Caddr%3Ahousenumber%3D18%7Caddr%3Apostcode%3D9600%7Caddr%3Astreet%3DIkerv%C3%A1ri%20utca%7Camenity%3Dfuel%7Cbrand%3DAvia%7Cbrand%3Awikidata%3DQ300147%7Cbrand%3Awikipedia%3Dde%3AAvia%20International%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Davia%40avia.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/AVIAHungary%7Ccontact%3Aphone%3D%2B36%2095%20326%20373%3B%2B36%2020%20205%206121%7Ccontact%3Awebsite%3Dhttps%3A//www.avia.hu/toltoallomas/%3Fid%3D4%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg%7Cfood%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Ae85%3Dno%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dno%7Cname%3DAvia%7Coperator%3DAVIA%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crent%3Alpg_bottles%3Dyes%7Crestaurant%3Dno%7Csource%3Awww.avia.hu%3Adate%3D2020-05-17%7Ctruck%3Dno -->
+  <node action="modify" id="2510920571" lat="47.2514959" lon="16.9106197" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+    <tag k="addr:city" v="Sárvár"/>
+    <tag k="addr:housenumber" v="18"/>
+    <tag k="addr:postcode" v="9600"/>
+    <tag k="addr:street" v="Ikervári utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Avia"/>
+    <tag k="brand:wikidata" v="Q300147"/>
+    <tag k="brand:wikipedia" v="de:Avia International"/>
+    <tag k="compressed_air" v="yes"/>
+    <tag k="contact:email" v="avia@avia.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/AVIAHungary"/>
+    <tag k="contact:phone" v="+36 95 326 373;+36 20 205 6121"/>
+    <tag k="contact:website" v="https://www.avia.hu/toltoallomas/?id=4"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg"/>
+    <tag k="food" v="yes"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:e85" v="no"/>
+    <tag k="fuel:lpg" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="fuel:octane_98" v="no"/>
+    <tag k="name" v="Avia"/>
+    <tag k="operator" v="AVIA Hungária Kft."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="rent:lpg_bottles" v="yes"/>
+    <tag k="restaurant" v="no"/>
+    <tag k="source:www.avia.hu:date" v="2020-05-17"/>
+    <tag k="truck" v="no"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/3355562587 -->
+  <!-- Original coordinates: POINT (47.41338 17.00303) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Répcelak'			'Répcelak'
+addr:conscriptionnumber          E		'86'			'86'
+addr:housenumber                 E		'86'			'86'
+addr:postcode                    E		'9653'			'9653'
+addr:street                      E		'86. számú főközlekedési út'			'86. számú főközlekedési út'
+amenity                          E		'fuel'			'fuel'
+brand                            E		'Avia'			'Avia'
+brand:wikidata                   E		'Q300147'			'Q300147'
+brand:wikipedia                  E		'de:Avia International'			'de:Avia International'
+compressed_air                   E		'yes'			'yes'
+contact:email                    E		'avia@avia.hu'			'avia@avia.hu'
+contact:facebook                 E		'https://www.facebook.com/AVIAHungary'			'https://www.facebook.com/AVIAHungary'
+contact:phone                    E		'+36 95 370 580;+36 20 205 6212'			'+36 95 370 580;+36 20 205 6212'
+contact:website                  E		'https://www.avia.hu/toltoallomas/?id=6'			'https://www.avia.hu/toltoallomas/?id=6'
+contact:youtube                  E		'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'			'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'
+food                             E		'no'			'no'
+fuel:diesel                      E		'yes'			'yes'
+fuel:e85                         E		'no'			'no'
+fuel:lpg                         E		'yes'			'yes'
+fuel:octane_95                   E		'yes'			'yes'
+fuel:octane_98                   E		'no'			'no'
+name                             E		'Avia'			'Avia'
+operator                         E		'AVIA Hungária Kft.'			'AVIA Hungária Kft.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+rent:lpg_bottles                 E		'yes'			'yes'
+restaurant                       E		'no'			'no'
+source                           E		'https://www.avia.hu/toltoallomas/?id=6'			'https://www.avia.hu/toltoallomas/?id=6'
+source:www.avia.hu:date          M		'2020\-05\-17'			'2020\-01\-04'
+truck                            E		'yes'			'yes'
+url                              E		'http://turistautak.hu/poi.php?id=22542'			'http://turistautak.hu/poi.php?id=22542'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3355562587&addtags=%7Caddr%3Acity%3DR%C3%A9pcelak%7Caddr%3Aconscriptionnumber%3D86%7Caddr%3Ahousenumber%3D86%7Caddr%3Apostcode%3D9653%7Caddr%3Astreet%3D86.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DAvia%7Cbrand%3Awikidata%3DQ300147%7Cbrand%3Awikipedia%3Dde%3AAvia%20International%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Davia%40avia.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/AVIAHungary%7Ccontact%3Aphone%3D%2B36%2095%20370%20580%3B%2B36%2020%20205%206212%7Ccontact%3Awebsite%3Dhttps%3A//www.avia.hu/toltoallomas/%3Fid%3D6%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg%7Cfood%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Ae85%3Dno%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dno%7Cname%3DAvia%7Coperator%3DAVIA%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crent%3Alpg_bottles%3Dyes%7Crestaurant%3Dno%7Csource%3Dhttps%3A//www.avia.hu/toltoallomas/%3Fid%3D6%7Csource%3Awww.avia.hu%3Adate%3D2020-05-17%7Ctruck%3Dyes%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D22542 -->
+  <node action="modify" id="3355562587" lat="47.4132313" lon="17.0030401" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Répcelak"/>
+    <tag k="addr:conscriptionnumber" v="86"/>
+    <tag k="addr:housenumber" v="86"/>
+    <tag k="addr:postcode" v="9653"/>
+    <tag k="addr:street" v="86. számú főközlekedési út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Avia"/>
+    <tag k="brand:wikidata" v="Q300147"/>
+    <tag k="brand:wikipedia" v="de:Avia International"/>
+    <tag k="compressed_air" v="yes"/>
+    <tag k="contact:email" v="avia@avia.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/AVIAHungary"/>
+    <tag k="contact:phone" v="+36 95 370 580;+36 20 205 6212"/>
+    <tag k="contact:website" v="https://www.avia.hu/toltoallomas/?id=6"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg"/>
+    <tag k="food" v="no"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:e85" v="no"/>
+    <tag k="fuel:lpg" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="fuel:octane_98" v="no"/>
+    <tag k="name" v="Avia"/>
+    <tag k="operator" v="AVIA Hungária Kft."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="rent:lpg_bottles" v="yes"/>
+    <tag k="restaurant" v="no"/>
+    <tag k="source" v="https://www.avia.hu/toltoallomas/?id=6"/>
+    <tag k="source:www.avia.hu:date" v="2020-05-17"/>
+    <tag k="truck" v="yes"/>
+    <tag k="url" v="http://turistautak.hu/poi.php?id=22542"/>
+  </node>
+  <node action="modify" id="7083495123" lat="47.2134677" lon="16.619073" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
+  <node action="modify" id="7083495122" lat="47.2134595" lon="16.6191548" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
+  <node action="modify" id="7083495121" lat="47.2134168" lon="16.6191455" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
+  <node action="modify" id="7083495120" lat="47.213425" lon="16.6190637" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
+  <!-- OSM link: https://osm.org/way/758473767 -->
+  <!-- Original coordinates: POINT (47.211575 16.618967) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Szombathely'			'Szombathely'
+addr:housenumber                 E		'92'			'92'
+addr:postcode                    E		'9700'			'9700'
+addr:street                      E		'Körmendi út'			'Körmendi út'
+amenity                          E		'fuel'			'fuel'
+brand                            E		'Avia'			'Avia'
+building                         E		'retail'			'retail'
+compressed_air                   E		'yes'			'yes'
+contact:email                    E		'avia@avia.hu'			'avia@avia.hu'
+contact:facebook                 E		'https://www.facebook.com/AVIAHungary'			'https://www.facebook.com/AVIAHungary'
+contact:phone                    E		'+36 20 996 1603'			'+36 20 996 1603'
+contact:website                  E		'https://www.avia.hu/toltoallomas/?id=23'			'https://www.avia.hu/toltoallomas/?id=23'
+contact:youtube                  E		'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'			'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'
+food                             E		'yes'			'yes'
+fuel:diesel                      E		'yes'			'yes'
+fuel:e85                         E		'no'			'no'
+fuel:lpg                         E		'yes'			'yes'
+fuel:octane_95                   E		'yes'			'yes'
+fuel:octane_98                   E		'no'			'no'
+name                             E		'Avia'			'Avia'
+operator                         E		'AVIA Hungária Kft.'			'AVIA Hungária Kft.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+rent:lpg_bottles                 E		'yes'			'yes'
+restaurant                       E		'no'			'no'
+source:www.avia.hu:date          M		'2020\-05\-17'			'2020\-01\-04'
+truck                            E		'no'			'no'
+url                              E		'http://turistautak.hu/poi.php?id=17126'			'http://turistautak.hu/poi.php?id=17126'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w758473767&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D92%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DK%C3%B6rmendi%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DAvia%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Davia%40avia.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/AVIAHungary%7Ccontact%3Aphone%3D%2B36%2020%20996%201603%7Ccontact%3Awebsite%3Dhttps%3A//www.avia.hu/toltoallomas/%3Fid%3D23%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg%7Cfood%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Ae85%3Dno%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dno%7Cname%3DAvia%7Coperator%3DAVIA%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crent%3Alpg_bottles%3Dyes%7Crestaurant%3Dno%7Csource%3Awww.avia.hu%3Adate%3D2020-05-17%7Ctruck%3Dno%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D17126 -->
+  <way action="modify" id="758473767" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <nd ref="7083495123"/>
+    <nd ref="7083495122"/>
+    <nd ref="7083495121"/>
+    <nd ref="7083495120"/>
+    <nd ref="7083495123"/>
+    <tag k="addr:city" v="Szombathely"/>
+    <tag k="addr:housenumber" v="92"/>
+    <tag k="addr:postcode" v="9700"/>
+    <tag k="addr:street" v="Körmendi út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Avia"/>
+    <tag k="building" v="retail"/>
+    <tag k="compressed_air" v="yes"/>
+    <tag k="contact:email" v="avia@avia.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/AVIAHungary"/>
+    <tag k="contact:phone" v="+36 20 996 1603"/>
+    <tag k="contact:website" v="https://www.avia.hu/toltoallomas/?id=23"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg"/>
+    <tag k="food" v="yes"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:e85" v="no"/>
+    <tag k="fuel:lpg" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="fuel:octane_98" v="no"/>
+    <tag k="name" v="Avia"/>
+    <tag k="operator" v="AVIA Hungária Kft."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="rent:lpg_bottles" v="yes"/>
+    <tag k="restaurant" v="no"/>
+    <tag k="source:www.avia.hu:date" v="2020-05-17"/>
+    <tag k="truck" v="no"/>
+    <tag k="url" v="http://turistautak.hu/poi.php?id=17126"/>
+  </way>
+  <!-- OSM link: https://osm.org/node/7110505119 -->
+  <!-- Original coordinates: POINT (47.390675 16.551771) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Kőszeg'			'Kőszeg'
+addr:housenumber                 E		'42'			'42'
+addr:postcode                    E		'9730'			'9730'
+addr:street                      E		'Alsó körút'			'Alsó körút'
+amenity                          E		'fuel'			'fuel'
+brand                            E		'Avia'			'Avia'
+compressed_air                   E		'no'			'no'
+contact:email                    E		'avia@avia.hu'			'avia@avia.hu'
+contact:facebook                 E		'https://www.facebook.com/AVIAHungary'			'https://www.facebook.com/AVIAHungary'
+contact:phone                    E		'+36 94 505 391;+36 30 268 2590'			'+36 94 505 391;+36 30 268 2590'
+contact:website                  E		'https://www.avia.hu/toltoallomas/?id=10'			'https://www.avia.hu/toltoallomas/?id=10'
+contact:youtube                  E		'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'			'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'
+fixme                            E		'verify import'			'verify import'
+food                             E		'no'			'no'
+fuel:diesel                      E		'yes'			'yes'
+fuel:e85                         E		'no'			'no'
+fuel:lpg                         E		'no'			'no'
+fuel:octane_95                   E		'no'			'no'
+fuel:octane_98                   E		'no'			'no'
+name                             E		'Avia'			'Avia'
+operator                         E		'AVIA Hungária Kft.'			'AVIA Hungária Kft.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+rent:lpg_bottles                 E		'no'			'no'
+restaurant                       E		'no'			'no'
+source:www.avia.hu:date          M		'2020\-05\-17'			'2020\-01\-04'
+truck                            E		'no'			'no'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7110505119&addtags=%7Caddr%3Acity%3DK%C5%91szeg%7Caddr%3Ahousenumber%3D42%7Caddr%3Apostcode%3D9730%7Caddr%3Astreet%3DAls%C3%B3%20k%C3%B6r%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DAvia%7Ccompressed_air%3Dno%7Ccontact%3Aemail%3Davia%40avia.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/AVIAHungary%7Ccontact%3Aphone%3D%2B36%2094%20505%20391%3B%2B36%2030%20268%202590%7Ccontact%3Awebsite%3Dhttps%3A//www.avia.hu/toltoallomas/%3Fid%3D10%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg%7Cfixme%3Dverify%20import%7Cfood%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Ae85%3Dno%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_95%3Dno%7Cfuel%3Aoctane_98%3Dno%7Cname%3DAvia%7Coperator%3DAVIA%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crent%3Alpg_bottles%3Dno%7Crestaurant%3Dno%7Csource%3Awww.avia.hu%3Adate%3D2020-05-17%7Ctruck%3Dno -->
+  <node action="modify" id="7110505119" lat="47.390675" lon="16.551771" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Kőszeg"/>
+    <tag k="addr:housenumber" v="42"/>
+    <tag k="addr:postcode" v="9730"/>
+    <tag k="addr:street" v="Alsó körút"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Avia"/>
+    <tag k="compressed_air" v="no"/>
+    <tag k="contact:email" v="avia@avia.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/AVIAHungary"/>
+    <tag k="contact:phone" v="+36 94 505 391;+36 30 268 2590"/>
+    <tag k="contact:website" v="https://www.avia.hu/toltoallomas/?id=10"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="food" v="no"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:e85" v="no"/>
+    <tag k="fuel:lpg" v="no"/>
+    <tag k="fuel:octane_95" v="no"/>
+    <tag k="fuel:octane_98" v="no"/>
+    <tag k="name" v="Avia"/>
+    <tag k="operator" v="AVIA Hungária Kft."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="rent:lpg_bottles" v="no"/>
+    <tag k="restaurant" v="no"/>
+    <tag k="source:www.avia.hu:date" v="2020-05-17"/>
+    <tag k="truck" v="no"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/7110505118 -->
+  <!-- Original coordinates: POINT (47.41536 16.72103) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Csepreg'			'Csepreg'
+addr:conscriptionnumber          E		'020/38'			'020/38'
+addr:postcode                    E		'9735'			'9735'
+amenity                          E		'fuel'			'fuel'
+brand                            E		'Avia'			'Avia'
+compressed_air                   E		'yes'			'yes'
+contact:email                    E		'avia@avia.hu'			'avia@avia.hu'
+contact:facebook                 E		'https://www.facebook.com/AVIAHungary'			'https://www.facebook.com/AVIAHungary'
+contact:phone                    E		'+36 94 565 104;+36 20 205 6240'			'+36 94 565 104;+36 20 205 6240'
+contact:website                  E		'https://www.avia.hu/toltoallomas/?id=7'			'https://www.avia.hu/toltoallomas/?id=7'
+contact:youtube                  E		'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'			'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'
+fixme                            E		'verify import'			'verify import'
+food                             E		'no'			'no'
+fuel:diesel                      E		'yes'			'yes'
+fuel:e85                         E		'no'			'no'
+fuel:lpg                         E		'no'			'no'
+fuel:octane_95                   E		'yes'			'yes'
+fuel:octane_98                   E		'no'			'no'
+name                             E		'Avia'			'Avia'
+operator                         E		'AVIA Hungária Kft.'			'AVIA Hungária Kft.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+rent:lpg_bottles                 E		'yes'			'yes'
+restaurant                       E		'no'			'no'
+source:www.avia.hu:date          M		'2020\-05\-17'			'2020\-01\-04'
+truck                            E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7110505118&addtags=%7Caddr%3Acity%3DCsepreg%7Caddr%3Aconscriptionnumber%3D020/38%7Caddr%3Apostcode%3D9735%7Camenity%3Dfuel%7Cbrand%3DAvia%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Davia%40avia.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/AVIAHungary%7Ccontact%3Aphone%3D%2B36%2094%20565%20104%3B%2B36%2020%20205%206240%7Ccontact%3Awebsite%3Dhttps%3A//www.avia.hu/toltoallomas/%3Fid%3D7%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg%7Cfixme%3Dverify%20import%7Cfood%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Ae85%3Dno%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dno%7Cname%3DAvia%7Coperator%3DAVIA%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crent%3Alpg_bottles%3Dyes%7Crestaurant%3Dno%7Csource%3Awww.avia.hu%3Adate%3D2020-05-17%7Ctruck%3Dyes -->
+  <node action="modify" id="7110505118" lat="47.41536" lon="16.72103" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Csepreg"/>
+    <tag k="addr:conscriptionnumber" v="020/38"/>
+    <tag k="addr:postcode" v="9735"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Avia"/>
+    <tag k="compressed_air" v="yes"/>
+    <tag k="contact:email" v="avia@avia.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/AVIAHungary"/>
+    <tag k="contact:phone" v="+36 94 565 104;+36 20 205 6240"/>
+    <tag k="contact:website" v="https://www.avia.hu/toltoallomas/?id=7"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="food" v="no"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:e85" v="no"/>
+    <tag k="fuel:lpg" v="no"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="fuel:octane_98" v="no"/>
+    <tag k="name" v="Avia"/>
+    <tag k="operator" v="AVIA Hungária Kft."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="rent:lpg_bottles" v="yes"/>
+    <tag k="restaurant" v="no"/>
+    <tag k="source:www.avia.hu:date" v="2020-05-17"/>
+    <tag k="truck" v="yes"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1887155770 -->
+  <!-- Original coordinates: POINT (47.3737605161 16.7782258987) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Bük'			'Bük'
+addr:conscriptionnumber          E		'0131/3'			'0131/3'
+addr:postcode                    E		'9737'			'9737'
+amenity                          E		'fuel'			'fuel'
+brand                            E		'Avia'			'Avia'
+compressed_air                   E		'yes'			'yes'
+contact:email                    E		'avia@avia.hu'			'avia@avia.hu'
+contact:facebook                 E		'https://www.facebook.com/AVIAHungary'			'https://www.facebook.com/AVIAHungary'
+contact:phone                    E		'+36 94 358 050;+36 20 595 5367'			'+36 94 358 050;+36 20 595 5367'
+contact:website                  E		'https://www.avia.hu/toltoallomas/?id=24'			'https://www.avia.hu/toltoallomas/?id=24'
+contact:youtube                  E		'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'			'https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk\-Rg'
+food                             E		'no'			'no'
+fuel:diesel                      E		'yes'			'yes'
+fuel:e85                         E		'no'			'no'
+fuel:lpg                         E		'yes'			'yes'
+fuel:octane_95                   E		'yes'			'yes'
+fuel:octane_98                   E		'no'			'no'
+name                             E		'Avia'			'Avia'
+opening_hours                    E		'Mo\-Su 06:00\-22:00'			'Mo\-Su 06:00\-22:00'
+operator                         E		'AVIA Hungária Kft.'			'AVIA Hungária Kft.'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+rent:lpg_bottles                 E		'yes'			'yes'
+restaurant                       E		'no'			'no'
+source:www.avia.hu:date          M		'2020\-05\-17'			'2020\-01\-04'
+truck                            E		'no'			'no'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1887155770&addtags=%7Caddr%3Acity%3DB%C3%BCk%7Caddr%3Aconscriptionnumber%3D0131/3%7Caddr%3Apostcode%3D9737%7Camenity%3Dfuel%7Cbrand%3DAvia%7Ccompressed_air%3Dyes%7Ccontact%3Aemail%3Davia%40avia.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/AVIAHungary%7Ccontact%3Aphone%3D%2B36%2094%20358%20050%3B%2B36%2020%20595%205367%7Ccontact%3Awebsite%3Dhttps%3A//www.avia.hu/toltoallomas/%3Fid%3D24%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg%7Cfood%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Ae85%3Dno%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dno%7Cname%3DAvia%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%7Coperator%3DAVIA%20Hung%C3%A1ria%20Kft.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crent%3Alpg_bottles%3Dyes%7Crestaurant%3Dno%7Csource%3Awww.avia.hu%3Adate%3D2020-05-17%7Ctruck%3Dno -->
+  <node action="modify" id="1887155770" lat="47.3729696" lon="16.7767578" timestamp="2020-01-05T18:49:29Z" uid="8635934" user="osm_poi_matchmaker" version="8">
+    <tag k="addr:city" v="Bük"/>
+    <tag k="addr:conscriptionnumber" v="0131/3"/>
+    <tag k="addr:postcode" v="9737"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Avia"/>
+    <tag k="compressed_air" v="yes"/>
+    <tag k="contact:email" v="avia@avia.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/AVIAHungary"/>
+    <tag k="contact:phone" v="+36 94 358 050;+36 20 595 5367"/>
+    <tag k="contact:website" v="https://www.avia.hu/toltoallomas/?id=24"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UCjvjkjf2RgmKBuTnKSXk-Rg"/>
+    <tag k="food" v="no"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:e85" v="no"/>
+    <tag k="fuel:lpg" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="fuel:octane_98" v="no"/>
+    <tag k="name" v="Avia"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00"/>
+    <tag k="operator" v="AVIA Hungária Kft."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="rent:lpg_bottles" v="yes"/>
+    <tag k="restaurant" v="no"/>
+    <tag k="source:www.avia.hu:date" v="2020-05-17"/>
+    <tag k="truck" v="no"/>
+  </node>
+</osm>

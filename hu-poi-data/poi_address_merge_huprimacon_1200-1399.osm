@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/4318606604 -->
+  <!-- Original coordinates: POINT (47.432793 19.036832) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'13'			'13'
+addr:postcode                    E		'1221'			'1221'
+addr:street                      E		'Leányka utca'			'Leányka utca'
+branch                           N		'Príma Élelmiszer Áruház \- Leányka'
+brand                            N		'Príma'
+contact:phone                    N		'+36 1 205 3560'
+contact:website                  N		'https://www.prima.hu'
+name                             E		'CBA Príma'			'CBA Príma'
+opening_hours                    E		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00'			'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00'
+opening_hours:covid19            N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+operator                         E		'CBA'			'CBA'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin:hu                     E		'10488559\-2\-44'			'10488559\-2\-44'
+shop                             M		'convenience'			'supermarket'
+source:www.prima.hu:date         N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4318606604&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D1221%7Caddr%3Astreet%3DLe%C3%A1nyka%20utca%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20Le%C3%A1nyka%7Cbrand%3DPr%C3%ADma%7Ccontact%3Aphone%3D%2B36%201%20205%203560%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cname%3DCBA%20Pr%C3%ADma%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Coperator%3DCBA%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3Ahu%3D10488559-2-44%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="4318606604" lat="47.4327835" lon="19.0368691" timestamp="2019-09-20T21:15:29Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:postcode" v="1221"/>
+    <tag k="addr:street" v="Leányka utca"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Leányka"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:phone" v="+36 1 205 3560"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="name" v="CBA Príma"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00"/>
+    <tag k="opening_hours:covid19" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="operator" v="CBA"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin:hu" v="10488559-2-44"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+</osm>

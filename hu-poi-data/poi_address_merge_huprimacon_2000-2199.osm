@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/4939179613 -->
+  <!-- Original coordinates: POINT (47.669641 19.073815) -->
+  <!-- OSM <-> POI distance: 13.35215497 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Szentendre'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'2000'
+addr:street                      N		'Dobozi utca'
+branch                           N		'HTZRT \- 09.számú Príma Élelmiszer üzlet'
+brand                            N		'Príma'
+contact:website                  N		'https://www.prima.hu'
+fixme                            E		'verify'			'verify'
+name                             E		'Fulcó deák'			'Fulcó deák'
+opening_hours                    N		'Mo\-Fr 06:00\-20:00; Sa 06:00\-14:00; Su 07:00\-13:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             E		'convenience'			'convenience'
+source                           E		'route4u'			'route4u'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4939179613&addtags=%7Caddr%3Acity%3DSzentendre%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2000%7Caddr%3Astreet%3DDobozi%20utca%7Cbranch%3DHTZRT%20-%2009.sz%C3%A1m%C3%BA%20Pr%C3%ADma%20%C3%89lelmiszer%20%C3%BCzlet%7Cbrand%3DPr%C3%ADma%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%7Cname%3DFulc%C3%B3%20de%C3%A1k%7Copening_hours%3DMo-Fr%2006%3A00-20%3A00%3B%20Sa%2006%3A00-14%3A00%3B%20Su%2007%3A00-13%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Droute4u%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="4939179613" lat="47.6696426" lon="19.0739933" timestamp="2018-10-14T20:46:37Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <tag k="addr:city" v="Szentendre"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="2000"/>
+    <tag k="addr:street" v="Dobozi utca"/>
+    <tag k="branch" v="HTZRT - 09.számú Príma Élelmiszer üzlet"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify"/>
+    <tag k="name" v="Fulcó deák"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-20:00; Sa 06:00-14:00; Su 07:00-13:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source" v="route4u"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/844607245 -->
+  <!-- Original coordinates: POINT (47.718608 19.089245) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Leányfalu'			'Leányfalu'
+addr:housenumber                 E		'167'			'167'
+addr:postcode                    E		'2016'			'2016'
+addr:street                      E		'Móricz Zsigmond út'			'Móricz Zsigmond út'
+branch                           N		'HTZRT \- 24.számú Príma Élelmiszer üzlet'
+brand                            N		'Príma'
+contact:website                  N		'https://www.prima.hu'
+name                             E		'Príma'			'Príma'
+opening_hours                    E		'Mo\-Fr 06:00\-20:00; Sa 07:00\-19:00; Su 07:00\-17:00; PH closed'			'Mo\-Fr 06:00\-20:00; Sa 07:00\-19:00; Su 07:00\-17:00; PH closed'
+opening_hours:covid19            N		'Mo\-Fr 06:00\-20:00; Sa 07:00\-17:00; Su 07:00\-16:00; PH off'
+operator                         E		'Halmschlager Trade Zrt.'			'Halmschlager Trade Zrt.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.prima.hu:date         N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n844607245&addtags=%7Caddr%3Acity%3DLe%C3%A1nyfalu%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D2016%7Caddr%3Astreet%3DM%C3%B3ricz%20Zsigmond%20%C3%BAt%7Cbranch%3DHTZRT%20-%2024.sz%C3%A1m%C3%BA%20Pr%C3%ADma%20%C3%89lelmiszer%20%C3%BCzlet%7Cbrand%3DPr%C3%ADma%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cname%3DPr%C3%ADma%7Copening_hours%3DMo-Fr%2006%3A00-20%3A00%3B%20Sa%2007%3A00-19%3A00%3B%20Su%2007%3A00-17%3A00%3B%20PH%20closed%7Copening_hours%3Acovid19%3DMo-Fr%2006%3A00-20%3A00%3B%20Sa%2007%3A00-17%3A00%3B%20Su%2007%3A00-16%3A00%3B%20PH%20off%7Coperator%3DHalmschlager%20Trade%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="844607245" lat="47.7183964" lon="19.0892112" timestamp="2019-11-05T12:25:08Z" uid="8635934" user="osm_poi_matchmaker" version="11">
+    <tag k="addr:city" v="Leányfalu"/>
+    <tag k="addr:housenumber" v="167"/>
+    <tag k="addr:postcode" v="2016"/>
+    <tag k="addr:street" v="Móricz Zsigmond út"/>
+    <tag k="branch" v="HTZRT - 24.számú Príma Élelmiszer üzlet"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="name" v="Príma"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-20:00; Sa 07:00-19:00; Su 07:00-17:00; PH closed"/>
+    <tag k="opening_hours:covid19" v="Mo-Fr 06:00-20:00; Sa 07:00-17:00; Su 07:00-16:00; PH off"/>
+    <tag k="operator" v="Halmschlager Trade Zrt."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- Original coordinates: POINT (47.407255 18.89134) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Érd'
+addr:housenumber                 N		'125\-127'
+addr:postcode                    N		'2030'
+addr:street                      N		'Bajcsy\-Zsilinszky út'
+branch                           N		'Príma Élelmiszer Áruház \- Érd, Pára'
+brand                            N		'Príma'
+contact:phone                    N		'+36 23 520 349'
+contact:website                  N		'https://www.prima.hu'
+fixme                            N		'verify import'
+name                             N		'None'
+opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             N		'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3D%C3%89rd%7Caddr%3Ahousenumber%3D125-127%7Caddr%3Apostcode%3D2030%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20%C3%BAt%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20%C3%89rd%2C%20P%C3%A1ra%7Cbrand%3DPr%C3%ADma%7Ccontact%3Aphone%3D%2B36%2023%20520%20349%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-3" lat="47.407255" lon="18.89134" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Érd"/>
+    <tag k="addr:housenumber" v="125-127"/>
+    <tag k="addr:postcode" v="2030"/>
+    <tag k="addr:street" v="Bajcsy-Zsilinszky út"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Érd, Pára"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:phone" v="+36 23 520 349"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+  <node action="modify" id="2560315999" lat="47.3787246" lon="18.9210687" timestamp="2013-12-01T18:29:47Z" uid="695901" user="Cinegember" version="1"/>
+  <node action="modify" id="2560316002" lat="47.3790642" lon="18.9210928" timestamp="2013-12-01T18:29:47Z" uid="695901" user="Cinegember" version="1"/>
+  <node action="modify" id="2560316004" lat="47.3790351" lon="18.9215756" timestamp="2013-12-01T18:29:47Z" uid="695901" user="Cinegember" version="1"/>
+  <node action="modify" id="5480164826" lat="47.3787418" lon="18.9215549" timestamp="2018-03-15T11:09:26Z" uid="1971976" user="nagy_balint" version="1"/>
+  <node action="modify" id="2560316005" lat="47.3787318" lon="18.9215542" timestamp="2013-12-01T18:29:47Z" uid="695901" user="Cinegember" version="1"/>
+  <node action="modify" id="2560316007" lat="47.3787028" lon="18.9215112" timestamp="2013-12-01T18:29:47Z" uid="695901" user="Cinegember" version="1"/>
+  <!-- OSM link: https://osm.org/way/249422613 -->
+  <!-- Original coordinates: POINT (47.377982 18.920743) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Érd'			'Érd'
+addr:housenumber                 E		'1'			'1'
+addr:postcode                    E		'2030'			'2030'
+addr:street                      E		'Kálvin tér'			'Kálvin tér'
+branch                           N		'Príma Élelmiszer Áruház \- Érd, Kálvin'
+brand                            N		'Príma'
+building                         E		'retail'			'retail'
+contact:email                    N		'krupptsa@krupptsa.hu'
+contact:phone                    N		'+36 23 522 620'
+contact:website                  M		'https://www.prima.hu'			'http://www.cbaprima.hu'
+name                             E		'CBA Príma'			'CBA Príma'
+opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         E		'CBA'			'CBA'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.prima.hu:date         N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w249422613&addtags=%7Caddr%3Acity%3D%C3%89rd%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2030%7Caddr%3Astreet%3DK%C3%A1lvin%20t%C3%A9r%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20%C3%89rd%2C%20K%C3%A1lvin%7Cbrand%3DPr%C3%ADma%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dkrupptsa%40krupptsa.hu%7Ccontact%3Aphone%3D%2B36%2023%20522%20620%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cname%3DCBA%20Pr%C3%ADma%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DCBA%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <way action="modify" id="249422613" timestamp="2018-03-15T11:10:26Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+    <nd ref="2560315999"/>
+    <nd ref="2560316002"/>
+    <nd ref="2560316004"/>
+    <nd ref="5480164826"/>
+    <nd ref="2560316005"/>
+    <nd ref="2560316007"/>
+    <nd ref="2560315999"/>
+    <tag k="addr:city" v="Érd"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="2030"/>
+    <tag k="addr:street" v="Kálvin tér"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Érd, Kálvin"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
+    <tag k="contact:email" v="krupptsa@krupptsa.hu"/>
+    <tag k="contact:phone" v="+36 23 522 620"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="name" v="CBA Príma"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="CBA"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <node action="modify" id="2295018043" lat="47.4610964" lon="18.9569109" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <node action="modify" id="2295018045" lat="47.4613205" lon="18.9568176" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <node action="modify" id="2295018049" lat="47.4615399" lon="18.9572601" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <node action="modify" id="2295018048" lat="47.4614871" lon="18.9572807" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <node action="modify" id="2295018050" lat="47.4615419" lon="18.9575876" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <node action="modify" id="2295018047" lat="47.4614635" lon="18.9576182" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <node action="modify" id="2295018046" lat="47.4614548" lon="18.9575692" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <node action="modify" id="2295018044" lat="47.4612501" lon="18.957651" timestamp="2013-05-07T18:47:58Z" uid="55843" user="flaktack" version="1"/>
+  <!-- OSM link: https://osm.org/way/220378065 -->
+  <!-- Original coordinates: POINT (47.460852 18.956777) -->
+  <!-- OSM <-> POI distance: 28.98052141 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budaörs'
+addr:housenumber                 N		'52\-54'
+addr:postcode                    N		'2040'
+addr:street                      N		'Szabadság út'
+branch                           N		'Príma Élelmiszer Áruház \- Budaörs'
+brand                            N		'Príma'
+building                         E		'retail'			'retail'
+contact:phone                    N		'+36 23 445 750'
+contact:website                  N		'https://www.prima.hu'
+name                             E		'Príma'			'Príma'
+opening_hours                    E		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00'			'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00'
+opening_hours:covid19            N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.prima.hu:date         N		'2020\-05\-17'
+wheelchair                       E		'limited'			'limited'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w220378065&addtags=%7Caddr%3Acity%3DBuda%C3%B6rs%7Caddr%3Ahousenumber%3D52-54%7Caddr%3Apostcode%3D2040%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20Buda%C3%B6rs%7Cbrand%3DPr%C3%ADma%7Cbuilding%3Dretail%7Ccontact%3Aphone%3D%2B36%2023%20445%20750%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cname%3DPr%C3%ADma%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dlimited -->
+  <way action="modify" id="220378065" timestamp="2019-12-24T18:57:58Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <nd ref="2295018043"/>
+    <nd ref="2295018045"/>
+    <nd ref="2295018049"/>
+    <nd ref="2295018048"/>
+    <nd ref="2295018050"/>
+    <nd ref="2295018047"/>
+    <nd ref="2295018046"/>
+    <nd ref="2295018044"/>
+    <nd ref="2295018043"/>
+    <tag k="addr:city" v="Budaörs"/>
+    <tag k="addr:housenumber" v="52-54"/>
+    <tag k="addr:postcode" v="2040"/>
+    <tag k="addr:street" v="Szabadság út"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Budaörs"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="building" v="retail"/>
+    <tag k="contact:phone" v="+36 23 445 750"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="name" v="Príma"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00"/>
+    <tag k="opening_hours:covid19" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <!-- Original coordinates: POINT (47.47149 18.840432) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Biatorbágy'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'2051'
+addr:street                      N		'Csodaszarvas utca'
+branch                           N		'Príma Élelmiszer Áruház \- Biatorbágy'
+brand                            N		'Príma'
+contact:phone                    N		'+36 23 530 970'
+contact:website                  N		'https://www.prima.hu'
+fixme                            N		'verify import'
+name                             N		'None'
+opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             N		'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DBiatorb%C3%A1gy%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2051%7Caddr%3Astreet%3DCsodaszarvas%20utca%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20Biatorb%C3%A1gy%7Cbrand%3DPr%C3%ADma%7Ccontact%3Aphone%3D%2B36%2023%20530%20970%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-6" lat="47.47149" lon="18.840432" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Biatorbágy"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="2051"/>
+    <tag k="addr:street" v="Csodaszarvas utca"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Biatorbágy"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:phone" v="+36 23 530 970"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.515845 18.833571) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Páty'
+addr:housenumber                 N		'3'
+addr:postcode                    N		'2071'
+addr:street                      N		'Somogyi Béla utca'
+branch                           N		'Príma Élelmiszer Áruház \- Páty'
+brand                            N		'Príma'
+contact:phone                    N		'+36 23 555 550'
+contact:website                  N		'https://www.prima.hu'
+fixme                            N		'verify import'
+name                             N		'None'
+opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             N		'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DP%C3%A1ty%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D2071%7Caddr%3Astreet%3DSomogyi%20B%C3%A9la%20utca%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20P%C3%A1ty%7Cbrand%3DPr%C3%ADma%7Ccontact%3Aphone%3D%2B36%2023%20555%20550%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-7" lat="47.515845" lon="18.833571" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Páty"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:postcode" v="2071"/>
+    <tag k="addr:street" v="Somogyi Béla utca"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Páty"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:phone" v="+36 23 555 550"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.545047 18.726652) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Zsámbék'
+addr:housenumber                 N		'75'
+addr:postcode                    N		'2072'
+addr:street                      N		'Magyar utca'
+branch                           N		'Príma Élelmiszer Áruház \- Zsámbék'
+brand                            N		'Príma'
+contact:phone                    N		'+36 23 565 500'
+contact:website                  N		'https://www.prima.hu'
+fixme                            N		'verify import'
+name                             N		'None'
+opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             N		'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DZs%C3%A1mb%C3%A9k%7Caddr%3Ahousenumber%3D75%7Caddr%3Apostcode%3D2072%7Caddr%3Astreet%3DMagyar%20utca%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20Zs%C3%A1mb%C3%A9k%7Cbrand%3DPr%C3%ADma%7Ccontact%3Aphone%3D%2B36%2023%20565%20500%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-8" lat="47.545047" lon="18.726652" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Zsámbék"/>
+    <tag k="addr:housenumber" v="75"/>
+    <tag k="addr:postcode" v="2072"/>
+    <tag k="addr:street" v="Magyar utca"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Zsámbék"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:phone" v="+36 23 565 500"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/4939175188 -->
+  <!-- Original coordinates: POINT (47.609706 18.897512) -->
+  <!-- OSM <-> POI distance: 62.52159908 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Pilisszentiván'
+addr:housenumber                 N		'91'
+addr:postcode                    N		'2084'
+addr:street                      N		'Szabadság út'
+branch                           N		'HTZRT \- 04.számú Príma Élelmiszer üzlet'
+brand                            N		'Príma'
+contact:website                  N		'https://www.prima.hu'
+name                             E		'4 sz Príma Cba'			'4 sz Príma Cba'
+opening_hours                    N		'Mo\-Fr 06:00\-20:00; Sa 06:00\-15:00; Su 07:00\-13:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             E		'convenience'			'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4939175188&addtags=%7Caddr%3Acity%3DPilisszentiv%C3%A1n%7Caddr%3Ahousenumber%3D91%7Caddr%3Apostcode%3D2084%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Cbranch%3DHTZRT%20-%2004.sz%C3%A1m%C3%BA%20Pr%C3%ADma%20%C3%89lelmiszer%20%C3%BCzlet%7Cbrand%3DPr%C3%ADma%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cname%3D4%20sz%20Pr%C3%ADma%20Cba%7Copening_hours%3DMo-Fr%2006%3A00-20%3A00%3B%20Sa%2006%3A00-15%3A00%3B%20Su%2007%3A00-13%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="4939175188" lat="47.609745" lon="18.89668" timestamp="2017-07-06T21:21:57Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <tag k="addr:city" v="Pilisszentiván"/>
+    <tag k="addr:housenumber" v="91"/>
+    <tag k="addr:postcode" v="2084"/>
+    <tag k="addr:street" v="Szabadság út"/>
+    <tag k="branch" v="HTZRT - 04.számú Príma Élelmiszer üzlet"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="name" v="4 sz Príma Cba"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-20:00; Sa 06:00-15:00; Su 07:00-13:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/705517727 -->
+  <!-- Original coordinates: POINT (47.616498 18.916228) -->
+  <!-- OSM <-> POI distance: 26.82555161 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Pilisvörösvár'
+addr:housenumber                 N		'2/F'
+addr:postcode                    N		'2085'
+addr:street                      N		'Fő utca'
+branch                           N		'HTZRT \- 01.számú Príma Élelmiszer üzlet'
+brand                            N		'Príma'
+contact:website                  N		'https://www.prima.hu'
+name                             E		'Prima élelmiszer'			'Prima élelmiszer'
+opening_hours                    N		'Mo\-Fr 06:00\-20:00; Sa 06:00\-15:00; Su 07:00\-13:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.prima.hu:date         N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n705517727&addtags=%7Caddr%3Acity%3DPilisv%C3%B6r%C3%B6sv%C3%A1r%7Caddr%3Ahousenumber%3D2/F%7Caddr%3Apostcode%3D2085%7Caddr%3Astreet%3DF%C5%91%20utca%7Cbranch%3DHTZRT%20-%2001.sz%C3%A1m%C3%BA%20Pr%C3%ADma%20%C3%89lelmiszer%20%C3%BCzlet%7Cbrand%3DPr%C3%ADma%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cname%3DPrima%20%C3%A9lelmiszer%7Copening_hours%3DMo-Fr%2006%3A00-20%3A00%3B%20Sa%2006%3A00-15%3A00%3B%20Su%2007%3A00-13%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="705517727" lat="47.6164801" lon="18.9158711" timestamp="2019-11-21T19:03:57Z" uid="8635934" user="osm_poi_matchmaker" version="10">
+    <tag k="addr:city" v="Pilisvörösvár"/>
+    <tag k="addr:housenumber" v="2/F"/>
+    <tag k="addr:postcode" v="2085"/>
+    <tag k="addr:street" v="Fő utca"/>
+    <tag k="branch" v="HTZRT - 01.számú Príma Élelmiszer üzlet"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="name" v="Prima élelmiszer"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-20:00; Sa 06:00-15:00; Su 07:00-13:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- Original coordinates: POINT (47.550481 18.820318) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Telki'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'2089'
+addr:street                      N		'Napsugár út'
+branch                           N		'Príma Élelmiszer Áruház \- Telki'
+brand                            N		'Príma'
+contact:website                  N		'https://www.prima.hu'
+fixme                            N		'verify import'
+name                             N		'None'
+opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             N		'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DTelki%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2089%7Caddr%3Astreet%3DNapsug%C3%A1r%20%C3%BAt%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20Telki%7Cbrand%3DPr%C3%ADma%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-11" lat="47.550481" lon="18.820318" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Telki"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="2089"/>
+    <tag k="addr:street" v="Napsugár út"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Telki"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.448444 18.751422) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Etyek'
+addr:housenumber                 N		'4'
+addr:postcode                    N		'2091'
+addr:street                      N		'Körpince utca'
+branch                           N		'Príma Élelmiszer Áruház \- Etyek'
+brand                            N		'Príma'
+contact:phone                    N		'+36 22 597 058'
+contact:website                  N		'https://www.prima.hu'
+fixme                            N		'verify import'
+name                             N		'None'
+opening_hours                    N		'Mo\-Fr 06:00\-21:00; Sa 06:00\-20:00; Su 07:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             N		'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DEtyek%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D2091%7Caddr%3Astreet%3DK%C3%B6rpince%20utca%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20Etyek%7Cbrand%3DPr%C3%ADma%7Ccontact%3Aphone%3D%2B36%2022%20597%20058%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Fr%2006%3A00-21%3A00%3B%20Sa%2006%3A00-20%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-12" lat="47.448444" lon="18.751422" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Etyek"/>
+    <tag k="addr:housenumber" v="4"/>
+    <tag k="addr:postcode" v="2091"/>
+    <tag k="addr:street" v="Körpince utca"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Etyek"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:phone" v="+36 22 597 058"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-21:00; Sa 06:00-20:00; Su 07:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/752197818 -->
+  <!-- Original coordinates: POINT (47.507727 18.919632) -->
+  <!-- OSM <-> POI distance: 73.48390272 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budakeszi'
+addr:housenumber                 N		'1/A'
+addr:postcode                    N		'2092'
+addr:street                      E		'Dózsa György tér'			'Dózsa György tér'
+branch                           N		'Príma Élelmiszer Áruház \- Budakeszi, Dózsa'
+brand                            N		'Príma'
+contact:phone                    N		'+36 23 535 571'
+contact:website                  N		'https://www.prima.hu'
+level                            E		'0'			'0'
+name                             E		'Príma'			'Príma'
+opening_hours                    E		'Mo\-Sa 06:15\-21:00; Su 07:00\-18:00; PH closed'			'Mo\-Sa 06:15\-21:00; Su 07:00\-18:00; PH closed'
+opening_hours:covid19            N		'Mo\-Sa 06:00\-21:00; Su 07:00\-18:00; PH off'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.prima.hu:date         N		'2020\-05\-17'
+toilets                          E		'no'			'no'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n752197818&addtags=%7Caddr%3Acity%3DBudakeszi%7Caddr%3Ahousenumber%3D1/A%7Caddr%3Apostcode%3D2092%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20t%C3%A9r%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%20-%20Budakeszi%2C%20D%C3%B3zsa%7Cbrand%3DPr%C3%ADma%7Ccontact%3Aphone%3D%2B36%2023%20535%20571%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Clevel%3D0%7Cname%3DPr%C3%ADma%7Copening_hours%3DMo-Sa%2006%3A15-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20closed%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17%7Ctoilets%3Dno%7Cwheelchair%3Dyes -->
+  <node action="modify" id="752197818" lat="47.5073602" lon="18.9204458" timestamp="2020-01-05T19:51:24Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+    <tag k="addr:city" v="Budakeszi"/>
+    <tag k="addr:housenumber" v="1/A"/>
+    <tag k="addr:postcode" v="2092"/>
+    <tag k="addr:street" v="Dózsa György tér"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház - Budakeszi, Dózsa"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:phone" v="+36 23 535 571"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Príma"/>
+    <tag k="opening_hours" v="Mo-Sa 06:15-21:00; Su 07:00-18:00; PH closed"/>
+    <tag k="opening_hours:covid19" v="Mo-Sa 06:00-21:00; Su 07:00-18:00; PH off"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+    <tag k="toilets" v="no"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- Original coordinates: POINT (47.651053 19.473793) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Aszód'
+addr:housenumber                 N		'11'
+addr:postcode                    N		'2170'
+addr:street                      N		'Pesti út'
+branch                           N		'Príma Élelmiszer Áruház'
+brand                            N		'Príma'
+contact:website                  N		'https://www.prima.hu'
+fixme                            N		'verify import'
+name                             N		'None'
+opening_hours                    N		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+opening_hours:covid19            N		'same'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+shop                             N		'convenience'
+source:www.prima.hu:date         N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DAsz%C3%B3d%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D2170%7Caddr%3Astreet%3DPesti%20%C3%BAt%7Cbranch%3DPr%C3%ADma%20%C3%89lelmiszer%20%C3%81ruh%C3%A1z%7Cbrand%3DPr%C3%ADma%7Ccontact%3Awebsite%3Dhttps%3A//www.prima.hu%7Cfixme%3Dverify%20import%7Cname%3DNone%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.prima.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-14" lat="47.651053" lon="19.473793" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Aszód"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:postcode" v="2170"/>
+    <tag k="addr:street" v="Pesti út"/>
+    <tag k="branch" v="Príma Élelmiszer Áruház"/>
+    <tag k="brand" v="Príma"/>
+    <tag k="contact:website" v="https://www.prima.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="None"/>
+    <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 08:00-16:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.prima.hu:date" v="2020-05-17"/>
+  </node>
+</osm>

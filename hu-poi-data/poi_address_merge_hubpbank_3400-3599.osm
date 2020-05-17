@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/6760370757 -->
+  <!-- Original coordinates: POINT (47.806985 20.565726) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Mezőkövesd'			'Mezőkövesd'
+addr:housenumber                 E		'79'			'79'
+addr:postcode                    E		'3400'			'3400'
+addr:street                      E		'Mátyás király út'			'Mátyás király út'
+air_conditioning                 E		'yes'			'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              E		'BUDAHUHB'			'BUDAHUHB'
+branch                           E		'Mezőkövesdi Fiók'			'Mezőkövesdi Fiók'
+brand                            E		'Budapest Bank'			'Budapest Bank'
+brand:wikidata                   E		'Q27493463'			'Q27493463'
+brand:wikipedia                  E		'en:Budapest Bank'			'en:Budapest Bank'
+contact:website                  N		'https://www.budapestbank.hu'
+name                             E		'Budapest Bank'			'Budapest Bank'
+opening_hours                    N		'Mo 08:00\-17:00; Tu\-Th 08:00\-16:00; Fr 08:00\-15:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         E		'Budapest Bank Zrt.'			'Budapest Bank Zrt.'
+operator:addr                    N		'1138 Budapest, Váci út 193.'
+ref:HU:company                   N		'01 10 041037'
+ref:vatin                        N		'HU10196445'
+ref:vatin:hu                     N		'10196445\-4\-44'
+source:www.budapestbank.hu:date  M		'2020\-05\-17'			'2019\-08\-19'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6760370757&addtags=%7Caddr%3Acity%3DMez%C5%91k%C3%B6vesd%7Caddr%3Ahousenumber%3D79%7Caddr%3Apostcode%3D3400%7Caddr%3Astreet%3DM%C3%A1ty%C3%A1s%20kir%C3%A1ly%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DBUDAHUHB%7Cbranch%3DMez%C5%91k%C3%B6vesdi%20Fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%7Copening_hours%3DMo%2008%3A00-17%3A00%3B%20Tu-Th%2008%3A00-16%3A00%3B%20Fr%2008%3A00-15%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="6760370757" lat="47.806985" lon="20.565726" timestamp="2020-04-05T19:16:52Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <tag k="addr:city" v="Mezőkövesd"/>
+    <tag k="addr:housenumber" v="79"/>
+    <tag k="addr:postcode" v="3400"/>
+    <tag k="addr:street" v="Mátyás király út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="BUDAHUHB"/>
+    <tag k="branch" v="Mezőkövesdi Fiók"/>
+    <tag k="brand" v="Budapest Bank"/>
+    <tag k="brand:wikidata" v="Q27493463"/>
+    <tag k="brand:wikipedia" v="en:Budapest Bank"/>
+    <tag k="contact:website" v="https://www.budapestbank.hu"/>
+    <tag k="name" v="Budapest Bank"/>
+    <tag k="opening_hours" v="Mo 08:00-17:00; Tu-Th 08:00-16:00; Fr 08:00-15:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Budapest Bank Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
+    <tag k="ref:HU:company" v="01 10 041037"/>
+    <tag k="ref:vatin" v="HU10196445"/>
+    <tag k="ref:vatin:hu" v="10196445-4-44"/>
+    <tag k="source:www.budapestbank.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/3437148032 -->
+  <!-- Original coordinates: POINT (48.102364 20.785489) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Miskolc'			'Miskolc'
+addr:housenumber                 E		'46'			'46'
+addr:postcode                    E		'3530'			'3530'
+addr:street                      E		'Széchenyi utca'			'Széchenyi utca'
+air_conditioning                 E		'yes'			'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              E		'BUDAHUHB'			'BUDAHUHB'
+branch                           E		'Miskolci Fiók'			'Miskolci Fiók'
+brand                            E		'Budapest Bank'			'Budapest Bank'
+brand:wikidata                   E		'Q27493463'			'Q27493463'
+brand:wikipedia                  E		'en:Budapest Bank'			'en:Budapest Bank'
+contact:website                  N		'https://www.budapestbank.hu'
+name                             E		'Budapest Bank'			'Budapest Bank'
+opening_hours                    N		'Mo 08:00\-17:00; Tu\-Th 08:00\-16:00; Fr 08:00\-15:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         E		'Budapest Bank Zrt.'			'Budapest Bank Zrt.'
+operator:addr                    N		'1138 Budapest, Váci út 193.'
+ref:HU:company                   N		'01 10 041037'
+ref:vatin                        N		'HU10196445'
+ref:vatin:hu                     N		'10196445\-4\-44'
+source                           E		'turistautak.hu'			'turistautak.hu'
+source:date                      E		'2019\-08\-19'			'2019\-08\-19'
+source:www.budapestbank.hu:date  N		'2020\-05\-17'
+url                              E		'http://turistautak.hu/poi.php?id=72397'			'http://turistautak.hu/poi.php?id=72397'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3437148032&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D46%7Caddr%3Apostcode%3D3530%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DBUDAHUHB%7Cbranch%3DMiskolci%20Fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%7Copening_hours%3DMo%2008%3A00-17%3A00%3B%20Tu-Th%2008%3A00-16%3A00%3B%20Fr%2008%3A00-15%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2019-08-19%7Csource%3Awww.budapestbank.hu%3Adate%3D2020-05-17%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D72397 -->
+  <node action="modify" id="3437148032" lat="48.102411" lon="20.785648" timestamp="2020-04-05T19:16:52Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <tag k="addr:city" v="Miskolc"/>
+    <tag k="addr:housenumber" v="46"/>
+    <tag k="addr:postcode" v="3530"/>
+    <tag k="addr:street" v="Széchenyi utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="BUDAHUHB"/>
+    <tag k="branch" v="Miskolci Fiók"/>
+    <tag k="brand" v="Budapest Bank"/>
+    <tag k="brand:wikidata" v="Q27493463"/>
+    <tag k="brand:wikipedia" v="en:Budapest Bank"/>
+    <tag k="contact:website" v="https://www.budapestbank.hu"/>
+    <tag k="name" v="Budapest Bank"/>
+    <tag k="opening_hours" v="Mo 08:00-17:00; Tu-Th 08:00-16:00; Fr 08:00-15:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Budapest Bank Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
+    <tag k="ref:HU:company" v="01 10 041037"/>
+    <tag k="ref:vatin" v="HU10196445"/>
+    <tag k="ref:vatin:hu" v="10196445-4-44"/>
+    <tag k="source" v="turistautak.hu"/>
+    <tag k="source:date" v="2019-08-19"/>
+    <tag k="source:www.budapestbank.hu:date" v="2020-05-17"/>
+    <tag k="url" v="http://turistautak.hu/poi.php?id=72397"/>
+  </node>
+  <node action="modify" id="3247103812" lat="47.9315262" lon="21.0381634" timestamp="2015-07-09T14:39:27Z" uid="2166799" user="gazember8" version="2"/>
+  <node action="modify" id="3247103813" lat="47.9314921" lon="21.0384215" timestamp="2015-07-09T14:39:27Z" uid="2166799" user="gazember8" version="2"/>
+  <node action="modify" id="3247103814" lat="47.931702" lon="21.0384833" timestamp="2015-07-09T14:39:28Z" uid="2166799" user="gazember8" version="2"/>
+  <node action="modify" id="3247103815" lat="47.9317361" lon="21.0382252" timestamp="2015-07-09T14:39:28Z" uid="2166799" user="gazember8" version="2"/>
+  <!-- OSM link: https://osm.org/way/318313714 -->
+  <!-- Original coordinates: POINT (47.931702 21.038334) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Tiszaújváros'			'Tiszaújváros'
+addr:housenumber                 E		'12'			'12'
+addr:postcode                    E		'3580'			'3580'
+addr:street                      E		'Kazinczy Ferenc út'			'Kazinczy Ferenc út'
+air_conditioning                 E		'yes'			'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              E		'BUDAHUHB'			'BUDAHUHB'
+branch                           E		'Tiszaújvárosi Fiók'			'Tiszaújvárosi Fiók'
+brand                            E		'Budapest Bank'			'Budapest Bank'
+brand:wikidata                   E		'Q27493463'			'Q27493463'
+brand:wikipedia                  E		'en:Budapest Bank'			'en:Budapest Bank'
+building                         E		'industrial'			'industrial'
+building:levels                  E		'1'			'1'
+contact:website                  N		'https://www.budapestbank.hu'
+name                             E		'Budapest Bank'			'Budapest Bank'
+old_name                         E		'MNB Leninvárosi Fiókja'			'MNB Leninvárosi Fiókja'
+opening_hours                    E		'Tu\-Th 08:00\-16:00; Mo 08:00\-17:00; Fr 08:00\-15:00'			'Tu\-Th 08:00\-16:00; Mo 08:00\-17:00; Fr 08:00\-15:00'
+opening_hours:covid19            N		'Mo 08:00\-17:00; Tu\-Th 08:00\-16:00; Fr 08:00\-15:00; PH off'
+operator                         E		'Budapest Bank Zrt.'			'Budapest Bank Zrt.'
+operator:addr                    N		'1138 Budapest, Váci út 193.'
+ref:HU:company                   N		'01 10 041037'
+ref:vatin                        N		'HU10196445'
+ref:vatin:hu                     N		'10196445\-4\-44'
+source:www.budapestbank.hu:date  M		'2020\-05\-17'			'2019\-08\-19'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w318313714&addtags=%7Caddr%3Acity%3DTisza%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D3580%7Caddr%3Astreet%3DKazinczy%20Ferenc%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DBUDAHUHB%7Cbranch%3DTisza%C3%BAjv%C3%A1rosi%20Fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Cbuilding%3Dindustrial%7Cbuilding%3Alevels%3D1%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%7Cold_name%3DMNB%20Leninv%C3%A1rosi%20Fi%C3%B3kja%7Copening_hours%3DTu-Th%2008%3A00-16%3A00%3B%20Mo%2008%3A00-17%3A00%3B%20Fr%2008%3A00-15%3A00%7Copening_hours%3Acovid19%3DMo%2008%3A00-17%3A00%3B%20Tu-Th%2008%3A00-16%3A00%3B%20Fr%2008%3A00-15%3A00%3B%20PH%20off%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2020-05-17 -->
+  <way action="modify" id="318313714" timestamp="2020-04-05T19:16:52Z" uid="8635934" user="osm_poi_matchmaker" version="9">
+    <nd ref="3247103812"/>
+    <nd ref="3247103813"/>
+    <nd ref="3247103814"/>
+    <nd ref="3247103815"/>
+    <nd ref="3247103812"/>
+    <tag k="addr:city" v="Tiszaújváros"/>
+    <tag k="addr:housenumber" v="12"/>
+    <tag k="addr:postcode" v="3580"/>
+    <tag k="addr:street" v="Kazinczy Ferenc út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="BUDAHUHB"/>
+    <tag k="branch" v="Tiszaújvárosi Fiók"/>
+    <tag k="brand" v="Budapest Bank"/>
+    <tag k="brand:wikidata" v="Q27493463"/>
+    <tag k="brand:wikipedia" v="en:Budapest Bank"/>
+    <tag k="building" v="industrial"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="contact:website" v="https://www.budapestbank.hu"/>
+    <tag k="name" v="Budapest Bank"/>
+    <tag k="old_name" v="MNB Leninvárosi Fiókja"/>
+    <tag k="opening_hours" v="Tu-Th 08:00-16:00; Mo 08:00-17:00; Fr 08:00-15:00"/>
+    <tag k="opening_hours:covid19" v="Mo 08:00-17:00; Tu-Th 08:00-16:00; Fr 08:00-15:00; PH off"/>
+    <tag k="operator" v="Budapest Bank Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
+    <tag k="ref:HU:company" v="01 10 041037"/>
+    <tag k="ref:vatin" v="HU10196445"/>
+    <tag k="ref:vatin:hu" v="10196445-4-44"/>
+    <tag k="source:www.budapestbank.hu:date" v="2020-05-17"/>
+  </way>
+</osm>

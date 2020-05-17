@@ -1,0 +1,2455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/5633565953 -->
+  <!-- Original coordinates: POINT (47.5345928 18.9737698) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'118'			'118'
+addr:postcode                    E		'1021'			'1021'
+addr:street                      E		'Hűvösvölgyi út'			'Hűvösvölgyi út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1021\-hvoesvoelgyi\-ut\-118\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'Spar Express'
+opening_hours                    E		'24/7'			'24/7'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              N		'yes'
+payment:credit_cards             E		'yes'			'yes'
+payment:debit_cards              E		'yes'			'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5633565953&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D118%7Caddr%3Apostcode%3D1021%7Caddr%3Astreet%3DH%C5%B1v%C3%B6sv%C3%B6lgyi%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1021-hvoesvoelgyi-ut-118-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Copening_hours%3D24/7%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="5633565953" lat="47.5345428" lon="18.9734586" timestamp="2018-05-23T13:04:05Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="118"/>
+    <tag k="addr:postcode" v="1021"/>
+    <tag k="addr:street" v="Hűvösvölgyi út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1021-hvoesvoelgyi-ut-118-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/2759520894 -->
+  <!-- Original coordinates: POINT (47.510163 19.011189) -->
+  <!-- OSM <-> POI distance: 143.98415706 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 M		'55'			'63'
+addr:postcode                    E		'1026'			'1026'
+addr:street                      E		'Szilágyi Erzsébet fasor'			'Szilágyi Erzsébet fasor'
+branch                           N		'Spar express Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  M		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1026\-szilagyi\-erzsebet\-fasor\-55\-'			'http://www.spar.hu'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'City Spar'
+opening_hours                    E		'Mo\-Fr 07:00\-21:00; Sa 08:00\-18:00; Su 08:00\-16:00'			'Mo\-Fr 07:00\-21:00; Sa 08:00\-18:00; Su 08:00\-16:00'
+operator                         M		'SPAR Magyarország Kereskedelmi Kft.'			'Spar Magyarország Kereskedelmi Kft.'
+operator:addr                    E		'2060 Bicske, Spar út 326/1 hrsz.'			'2060 Bicske, Spar út 326/1 hrsz.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+ref                              E		'10'			'10'
+ref:vatin:hu                     E		'10485824\-2\-07'			'10485824\-2\-07'
+shop                             M		'convenience'			'supermarket'
+source:www.spar.hu:date          N		'2020\-05\-17'
+wheelchair                       E		'limited'			'limited'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2759520894&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D55%7Caddr%3Apostcode%3D1026%7Caddr%3Astreet%3DSzil%C3%A1gyi%20Erzs%C3%A9bet%20fasor%7Cbranch%3DSpar%20express%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1026-szilagyi-erzsebet-fasor-55-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Copening_hours%3DMo-Fr%2007%3A00-21%3A00%3B%20Sa%2008%3A00-18%3A00%3B%20Su%2008%3A00-16%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Coperator%3Aaddr%3D2060%20Bicske%2C%20Spar%20%C3%BAt%20326/1%20hrsz.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3D10%7Cref%3Avatin%3Ahu%3D10485824-2-07%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dlimited -->
+  <node action="modify" id="2759520894" lat="47.5100801" lon="19.0092759" timestamp="2020-05-12T21:34:23Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="55"/>
+    <tag k="addr:postcode" v="1026"/>
+    <tag k="addr:street" v="Szilágyi Erzsébet fasor"/>
+    <tag k="branch" v="Spar express Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1026-szilagyi-erzsebet-fasor-55-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-21:00; Sa 08:00-18:00; Su 08:00-16:00"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="operator:addr" v="2060 Bicske, Spar út 326/1 hrsz."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="ref" v="10"/>
+    <tag k="ref:vatin:hu" v="10485824-2-07"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <!-- Original coordinates: POINT (47.5510541 19.0445905) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'1033'
+addr:street                      N		'Ladik utca'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1033\-ladik\-utca\-1\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1033%7Caddr%3Astreet%3DLadik%20utca%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1033-ladik-utca-1-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-3" lat="47.5510541" lon="19.0445905" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1033"/>
+    <tag k="addr:street" v="Ladik utca"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1033-ladik-utca-1-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.579076119 19.0497911831) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:postcode                    N		'1039'
+addr:street                      N		'Szentendrei út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1039\-szentendrei\-czetz\-janos\-u\-sarok'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Apostcode%3D1039%7Caddr%3Astreet%3DSzentendrei%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1039-szentendrei-czetz-janos-u-sarok%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-4" lat="47.579076119" lon="19.0497911831" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:postcode" v="1039"/>
+    <tag k="addr:street" v="Szentendrei út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1039-szentendrei-czetz-janos-u-sarok"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.57714 19.081533) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'77'
+addr:postcode                    N		'1044'
+addr:street                      N		'Váci út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1044\-vaci\-ut\-77\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D77%7Caddr%3Apostcode%3D1044%7Caddr%3Astreet%3DV%C3%A1ci%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1044-vaci-ut-77-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-5" lat="47.57714" lon="19.081533" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="77"/>
+    <tag k="addr:postcode" v="1044"/>
+    <tag k="addr:street" v="Váci út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1044-vaci-ut-77-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.4934304 19.0846625) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:postcode                    N		'1086'
+addr:street                      N		'Teleki tér'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1086\-teleki\-ter'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Apostcode%3D1086%7Caddr%3Astreet%3DTeleki%20t%C3%A9r%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1086-teleki-ter%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-6" lat="47.4934304" lon="19.0846625" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:postcode" v="1086"/>
+    <tag k="addr:street" v="Teleki tér"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1086-teleki-ter"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.442475 19.094101) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:postcode                    N		'1097'
+addr:street                      N		'Soroksári út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1097\-soroksari\-ut\-hatar\-ut\-sarok'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Apostcode%3D1097%7Caddr%3Astreet%3DSoroks%C3%A1ri%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1097-soroksari-ut-hatar-ut-sarok%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-7" lat="47.442475" lon="19.094101" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:postcode" v="1097"/>
+    <tag k="addr:street" v="Soroksári út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1097-soroksari-ut-hatar-ut-sarok"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/5440081550 -->
+  <!-- Original coordinates: POINT (47.4714166 19.1074857) -->
+  <!-- OSM <-> POI distance: 172.80609882 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'137'
+addr:postcode                    N		'1107'
+addr:street                      N		'Üllői út'
+branch                           N		'Spar express OMV Budapest'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1098\-uelli\-ut\-137\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             E		'Spar Expressz'			'Spar Expressz'
+opening_hours                    E		'24/7'			'24/7'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             E		'convenience'			'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5440081550&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D137%7Caddr%3Apostcode%3D1107%7Caddr%3Astreet%3D%C3%9Cll%C5%91i%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1098-uelli-ut-137-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Copening_hours%3D24/7%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="5440081550" lat="47.4723918" lon="19.1092758" timestamp="2019-04-15T12:34:57Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="137"/>
+    <tag k="addr:postcode" v="1107"/>
+    <tag k="addr:street" v="Üllői út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1098-uelli-ut-137-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/5440081550 -->
+  <!-- Original coordinates: POINT (47.4720439 19.109074) -->
+  <!-- OSM <-> POI distance: 41.55202125 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'110\-112'
+addr:postcode                    N		'1107'
+addr:street                      N		'Üllői út'
+branch                           N		'Spar express OMV Budapest'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1101\-uelli\-ut\-110\-112\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             E		'Spar Expressz'			'Spar Expressz'
+opening_hours                    E		'24/7'			'24/7'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             E		'convenience'			'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5440081550&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D110-112%7Caddr%3Apostcode%3D1107%7Caddr%3Astreet%3D%C3%9Cll%C5%91i%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1101-uelli-ut-110-112-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Copening_hours%3D24/7%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="5440081550" lat="47.4723918" lon="19.1092758" timestamp="2019-04-15T12:34:57Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="110-112"/>
+    <tag k="addr:postcode" v="1107"/>
+    <tag k="addr:street" v="Üllői út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1101-uelli-ut-110-112-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.491364 19.138241) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:conscriptionnumber          N		'39184/4'
+addr:postcode                    N		'1102'
+addr:street                      N		'Kőrösi Csoma Sándor út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1102\-koroesi\-csoma\-s\-ut\-hrsz\-39184\-4'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Aconscriptionnumber%3D39184/4%7Caddr%3Apostcode%3D1102%7Caddr%3Astreet%3DK%C5%91r%C3%B6si%20Csoma%20S%C3%A1ndor%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1102-koroesi-csoma-s-ut-hrsz-39184-4%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-10" lat="47.491364" lon="19.138241" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:conscriptionnumber" v="39184/4"/>
+    <tag k="addr:postcode" v="1102"/>
+    <tag k="addr:street" v="Kőrösi Csoma Sándor út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1102-koroesi-csoma-s-ut-hrsz-39184-4"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1013274374 -->
+  <!-- Original coordinates: POINT (47.504477 19.150793) -->
+  <!-- OSM <-> POI distance: 129.9867065 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'73'
+addr:postcode                    N		'1106'
+addr:street                      N		'Kerepesi út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  M		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1106\-kerepesi\-ut\-73\-'			'http://www.spar.hu'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'SPAR'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             E		'convenience'			'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1013274374&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D73%7Caddr%3Apostcode%3D1106%7Caddr%3Astreet%3DKerepesi%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1106-kerepesi-ut-73-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="1013274374" lat="47.5037374" lon="19.1521331" timestamp="2015-03-15T08:09:48Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="73"/>
+    <tag k="addr:postcode" v="1106"/>
+    <tag k="addr:street" v="Kerepesi út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1106-kerepesi-ut-73-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- Original coordinates: POINT (47.464063 19.013364) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:conscriptionnumber          N		'756/1'
+addr:postcode                    N		'1112'
+addr:street                      N		'Balatoni út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1112\-balatoni\-ut\-756\-1\-hrsz\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Aconscriptionnumber%3D756/1%7Caddr%3Apostcode%3D1112%7Caddr%3Astreet%3DBalatoni%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1112-balatoni-ut-756-1-hrsz-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-12" lat="47.464063" lon="19.013364" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:conscriptionnumber" v="756/1"/>
+    <tag k="addr:postcode" v="1112"/>
+    <tag k="addr:street" v="Balatoni út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1112-balatoni-ut-756-1-hrsz-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.465336 19.103918) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'112'
+addr:postcode                    N		'1097'
+addr:street                      N		'Budaörsi utca'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1112\-budaoersi\-utca\-112\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D112%7Caddr%3Apostcode%3D1097%7Caddr%3Astreet%3DBuda%C3%B6rsi%20utca%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1112-budaoersi-utca-112-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-13" lat="47.465336" lon="19.103918" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="112"/>
+    <tag k="addr:postcode" v="1097"/>
+    <tag k="addr:street" v="Budaörsi utca"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1112-budaoersi-utca-112-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/6326864752 -->
+  <!-- Original coordinates: POINT (47.451272 19.038794) -->
+  <!-- OSM <-> POI distance: 6.89008443 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'166'
+addr:postcode                    N		'1116'
+addr:street                      N		'Fehérvári út'
+branch                           N		'Spar express OMV Budapest'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   E		'Q610492'			'Q610492'
+brand:wikipedia                  M		'hu:Spar'			'en:Spar (retailer)'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1116\-fehervari\-ut\-166\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'Despar'
+opening_hours                    E		'24//7'			'24//7'
+operator                         M		'SPAR Magyarország Kereskedelmi Kft.'			'Spar'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6326864752&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D166%7Caddr%3Apostcode%3D1116%7Caddr%3Astreet%3DFeh%C3%A9rv%C3%A1ri%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1116-fehervari-ut-166-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Copening_hours%3D24//7%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="6326864752" lat="47.451211" lon="19.0387779" timestamp="2019-03-09T09:54:13Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="166"/>
+    <tag k="addr:postcode" v="1116"/>
+    <tag k="addr:street" v="Fehérvári út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1116-fehervari-ut-166-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="opening_hours" v="24//7"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.461479 19.052095) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'111\-113'
+addr:postcode                    N		'1117'
+addr:street                      N		'Budafoki út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1117\-budafoki\-utca\-111\-113\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D111-113%7Caddr%3Apostcode%3D1117%7Caddr%3Astreet%3DBudafoki%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1117-budafoki-utca-111-113-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-15" lat="47.461479" lon="19.052095" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="111-113"/>
+    <tag k="addr:postcode" v="1117"/>
+    <tag k="addr:street" v="Budafoki út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1117-budafoki-utca-111-113-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/6911396453 -->
+  <!-- Original coordinates: POINT (47.4867593 19.0242397) -->
+  <!-- OSM <-> POI distance: 40.43885299 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'1118'
+addr:street                      N		'Budaörsi út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1118\-budaoersi\-ut\-1\-bah\-csomopont\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'Spar Express'
+opening_hours                    E		'24/7'			'24/7'
+operator                         M		'SPAR Magyarország Kereskedelmi Kft.'			'SPAR Magyarország Kft.'
+operator:addr                    E		'2060 Bicske, Spar út'			'2060 Bicske, Spar út'
+payment:american_express         E		'yes'			'yes'
+payment:cash                     E		'yes'			'yes'
+payment:contactless              E		'yes'			'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 E		'yes'			'yes'
+payment:erzsebet_plus            E		'yes'			'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  E		'yes'			'yes'
+payment:mastercard               E		'yes'			'yes'
+payment:mastercard_contactless   E		'yes'			'yes'
+payment:mastercard_electronic    E		'yes'			'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     E		'yes'			'yes'
+payment:visa_electron            E		'yes'			'yes'
+ref:vatin                        E		'HU10485824'			'HU10485824'
+ref:vatin:hu                     E		'10485824\-2\-07'			'10485824\-2\-07'
+shop                             E		'convenience'			'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6911396453&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1118%7Caddr%3Astreet%3DBuda%C3%B6rsi%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1118-budaoersi-ut-1-bah-csomopont-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Copening_hours%3D24/7%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Coperator%3Aaddr%3D2060%20Bicske%2C%20Spar%20%C3%BAt%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10485824%7Cref%3Avatin%3Ahu%3D10485824-2-07%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="6911396453" lat="47.4864667" lon="19.0239201" timestamp="2020-01-25T20:56:59Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1118"/>
+    <tag k="addr:street" v="Budaörsi út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1118-budaoersi-ut-1-bah-csomopont-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="operator:addr" v="2060 Bicske, Spar út"/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="ref:vatin" v="HU10485824"/>
+    <tag k="ref:vatin:hu" v="10485824-2-07"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.5270563 19.075513) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'64\-66'
+addr:postcode                    N		'1135'
+addr:street                      N		'Róbert Károly körút'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1134\-robert\-karoly\-krt\-64\-66\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D64-66%7Caddr%3Apostcode%3D1135%7Caddr%3Astreet%3DR%C3%B3bert%20K%C3%A1roly%20k%C3%B6r%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1134-robert-karoly-krt-64-66-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-17" lat="47.5270563" lon="19.075513" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="64-66"/>
+    <tag k="addr:postcode" v="1135"/>
+    <tag k="addr:street" v="Róbert Károly körút"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1134-robert-karoly-krt-64-66-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.5390079 19.0699432) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'95'
+addr:postcode                    N		'1139'
+addr:street                      N		'Váci út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1139\-vaci\-ut\-95\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D95%7Caddr%3Apostcode%3D1139%7Caddr%3Astreet%3DV%C3%A1ci%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1139-vaci-ut-95-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-18" lat="47.5390079" lon="19.0699432" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="95"/>
+    <tag k="addr:postcode" v="1139"/>
+    <tag k="addr:street" v="Váci út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1139-vaci-ut-95-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <node action="modify" id="2625570639" lat="47.5086632" lon="19.1017983" timestamp="2020-03-31T04:44:20Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
+  <node action="modify" id="2625570625" lat="47.5085004" lon="19.1019871" timestamp="2014-01-17T06:51:29Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2625570623" lat="47.5084232" lon="19.1018356" timestamp="2014-01-17T06:51:29Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2625570632" lat="47.508573" lon="19.1016494" timestamp="2020-03-31T04:44:20Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
+  <node action="modify" id="2625570633" lat="47.508576" lon="19.1016741" timestamp="2020-03-31T04:44:20Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
+  <node action="modify" id="2625570635" lat="47.508605" lon="19.1017395" timestamp="2020-03-31T04:44:20Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <node action="modify" id="2625570637" lat="47.5086308" lon="19.1017793" timestamp="2020-03-31T04:44:20Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
+  <!-- OSM link: https://osm.org/way/256936352 -->
+  <!-- Original coordinates: POINT (47.50853 19.101894) -->
+  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'116'
+addr:postcode                    N		'1143'
+addr:street                      N		'Hungária körút'
+branch                           N		'Spar express OMV Budapest'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   E		'Q610492'			'Q610492'
+brand:wikipedia                  M		'hu:Spar'			'en:Spar (retailer)'
+building                         E		'commercial'			'commercial'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1141\-hungaria\-koerut\-116\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'Spar Express'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             E		'convenience'			'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w256936352&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D116%7Caddr%3Apostcode%3D1143%7Caddr%3Astreet%3DHung%C3%A1ria%20k%C3%B6r%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dcommercial%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1141-hungaria-koerut-116-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <way action="modify" id="256936352" timestamp="2019-09-06T14:22:19Z" uid="8635934" user="osm_poi_matchmaker" version="4">
+    <nd ref="2625570639"/>
+    <nd ref="2625570625"/>
+    <nd ref="2625570623"/>
+    <nd ref="2625570632"/>
+    <nd ref="2625570633"/>
+    <nd ref="2625570635"/>
+    <nd ref="2625570637"/>
+    <nd ref="2625570639"/>
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="116"/>
+    <tag k="addr:postcode" v="1143"/>
+    <tag k="addr:street" v="Hungária körút"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="building" v="commercial"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1141-hungaria-koerut-116-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <!-- OSM link: https://osm.org/node/6749946035 -->
+  <!-- Original coordinates: POINT (47.5327743 19.1023526) -->
+  <!-- OSM <-> POI distance: 97.84291484 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'131'
+addr:postcode                    N		'1142'
+addr:street                      N		'Kacsóh Pongrác út'
+branch                           N		'Spar express OMV Budapest'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   E		'Q610492'			'Q610492'
+brand:wikipedia                  M		'hu:Spar'			'en:Spar (retailer)'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1142\-kacsoh\-pongrac\-ut\-131\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'Spar'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             E		'convenience'			'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6749946035&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D131%7Caddr%3Apostcode%3D1142%7Caddr%3Astreet%3DKacs%C3%B3h%20Pongr%C3%A1c%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1142-kacsoh-pongrac-ut-131-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="6749946035" lat="47.5336356" lon="19.1026193" timestamp="2019-08-27T13:19:56Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="131"/>
+    <tag k="addr:postcode" v="1142"/>
+    <tag k="addr:street" v="Kacsóh Pongrác út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1142-kacsoh-pongrac-ut-131-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.517279 19.091501) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'175\-177'
+addr:postcode                    N		'1146'
+addr:street                      N		'Hungária körút'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1146\-hungaria\-krt\-175\-177\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-21&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D175-177%7Caddr%3Apostcode%3D1146%7Caddr%3Astreet%3DHung%C3%A1ria%20k%C3%B6r%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1146-hungaria-krt-175-177-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-21" lat="47.517279" lon="19.091501" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="175-177"/>
+    <tag k="addr:postcode" v="1146"/>
+    <tag k="addr:street" v="Hungária körút"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1146-hungaria-krt-175-177-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.5047833 19.1205336) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'56/A'
+addr:postcode                    N		'1149'
+addr:street                      N		'Fogarasi út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1149\-fogarasi\-ut\-56\-a'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D56/A%7Caddr%3Apostcode%3D1149%7Caddr%3Astreet%3DFogarasi%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1149-fogarasi-ut-56-a%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-22" lat="47.5047833" lon="19.1205336" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="56/A"/>
+    <tag k="addr:postcode" v="1149"/>
+    <tag k="addr:street" v="Fogarasi út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1149-fogarasi-ut-56-a"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.5605718 19.1209905) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'1152'
+addr:street                      N		'Széchenyi tér'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1152\-szechenyi\-ter\-1\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-23&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1152%7Caddr%3Astreet%3DSz%C3%A9chenyi%20t%C3%A9r%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1152-szechenyi-ter-1-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-23" lat="47.5605718" lon="19.1209905" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1152"/>
+    <tag k="addr:street" v="Széchenyi tér"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1152-szechenyi-ter-1-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.551514 19.138835) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'131'
+addr:postcode                    N		'1152'
+addr:street                      N		'Szentmihályi út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1152\-szentmihalyi\-ut\-131\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-24&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D131%7Caddr%3Apostcode%3D1152%7Caddr%3Astreet%3DSzentmih%C3%A1lyi%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1152-szentmihalyi-ut-131-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-24" lat="47.551514" lon="19.138835" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="131"/>
+    <tag k="addr:postcode" v="1152"/>
+    <tag k="addr:street" v="Szentmihályi út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1152-szentmihalyi-ut-131-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.53493 19.18064) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:postcode                    N		'1162'
+addr:street                      N		'Csömöri út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1162\-csoemoeri\-es\-szlovak\-utca\-sarok'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Apostcode%3D1162%7Caddr%3Astreet%3DCs%C3%B6m%C3%B6ri%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1162-csoemoeri-es-szlovak-utca-sarok%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-25" lat="47.53493" lon="19.18064" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:postcode" v="1162"/>
+    <tag k="addr:street" v="Csömöri út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1162-csoemoeri-es-szlovak-utca-sarok"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.4840875 19.2354205) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'18'
+addr:postcode                    N		'1173'
+addr:street                      N		'Pesti út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1173\-pesti\-ut\-18\-'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'Spar Expressz'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-26&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D18%7Caddr%3Apostcode%3D1173%7Caddr%3Astreet%3DPesti%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1173-pesti-ut-18-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-26" lat="47.4840875" lon="19.2354205" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="18"/>
+    <tag k="addr:postcode" v="1173"/>
+    <tag k="addr:street" v="Pesti út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1173-pesti-ut-18-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+  </node>
+  <node action="modify" id="3304901446" lat="47.4467134" lon="19.1901882" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="3304901452" lat="47.4471046" lon="19.1904061" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="3304901450" lat="47.4470125" lon="19.1907674" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="3304901449" lat="47.4468021" lon="19.1906501" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="3304901448" lat="47.4467939" lon="19.1906823" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="3304901447" lat="47.4467186" lon="19.1906404" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="1084319777" lat="47.4466913" lon="19.1905294" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="2"/>
+  <node action="modify" id="3304901444" lat="47.4467048" lon="19.1904791" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="3304901443" lat="47.4466474" lon="19.1904472" timestamp="2015-01-22T21:28:50Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <!-- OSM link: https://osm.org/way/323710322 -->
+  <!-- Original coordinates: POINT (47.4459023 19.1901158) -->
+  <!-- OSM <-> POI distance: 86.51831895 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 N		'39'
+addr:postcode                    N		'1183'
+addr:street                      N		'Haladás utca'
+branch                           N		'Spar express OMV Budapest'
+brand                            E		'Spar'			'Spar'
+brand:wikidata                   E		'Q610492'			'Q610492'
+brand:wikipedia                  M		'hu:Spar'			'en:Spar (retailer)'
+building                         E		'retail'			'retail'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  M		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1183\-haladas\-utca\-39\-'			'http://www.spar.hu'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'Spar'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.spar.hu:date          N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w323710322&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D39%7Caddr%3Apostcode%3D1183%7Caddr%3Astreet%3DHalad%C3%A1s%20utca%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1183-haladas-utca-39-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <way action="modify" id="323710322" timestamp="2019-07-31T09:41:21Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+    <nd ref="3304901446"/>
+    <nd ref="3304901452"/>
+    <nd ref="3304901450"/>
+    <nd ref="3304901449"/>
+    <nd ref="3304901448"/>
+    <nd ref="3304901447"/>
+    <nd ref="1084319777"/>
+    <nd ref="3304901444"/>
+    <nd ref="3304901443"/>
+    <nd ref="3304901446"/>
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="39"/>
+    <tag k="addr:postcode" v="1183"/>
+    <tag k="addr:street" v="Haladás utca"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="building" v="retail"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1183-haladas-utca-39-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <node action="modify" id="496234137" lat="47.416077" lon="19.2068632" timestamp="2014-09-10T22:15:59Z" uid="15091" user="AndreasTUHU" version="2"/>
+  <node action="modify" id="496234138" lat="47.4163468" lon="19.2072775" timestamp="2014-09-10T22:15:59Z" uid="15091" user="AndreasTUHU" version="2"/>
+  <node action="modify" id="3132147732" lat="47.4162321" lon="19.2074513" timestamp="2014-10-15T21:29:23Z" uid="15091" user="AndreasTUHU" version="1"/>
+  <node action="modify" id="615268161" lat="47.4161722" lon="19.2075258" timestamp="2017-09-21T12:58:30Z" uid="3296488" user="route4uuser" version="3"/>
+  <node action="modify" id="496234139" lat="47.4161063" lon="19.2076196" timestamp="2014-09-10T22:15:59Z" uid="15091" user="AndreasTUHU" version="2"/>
+  <node action="modify" id="496234142" lat="47.4158365" lon="19.2072054" timestamp="2014-09-10T22:15:59Z" uid="15091" user="AndreasTUHU" version="2"/>
+  <!-- OSM link: https://osm.org/way/40813408 -->
+  <!-- Original coordinates: POINT (47.4168387 19.2074616) -->
+  <!-- OSM <-> POI distance: 56.42360874 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'1188'
+addr:street                      N		'Alacskai út'
+branch                           N		'Spar express OMV Budapest'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+building                         E		'retail'			'retail'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  M		'https://www.spar.hu/uzletek/spar\-express\-budapest\-1188\-alacskai\-ut\-1\-'			'http://www.spar.hu'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                             M		'Spar Expressz'			'SPAR'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             M		'convenience'			'supermarket'
+source:www.spar.hu:date          N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w40813408&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1188%7Caddr%3Astreet%3DAlacskai%20%C3%BAt%7Cbranch%3DSpar%20express%20OMV%20Budapest%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-express-budapest-1188-alacskai-ut-1-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%20Expressz%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <way action="modify" id="40813408" timestamp="2017-12-25T16:15:47Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+    <nd ref="496234137"/>
+    <nd ref="496234138"/>
+    <nd ref="3132147732"/>
+    <nd ref="615268161"/>
+    <nd ref="496234139"/>
+    <nd ref="496234142"/>
+    <nd ref="496234137"/>
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1188"/>
+    <tag k="addr:street" v="Alacskai út"/>
+    <tag k="branch" v="Spar express OMV Budapest"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="building" v="retail"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-express-budapest-1188-alacskai-ut-1-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar Expressz"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+</osm>

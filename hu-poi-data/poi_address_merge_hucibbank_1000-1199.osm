@@ -1,0 +1,1369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/2792369878 -->
+  <!-- Original coordinates: POINT (47.50881 19.02609) -->
+  <!-- OSM <-> POI distance: 52.73166116 m-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'7\-9'			'7\-9'
+addr:postcode                    E		'1024'			'1024'
+addr:street                      M		'Lövőház u.'			'Lövőház utca'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Lövőház utcai Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'lovohaz@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2792369878&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D7-9%7Caddr%3Apostcode%3D1024%7Caddr%3Astreet%3DL%C3%B6v%C5%91h%C3%A1z%20u.%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DL%C3%B6v%C5%91h%C3%A1z%20utcai%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dlovohaz%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="2792369878" lat="47.5092265" lon="19.0257543" timestamp="2019-09-18T21:24:30Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="7-9"/>
+    <tag k="addr:postcode" v="1024"/>
+    <tag k="addr:street" v="Lövőház u."/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Lövőház utcai Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="lovohaz@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node action="modify" id="2572405797" lat="47.5112577" lon="19.0289973" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="7182066990" lat="47.5112481" lon="19.0290556" timestamp="2020-02-03T16:38:01Z" uid="2077889" user="zsolt d" version="1"/>
+  <node action="modify" id="2572405796" lat="47.5111305" lon="19.0297733" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2572405793" lat="47.5110588" lon="19.0297641" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="6359946037" lat="47.5110286" lon="19.0297271" timestamp="2020-02-03T16:38:01Z" uid="2077889" user="zsolt d" version="3"/>
+  <node action="modify" id="2572405783" lat="47.5109495" lon="19.0297248" timestamp="2019-03-25T08:57:35Z" uid="2077889" user="zsolt d" version="2"/>
+  <node action="modify" id="2572405770" lat="47.5106439" lon="19.0297248" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2572405771" lat="47.5106835" lon="19.0295106" timestamp="2020-02-03T16:38:01Z" uid="2077889" user="zsolt d" version="2"/>
+  <node action="modify" id="2572405786" lat="47.5110084" lon="19.0295284" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2572405789" lat="47.5110332" lon="19.0293254" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2572405779" lat="47.5107607" lon="19.0292258" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2572405780" lat="47.510771" lon="19.0291794" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2572405781" lat="47.5108143" lon="19.0289842" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="2572405794" lat="47.5110792" lon="19.0290765" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <node action="modify" id="7182066988" lat="47.5110926" lon="19.0289924" timestamp="2020-02-03T16:38:01Z" uid="2077889" user="zsolt d" version="1"/>
+  <!-- OSM link: https://osm.org/way/250892710 -->
+  <!-- Original coordinates: POINT (47.5112 19.02972) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housename                   E		'LC irodaház (CIB Bank), Budapest II. Fényes E. utca'			'LC irodaház (CIB Bank), Budapest II. Fényes E. utca'
+addr:housenumber                 E		'2\-8'			'2\-8'
+addr:postcode                    E		'1024'			'1024'
+addr:street                      E		'Petrezselyem utca'			'Petrezselyem utca'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+architect                        E		'Nagy Iván, Ybl Miklós\-díjas építész (Cságoly Ferenccel)'			'Nagy Iván, Ybl Miklós\-díjas építész (Cságoly Ferenccel)'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'CIB Lízing központi ügyfélszolgálat'
+brand                            M		'CIB Bank'			'CIB'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+building                         E		'office'			'office'
+building:levels                  E		'7'			'7'
+contact:email                    N		'lizinghitelcentrum@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+height                           E		'22'			'22'
+name                             E		'CIB Bank'			'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source                           E		'Bing'			'Bing'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w250892710&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousename%3DLC%20irodah%C3%A1z%20%28CIB%20Bank%29%2C%20Budapest%20II.%20F%C3%A9nyes%20E.%20utca%7Caddr%3Ahousenumber%3D2-8%7Caddr%3Apostcode%3D1024%7Caddr%3Astreet%3DPetrezselyem%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Carchitect%3DNagy%20Iv%C3%A1n%2C%20Ybl%20Mikl%C3%B3s-d%C3%ADjas%20%C3%A9p%C3%ADt%C3%A9sz%20%28Cs%C3%A1goly%20Ferenccel%29%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DCIB%20L%C3%ADzing%20k%C3%B6zponti%20%C3%BCgyf%C3%A9lszolg%C3%A1lat%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Cbuilding%3Doffice%7Cbuilding%3Alevels%3D7%7Ccontact%3Aemail%3Dlizinghitelcentrum%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cheight%3D22%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3DBing%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <way action="modify" id="250892710" timestamp="2020-02-03T16:38:01Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+    <nd ref="2572405797"/>
+    <nd ref="7182066990"/>
+    <nd ref="2572405796"/>
+    <nd ref="2572405793"/>
+    <nd ref="6359946037"/>
+    <nd ref="2572405783"/>
+    <nd ref="2572405770"/>
+    <nd ref="2572405771"/>
+    <nd ref="2572405786"/>
+    <nd ref="2572405789"/>
+    <nd ref="2572405779"/>
+    <nd ref="2572405780"/>
+    <nd ref="2572405781"/>
+    <nd ref="2572405794"/>
+    <nd ref="7182066988"/>
+    <nd ref="2572405795"/>
+    <nd ref="2572405797"/>
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housename" v="LC irodaház (CIB Bank), Budapest II. Fényes E. utca"/>
+    <tag k="addr:housenumber" v="2-8"/>
+    <tag k="addr:postcode" v="1024"/>
+    <tag k="addr:street" v="Petrezselyem utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="architect" v="Nagy Iván, Ybl Miklós-díjas építész (Cságoly Ferenccel)"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="CIB Lízing központi ügyfélszolgálat"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="building" v="office"/>
+    <tag k="building:levels" v="7"/>
+    <tag k="contact:email" v="lizinghitelcentrum@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="height" v="22"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source" v="Bing"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </way>
+  <node action="modify" id="2572405795" lat="47.5111028" lon="19.0289287" timestamp="2013-12-09T03:11:19Z" uid="479610" user="igor2" version="1"/>
+  <!-- OSM link: https://osm.org/way/250892710 -->
+  <!-- Original coordinates: POINT (47.5112 19.02972) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housename                   E		'LC irodaház (CIB Bank), Budapest II. Fényes E. utca'			'LC irodaház (CIB Bank), Budapest II. Fényes E. utca'
+addr:housenumber                 E		'2\-8'			'2\-8'
+addr:postcode                    E		'1024'			'1024'
+addr:street                      E		'Petrezselyem utca'			'Petrezselyem utca'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+architect                        E		'Nagy Iván, Ybl Miklós\-díjas építész (Cságoly Ferenccel)'			'Nagy Iván, Ybl Miklós\-díjas építész (Cságoly Ferenccel)'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Fényes Elek Fiók'
+brand                            M		'CIB Bank'			'CIB'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+building                         E		'office'			'office'
+building:levels                  E		'7'			'7'
+contact:email                    N		'fenyeselekfiok@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+height                           E		'22'			'22'
+name                             E		'CIB Bank'			'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source                           E		'Bing'			'Bing'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w250892710&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousename%3DLC%20irodah%C3%A1z%20%28CIB%20Bank%29%2C%20Budapest%20II.%20F%C3%A9nyes%20E.%20utca%7Caddr%3Ahousenumber%3D2-8%7Caddr%3Apostcode%3D1024%7Caddr%3Astreet%3DPetrezselyem%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Carchitect%3DNagy%20Iv%C3%A1n%2C%20Ybl%20Mikl%C3%B3s-d%C3%ADjas%20%C3%A9p%C3%ADt%C3%A9sz%20%28Cs%C3%A1goly%20Ferenccel%29%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DF%C3%A9nyes%20Elek%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Cbuilding%3Doffice%7Cbuilding%3Alevels%3D7%7Ccontact%3Aemail%3Dfenyeselekfiok%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cheight%3D22%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3DBing%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <way action="modify" id="250892710" timestamp="2020-02-03T16:38:01Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+    <nd ref="2572405797"/>
+    <nd ref="7182066990"/>
+    <nd ref="2572405796"/>
+    <nd ref="2572405793"/>
+    <nd ref="6359946037"/>
+    <nd ref="2572405783"/>
+    <nd ref="2572405770"/>
+    <nd ref="2572405771"/>
+    <nd ref="2572405786"/>
+    <nd ref="2572405789"/>
+    <nd ref="2572405779"/>
+    <nd ref="2572405780"/>
+    <nd ref="2572405781"/>
+    <nd ref="2572405794"/>
+    <nd ref="7182066988"/>
+    <nd ref="2572405795"/>
+    <nd ref="2572405797"/>
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housename" v="LC irodaház (CIB Bank), Budapest II. Fényes E. utca"/>
+    <tag k="addr:housenumber" v="2-8"/>
+    <tag k="addr:postcode" v="1024"/>
+    <tag k="addr:street" v="Petrezselyem utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="architect" v="Nagy Iván, Ybl Miklós-díjas építész (Cságoly Ferenccel)"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Fényes Elek Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="building" v="office"/>
+    <tag k="building:levels" v="7"/>
+    <tag k="contact:email" v="fenyeselekfiok@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="height" v="22"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source" v="Bing"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </way>
+  <!-- OSM link: https://osm.org/node/1944445592 -->
+  <!-- Original coordinates: POINT (47.52219 19.01489) -->
+  <!-- OSM <-> POI distance: 45.00669001 m-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'74\-78'			'74\-78'
+addr:postcode                    E		'1026'			'1026'
+addr:street                      M		'Rózsakert Üzletház, Gábor Áron u.'			'Gábor Áron utca'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Rózsakerti Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'rozsakert@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+level                            E		'2'			'2'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo\-Th 09:00\-17:00; Fr 09:00\-16:00'			'Mo\-Th 09:00\-17:00; Fr 09:00\-16:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1944445592&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D74-78%7Caddr%3Apostcode%3D1026%7Caddr%3Astreet%3DR%C3%B3zsakert%20%C3%9Czleth%C3%A1z%2C%20G%C3%A1bor%20%C3%81ron%20u.%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DR%C3%B3zsakerti%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Drozsakert%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Clevel%3D2%7Cname%3DCIB%20Bank%7Copening_hours%3DMo-Th%2009%3A00-17%3A00%3B%20Fr%2009%3A00-16%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="1944445592" lat="47.5225473" lon="19.0146084" timestamp="2018-12-27T12:26:38Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="74-78"/>
+    <tag k="addr:postcode" v="1026"/>
+    <tag k="addr:street" v="Rózsakert Üzletház, Gábor Áron u."/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Rózsakerti Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="rozsakert@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="level" v="2"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo-Th 09:00-17:00; Fr 09:00-16:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/5294561301 -->
+  <!-- Original coordinates: POINT (47.50798 19.03561) -->
+  <!-- OSM <-> POI distance: 52.99290503 m-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 M		'4\-14'			'4'
+addr:postcode                    E		'1027'			'1027'
+addr:street                      M		'Medve u.'			'Medve utca'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Medve utcai Fiók'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'fiok_medve@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+name:it                          E		'CIB'			'CIB'
+opening_hours                    E		'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'			'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5294561301&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D4-14%7Caddr%3Apostcode%3D1027%7Caddr%3Astreet%3DMedve%20u.%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DMedve%20utcai%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dfiok_medve%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Cname%3Ait%3DCIB%7Copening_hours%3DMo%2CTu%2CTh%2008%3A30-16%3A00%3B%20We%2008%3A30-17%3A00%3B%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="5294561301" lat="47.508443" lon="19.0354428" timestamp="2019-01-26T16:36:00Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="4-14"/>
+    <tag k="addr:postcode" v="1027"/>
+    <tag k="addr:street" v="Medve u."/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Medve utcai Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="fiok_medve@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="name:it" v="CIB"/>
+    <tag k="opening_hours" v="Mo,Tu,Th 08:30-16:00; We 08:30-17:00; Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.54193 19.03975) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'6\-9'
+addr:postcode                    N		'1035'
+addr:street                      N		'Flórián téri aluljáró'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Flórián téri Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'florian@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D6-9%7Caddr%3Apostcode%3D1035%7Caddr%3Astreet%3DFl%C3%B3ri%C3%A1n%20t%C3%A9ri%20alulj%C3%A1r%C3%B3%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DFl%C3%B3ri%C3%A1n%20t%C3%A9ri%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dflorian%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-6" lat="47.54193" lon="19.03975" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="6-9"/>
+    <tag k="addr:postcode" v="1035"/>
+    <tag k="addr:street" v="Flórián téri aluljáró"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Flórián téri Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="florian@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/260892265 -->
+  <!-- Original coordinates: POINT (47.51182 19.05164) -->
+  <!-- OSM <-> POI distance: 26.90043873 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'15'
+addr:postcode                    N		'1055'
+addr:street                      N		'Szent István körút'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Szent István körúti Fiók'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  M		'hu:CIB Bank'			'en:CIB Bank'
+contact:email                    N		'sztistvankrt@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n260892265&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D15%7Caddr%3Apostcode%3D1055%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DSzent%20Istv%C3%A1n%20k%C3%B6r%C3%BAti%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dsztistvankrt%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="260892265" lat="47.5115846" lon="19.0517226" timestamp="2019-05-29T15:27:09Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:postcode" v="1055"/>
+    <tag k="addr:street" v="Szent István körút"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Szent István körúti Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="sztistvankrt@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- Original coordinates: POINT (47.51222 19.05752) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'1\-3'
+addr:postcode                    N		'1062'
+addr:street                      N		'Westend City Center (Lechner Ödön krt. 29/a.), Váci út'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Westend Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'fiok_westend@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D1062%7Caddr%3Astreet%3DWestend%20City%20Center%20%28Lechner%20%C3%96d%C3%B6n%20krt.%2029/a.%29%2C%20V%C3%A1ci%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DWestend%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dfiok_westend%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-8" lat="47.51222" lon="19.05752" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1-3"/>
+    <tag k="addr:postcode" v="1062"/>
+    <tag k="addr:street" v="Westend City Center (Lechner Ödön krt. 29/a.), Váci út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Westend Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="fiok_westend@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1160266746 -->
+  <!-- Original coordinates: POINT (47.4986918 19.0550136) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'5\-7'			'5\-7'
+addr:postcode                    M		'1061'			'1065'
+addr:street                      E		'Bajcsy\-Zsilinszky út'			'Bajcsy\-Zsilinszky út'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Bajcsy Fiók'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  M		'hu:CIB Bank'			'en:CIB Bank'
+contact:email                    N		'andrassy19@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo 08:30\-18:00; Tu\-Th 08:30\-16:00; Fr 08:30\-15:00'			'Mo 08:30\-18:00; Tu\-Th 08:30\-16:00; Fr 08:30\-15:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1160266746&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D5-7%7Caddr%3Apostcode%3D1061%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DBajcsy%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dandrassy19%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Copening_hours%3DMo%2008%3A30-18%3A00%3B%20Tu-Th%2008%3A30-16%3A00%3B%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="1160266746" lat="47.4988639" lon="19.0550379" timestamp="2020-02-03T15:46:50Z" uid="8635934" user="osm_poi_matchmaker" version="11">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="5-7"/>
+    <tag k="addr:postcode" v="1061"/>
+    <tag k="addr:street" v="Bajcsy-Zsilinszky út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Bajcsy Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="andrassy19@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo 08:30-18:00; Tu-Th 08:30-16:00; Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- Original coordinates: POINT (47.49732 19.07046) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'1073'
+addr:street                      N		'Erzsébet körút'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Blaha Lujza téri Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'blaha@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D1073%7Caddr%3Astreet%3DErzs%C3%A9bet%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DBlaha%20Lujza%20t%C3%A9ri%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dblaha%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-10" lat="47.49732" lon="19.07046" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="1073"/>
+    <tag k="addr:street" v="Erzsébet körút"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Blaha Lujza téri Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="blaha@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.49521 19.05953) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'3/b'
+addr:postcode                    N		'1072'
+addr:street                      N		'Károly körút'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Károly körúti Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'karolykrt@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D3/b%7Caddr%3Apostcode%3D1072%7Caddr%3Astreet%3DK%C3%A1roly%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DK%C3%A1roly%20k%C3%B6r%C3%BAti%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dkarolykrt%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-11" lat="47.49521" lon="19.05953" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="3/b"/>
+    <tag k="addr:postcode" v="1072"/>
+    <tag k="addr:street" v="Károly körút"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Károly körúti Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="karolykrt@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/2139218966 -->
+  <!-- Original coordinates: POINT (47.48218 19.06862) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'15'			'15'
+addr:postcode                    E		'1094'			'1094'
+addr:street                      E		'Ferenc körút'			'Ferenc körút'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Ferenc körúti Fiók'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  M		'hu:CIB Bank'			'en:CIB Bank'
+contact:email                    N		'ferenckorut@cib.hu'
+contact:phone                    M		'+36 1 424 2242'			'+36 40 242242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo 08:30\-18:00; Tu,We,Th 08:30\-16:00; Fr 08:30\-15:00'			'Mo 08:30\-18:00; Tu,We,Th 08:30\-16:00; Fr 08:30\-15:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2139218966&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D15%7Caddr%3Apostcode%3D1094%7Caddr%3Astreet%3DFerenc%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DFerenc%20k%C3%B6r%C3%BAti%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dferenckorut%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Copening_hours%3DMo%2008%3A30-18%3A00%3B%20Tu%2CWe%2CTh%2008%3A30-16%3A00%3B%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="2139218966" lat="47.4822269" lon="19.0688138" timestamp="2020-05-12T21:34:21Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:postcode" v="1094"/>
+    <tag k="addr:street" v="Ferenc körút"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Ferenc körúti Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="ferenckorut@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo 08:30-18:00; Tu,We,Th 08:30-16:00; Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.47403 19.04819) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'6\-8'
+addr:postcode                    N		'1117'
+addr:street                      N		'Allee Bevásárlóközpont, Október 23. u.'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Allee Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'allee@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D6-8%7Caddr%3Apostcode%3D1117%7Caddr%3Astreet%3DAllee%20Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont%2C%20Okt%C3%B3ber%2023.%20u.%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DAllee%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dallee%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-13" lat="47.47403" lon="19.04819" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="6-8"/>
+    <tag k="addr:postcode" v="1117"/>
+    <tag k="addr:street" v="Allee Bevásárlóközpont, Október 23. u."/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Allee Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="allee@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/288999252 -->
+  <!-- Original coordinates: POINT (47.46456 19.03365) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'63'			'63'
+addr:postcode                    E		'1119'			'1119'
+addr:street                      E		'Tétényi út'			'Tétényi út'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Tétényi úti Fiók'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  M		'hu:CIB Bank'			'en:CIB Bank'
+contact:email                    N		'tetenyiut@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+level                            E		'0'			'0'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'			'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref                              E		'AF/5'			'AF/5'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n288999252&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D63%7Caddr%3Apostcode%3D1119%7Caddr%3Astreet%3DT%C3%A9t%C3%A9nyi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DT%C3%A9t%C3%A9nyi%20%C3%BAti%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dtetenyiut%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Clevel%3D0%7Cname%3DCIB%20Bank%7Copening_hours%3DMo%2CTu%2CTh%2008%3A30-16%3A00%3B%20We%2008%3A30-17%3A00%3B%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3DAF/5%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="288999252" lat="47.4640377" lon="19.0333621" timestamp="2019-08-25T15:16:33Z" uid="8635934" user="osm_poi_matchmaker" version="11">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="63"/>
+    <tag k="addr:postcode" v="1119"/>
+    <tag k="addr:street" v="Tétényi út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Tétényi úti Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="tetenyiut@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo,Tu,Th 08:30-16:00; We 08:30-17:00; Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref" v="AF/5"/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/890232195 -->
+  <!-- Original coordinates: POINT (47.50137 19.02318) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'1'			'1'
+addr:postcode                    E		'1122'			'1122'
+addr:street                      E		'Kék Golyó utca'			'Kék Golyó utca'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Kékgolyó utcai Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'kekgolyo@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo\-Tu 08:30\-16:00; We 08:30\-17:00; Th 08:30\-16:00; Fr 08:30\-15:00'			'Mo\-Tu 08:30\-16:00; We 08:30\-17:00; Th 08:30\-16:00; Fr 08:30\-15:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n890232195&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1122%7Caddr%3Astreet%3DK%C3%A9k%20Goly%C3%B3%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DK%C3%A9kgoly%C3%B3%20utcai%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dkekgolyo%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Copening_hours%3DMo-Tu%2008%3A30-16%3A00%3B%20We%2008%3A30-17%3A00%3B%20Th%2008%3A30-16%3A00%3B%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="890232195" lat="47.5014368" lon="19.0230425" timestamp="2020-05-12T21:34:19Z" uid="8635934" user="osm_poi_matchmaker" version="11">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1122"/>
+    <tag k="addr:street" v="Kék Golyó utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Kékgolyó utcai Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="kekgolyo@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo-Tu 08:30-16:00; We 08:30-17:00; Th 08:30-16:00; Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1849741004 -->
+  <!-- Original coordinates: POINT (47.54786 19.073291) -->
+  <!-- OSM <-> POI distance: 38.47082694 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'141'
+addr:postcode                    N		'1138'
+addr:street                      N		'Váci út'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Váci úti Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'vaciut@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'no'			'no'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1849741004&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D141%7Caddr%3Apostcode%3D1138%7Caddr%3Astreet%3DV%C3%A1ci%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DV%C3%A1ci%20%C3%BAti%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dvaciut%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dno -->
+  <node action="modify" id="1849741004" lat="47.548197" lon="19.073407" timestamp="2019-03-29T18:20:15Z" uid="8635934" user="osm_poi_matchmaker" version="8">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="141"/>
+    <tag k="addr:postcode" v="1138"/>
+    <tag k="addr:street" v="Váci út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Váci úti Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="vaciut@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <!-- Original coordinates: POINT (47.50597 19.13697) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'24'
+addr:postcode                    N		'1144'
+addr:street                      N		'Örs vezér tere'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Örs vezér téri Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'ors@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D24%7Caddr%3Apostcode%3D1144%7Caddr%3Astreet%3D%C3%96rs%20vez%C3%A9r%20tere%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3D%C3%96rs%20vez%C3%A9r%20t%C3%A9ri%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dors%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-17" lat="47.50597" lon="19.13697" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="24"/>
+    <tag k="addr:postcode" v="1144"/>
+    <tag k="addr:street" v="Örs vezér tere"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Örs vezér téri Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="ors@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1473278380 -->
+  <!-- Original coordinates: POINT (47.51864 19.11337) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        E		'Budapest'			'Budapest'
+addr:housenumber                 E		'9'			'9'
+addr:postcode                    E		'1149'			'1149'
+addr:street                      E		'Bosnyák tér'			'Bosnyák tér'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Bosnyák téri Fiók'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  M		'hu:CIB Bank'			'en:CIB Bank'
+contact:email                    N		'bosnyak@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'			'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'no'			'no'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1473278380&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D1149%7Caddr%3Astreet%3DBosny%C3%A1k%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DBosny%C3%A1k%20t%C3%A9ri%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dbosnyak%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Copening_hours%3DMo%2CTu%2CTh%2008%3A30-16%3A00%3B%20We%2008%3A30-17%3A00%3B%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dno -->
+  <node action="modify" id="1473278380" lat="47.5205628" lon="19.1131825" timestamp="2020-02-05T07:58:28Z" uid="8635934" user="osm_poi_matchmaker" version="14">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:postcode" v="1149"/>
+    <tag k="addr:street" v="Bosnyák tér"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Bosnyák téri Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="bosnyak@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo,Tu,Th 08:30-16:00; We 08:30-17:00; Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/3018352033 -->
+  <!-- Original coordinates: POINT (47.54458 19.1381) -->
+  <!-- OSM <-> POI distance: 48.67195176 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'6'
+addr:postcode                    N		'1156'
+addr:street                      N		'Páskomliget utca'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Újpalotai Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'ujpalota@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo 08:30\-17:00, Tu\-Th 08:30\-16:00, Fr 08:30\-15:00'			'Mo 08:30\-17:00, Tu\-Th 08:30\-16:00, Fr 08:30\-15:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3018352033&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D1156%7Caddr%3Astreet%3DP%C3%A1skomliget%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3D%C3%9Ajpalotai%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dujpalota%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Copening_hours%3DMo%2008%3A30-17%3A00%2C%20Tu-Th%2008%3A30-16%3A00%2C%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="3018352033" lat="47.5449226" lon="19.1385036" timestamp="2019-07-07T17:03:39Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="6"/>
+    <tag k="addr:postcode" v="1156"/>
+    <tag k="addr:street" v="Páskomliget utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Újpalotai Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="ujpalota@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo 08:30-17:00, Tu-Th 08:30-16:00, Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1948190487 -->
+  <!-- Original coordinates: POINT (47.51108 19.19129) -->
+  <!-- OSM <-> POI distance: 28.98856604 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'105\-107'
+addr:postcode                    N		'1165'
+addr:street                      N		'Veres Péter út'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              E		'yes'			'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Mátyásföldi Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'matyasfold2@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1948190487&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D105-107%7Caddr%3Apostcode%3D1165%7Caddr%3Astreet%3DVeres%20P%C3%A9ter%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DM%C3%A1ty%C3%A1sf%C3%B6ldi%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dmatyasfold2%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="1948190487" lat="47.5108193" lon="19.1912903" timestamp="2019-03-29T18:15:03Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="105-107"/>
+    <tag k="addr:postcode" v="1165"/>
+    <tag k="addr:street" v="Veres Péter út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Mátyásföldi Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="matyasfold2@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/1691291820 -->
+  <!-- Original coordinates: POINT (47.480182 19.255062) -->
+  <!-- OSM <-> POI distance: 7.80135712 m-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'170'
+addr:postcode                    N		'1173'
+addr:street                      N		'Pesti út'
+air_conditioning                 N		'yes'
+amenity                          E		'bank'			'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Rákoskeresztúri Fiók'
+brand                            E		'CIB Bank'			'CIB Bank'
+brand:wikidata                   E		'Q839566'			'Q839566'
+brand:wikipedia                  M		'hu:CIB Bank'			'en:CIB Bank'
+contact:email                    N		'keresztur@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+name                             E		'CIB Bank'			'CIB Bank'
+opening_hours                    E		'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'			'Mo,Tu,Th 08:30\-16:00; We 08:30\-17:00; Fr 08:30\-15:00'
+operator                         E		'CIB Bank Zrt.'			'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+wheelchair                       E		'yes'			'yes'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1691291820&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D170%7Caddr%3Apostcode%3D1173%7Caddr%3Astreet%3DPesti%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DR%C3%A1koskereszt%C3%BAri%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dkeresztur%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cname%3DCIB%20Bank%7Copening_hours%3DMo%2CTu%2CTh%2008%3A30-16%3A00%3B%20We%2008%3A30-17%3A00%3B%20Fr%2008%3A30-15%3A00%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17%7Cwheelchair%3Dyes -->
+  <node action="modify" id="1691291820" lat="47.4801518" lon="19.2551557" timestamp="2019-08-04T06:57:11Z" uid="8635934" user="osm_poi_matchmaker" version="6">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="170"/>
+    <tag k="addr:postcode" v="1173"/>
+    <tag k="addr:street" v="Pesti út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Rákoskeresztúri Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="keresztur@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="opening_hours" v="Mo,Tu,Th 08:30-16:00; We 08:30-17:00; Fr 08:30-15:00"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <!-- Original coordinates: POINT (47.4461 19.17152) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'366'
+addr:postcode                    N		'1181'
+addr:street                      N		'Üllői út'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'Pestszentlőrinci Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'pestszentlorinc2@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D366%7Caddr%3Apostcode%3D1181%7Caddr%3Astreet%3D%C3%9Cll%C5%91i%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DPestszentl%C5%91rinci%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dpestszentlorinc2%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-22" lat="47.4461" lon="19.17152" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="366"/>
+    <tag k="addr:postcode" v="1181"/>
+    <tag k="addr:street" v="Üllői út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="Pestszentlőrinci Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="pestszentlorinc2@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.46294 19.14889) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'75. A\-C'
+addr:postcode                    N		'1191'
+addr:street                      N		'Vak Bottyán utca'
+air_conditioning                 N		'yes'
+amenity                          N		'bank'
+atm                              N		'yes'
+bic                              N		'CIBHHUHB'
+branch                           N		'KÖKI Fiók'
+brand                            N		'CIB Bank'
+brand:wikidata                   N		'Q839566'
+brand:wikipedia                  N		'hu:CIB Bank'
+contact:email                    N		'koki@cib.hu'
+contact:phone                    N		'+36 1 424 2242'
+contact:website                  N		'https://www.cib.hu'
+fixme                            N		'verify import'
+name                             N		'CIB Bank'
+operator                         N		'CIB Bank Zrt.'
+operator:addr                    N		'1027 Budapest, Medve u 4\-14.'
+ref:HU:company                   N		'01 10 041004'
+ref:vatin                        N		'HU10136915'
+ref:vatin:hu                     N		'10136915\-4\-44'
+source:www.cib.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-23&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D75.%20A-C%7Caddr%3Apostcode%3D1191%7Caddr%3Astreet%3DVak%20Botty%C3%A1n%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DCIBHHUHB%7Cbranch%3DK%C3%96KI%20Fi%C3%B3k%7Cbrand%3DCIB%20Bank%7Cbrand%3Awikidata%3DQ839566%7Cbrand%3Awikipedia%3Dhu%3ACIB%20Bank%7Ccontact%3Aemail%3Dkoki%40cib.hu%7Ccontact%3Aphone%3D%2B36%201%20424%202242%7Ccontact%3Awebsite%3Dhttps%3A//www.cib.hu%7Cfixme%3Dverify%20import%7Cname%3DCIB%20Bank%7Coperator%3DCIB%20Bank%20Zrt.%7Coperator%3Aaddr%3D1027%20Budapest%2C%20Medve%20u%204-14.%7Cref%3AHU%3Acompany%3D01%2010%20041004%7Cref%3Avatin%3DHU10136915%7Cref%3Avatin%3Ahu%3D10136915-4-44%7Csource%3Awww.cib.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-23" lat="47.46294" lon="19.14889" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="75. A-C"/>
+    <tag k="addr:postcode" v="1191"/>
+    <tag k="addr:street" v="Vak Bottyán utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="bic" v="CIBHHUHB"/>
+    <tag k="branch" v="KÖKI Fiók"/>
+    <tag k="brand" v="CIB Bank"/>
+    <tag k="brand:wikidata" v="Q839566"/>
+    <tag k="brand:wikipedia" v="hu:CIB Bank"/>
+    <tag k="contact:email" v="koki@cib.hu"/>
+    <tag k="contact:phone" v="+36 1 424 2242"/>
+    <tag k="contact:website" v="https://www.cib.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="CIB Bank"/>
+    <tag k="operator" v="CIB Bank Zrt."/>
+    <tag k="operator:addr" v="1027 Budapest, Medve u 4-14."/>
+    <tag k="ref:HU:company" v="01 10 041004"/>
+    <tag k="ref:vatin" v="HU10136915"/>
+    <tag k="ref:vatin:hu" v="10136915-4-44"/>
+    <tag k="source:www.cib.hu:date" v="2020-05-17"/>
+  </node>
+</osm>

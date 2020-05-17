@@ -1,225 +1,2175 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <!-- Original coordinates: POINT (47.637 19.4718) -->
+  <!-- Original coordinates: POINT (46.90422 19.747466) -->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Bag'
-addr:conscriptionnumber          N		'2429/3'
-addr:country                     N		'HU'
-addr:postcode                    N		'2191'
+addr:city                        N		'Kecskemét'
+addr:postcode                    N		'0'
+addr:street                      N		'44\-es számú főút'
 amenity                          N		'fuel'
-branch                           N		'Bag'
 brand                            N		'Mobil Petrol'
-contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 644 3467'
+contact:website                  N		'http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             N		'Mobil Petrol'
-opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-10-02'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DBag%7Caddr%3Aconscriptionnumber%3D2429/3%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2191%7Camenity%3Dfuel%7Cbranch%3DBag%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-10-02 -->
-  <node action="modify" id="-1" lat="47.637" lon="19.4718" timestamp="2019-10-02T09:55:00Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Bag"/>
-    <tag k="addr:conscriptionnumber" v="2429/3"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="2191"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DKecskem%C3%A9t%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3D44-es%20sz%C3%A1m%C3%BA%20f%C5%91%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20644%203467%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-1" lat="46.90422" lon="19.747466" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kecskemét"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="44-es számú főút"/>
     <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="Bag"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 644 3467"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Mobil Petrol"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-10-02"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
   </node>
-  <!-- Original coordinates: POINT (47.7565 19.1417) -->
+  <!-- Original coordinates: POINT (46.381503 20.255343) -->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Vác'
-addr:country                     N		'HU'
-addr:postcode                    N		'2600'
+addr:city                        N		'Kopáncs'
+addr:postcode                    N		'0'
+addr:street                      N		'47\-es számú főút'
 amenity                          N		'fuel'
-branch                           N		'Vác'
 brand                            N		'Mobil Petrol'
-contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 602 6928'
+contact:website                  N		'http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             N		'Mobil Petrol'
-opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-10-02'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D2600%7Camenity%3Dfuel%7Cbranch%3DV%C3%A1c%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-10-02 -->
-  <node action="modify" id="-2" lat="47.7565" lon="19.1417" timestamp="2019-10-02T09:55:00Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Vác"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="2600"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DKop%C3%A1ncs%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3D47-es%20sz%C3%A1m%C3%BA%20f%C5%91%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20602%206928%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-2" lat="46.381503" lon="20.255343" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kopáncs"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="47-es számú főút"/>
     <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="Vác"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 602 6928"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Mobil Petrol"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-10-02"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
   </node>
-  <!-- Original coordinates: POINT (46.6076 19.8413) -->
+  <!-- Original coordinates: POINT (46.97134 18.205522) -->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Petőfiszállás A'
-addr:country                     N		'HU'
-addr:postcode                    N		'6113'
+addr:city                        N		'Balatonvilágos'
+addr:postcode                    N		'0'
+addr:street                      N		'7. számú főközlekedési út és 64. számú főközlekedési út'
 amenity                          N		'fuel'
-branch                           N		'Petőfiszállás A'
 brand                            N		'Mobil Petrol'
-contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 747 4773'
+contact:website                  N		'http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             N		'Mobil Petrol'
-opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
+opening_hours                    N		'Mo\-Su 05:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-10-02'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6113%7Camenity%3Dfuel%7Cbranch%3DPet%C5%91fisz%C3%A1ll%C3%A1s%20A%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-10-02 -->
-  <node action="modify" id="-3" lat="46.6076" lon="19.8413" timestamp="2019-10-02T09:55:00Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Petőfiszállás A"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="6113"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBalatonvil%C3%A1gos%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3D7.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%20%C3%A9s%2064.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20747%204773%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2005%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-3" lat="46.97134" lon="18.205522" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Balatonvilágos"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="7. számú főközlekedési út és 64. számú főközlekedési út"/>
     <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="Petőfiszállás A"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 747 4773"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Mobil Petrol"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Su 05:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-10-02"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
   </node>
-  <!-- Original coordinates: POINT (46.2277 19.5359) -->
+  <!-- Original coordinates: POINT (46.466051 16.968607) -->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Tompa'
-addr:country                     N		'HU'
-addr:postcode                    N		'6422'
+addr:city                        N		'Nagykanizsa'
+addr:postcode                    N		'0'
+addr:street                      N		'7. számú főközlekedési út és 74. sz főút'
 amenity                          N		'fuel'
-branch                           N		'Tompa'
 brand                            N		'Mobil Petrol'
-contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 272 0916'
+contact:website                  N		'http://mpetrol.hu/hirek/29\-uj\-toltoallomas\-a\-halozatban\-megnyitottunk\-nagykanizsan'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             N		'Mobil Petrol'
-opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-10-02'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DTompa%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D6422%7Camenity%3Dfuel%7Cbranch%3DTompa%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-10-02 -->
-  <node action="modify" id="-4" lat="46.2277" lon="19.5359" timestamp="2019-10-02T09:55:00Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Tompa"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="6422"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3D7.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%20%C3%A9s%2074.%20sz%20f%C5%91%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20272%200916%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/29-uj-toltoallomas-a-halozatban-megnyitottunk-nagykanizsan%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-4" lat="46.466051" lon="16.968607" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Nagykanizsa"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="7. számú főközlekedési út és 74. sz főút"/>
     <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="Tompa"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 272 0916"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/29-uj-toltoallomas-a-halozatban-megnyitottunk-nagykanizsan"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Mobil Petrol"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-10-02"/>
-  </node>
-  <!-- Original coordinates: POINT (47.5955 17.6876) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        N		'Nyúl'
-addr:country                     N		'HU'
-addr:postcode                    N		'9082'
-addr:street                      N		'Kossuth Lajos utca'
-amenity                          N		'fuel'
-branch                           N		'Nyúl'
-brand                            N		'Mobil Petrol'
-contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
-fuel:diesel                      N		'yes'
-fuel:octane_95                   N		'yes'
-name                             N		'Mobil Petrol'
-opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
-payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-10-02'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DNy%C3%BAl%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9082%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfuel%7Cbranch%3DNy%C3%BAl%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-10-02 -->
-  <node action="modify" id="-5" lat="47.5955" lon="17.6876" timestamp="2019-10-02T09:55:00Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Nyúl"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="9082"/>
-    <tag k="addr:street" v="Kossuth Lajos utca"/>
-    <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="Nyúl"/>
-    <tag k="brand" v="Mobil Petrol"/>
-    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
-    <tag k="fuel:diesel" v="yes"/>
-    <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="Mobil Petrol"/>
-    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
-    <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-10-02"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
   </node>
   <!-- Original coordinates: POINT (46.9827 16.2801) -->
   <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Szentgotthárd'
-addr:conscriptionnumber          N		'0232/8'
-addr:country                     N		'HU'
-addr:postcode                    N		'9955'
+addr:city                        N		'Rábafüzes'
+addr:postcode                    N		'0'
+addr:street                      N		'8. számú főközlekedési út'
 amenity                          N		'fuel'
-branch                           N		'Szentgotthárd'
 brand                            N		'Mobil Petrol'
-contact:website                  N		'http://www.mpetrol.hu/http://mpetrol.hu/'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 218 0892'
+contact:website                  N		'http://mpetrol.hu/'
 fuel:diesel                      N		'yes'
 fuel:octane_95                   N		'yes'
 name                             N		'Mobil Petrol'
-opening_hours                    N		'Mo-Su 06:00-22:00; PH off'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
 payment:cash                     N		'yes'
-payment:debit_cards              N		'yes'
-source:www.mpetrol.hu:date       N		'2019-10-02'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DSzentgotth%C3%A1rd%7Caddr%3Aconscriptionnumber%3D0232/8%7Caddr%3Acountry%3DHU%7Caddr%3Apostcode%3D9955%7Camenity%3Dfuel%7Cbranch%3DSzentgotth%C3%A1rd%7Cbrand%3DMobil%20Petrol%7Ccontact%3Awebsite%3Dhttp%3A//www.mpetrol.hu/http%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Csource%3Awww.mpetrol.hu%3Adate%3D2019-10-02 -->
-  <node action="modify" id="-6" lat="46.9827" lon="16.2801" timestamp="2019-10-02T09:55:00Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
-    <tag k="addr:city" v="Szentgotthárd"/>
-    <tag k="addr:conscriptionnumber" v="0232/8"/>
-    <tag k="addr:country" v="HU"/>
-    <tag k="addr:postcode" v="9955"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DR%C3%A1baf%C3%BCzes%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3D8.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20218%200892%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-5" lat="46.9827" lon="16.2801" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Rábafüzes"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="8. számú főközlekedési út"/>
     <tag k="amenity" v="fuel"/>
-    <tag k="branch" v="Szentgotthárd"/>
     <tag k="brand" v="Mobil Petrol"/>
-    <tag k="contact:website" v="http://www.mpetrol.hu/http://mpetrol.hu/"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 218 0892"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="Mobil Petrol"/>
     <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
     <tag k="payment:cash" v="yes"/>
-    <tag k="payment:debit_cards" v="yes"/>
-    <tag k="source:www.mpetrol.hu:date" v="2019-10-02"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.654798 20.275703) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Szentes'
+addr:housenumber                 N		'4'
+addr:postcode                    N		'0'
+addr:street                      N		'Attila út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 824 1550'
+contact:website                  N		'http://mpetrol.hu/hirek/61\-szentes'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DSzentes%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DAttila%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20824%201550%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/61-szentes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-6" lat="46.654798" lon="20.275703" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Szentes"/>
+    <tag k="addr:housenumber" v="4"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Attila út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 824 1550"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/61-szentes"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.094696 18.926261) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Bátmonostor'
+addr:postcode                    N		'0'
+addr:street                      N		'Baracskai utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-21:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DB%C3%A1tmonostor%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DBaracskai%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-21%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-7" lat="46.094696" lon="18.926261" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Bátmonostor"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Baracskai utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-21:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.766998 19.912852) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Gyöngyös'
+addr:postcode                    N		'0'
+addr:street                      N		'Budapesti út 3 sz. számú főközlekedési út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 37 304 033'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DGy%C3%B6ngy%C3%B6s%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DBudapesti%20%C3%BAt%203%20sz.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2037%20304%20033%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-8" lat="47.766998" lon="19.912852" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Gyöngyös"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Budapesti út 3 sz. számú főközlekedési út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 37 304 033"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.6768 17.6145) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Győr'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'0'
+addr:street                      N		'Csipkegyári út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 964 3794'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DCsipkegy%C3%A1ri%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20964%203794%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-9" lat="47.6768" lon="17.6145" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Győr"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Csipkegyári út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 964 3794"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.016319 19.5728566) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Lajosmizse'
+addr:housenumber                 N		'225'
+addr:postcode                    N		'0'
+addr:street                      N		'Dózsa György út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 575 9268'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DLajosmizse%7Caddr%3Ahousenumber%3D225%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20575%209268%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-10" lat="47.016319" lon="19.5728566" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Lajosmizse"/>
+    <tag k="addr:housenumber" v="225"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Dózsa György út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 575 9268"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.3785 18.9341) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Érd'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'0'
+addr:street                      N		'Erika utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 740 3801'
+contact:website                  N		'http://mpetrol.hu/hirek/45\-uj\-toltoallomas\-a\-burger\-kinggel\-kozosen'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3D%C3%89rd%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DErika%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20740%203801%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/45-uj-toltoallomas-a-burger-kinggel-kozosen%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-11" lat="47.3785" lon="18.9341" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Érd"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Erika utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 740 3801"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/45-uj-toltoallomas-a-burger-kinggel-kozosen"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.118638 17.545652) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Ajka'
+addr:postcode                    N		'0'
+addr:street                      N		'Fő út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 879 1391'
+contact:website                  N		'http://mpetrol.hu/hirek/46\-ajka'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DAjka%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20879%201391%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/46-ajka%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-12" lat="47.118638" lon="17.545652" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Ajka"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Fő út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 879 1391"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/46-ajka"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.903937 18.974263) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Dunavecse'
+addr:postcode                    N		'0'
+addr:street                      N		'Fő út 120. 510 számú fő út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 982 7999'
+contact:website                  N		'http://mpetrol.hu/hirek/50\-dunavecse'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DDunavecse%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%20120.%20510%20sz%C3%A1m%C3%BA%20f%C5%91%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20982%207999%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/50-dunavecse%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-13" lat="46.903937" lon="18.974263" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Dunavecse"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Fő út 120. 510 számú fő út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 982 7999"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/50-dunavecse"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.831714 17.468479) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Hédervár'
+addr:postcode                    N		'0'
+addr:street                      N		'Fő utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 70 358 5950'
+contact:website                  N		'http://mpetrol.hu/hirek/25\-uj\-toltoallomas\-nyilt\-hedervaron'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DH%C3%A9derv%C3%A1r%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2070%20358%205950%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/25-uj-toltoallomas-nyilt-hedervaron%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-14" lat="47.831714" lon="17.468479" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Hédervár"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Fő utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 70 358 5950"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/25-uj-toltoallomas-nyilt-hedervaron"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.953595 17.871829) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Balatonfüred'
+addr:housenumber                 N		'20'
+addr:postcode                    N		'0'
+addr:street                      N		'Fürdő utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 751 2366'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-21:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DBalatonf%C3%BCred%7Caddr%3Ahousenumber%3D20%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DF%C3%BCrd%C5%91%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20751%202366%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-21%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-15" lat="46.953595" lon="17.871829" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Balatonfüred"/>
+    <tag k="addr:housenumber" v="20"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Fürdő utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 751 2366"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-21:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.663451 21.078849) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Békéscsaba'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'0'
+addr:street                      N		'Gyár utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 641 4461'
+contact:website                  N		'http://mpetrol.hu/hirek/48\-bekescsaba'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9scsaba%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DGy%C3%A1r%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20641%204461%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/48-bekescsaba%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-16" lat="46.663451" lon="21.078849" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Békéscsaba"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Gyár utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 641 4461"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/48-bekescsaba"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (48.104389 20.756972) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Miskolc'
+addr:postcode                    N		'0'
+addr:street                      N		'Győri kapu'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 318 7260'
+contact:website                  N		'http://mpetrol.hu/hirek/30\-uj\-toltoallomas\-a\-halozatban\-megnyitottunk\-miskolcon'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DGy%C5%91ri%20kapu%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20318%207260%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/30-uj-toltoallomas-a-halozatban-megnyitottunk-miskolcon%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-17" lat="48.104389" lon="20.756972" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Miskolc"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Győri kapu"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 318 7260"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/30-uj-toltoallomas-a-halozatban-megnyitottunk-miskolcon"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.512692 17.997786) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Ászár'
+addr:housenumber                 N		'42'
+addr:postcode                    N		'0'
+addr:street                      N		'Győri út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 70 226 9976'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 05:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3D%C3%81sz%C3%A1r%7Caddr%3Ahousenumber%3D42%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DGy%C5%91ri%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2070%20226%209976%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2005%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-18" lat="47.512692" lon="17.997786" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Ászár"/>
+    <tag k="addr:housenumber" v="42"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Győri út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 70 226 9976"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 05:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.787433 17.213872) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Keszthely'
+addr:postcode                    N		'0'
+addr:street                      N		'Hévizi út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 70 619 6222'
+contact:website                  N		'http://mpetrol.hu/hirek/54\-keszthely'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-19&addtags=%7Caddr%3Acity%3DKeszthely%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DH%C3%A9vizi%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2070%20619%206222%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/54-keszthely%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-19" lat="46.787433" lon="17.213872" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Keszthely"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Hévizi út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 70 619 6222"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/54-keszthely"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.107901 18.519087) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Geresdlak'
+addr:postcode                    N		'0'
+addr:street                      N		'Hunyadi János utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 69 349 025'
+contact:website                  N		'http://mpetrol.hu/hirek/52\-geresdlak'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-18:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-20&addtags=%7Caddr%3Acity%3DGeresdlak%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DHunyadi%20J%C3%A1nos%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2069%20349%20025%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/52-geresdlak%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-18%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-20" lat="46.107901" lon="18.519087" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Geresdlak"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Hunyadi János utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 69 349 025"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/52-geresdlak"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-18:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.227611 19.536071) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Tompa'
+addr:postcode                    N		'0'
+addr:street                      N		'Hunyadi utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 329 4242'
+contact:website                  N		'http://mpetrol.hu/hirek/63\-tompa'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-21&addtags=%7Caddr%3Acity%3DTompa%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DHunyadi%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20329%204242%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/63-tompa%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-21" lat="46.227611" lon="19.536071" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Tompa"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Hunyadi utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 329 4242"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/63-tompa"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (48.105957 20.810856) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Miskolc'
+addr:housenumber                 N		'48'
+addr:postcode                    N		'0'
+addr:street                      N		'József Attila út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 448 1856'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D48%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20448%201856%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-22" lat="48.105957" lon="20.810856" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Miskolc"/>
+    <tag k="addr:housenumber" v="48"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="József Attila út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 448 1856"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.021213 19.776195) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Nagykőrös'
+addr:housenumber                 N		'301'
+addr:postcode                    N		'0'
+addr:street                      N		'Kecskeméti út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 404 4918'
+contact:website                  N		'http://mpetrol.hu/hirek/34\-ujabb\-toltoallomassal\-bovult\-a\-m\-petrol\-halozat\-megnyitottunk\-nagykoroson'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 06:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-23&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D301%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DKecskem%C3%A9ti%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20404%204918%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/34-ujabb-toltoallomassal-bovult-a-m-petrol-halozat-megnyitottunk-nagykoroson%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-23" lat="47.021213" lon="19.776195" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Nagykőrös"/>
+    <tag k="addr:housenumber" v="301"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Kecskeméti út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 404 4918"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/34-ujabb-toltoallomassal-bovult-a-m-petrol-halozat-megnyitottunk-nagykoroson"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 06:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.11075 20.224664) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Szolnok'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'0'
+addr:street                      N		'Kölcsey Ferenc utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 257 0546'
+contact:website                  N		'http://mpetrol.hu/hirek/62\-szolnok'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 05:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-24&addtags=%7Caddr%3Acity%3DSzolnok%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DK%C3%B6lcsey%20Ferenc%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20257%200546%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/62-szolnok%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2005%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-24" lat="47.11075" lon="20.224664" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Szolnok"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Kölcsey Ferenc utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 257 0546"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/62-szolnok"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 05:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.595096 17.687689) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Nyúl'
+addr:postcode                    N		'0'
+addr:street                      N		'Kossuth Lajos utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 315 3675'
+contact:website                  N		'http://mpetrol.hu/hirek/27\-uj\-toltoallomas\-a\-halozatban\-megnyitottunk\-nyulon'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DNy%C3%BAl%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20315%203675%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/27-uj-toltoallomas-a-halozatban-megnyitottunk-nyulon%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-25" lat="47.595096" lon="17.687689" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Nyúl"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Kossuth Lajos utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 315 3675"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/27-uj-toltoallomas-a-halozatban-megnyitottunk-nyulon"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.6097 21.5215) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Józsa'
+addr:postcode                    N		'0'
+addr:street                      N		'M35 autópálya 31. km szelvény BAL oldal'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 471 9010'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-26&addtags=%7Caddr%3Acity%3DJ%C3%B3zsa%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DM35%20aut%C3%B3p%C3%A1lya%2031.%20km%20szelv%C3%A9ny%20BAL%20oldal%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20471%209010%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-26" lat="47.6097" lon="21.5215" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Józsa"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="M35 autópálya 31. km szelvény BAL oldal"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 471 9010"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.6116 21.5191) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Józsa'
+addr:postcode                    N		'0'
+addr:street                      N		'M35 autópálya 31. km szelvény JOBB oldal'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 470 7071'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-27&addtags=%7Caddr%3Acity%3DJ%C3%B3zsa%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DM35%20aut%C3%B3p%C3%A1lya%2031.%20km%20szelv%C3%A9ny%20JOBB%20oldal%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20470%207071%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-27" lat="47.6116" lon="21.5191" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Józsa"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="M35 autópálya 31. km szelvény JOBB oldal"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 470 7071"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.63339 19.472169) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Bag'
+addr:housenumber                 N		'39'
+addr:postcode                    N		'0'
+addr:street                      N		'M3 autópálya'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 368 8004'
+contact:website                  N		'http://mpetrol.hu/hirek/35\-uj\-toltoallomas\-nyilt\-bagon2'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-28&addtags=%7Caddr%3Acity%3DBag%7Caddr%3Ahousenumber%3D39%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DM3%20aut%C3%B3p%C3%A1lya%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20368%208004%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/35-uj-toltoallomas-nyilt-bagon2%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-28" lat="47.63339" lon="19.472169" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Bag"/>
+    <tag k="addr:housenumber" v="39"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="M3 autópálya"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 368 8004"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/35-uj-toltoallomas-nyilt-bagon2"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.845478 21.142314) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Polgár'
+addr:postcode                    N		'0'
+addr:street                      N		'M3 autópálya'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 70 434 8446'
+contact:website                  N		'http://mpetrol.hu/hirek/59\-polgar'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-29&addtags=%7Caddr%3Acity%3DPolg%C3%A1r%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DM3%20aut%C3%B3p%C3%A1lya%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2070%20434%208446%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/59-polgar%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-29" lat="47.845478" lon="21.142314" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Polgár"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="M3 autópálya"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 70 434 8446"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/59-polgar"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.60844 19.841188) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Petőfiszállás'
+addr:housenumber                 N		'121'
+addr:postcode                    N		'0'
+addr:street                      N		'M5 autópálya'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 70 902 5548'
+contact:website                  N		'http://mpetrol.hu/hirek/58\-petofiszallas\-m5\-b'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-30&addtags=%7Caddr%3Acity%3DPet%C5%91fisz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D121%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DM5%20aut%C3%B3p%C3%A1lya%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2070%20902%205548%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/58-petofiszallas-m5-b%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-30" lat="46.60844" lon="19.841188" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Petőfiszállás"/>
+    <tag k="addr:housenumber" v="121"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="M5 autópálya"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 70 902 5548"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/58-petofiszallas-m5-b"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.467206 19.153598) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:postcode                    N		'0'
+addr:street                      N		'Sibrik Miklós út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 281 5957'
+contact:website                  N		'http://mpetrol.hu/hirek/32\-uj\-toltoallomas\-a\-halozatban\-megnyitottunk\-budapest\-x\-kerulet\-sibrik\-gyomroi\-sarok'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-31&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DSibrik%20Mikl%C3%B3s%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20281%205957%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/32-uj-toltoallomas-a-halozatban-megnyitottunk-budapest-x-kerulet-sibrik-gyomroi-sarok%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-31" lat="47.467206" lon="19.153598" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Sibrik Miklós út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 281 5957"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/32-uj-toltoallomas-a-halozatban-megnyitottunk-budapest-x-kerulet-sibrik-gyomroi-sarok"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.435408 20.317695) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Hódmezővásárhely'
+addr:housenumber                 N		'151'
+addr:postcode                    N		'0'
+addr:street                      N		'Szántó Kovács János utca'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 663 7578'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 05:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-32&addtags=%7Caddr%3Acity%3DH%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely%7Caddr%3Ahousenumber%3D151%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DSz%C3%A1nt%C3%B3%20Kov%C3%A1cs%20J%C3%A1nos%20utca%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20663%207578%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2005%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-32" lat="46.435408" lon="20.317695" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Hódmezővásárhely"/>
+    <tag k="addr:housenumber" v="151"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Szántó Kovács János utca"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 663 7578"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 05:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.674008 17.638008) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Győr'
+addr:postcode                    N		'0'
+addr:street                      N		'Szigethy Attila út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 289 0818'
+contact:website                  N		'http://mpetrol.hu/'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 05:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-33&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DSzigethy%20Attila%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20289%200818%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2005%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-33" lat="47.674008" lon="17.638008" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Győr"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Szigethy Attila út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 289 0818"/>
+    <tag k="contact:website" v="http://mpetrol.hu/"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 05:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.756514 19.141664) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Vác'
+addr:housenumber                 N		'32'
+addr:postcode                    N		'0'
+addr:street                      N		'Vác, Szent László út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 533 9399'
+contact:website                  N		'http://mpetrol.hu/hirek/20\-uj\-modern\-belsoepitesu\-m\-petrol\-toltoallomas\-nyilt\-vacott'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-34&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DV%C3%A1c%2C%20Szent%20L%C3%A1szl%C3%B3%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20533%209399%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/20-uj-modern-belsoepitesu-m-petrol-toltoallomas-nyilt-vacott%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-34" lat="47.756514" lon="19.141664" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Vác"/>
+    <tag k="addr:housenumber" v="32"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Vác, Szent László út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 533 9399"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/20-uj-modern-belsoepitesu-m-petrol-toltoallomas-nyilt-vacott"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.093274 20.15294) -->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Tószeg'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'0'
+addr:street                      N		'Várkonyi út'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 20 437 0260'
+contact:website                  N		'http://mpetrol.hu/hirek/64\-toszeg'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'Mo\-Su 05:00\-22:00; PH off'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-35&addtags=%7Caddr%3Acity%3DT%C3%B3szeg%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D0%7Caddr%3Astreet%3DV%C3%A1rkonyi%20%C3%BAt%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2020%20437%200260%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/64-toszeg%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3DMo-Su%2005%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-35" lat="47.093274" lon="20.15294" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Tószeg"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="addr:street" v="Várkonyi út"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 20 437 0260"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/64-toszeg"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="Mo-Su 05:00-22:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (47.358405 19.20036) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Gyál'
+addr:postcode                    N		'0'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 630 3774'
+contact:website                  N		'http://mpetrol.hu/hirek/21\-varja\-ont\-az\-elso\-m\-petrol\-gasztrokut\-gyalon'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-36&addtags=%7Caddr%3Acity%3DGy%C3%A1l%7Caddr%3Apostcode%3D0%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20630%203774%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/21-varja-ont-az-elso-m-petrol-gasztrokut-gyalon%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-36" lat="47.358405" lon="19.20036" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Gyál"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 630 3774"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/21-varja-ont-az-elso-m-petrol-gasztrokut-gyalon"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
+  </node>
+  <!-- Original coordinates: POINT (46.0543 18.2765) -->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Kozármisleny'
+addr:conscriptionnumber          N		'3369'
+addr:postcode                    N		'0'
+amenity                          N		'fuel'
+brand                            N		'Mobil Petrol'
+contact:email                    N		'info@mpetrol.hu'
+contact:facebook                 N		'https://www.facebook.com/mpetrolofficial/'
+contact:phone                    N		'+36 30 717 7703'
+contact:website                  N		'http://mpetrol.hu/hirek/39\-uj\-toltoallomas\-nyilt\-kozarmislenyben'
+fuel:diesel                      N		'yes'
+fuel:octane_95                   N		'yes'
+name                             N		'Mobil Petrol'
+opening_hours                    N		'24/7'
+opening_hours:covid19            N		'same'
+operator                         N		'MPH Power Zrt.'
+operator:addr                    N		'1095 Budapest, Ipar utca 2.'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+source:mpetrol.hu:date           N		'2020\-05\-17'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-37&addtags=%7Caddr%3Acity%3DKoz%C3%A1rmisleny%7Caddr%3Aconscriptionnumber%3D3369%7Caddr%3Apostcode%3D0%7Camenity%3Dfuel%7Cbrand%3DMobil%20Petrol%7Ccontact%3Aemail%3Dinfo%40mpetrol.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mpetrolofficial/%7Ccontact%3Aphone%3D%2B36%2030%20717%207703%7Ccontact%3Awebsite%3Dhttp%3A//mpetrol.hu/hirek/39-uj-toltoallomas-nyilt-kozarmislenyben%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMobil%20Petrol%7Copening_hours%3D24/7%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMPH%20Power%20Zrt.%7Coperator%3Aaddr%3D1095%20Budapest%2C%20Ipar%20utca%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Ampetrol.hu%3Adate%3D2020-05-17 -->
+  <node action="modify" id="-37" lat="46.0543" lon="18.2765" timestamp="2020-05-17T14:09:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Kozármisleny"/>
+    <tag k="addr:conscriptionnumber" v="3369"/>
+    <tag k="addr:postcode" v="0"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Mobil Petrol"/>
+    <tag k="contact:email" v="info@mpetrol.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mpetrolofficial/"/>
+    <tag k="contact:phone" v="+36 30 717 7703"/>
+    <tag k="contact:website" v="http://mpetrol.hu/hirek/39-uj-toltoallomas-nyilt-kozarmislenyben"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="Mobil Petrol"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="MPH Power Zrt."/>
+    <tag k="operator:addr" v="1095 Budapest, Ipar utca 2."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="source:mpetrol.hu:date" v="2020-05-17"/>
   </node>
 </osm>

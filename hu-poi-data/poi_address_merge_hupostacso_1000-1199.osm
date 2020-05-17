@@ -1,0 +1,1133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- Original coordinates: POINT (47.484597 19.227711) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'5\-7'
+addr:postcode                    N		'1173'
+addr:street                      N		'Pesti út'
+amenity                          N		'vending_machine'
+branch                           N		'33 számú automata \- Pesti úti Tesco'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D5-7%7Caddr%3Apostcode%3D1173%7Caddr%3Astreet%3DPesti%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3D33%20sz%C3%A1m%C3%BA%20automata%20-%20Pesti%20%C3%BAti%20Tesco%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-1" lat="47.484597" lon="19.227711" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="5-7"/>
+    <tag k="addr:postcode" v="1173"/>
+    <tag k="addr:street" v="Pesti út"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="33 számú automata - Pesti úti Tesco"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.433516 19.201943) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'661'
+addr:postcode                    N		'1182'
+addr:street                      N		'Üllői út'
+amenity                          N		'vending_machine'
+branch                           N		'38 számú automata \- Lőrinc Center'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'Mo\-Sa 07:00\-22:00,06:00\-24:00; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D661%7Caddr%3Apostcode%3D1182%7Caddr%3Astreet%3D%C3%9Cll%C5%91i%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3D38%20sz%C3%A1m%C3%BA%20automata%20-%20L%C5%91rinc%20Center%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3DMo-Sa%2007%3A00-22%3A00%2C06%3A00-24%3A00%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-2" lat="47.433516" lon="19.201943" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="661"/>
+    <tag k="addr:postcode" v="1182"/>
+    <tag k="addr:street" v="Üllői út"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="38 számú automata - Lőrinc Center"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-22:00,06:00-24:00; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.532436 19.066466) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		''
+addr:postcode                    N		'1138'
+addr:street                      N		'Árpád híd metró aluljáró '
+amenity                          N		'vending_machine'
+branch                           N		'43 számú automata \- Árpád híd metró aluljáró'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D%7Caddr%3Apostcode%3D1138%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20h%C3%ADd%20metr%C3%B3%20alulj%C3%A1r%C3%B3%20%7Camenity%3Dvending_machine%7Cbranch%3D43%20sz%C3%A1m%C3%BA%20automata%20-%20%C3%81rp%C3%A1d%20h%C3%ADd%20metr%C3%B3%20alulj%C3%A1r%C3%B3%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-3" lat="47.532436" lon="19.066466" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v=""/>
+    <tag k="addr:postcode" v="1138"/>
+    <tag k="addr:street" v="Árpád híd metró aluljáró "/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="43 számú automata - Árpád híd metró aluljáró"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.562566 19.021198) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'262'
+addr:postcode                    N		'1037'
+addr:street                      N		'Bécsi út'
+amenity                          N		'vending_machine'
+branch                           N		'2 számú automata \- Bécsi út Tesco'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D262%7Caddr%3Apostcode%3D1037%7Caddr%3Astreet%3DB%C3%A9csi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3D2%20sz%C3%A1m%C3%BA%20automata%20-%20B%C3%A9csi%20%C3%BAt%20Tesco%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-4" lat="47.562566" lon="19.021198" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="262"/>
+    <tag k="addr:postcode" v="1037"/>
+    <tag k="addr:street" v="Bécsi út"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="2 számú automata - Bécsi út Tesco"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.499972 19.024628) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,standard_opening_hours}; bad {street_is_not_around,street_metaphone_is_not_around}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		''
+addr:postcode                    N		'1012'
+addr:street                      N		'Déli pályaudvar'
+amenity                          N		'vending_machine'
+branch                           N		'40 számú automata \- Déli pályaudvar'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D%7Caddr%3Apostcode%3D1012%7Caddr%3Astreet%3DD%C3%A9li%20p%C3%A1lyaudvar%7Camenity%3Dvending_machine%7Cbranch%3D40%20sz%C3%A1m%C3%BA%20automata%20-%20D%C3%A9li%20p%C3%A1lyaudvar%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-5" lat="47.499972" lon="19.024628" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v=""/>
+    <tag k="addr:postcode" v="1012"/>
+    <tag k="addr:street" v="Déli pályaudvar"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="40 számú automata - Déli pályaudvar"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.486183 19.074554) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'37\-45'
+addr:postcode                    N		'1082'
+addr:street                      N		'Futó utca'
+amenity                          N		'vending_machine'
+branch                           N		'36 számú automata \- Corvin Pláza'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D37-45%7Caddr%3Apostcode%3D1082%7Caddr%3Astreet%3DFut%C3%B3%20utca%7Camenity%3Dvending_machine%7Cbranch%3D36%20sz%C3%A1m%C3%BA%20automata%20-%20Corvin%20Pl%C3%A1za%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-6" lat="47.486183" lon="19.074554" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="37-45"/>
+    <tag k="addr:postcode" v="1082"/>
+    <tag k="addr:street" v="Futó utca"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="36 számú automata - Corvin Pláza"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.55563 19.079757) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'3'
+addr:postcode                    N		'1138'
+addr:street                      N		'Gács utca'
+amenity                          N		'vending_machine'
+branch                           N		'3 számú automata \- Váci út Tesco'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D1138%7Caddr%3Astreet%3DG%C3%A1cs%20utca%7Camenity%3Dvending_machine%7Cbranch%3D3%20sz%C3%A1m%C3%BA%20automata%20-%20V%C3%A1ci%20%C3%BAt%20Tesco%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-7" lat="47.55563" lon="19.079757" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:postcode" v="1138"/>
+    <tag k="addr:street" v="Gács utca"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="3 számú automata - Váci út Tesco"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.540107 18.965818) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'138'
+addr:postcode                    N		'1021'
+addr:street                      N		'Hűvösvölgyi út'
+amenity                          N		'vending_machine'
+branch                           N		'1 számú automata \- Stop\-Shop áruház'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D138%7Caddr%3Apostcode%3D1021%7Caddr%3Astreet%3DH%C5%B1v%C3%B6sv%C3%B6lgyi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3D1%20sz%C3%A1m%C3%BA%20automata%20-%20Stop-Shop%20%C3%A1ruh%C3%A1z%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-8" lat="47.540107" lon="18.965818" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="138"/>
+    <tag k="addr:postcode" v="1021"/>
+    <tag k="addr:street" v="Hűvösvölgyi út"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="1 számú automata - Stop-Shop áruház"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.51084 19.055303) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'1137'
+addr:street                      N		'Nyugati tér'
+amenity                          N		'vending_machine'
+branch                           N		'41 számú automata \- Nyugati tér metró aluljáró'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1137%7Caddr%3Astreet%3DNyugati%20t%C3%A9r%7Camenity%3Dvending_machine%7Cbranch%3D41%20sz%C3%A1m%C3%BA%20automata%20-%20Nyugati%20t%C3%A9r%20metr%C3%B3%20alulj%C3%A1r%C3%B3%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-9" lat="47.51084" lon="19.055303" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1137"/>
+    <tag k="addr:street" v="Nyugati tér"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="41 számú automata - Nyugati tér metró aluljáró"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.4657395 19.0226817) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'6'
+addr:postcode                    N		'1115'
+addr:street                      N		'Etele tér'
+amenity                          N		'vending_machine'
+branch                           N		'42 számú automata \- Kelenföld pu. metró aluljáró'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D1115%7Caddr%3Astreet%3DEtele%20t%C3%A9r%7Camenity%3Dvending_machine%7Cbranch%3D42%20sz%C3%A1m%C3%BA%20automata%20-%20Kelenf%C3%B6ld%20pu.%20metr%C3%B3%20alulj%C3%A1r%C3%B3%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-10" lat="47.4657395" lon="19.0226817" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="6"/>
+    <tag k="addr:postcode" v="1115"/>
+    <tag k="addr:street" v="Etele tér"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="42 számú automata - Kelenföld pu. metró aluljáró"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.456304 19.03966) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'161'
+addr:postcode                    N		'1119'
+addr:street                      N		'Fehérvári út'
+amenity                          N		'vending_machine'
+branch                           N		'7 számú automata \- Andor utca Spar'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D161%7Caddr%3Apostcode%3D1119%7Caddr%3Astreet%3DFeh%C3%A9rv%C3%A1ri%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3D7%20sz%C3%A1m%C3%BA%20automata%20-%20Andor%20utca%20Spar%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-11" lat="47.456304" lon="19.03966" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="161"/>
+    <tag k="addr:postcode" v="1119"/>
+    <tag k="addr:street" v="Fehérvári út"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="7 számú automata - Andor utca Spar"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.470556 19.084284) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'12\-14'
+addr:postcode                    N		'1097'
+addr:street                      N		'Könyves Kálmán körút'
+amenity                          N		'vending_machine'
+branch                           N		'37 számú automata \- Lurdy Bevásárlóközpont'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D12-14%7Caddr%3Apostcode%3D1097%7Caddr%3Astreet%3DK%C3%B6nyves%20K%C3%A1lm%C3%A1n%20k%C3%B6r%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3D37%20sz%C3%A1m%C3%BA%20automata%20-%20Lurdy%20Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-12" lat="47.470556" lon="19.084284" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="12-14"/>
+    <tag k="addr:postcode" v="1097"/>
+    <tag k="addr:street" v="Könyves Kálmán körút"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="37 számú automata - Lurdy Bevásárlóközpont"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.47398 19.04913) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'8\-10'
+addr:postcode                    N		'1117'
+addr:street                      N		'Október huszonharmadika utca'
+amenity                          N		'vending_machine'
+branch                           N		'39 számú automata \- Allée Bevásárlóközpont'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D8-10%7Caddr%3Apostcode%3D1117%7Caddr%3Astreet%3DOkt%C3%B3ber%20huszonharmadika%20utca%7Camenity%3Dvending_machine%7Cbranch%3D39%20sz%C3%A1m%C3%BA%20automata%20-%20All%C3%A9e%20Bev%C3%A1s%C3%A1rl%C3%B3k%C3%B6zpont%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-13" lat="47.47398" lon="19.04913" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="8-10"/>
+    <tag k="addr:postcode" v="1117"/>
+    <tag k="addr:street" v="Október huszonharmadika utca"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="39 számú automata - Allée Bevásárlóközpont"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.463211 19.129217) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'201'
+addr:postcode                    N		'1191'
+addr:street                      N		'Üllői út'
+amenity                          N		'vending_machine'
+branch                           N		'5 számú automata \- Shopmark parkoló'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D201%7Caddr%3Apostcode%3D1191%7Caddr%3Astreet%3D%C3%9Cll%C5%91i%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3D5%20sz%C3%A1m%C3%BA%20automata%20-%20Shopmark%20parkol%C3%B3%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-14" lat="47.463211" lon="19.129217" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="201"/>
+    <tag k="addr:postcode" v="1191"/>
+    <tag k="addr:street" v="Üllői út"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="5 számú automata - Shopmark parkoló"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.462297 19.147798) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'75. A\-C'
+addr:postcode                    N		'1191'
+addr:street                      N		'Vak Bottyán utca'
+amenity                          N		'vending_machine'
+branch                           N		'10 számú automata \- KÖKI'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D75.%20A-C%7Caddr%3Apostcode%3D1191%7Caddr%3Astreet%3DVak%20Botty%C3%A1n%20utca%7Camenity%3Dvending_machine%7Cbranch%3D10%20sz%C3%A1m%C3%BA%20automata%20-%20K%C3%96KI%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-15" lat="47.462297" lon="19.147798" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="75. A-C"/>
+    <tag k="addr:postcode" v="1191"/>
+    <tag k="addr:street" v="Vak Bottyán utca"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="10 számú automata - KÖKI"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.5046855 19.1384089) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'24 (A)'
+addr:postcode                    N		'1144'
+addr:street                      N		'Örs vezér tere'
+amenity                          N		'vending_machine'
+branch                           N		'9 számú automata \- Sugár A (IKEA felől)'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D24%20%28A%29%7Caddr%3Apostcode%3D1144%7Caddr%3Astreet%3D%C3%96rs%20vez%C3%A9r%20tere%7Camenity%3Dvending_machine%7Cbranch%3D9%20sz%C3%A1m%C3%BA%20automata%20-%20Sug%C3%A1r%20A%20%28IKEA%20fel%C5%91l%29%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-16" lat="47.5046855" lon="19.1384089" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="24 (A)"/>
+    <tag k="addr:postcode" v="1144"/>
+    <tag k="addr:street" v="Örs vezér tere"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="9 számú automata - Sugár A (IKEA felől)"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.504606 19.137486) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'24 (B)'
+addr:postcode                    N		'1144'
+addr:street                      N		'Örs vezér tere'
+amenity                          N		'vending_machine'
+branch                           N		'4 számú automata \- Sugár B (IKEA felől)'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D24%20%28B%29%7Caddr%3Apostcode%3D1144%7Caddr%3Astreet%3D%C3%96rs%20vez%C3%A9r%20tere%7Camenity%3Dvending_machine%7Cbranch%3D4%20sz%C3%A1m%C3%BA%20automata%20-%20Sug%C3%A1r%20B%20%28IKEA%20fel%C5%91l%29%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-17" lat="47.504606" lon="19.137486" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="24 (B)"/>
+    <tag k="addr:postcode" v="1144"/>
+    <tag k="addr:street" v="Örs vezér tere"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="4 számú automata - Sugár B (IKEA felől)"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+  <!-- Original coordinates: POINT (47.5045439 19.1164855) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around,standard_opening_hours}; bad {}-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Budapest'
+addr:housenumber                 N		'15'
+addr:postcode                    N		'1149'
+addr:street                      N		'Pillangó utca'
+amenity                          N		'vending_machine'
+branch                           N		'50 számú automata \- Fogarasi úti Tesco'
+brand                            N		'Magyar Posta'
+brand:wikidata                   N		'Q145614'
+brand:wikipedia                  N		'hu:Magyar Posta Zrt.'
+contact:email                    N		'ugyfelszolgalat@posta.hu'
+contact:facebook                 N		'https://www.facebook.com/MagyarPosta'
+contact:instagram                N		'https://www.instagram.com/magyar_posta_zrt'
+contact:phone                    N		'+3617678200'
+contact:website                  N		'https://www.posta.hu'
+contact:youtube                  N		'https://www.youtube.com/user/magyarpostaofficial'
+fixme                            N		'verify import'
+name                             N		'Posta csomagautomata'
+opening_hours                    N		'24/7; PH on'
+opening_hours:covid19            N		'same'
+operator                         N		'Magyar Posta Zrt.'
+operator:addr                    N		'1138 Budapest, Dunavirág utca 2\-6.'
+payment:cash                     N		'yes'
+payment:debit_cards              N		'yes'
+ref:vatin                        N		'HU10901232'
+ref:vatin:hu                     N		'10901232\-2\-44'
+source:www.posta.hu:date         N		'2020\-05\-17'
+vending                          N		'parcel_pickup'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D15%7Caddr%3Apostcode%3D1149%7Caddr%3Astreet%3DPillang%C3%B3%20utca%7Camenity%3Dvending_machine%7Cbranch%3D50%20sz%C3%A1m%C3%BA%20automata%20-%20Fogarasi%20%C3%BAti%20Tesco%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B3617678200%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%20csomagautomata%7Copening_hours%3D24/7%3B%20PH%20on%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Awww.posta.hu%3Adate%3D2020-05-17%7Cvending%3Dparcel_pickup -->
+  <node action="modify" id="-18" lat="47.5045439" lon="19.1164855" timestamp="2020-05-17T08:48:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:postcode" v="1149"/>
+    <tag k="addr:street" v="Pillangó utca"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="branch" v="50 számú automata - Fogarasi úti Tesco"/>
+    <tag k="brand" v="Magyar Posta"/>
+    <tag k="brand:wikidata" v="Q145614"/>
+    <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
+    <tag k="contact:email" v="ugyfelszolgalat@posta.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/MagyarPosta"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/magyar_posta_zrt"/>
+    <tag k="contact:phone" v="+3617678200"/>
+    <tag k="contact:website" v="https://www.posta.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Posta csomagautomata"/>
+    <tag k="opening_hours" v="24/7; PH on"/>
+    <tag k="opening_hours:covid19" v="same"/>
+    <tag k="operator" v="Magyar Posta Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="ref:vatin" v="HU10901232"/>
+    <tag k="ref:vatin:hu" v="10901232-2-44"/>
+    <tag k="source:www.posta.hu:date" v="2020-05-17"/>
+    <tag k="vending" v="parcel_pickup"/>
+  </node>
+</osm>
