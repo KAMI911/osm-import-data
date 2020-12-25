@@ -1,40 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
-  <!-- OSM link: https://osm.org/node/7972588483 -->
   <!-- Original coordinates: POINT (47.41347 18.88305) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Érd'			'Érd'
-addr:postcode                    E		'2030'			'2030'
-addr:street                      E		'Iparos utca'			'Iparos utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Érd \- Iparos utca'			'Érd \- Iparos utca'
+addr:city                        N		'Érd'
+addr:postcode                    N		'2030'
+addr:street                      N		'Iparos utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Érd \- Iparos utca'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'EVBox BusinessLine'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'EVBox'
+model                            N		'BusinessLine'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588483&addtags=%7Caddr%3Acity%3D%C3%89rd%7Caddr%3Apostcode%3D2030%7Caddr%3Astreet%3DIparos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D%C3%89rd%20-%20Iparos%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%20BusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.41347" lon="18.88305" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3D%C3%89rd%7Caddr%3Apostcode%3D2030%7Caddr%3Astreet%3DIparos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D%C3%89rd%20-%20Iparos%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Iparos utca - INTERSPAR ', 'postcode': '2030', 'city': 'Érd', 'street': 'Iparos utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-1" lat="47.41347" lon="18.88305" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Érd"/>
     <tag k="addr:postcode" v="2030"/>
     <tag k="addr:street" v="Iparos utca"/>
@@ -49,7 +50,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="EVBox BusinessLine"/>
+    <tag k="manufacturer" v="EVBox"/>
+    <tag k="model" v="BusinessLine"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -60,44 +62,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588482 -->
   <!-- Original coordinates: POINT (47.45317 18.93662) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budaörs'			'Budaörs'
-addr:housenumber                 E		'146'			'146'
-addr:postcode                    E		'2040'			'2040'
-addr:street                      E		'Baross utca'			'Baross utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Budaörs \- Baross utca'			'Budaörs \- Baross utca'
+addr:city                        N		'Budaörs'
+addr:housenumber                 N		'146'
+addr:postcode                    N		'2040'
+addr:street                      N		'Baross utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Budaörs \- Baross utca'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'Ensto EVF200'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Ensto'
+model                            N		'EVF200'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588482&addtags=%7Caddr%3Acity%3DBuda%C3%B6rs%7Caddr%3Ahousenumber%3D146%7Caddr%3Apostcode%3D2040%7Caddr%3Astreet%3DBaross%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DBuda%C3%B6rs%20-%20Baross%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%20EVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.45317" lon="18.93662" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBuda%C3%B6rs%7Caddr%3Ahousenumber%3D146%7Caddr%3Apostcode%3D2040%7Caddr%3Astreet%3DBaross%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DBuda%C3%B6rs%20-%20Baross%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Baross u. 146. - Decathlon ', 'postcode': '2040', 'city': 'Budaörs', 'street': 'Baross utca', 'housenumber': '146', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="47.45317" lon="18.93662" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budaörs"/>
     <tag k="addr:housenumber" v="146"/>
     <tag k="addr:postcode" v="2040"/>
@@ -113,7 +116,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto EVF200"/>
+    <tag k="manufacturer" v="Ensto"/>
+    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -124,44 +128,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588481 -->
   <!-- Original coordinates: POINT (47.45406 18.94308) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budaörs'			'Budaörs'
-addr:housenumber                 E		'2\-4'			'2\-4'
-addr:postcode                    E		'2040'			'2040'
-addr:street                      E		'Sport utca'			'Sport utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Budaörs \- Sport utca'			'Budaörs \- Sport utca'
+addr:city                        N		'Budaörs'
+addr:housenumber                 N		'2\-4'
+addr:postcode                    N		'2040'
+addr:street                      N		'Sport utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Budaörs \- Sport utca'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'Alfen EVE Double Pro\-Line'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Alfen'
+model                            N		'EVE Double Pro\-Line'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588481&addtags=%7Caddr%3Acity%3DBuda%C3%B6rs%7Caddr%3Ahousenumber%3D2-4%7Caddr%3Apostcode%3D2040%7Caddr%3Astreet%3DSport%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DBuda%C3%B6rs%20-%20Sport%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%20EVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.45406" lon="18.94308" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBuda%C3%B6rs%7Caddr%3Ahousenumber%3D2-4%7Caddr%3Apostcode%3D2040%7Caddr%3Astreet%3DSport%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DBuda%C3%B6rs%20-%20Sport%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%7Cmodel%3DEVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Sport utca 2-4. - Auchan ', 'postcode': '2040', 'city': 'Budaörs', 'street': 'Sport utca', 'housenumber': '2-4', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-3" lat="47.45406" lon="18.94308" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budaörs"/>
     <tag k="addr:housenumber" v="2-4"/>
     <tag k="addr:postcode" v="2040"/>
@@ -177,7 +182,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Alfen EVE Double Pro-Line"/>
+    <tag k="manufacturer" v="Alfen"/>
+    <tag k="model" v="EVE Double Pro-Line"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -188,44 +194,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588480 -->
   <!-- Original coordinates: POINT (47.61223 19.06123) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Budakalász'			'Budakalász'
-addr:housenumber                 E		'1'			'1'
-addr:postcode                    E		'2011'			'2011'
-addr:street                      E		'Omszk park'			'Omszk park'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Budakalász \- Omszk park'			'Budakalász \- Omszk park'
+addr:city                        N		'Budakalász'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'2011'
+addr:street                      N		'Omszk park'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Budakalász \- Omszk park'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'Alfen EVE Double Pro\-Line'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Alfen'
+model                            N		'EVE Double Pro\-Line'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588480&addtags=%7Caddr%3Acity%3DBudakal%C3%A1sz%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2011%7Caddr%3Astreet%3DOmszk%20park%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DBudakal%C3%A1sz%20-%20Omszk%20park%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%20EVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.61223" lon="19.06123" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudakal%C3%A1sz%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2011%7Caddr%3Astreet%3DOmszk%20park%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DBudakal%C3%A1sz%20-%20Omszk%20park%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%7Cmodel%3DEVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Omszk park 1. - Auchan', 'postcode': '2011', 'city': 'Budakalász', 'street': 'Omszk park', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="47.61223" lon="19.06123" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budakalász"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="2011"/>
@@ -241,7 +248,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Alfen EVE Double Pro-Line"/>
+    <tag k="manufacturer" v="Alfen"/>
+    <tag k="model" v="EVE Double Pro-Line"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -252,46 +260,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7977439908 -->
   <!-- Original coordinates: POINT (47.43947 18.88985) -->
-  <!-- OSM <-> POI distance: 9.88359804 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Törökbálint'			'Törökbálint'
-addr:housenumber                 E		'1'			'1'
-addr:postcode                    E		'2045'			'2045'
-addr:street                      E		'Torbágy utca'			'Torbágy utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
+addr:city                        N		'Törökbálint'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'2045'
+addr:street                      N		'Torbágy utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
 authentication:none              N		'yes'
-branch                           E		'Törökbálint \- Torbágy utca'			'Törökbálint \- Torbágy utca'
-brand                            E		'Tesla Supercharger'			'Tesla Supercharger'
-brand:wikidata                   E		'Q17089620'			'Q17089620'
-brand:wikipedia                  E		'en:Tesla Supercharger'			'en:Tesla Supercharger'
-capacity                         M		'2'			'4'
+branch                           N		'Törökbálint \- Torbágy utca'
+capacity                         N		'2'
 contact:email                    N		'help@mobiliti.hu'
-contact:phone                    M		'+36 62 565 758'			'+1 700 8549'
+contact:phone                    N		'+36 62 565 758'
 contact:website                  N		'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-manufacturer                     N		'Alfen EVE Double Pro\-Line'
-name                             M		'Mobiliti'			'Tesla Supercharger'
-opening_hours                    E		'24/7'			'24/7'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Alfen'
+model                            N		'EVE Double Pro\-Line'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
 operator                         N		'NKM Mobilitás Kft.'
 operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
+parking:fee                      N		'no'
 ref:HU:company                   N		'01\-09\-965868'
 ref:vatin                        N		'HU23443486'
 ref:vatin:hu                     N		'23443486\-2\-42'
 socket:type2_cable               N		'2'
 socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2020\-10\-18'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7977439908&addtags=%7Caddr%3Acity%3DT%C3%B6r%C3%B6kb%C3%A1lint%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2045%7Caddr%3Astreet%3DTorb%C3%A1gy%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DT%C3%B6r%C3%B6kb%C3%A1lint%20-%20Torb%C3%A1gy%20utca%7Cbrand%3DTesla%20Supercharger%7Cbrand%3Awikidata%3DQ17089620%7Cbrand%3Awikipedia%3Den%3ATesla%20Supercharger%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DAlfen%20EVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.4395141" lon="18.8897359" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DT%C3%B6r%C3%B6kb%C3%A1lint%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2045%7Caddr%3Astreet%3DTorb%C3%A1gy%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DT%C3%B6r%C3%B6kb%C3%A1lint%20-%20Torb%C3%A1gy%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%7Cmodel%3DEVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Torbágy utca 1. - Auchan ', 'postcode': '2045', 'city': 'Törökbálint', 'street': 'Torbágy utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.43947" lon="18.88985" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Törökbálint"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="2045"/>
@@ -301,15 +308,14 @@ source:www.mobiliti.hu:date      N		'2020\-10\-18'
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
     <tag k="branch" v="Törökbálint - Torbágy utca"/>
-    <tag k="brand" v="Tesla Supercharger"/>
-    <tag k="brand:wikidata" v="Q17089620"/>
-    <tag k="brand:wikipedia" v="en:Tesla Supercharger"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
-    <tag k="manufacturer" v="Alfen EVE Double Pro-Line"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Alfen"/>
+    <tag k="model" v="EVE Double Pro-Line"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -320,44 +326,45 @@ source:www.mobiliti.hu:date      N		'2020\-10\-18'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588479 -->
   <!-- Original coordinates: POINT (47.40436 18.94752) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Diósd'			'Diósd'
-addr:housenumber                 E		'2/A'			'2/A'
-addr:postcode                    E		'2049'			'2049'
-addr:street                      E		'Balatoni út'			'Balatoni út'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Diósd \- Balatoni út'			'Diósd \- Balatoni út'
+addr:city                        N		'Diósd'
+addr:housenumber                 N		'2/A'
+addr:postcode                    N		'2049'
+addr:street                      N		'Balatoni út'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Diósd \- Balatoni út'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'EVBox BusinessLine'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'EVBox'
+model                            N		'BusinessLine'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588479&addtags=%7Caddr%3Acity%3DDi%C3%B3sd%7Caddr%3Ahousenumber%3D2/A%7Caddr%3Apostcode%3D2049%7Caddr%3Astreet%3DBalatoni%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDi%C3%B3sd%20-%20Balatoni%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%20BusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.40436" lon="18.94752" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DDi%C3%B3sd%7Caddr%3Ahousenumber%3D2/A%7Caddr%3Apostcode%3D2049%7Caddr%3Astreet%3DBalatoni%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDi%C3%B3sd%20-%20Balatoni%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Balatoni út 2/A - INTERSPAR', 'postcode': '2049', 'city': 'Diósd', 'street': 'Balatoni út', 'housenumber': '2/A', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-6" lat="47.40436" lon="18.94752" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Diósd"/>
     <tag k="addr:housenumber" v="2/A"/>
     <tag k="addr:postcode" v="2049"/>
@@ -373,7 +380,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="EVBox BusinessLine"/>
+    <tag k="manufacturer" v="EVBox"/>
+    <tag k="model" v="BusinessLine"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -384,44 +392,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588478 -->
   <!-- Original coordinates: POINT (47.599 18.96087) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Solymár'			'Solymár'
-addr:housenumber                 E		'2'			'2'
-addr:postcode                    E		'2083'			'2083'
-addr:street                      E		'Szent Flórián utca'			'Szent Flórián utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Solymár \- Szent Flórián utca'			'Solymár \- Szent Flórián utca'
+addr:city                        N		'Solymár'
+addr:housenumber                 N		'2'
+addr:postcode                    N		'2083'
+addr:street                      N		'Szent Flórián utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Solymár \- Szent Flórián utca'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'Alfen EVE Double Pro\-Line'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Alfen'
+model                            N		'EVE Double Pro\-Line'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588478&addtags=%7Caddr%3Acity%3DSolym%C3%A1r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2083%7Caddr%3Astreet%3DSzent%20Fl%C3%B3ri%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSolym%C3%A1r%20-%20Szent%20Fl%C3%B3ri%C3%A1n%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%20EVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.599" lon="18.96087" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DSolym%C3%A1r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D2083%7Caddr%3Astreet%3DSzent%20Fl%C3%B3ri%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DSolym%C3%A1r%20-%20Szent%20Fl%C3%B3ri%C3%A1n%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%7Cmodel%3DEVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Szent Flórián utca 2. - Auchan', 'postcode': '2083', 'city': 'Solymár', 'street': 'Szent Flórián utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="47.599" lon="18.96087" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Solymár"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="2083"/>
@@ -437,7 +446,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Alfen EVE Double Pro-Line"/>
+    <tag k="manufacturer" v="Alfen"/>
+    <tag k="model" v="EVE Double Pro-Line"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -448,44 +458,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588477 -->
   <!-- Original coordinates: POINT (47.6068 19.11506) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Dunakeszi'			'Dunakeszi'
-addr:housenumber                 E		'6'			'6'
-addr:postcode                    E		'2120'			'2120'
-addr:street                      E		'Nádas utca'			'Nádas utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Dunakeszi \- Nádas utca'			'Dunakeszi \- Nádas utca'
+addr:city                        N		'Dunakeszi'
+addr:housenumber                 N		'6'
+addr:postcode                    N		'2120'
+addr:street                      N		'Nádas utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Dunakeszi \- Nádas utca'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'Alfen EVE Double Pro\-Line'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Alfen'
+model                            N		'EVE Double Pro\-Line'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588477&addtags=%7Caddr%3Acity%3DDunakeszi%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D2120%7Caddr%3Astreet%3DN%C3%A1das%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDunakeszi%20-%20N%C3%A1das%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%20EVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.6068" lon="19.11506" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DDunakeszi%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D2120%7Caddr%3Astreet%3DN%C3%A1das%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDunakeszi%20-%20N%C3%A1das%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%7Cmodel%3DEVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Nádas u. 6. - Auchan', 'postcode': '2120', 'city': 'Dunakeszi', 'street': 'Nádas utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-8" lat="47.6068" lon="19.11506" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Dunakeszi"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="2120"/>
@@ -501,7 +512,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Alfen EVE Double Pro-Line"/>
+    <tag k="manufacturer" v="Alfen"/>
+    <tag k="model" v="EVE Double Pro-Line"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -512,44 +524,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588476 -->
   <!-- Original coordinates: POINT (47.60702 19.11224) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Dunakeszi'			'Dunakeszi'
-addr:housenumber                 E		'3'			'3'
-addr:postcode                    E		'2120'			'2120'
-addr:street                      E		'Pallag utca'			'Pallag utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Dunakeszi \- Pallag utca'			'Dunakeszi \- Pallag utca'
+addr:city                        N		'Dunakeszi'
+addr:housenumber                 N		'3'
+addr:postcode                    N		'2120'
+addr:street                      N		'Pallag utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Dunakeszi \- Pallag utca'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'Ensto EVF200'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Ensto'
+model                            N		'EVF200'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588476&addtags=%7Caddr%3Acity%3DDunakeszi%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D2120%7Caddr%3Astreet%3DPallag%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDunakeszi%20-%20Pallag%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%20EVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.60702" lon="19.11224" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DDunakeszi%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D2120%7Caddr%3Astreet%3DPallag%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DDunakeszi%20-%20Pallag%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Pallag utca 3. - Decathlon ', 'postcode': '2120', 'city': 'Dunakeszi', 'street': 'Pallag utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-9" lat="47.60702" lon="19.11224" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Dunakeszi"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="2120"/>
@@ -565,7 +578,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto EVF200"/>
+    <tag k="manufacturer" v="Ensto"/>
+    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -576,44 +590,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/7972588475 -->
   <!-- Original coordinates: POINT (47.53879 19.24616) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Csömör'			'Csömör'
-addr:housenumber                 E		'6'			'6'
-addr:postcode                    E		'2141'			'2141'
-addr:street                      E		'Határ út'			'Határ út'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
-authentication:none              E		'yes'			'yes'
-branch                           E		'Csömör \- Határ út'			'Csömör \- Határ út'
+addr:city                        N		'Csömör'
+addr:housenumber                 N		'6'
+addr:postcode                    N		'2141'
+addr:street                      N		'Határ út'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
+authentication:none              N		'yes'
+branch                           N		'Csömör \- Határ út'
 capacity                         N		'2'
-contact:email                    E		'help@mobiliti.hu'			'help@mobiliti.hu'
-contact:phone                    E		'+36 62 565 758'			'+36 62 565 758'
-contact:website                  E		'https://www.mobiliti.hu'			'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-fixme                            E		'verify import'			'verify import'
-manufacturer                     N		'Ensto EVF200'
-name                             E		'Mobiliti'			'Mobiliti'
-opening_hours                    E		'24/7'			'24/7'
-operator                         E		'NKM Mobilitás Kft.'			'NKM Mobilitás Kft.'
-operator:addr                    E		'1081 Budapest, II. János Pál pápa tér 20.'			'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
-ref:HU:company                   E		'01\-09\-965868'			'01\-09\-965868'
-ref:vatin                        E		'HU23443486'			'HU23443486'
-ref:vatin:hu                     E		'23443486\-2\-42'			'23443486\-2\-42'
-socket:type2_cable               E		'2'			'2'
-socket:type2_cable:output        E		'22 kW'			'22 kW'
-source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
+contact:email                    N		'help@mobiliti.hu'
+contact:phone                    N		'+36 62 565 758'
+contact:website                  N		'https://www.mobiliti.hu'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Ensto'
+model                            N		'EVF200'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
+operator                         N		'NKM Mobilitás Kft.'
+operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
+parking:fee                      N		'no'
+ref:HU:company                   N		'01\-09\-965868'
+ref:vatin                        N		'HU23443486'
+ref:vatin:hu                     N		'23443486\-2\-42'
+socket:type2_cable               N		'2'
+socket:type2_cable:output        N		'22 kW'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7972588475&addtags=%7Caddr%3Acity%3DCs%C3%B6m%C3%B6r%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D2141%7Caddr%3Astreet%3DHat%C3%A1r%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DCs%C3%B6m%C3%B6r%20-%20Hat%C3%A1r%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%20EVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="3" lat="47.53879" lon="19.24616" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DCs%C3%B6m%C3%B6r%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D2141%7Caddr%3Astreet%3DHat%C3%A1r%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DCs%C3%B6m%C3%B6r%20-%20Hat%C3%A1r%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Határ út 6. - Decathlon ', 'postcode': '2141', 'city': 'Csömör', 'street': 'Határ út', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-10" lat="47.53879" lon="19.24616" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Csömör"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="2141"/>
@@ -629,7 +644,8 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
     <tag k="fixme" v="verify import"/>
-    <tag k="manufacturer" v="Ensto EVF200"/>
+    <tag k="manufacturer" v="Ensto"/>
+    <tag k="model" v="EVF200"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -640,46 +656,45 @@ source:www.mobiliti.hu:date      M		'2020\-10\-18'			'2020\-09\-28'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
-  <!-- OSM link: https://osm.org/node/6924630785 -->
   <!-- Original coordinates: POINT (47.58218 19.1623) -->
-  <!-- OSM <-> POI distance: 0.61816055 m-->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        E		'Fót'			'Fót'
-addr:housenumber                 E		'1'			'1'
-addr:postcode                    E		'2151'			'2151'
-addr:street                      E		'Fehérkő utca'			'Fehérkő utca'
-amenity                          E		'charging_station'			'charging_station'
-authentication:app               E		'yes'			'yes'
-authentication:membership_card   E		'yes'			'yes'
+addr:city                        N		'Fót'
+addr:housenumber                 N		'1'
+addr:postcode                    N		'2151'
+addr:street                      N		'Fehérkő utca'
+amenity                          N		'charging_station'
+authentication:app               N		'yes'
+authentication:membership_card   N		'yes'
 authentication:none              N		'yes'
-branch                           E		'Fót \- Fehérkő utca'			'Fót \- Fehérkő utca'
-brand                            E		'Tesla Supercharger'			'Tesla Supercharger'
-brand:wikidata                   E		'Q17089620'			'Q17089620'
-brand:wikipedia                  E		'en:Tesla Supercharger'			'en:Tesla Supercharger'
-capacity                         M		'2'			'8'
+branch                           N		'Fót \- Fehérkő utca'
+capacity                         N		'2'
 contact:email                    N		'help@mobiliti.hu'
-contact:phone                    M		'+36 62 565 758'			'+1 700 8549'
+contact:phone                    N		'+36 62 565 758'
 contact:website                  N		'https://www.mobiliti.hu'
-fee                              E		'yes'			'yes'
-manufacturer                     N		'Alfen EVE Double Pro\-Line'
-name                             M		'Mobiliti'			'Tesla Supercharger'
-opening_hours                    E		'24/7'			'24/7'
+fee                              N		'yes'
+fixme                            N		'verify import'
+manufacturer                     N		'Alfen'
+model                            N		'EVE Double Pro\-Line'
+name                             N		'Mobiliti'
+opening_hours                    N		'24/7'
 operator                         N		'NKM Mobilitás Kft.'
 operator:addr                    N		'1081 Budapest, II. János Pál pápa tér 20.'
-parking:fee                      E		'no'			'no'
+parking:fee                      N		'no'
 ref:HU:company                   N		'01\-09\-965868'
 ref:vatin                        N		'HU23443486'
 ref:vatin:hu                     N		'23443486\-2\-42'
 socket:type2_cable               N		'2'
 socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2020\-10\-18'
+source:www.mobiliti.hu:date      N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6924630785&addtags=%7Caddr%3Acity%3DF%C3%B3t%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2151%7Caddr%3Astreet%3DFeh%C3%A9rk%C5%91%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DF%C3%B3t%20-%20Feh%C3%A9rk%C5%91%20utca%7Cbrand%3DTesla%20Supercharger%7Cbrand%3Awikidata%3DQ17089620%7Cbrand%3Awikipedia%3Den%3ATesla%20Supercharger%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DAlfen%20EVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-10-18 -->
-  <node action="modify" id="7" lat="47.5821745" lon="19.1623012" timestamp="2020-10-13T19:34:08Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DF%C3%B3t%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2151%7Caddr%3Astreet%3DFeh%C3%A9rk%C5%91%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DF%C3%B3t%20-%20Feh%C3%A9rk%C5%91%20utca%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DAlfen%7Cmodel%3DEVE%20Double%20Pro-Line%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': 'Fehérkő utca 1 - Auchan ', 'postcode': '2151', 'city': 'Fót', 'street': 'Fehérkő utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-11" lat="47.58218" lon="19.1623" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Fót"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="2151"/>
@@ -689,15 +704,14 @@ source:www.mobiliti.hu:date      N		'2020\-10\-18'
     <tag k="authentication:membership_card" v="yes"/>
     <tag k="authentication:none" v="yes"/>
     <tag k="branch" v="Fót - Fehérkő utca"/>
-    <tag k="brand" v="Tesla Supercharger"/>
-    <tag k="brand:wikidata" v="Q17089620"/>
-    <tag k="brand:wikipedia" v="en:Tesla Supercharger"/>
     <tag k="capacity" v="2"/>
     <tag k="contact:email" v="help@mobiliti.hu"/>
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
-    <tag k="manufacturer" v="Alfen EVE Double Pro-Line"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="manufacturer" v="Alfen"/>
+    <tag k="model" v="EVE Double Pro-Line"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
     <tag k="operator" v="NKM Mobilitás Kft."/>
@@ -708,6 +722,6 @@ source:www.mobiliti.hu:date      N		'2020\-10\-18'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2020-10-18"/>
+    <tag k="source:www.mobiliti.hu:date" v="2020-12-25"/>
   </node>
 </osm>

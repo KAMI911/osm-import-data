@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
   <!-- Original coordinates: POINT (47.51026 19.04716) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Budapest'
@@ -25,10 +25,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D9-11%7Caddr%3Apostcode%3D1055%7Caddr%3Astreet%3DBalassi%20B%C3%A1lint%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok01%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-1" lat="47.51026" lon="19.04716" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D9-11%7Caddr%3Apostcode%3D1055%7Caddr%3Astreet%3DBalassi%20B%C3%A1lint%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok01%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '1055 Budapest, Balassi Bálint u. 9-11.', 'postcode': '1055', 'city': 'Budapest', 'street': 'Balassi Bálint utca', 'housenumber': '9-11', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-1" lat="47.51026" lon="19.04716" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="9-11"/>
     <tag k="addr:postcode" v="1055"/>
@@ -50,10 +51,10 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.51077 19.0712) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Budapest'
@@ -77,10 +78,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D98%7Caddr%3Apostcode%3D1062%7Caddr%3Astreet%3DAndr%C3%A1ssy%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok10%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-2" lat="47.51077" lon="19.0712" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D98%7Caddr%3Apostcode%3D1062%7Caddr%3Astreet%3DAndr%C3%A1ssy%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok10%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '1062 Budapest, Andrássy út 98.', 'postcode': '1062', 'city': 'Budapest', 'street': 'Andrássy út', 'housenumber': '98', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="47.51077" lon="19.0712" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="98"/>
     <tag k="addr:postcode" v="1062"/>
@@ -102,10 +104,10 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.49419 19.06076) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Budapest'
@@ -129,10 +131,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D1088%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok22%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-3" lat="47.49419" lon="19.06076" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D1088%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok22%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '1088 Budapest, Rákóczi út 1-3.', 'postcode': '1088', 'city': 'Budapest', 'street': 'Rákóczi út', 'housenumber': '1-3', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-3" lat="47.49419" lon="19.06076" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="1-3"/>
     <tag k="addr:postcode" v="1088"/>
@@ -154,10 +157,10 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.47941 19.05173) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Budapest'
@@ -181,10 +184,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D34%7Caddr%3Apostcode%3D1111%7Caddr%3Astreet%3DBart%C3%B3k%20B%C3%A9la%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok15%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-4" lat="47.47941" lon="19.05173" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D34%7Caddr%3Apostcode%3D1111%7Caddr%3Astreet%3DBart%C3%B3k%20B%C3%A9la%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok15%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '1111 Budapest, Bartók Béla út 34.', 'postcode': '1111', 'city': 'Budapest', 'street': 'Bartók Béla út', 'housenumber': '34', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-4" lat="47.47941" lon="19.05173" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="34"/>
     <tag k="addr:postcode" v="1111"/>
@@ -206,10 +210,10 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.45839 19.14569) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Budapest'
@@ -233,10 +237,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D1191%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok14%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-5" lat="47.45839" lon="19.14569" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D1191%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok14%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '1191 Budapest, Kossuth tér 5.  1. emelet', 'postcode': '1191', 'city': 'Budapest', 'street': 'Kossuth tér', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.45839" lon="19.14569" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="1191"/>
@@ -258,10 +263,10 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.59231 18.93799) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Solymár'
@@ -285,10 +290,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DSolym%C3%A1r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2083%7Caddr%3Astreet%3DV%C3%A1rhegy%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok13%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-6" lat="47.59231" lon="18.93799" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DSolym%C3%A1r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2083%7Caddr%3Astreet%3DV%C3%A1rhegy%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok13%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '2083 Solymár, Várhegy u. 1.', 'postcode': '2083', 'city': 'Solymár', 'street': 'Várhegy utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-6" lat="47.59231" lon="18.93799" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Solymár"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="2083"/>
@@ -310,10 +316,10 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.63256 19.12924) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Dunakeszi'
@@ -337,10 +343,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DDunakeszi%7Caddr%3Ahousenumber%3D41%7Caddr%3Apostcode%3D2120%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok23%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-7" lat="47.63256" lon="19.12924" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DDunakeszi%7Caddr%3Ahousenumber%3D41%7Caddr%3Apostcode%3D2120%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok23%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '2120 Dunakeszi, Fő út 41.', 'postcode': '2120', 'city': 'Dunakeszi', 'street': 'Fő út', 'housenumber': '41', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="47.63256" lon="19.12924" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Dunakeszi"/>
     <tag k="addr:housenumber" v="41"/>
     <tag k="addr:postcode" v="2120"/>
@@ -362,10 +369,10 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
   <!-- Original coordinates: POINT (47.18974 18.41198) -->
-  <!-- Checker good: {not_in_water,street_is_around,street_metaphone_is_around}; bad {}-->
+  <!-- Checker good: ['not_in_water', 'street_is_around', 'street_metaphone_is_around']; bad []-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        N		'Székesfehérvár'
@@ -389,10 +396,11 @@ operator:addr                    N		'1062 Budapest, Andrássy út 98.'
 ref:HU:company                   N		'01 10 046111'
 ref:vatin                        N		'HU14413591'
 ref:vatin:hu                     N		'14413591\-4\-44'
-source:www.magnetbank.hu:date    N		'2020\-10\-03'
+source:www.magnetbank.hu:date    N		'2020\-12\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DSz%C3%A9kesfeh%C3%A9rv%C3%A1r%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D8000%7Caddr%3Astreet%3DKossuth%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok24%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-10-03 -->
-  <node action="modify" id="-8" lat="47.18974" lon="18.41198" timestamp="2020-10-03T18:03:38Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DSz%C3%A9kesfeh%C3%A9rv%C3%A1r%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D8000%7Caddr%3Astreet%3DKossuth%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dbank%7Catm%3Dyes%7Cbic%3DHBWEHUHB%7Cbrand%3DMagNet%20Bank%7Cbrand%3Awikidata%3DQ17379757%7Cbrand%3Awikipedia%3Dhu%3AMagNet%20Bank%7Ccontact%3Aemail%3Dfiok24%40magnetbank.hu%7Ccontact%3Afax%3D%2B36%201%20428%208889%7Ccontact%3Aphone%3D%2B36%201%20428%208888%7Ccontact%3Awebsite%3Dhttps%3A//www.magnetbank.hu%7Cname%3DMagNet%20Bank%7Coperator%3DMagNet%20Magyar%20K%C3%B6z%C3%B6ss%C3%A9gi%20Bank%20Zrt.%7Coperator%3Aaddr%3D1062%20Budapest%2C%20Andr%C3%A1ssy%20%C3%BAt%2098.%7Cref%3AHU%3Acompany%3D01%2010%20046111%7Cref%3Avatin%3DHU14413591%7Cref%3Avatin%3Ahu%3D14413591-4-44%7Csource%3Awww.magnetbank.hu%3Adate%3D2020-12-25 -->
+  <!--ˇ'original': '8000 Székesfehérvár, Kossuth u. 14.', 'postcode': '8000', 'city': 'Székesfehérvár', 'street': 'Kossuth utca', 'housenumber': '14', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-8" lat="47.18974" lon="18.41198" timestamp="2020-12-25T09:26:13Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Székesfehérvár"/>
     <tag k="addr:housenumber" v="14"/>
     <tag k="addr:postcode" v="8000"/>
@@ -414,6 +422,6 @@ source:www.magnetbank.hu:date    N		'2020\-10\-03'
     <tag k="ref:HU:company" v="01 10 046111"/>
     <tag k="ref:vatin" v="HU14413591"/>
     <tag k="ref:vatin:hu" v="14413591-4-44"/>
-    <tag k="source:www.magnetbank.hu:date" v="2020-10-03"/>
+    <tag k="source:www.magnetbank.hu:date" v="2020-12-25"/>
   </node>
 </osm>
