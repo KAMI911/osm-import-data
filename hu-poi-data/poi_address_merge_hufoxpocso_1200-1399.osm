@@ -30,10 +30,10 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date        MOD 		'2022\-01\-13'			'2020\-09\-27'
+source:www.foxpost.hu:date        MOD 		'2022\-02\-11'			'2020\-09\-27'
 vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681558&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1203%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20Interspar%20Sz%C3%A9chenyi%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20mosd%C3%B3%20oldal%C3%A1ban%2C%20a%20Coffee%20To%20Go%20k%C3%A1v%C3%A9z%C3%B3val%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2010%3A30-11%3A30%20%C3%A9s%2019%3A00-20%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-19%3A30%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2008%3A30-18%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681558&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1203%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20Interspar%20Sz%C3%A9chenyi%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20mosd%C3%B3%20oldal%C3%A1ban%2C%20a%20Coffee%20To%20Go%20k%C3%A1v%C3%A9z%C3%B3val%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2010%3A30-11%3A30%20%C3%A9s%2019%3A00-20%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-19%3A30%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2008%3A30-18%3A00%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1201 Budapest XX, 20 Széchenyi utca 1.', 'postcode': '1203', 'city': 'Budapest', 'street': 'Széchenyi utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681558" lat="47.439644" lon="19.100489" timestamp="2020-09-27T13:20:52Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Budapest"/>
@@ -61,7 +61,7 @@ vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- Original coordinates: POINT (47.424187 19.111116) -->
@@ -91,12 +91,12 @@ payment:visa                     N		'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2022\-01\-13'
+source:www.foxpost.hu:date       N		'2022\-02\-11'
 vending                          N		'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Apostcode%3D1201%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20CBA%20V%C3%A1g%C3%B3h%C3%ADd%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%2C%20a%20V%C3%A1g%C3%B3h%C3%ADd%20utca%20fel%C5%91l%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2007%3A00-08%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Apostcode%3D1201%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20CBA%20V%C3%A1g%C3%B3h%C3%ADd%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%2C%20a%20V%C3%A1g%C3%B3h%C3%ADd%20utca%20fel%C5%91l%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2007%3A00-08%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1201  Budapest, Vágóhíd uta 44.', 'postcode': '1201', 'city': 'Budapest', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="47.424187" lon="19.111116" timestamp="2022-01-13T14:06:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-2" lat="47.424187" lon="19.111116" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:postcode" v="1201"/>
     <tag k="amenity" v="vending_machine"/>
@@ -120,7 +120,7 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- Original coordinates: POINT (47.41661 19.14261) -->
@@ -152,12 +152,12 @@ payment:visa                     N		'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2022\-01\-13'
+source:www.foxpost.hu:date       N		'2022\-02\-11'
 vending                          N		'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D1204%7Caddr%3Astreet%3DK%C3%B6ves%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20ALDI%20K%C3%B6ves%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20parkol%C3%B3j%C3%A1nak%20bej%C3%A1rat%C3%A1n%C3%A1l%2C%20az%20%C3%A1rubesz%C3%A1ll%C3%ADt%C3%A1sn%C3%A1l%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A30-12%3A30%20%C3%A9s%2019%3A30-20%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D1204%7Caddr%3Astreet%3DK%C3%B6ves%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20ALDI%20K%C3%B6ves%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20parkol%C3%B3j%C3%A1nak%20bej%C3%A1rat%C3%A1n%C3%A1l%2C%20az%20%C3%A1rubesz%C3%A1ll%C3%ADt%C3%A1sn%C3%A1l%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A30-12%3A30%20%C3%A9s%2019%3A30-20%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1204 Budapest XX, 20 Köves út 9.', 'postcode': '1204', 'city': 'Budapest', 'street': 'Köves út', 'housenumber': '9', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="47.41661" lon="19.14261" timestamp="2022-01-13T14:06:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="47.41661" lon="19.14261" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="9"/>
     <tag k="addr:postcode" v="1204"/>
@@ -183,7 +183,7 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- Original coordinates: POINT (47.432431 19.118334) -->
@@ -215,12 +215,12 @@ payment:visa                     N		'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2022\-01\-13'
+source:www.foxpost.hu:date       N		'2022\-02\-11'
 vending                          N		'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D23%7Caddr%3Apostcode%3D1204%7Caddr%3Astreet%3DSz%C3%A9kelyh%C3%ADd%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20ALDI%20Sz%C3%A9kelyh%C3%ADd%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20parkol%C3%B3%20bej%C3%A1rat%C3%A1val%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A00-12%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D23%7Caddr%3Apostcode%3D1204%7Caddr%3Astreet%3DSz%C3%A9kelyh%C3%ADd%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2020.%20ker.%20ALDI%20Sz%C3%A9kelyh%C3%ADd%20utca%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20parkol%C3%B3%20bej%C3%A1rat%C3%A1val%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2011%3A00-12%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1204 Budapest XX, 20 Székelyhíd utca 23.', 'postcode': '1204', 'city': 'Budapest', 'street': 'Székelyhíd utca', 'housenumber': '23', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="47.432431" lon="19.118334" timestamp="2022-01-13T14:06:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-4" lat="47.432431" lon="19.118334" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="23"/>
     <tag k="addr:postcode" v="1204"/>
@@ -246,7 +246,7 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681557 -->
@@ -279,10 +279,10 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date        MOD 		'2022\-01\-13'			'2020\-09\-27'
+source:www.foxpost.hu:date        MOD 		'2022\-02\-11'			'2020\-09\-27'
 vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681557&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D154-170%7Caddr%3Apostcode%3D1212%7Caddr%3Astreet%3DII.%20R%C3%A1k%C3%B3czi%20Ferenc%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2021.%20ker.%20Csepel%20Spar%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20Spar%20h%C3%A1ts%C3%B3%20fal%C3%A1n%2C%20a%20T%C3%A1ncsics%20Mih%C3%A1ly%20utca%20fel%C5%91li%20oldalon%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2007%3A30-08%3A30%20%C3%A9s%2017%3A00-18%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681557&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D154-170%7Caddr%3Apostcode%3D1212%7Caddr%3Astreet%3DII.%20R%C3%A1k%C3%B3czi%20Ferenc%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2021.%20ker.%20Csepel%20Spar%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20Spar%20h%C3%A1ts%C3%B3%20fal%C3%A1n%2C%20a%20T%C3%A1ncsics%20Mih%C3%A1ly%20utca%20fel%C5%91li%20oldalon%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2007%3A30-08%3A30%20%C3%A9s%2017%3A00-18%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1212 Budapest XXI, 21 Görgey Artúr tér 20.', 'postcode': '1212', 'city': 'Budapest', 'street': 'II. Rákóczi Ferenc út', 'housenumber': '154-170', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681557" lat="47.423572" lon="19.067318" timestamp="2020-09-27T13:20:52Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Budapest"/>
@@ -310,7 +310,7 @@ vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681557 -->
@@ -343,10 +343,10 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date        MOD 		'2022\-01\-13'			'2020\-09\-27'
+source:www.foxpost.hu:date        MOD 		'2022\-02\-11'			'2020\-09\-27'
 vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681557&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D154-170%7Caddr%3Apostcode%3D1212%7Caddr%3Astreet%3DII.%20R%C3%A1k%C3%B3czi%20Ferenc%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2021.%20ker.%20Csepel%20Pl%C3%A1za%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20az%20els%C5%91%20emeleten%2C%20a%20mozg%C3%B3l%C3%A9pcs%C5%91t%C5%91l%20balra%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A00-09%3A00%20%C3%A9s%2016%3A30-17%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Su%2007%3A00-21%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681557&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D154-170%7Caddr%3Apostcode%3D1212%7Caddr%3Astreet%3DII.%20R%C3%A1k%C3%B3czi%20Ferenc%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2021.%20ker.%20Csepel%20Pl%C3%A1za%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20az%20els%C5%91%20emeleten%2C%20a%20mozg%C3%B3l%C3%A9pcs%C5%91t%C5%91l%20balra%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A00-09%3A00%20%C3%A9s%2016%3A30-17%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Su%2007%3A00-21%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1212 Budapest XXI, 21 II Rákóczi Ferenc út 154-170.', 'postcode': '1212', 'city': 'Budapest', 'street': 'II. Rákóczi Ferenc út', 'housenumber': '154-170', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681557" lat="47.423572" lon="19.067318" timestamp="2020-09-27T13:20:52Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Budapest"/>
@@ -374,7 +374,7 @@ vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681556 -->
@@ -407,10 +407,10 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date        MOD 		'2022\-01\-13'			'2020\-09\-27'
+source:www.foxpost.hu:date        MOD 		'2022\-02\-11'			'2020\-09\-27'
 vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681556&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D191%7Caddr%3Apostcode%3D1214%7Caddr%3Astreet%3DII.%20R%C3%A1k%C3%B3czi%20Ferenc%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2021.%20ker.%20Csepel%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20kasszasorral%20szemben%20l%C3%A9v%C5%91%20oldalon%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A30-09%3A30%20%C3%A9s%2018%3A00-19%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681556&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D191%7Caddr%3Apostcode%3D1214%7Caddr%3Astreet%3DII.%20R%C3%A1k%C3%B3czi%20Ferenc%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2021.%20ker.%20Csepel%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20kasszasorral%20szemben%20l%C3%A9v%C5%91%20oldalon%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A30-09%3A30%20%C3%A9s%2018%3A00-19%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1214 Budapest XXI, 21 Rákóczi Ferenc út 191.', 'postcode': '1214', 'city': 'Budapest', 'street': 'II. Rákóczi Ferenc út', 'housenumber': '191', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681556" lat="47.414773" lon="19.054924" timestamp="2022-01-01T21:12:31Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Budapest"/>
@@ -438,7 +438,7 @@ vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- Original coordinates: POINT (47.426946 19.038486) -->
@@ -470,12 +470,12 @@ payment:visa                     N		'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2022\-01\-13'
+source:www.foxpost.hu:date       N		'2022\-02\-11'
 vending                          N		'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D1221%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2022.%20ker.%20Promontor%20Udvar%20%C3%9Czleth%C3%A1z%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20Kossuth%20Lajos%20utca%20fel%C5%91l%20a%20m%C3%A9lygar%C3%A1zs%20lej%C3%A1rat%C3%A1n%C3%A1l%2C%20a%20gyorsnyomd%C3%A1val%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2003%3A00-04%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D1221%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2022.%20ker.%20Promontor%20Udvar%20%C3%9Czleth%C3%A1z%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20a%20Kossuth%20Lajos%20utca%20fel%C5%91l%20a%20m%C3%A9lygar%C3%A1zs%20lej%C3%A1rat%C3%A1n%C3%A1l%2C%20a%20gyorsnyomd%C3%A1val%20szemben%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2003%3A00-04%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1221 Budapest XXII, 22 Kossuth Lajos utca 25/29.', 'postcode': '1221', 'city': 'Budapest', 'street': 'Kossuth Lajos utca', 'housenumber': '25', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-8" lat="47.426946" lon="19.038486" timestamp="2022-01-13T14:06:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-8" lat="47.426946" lon="19.038486" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="25"/>
     <tag k="addr:postcode" v="1221"/>
@@ -501,7 +501,7 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681555 -->
@@ -534,10 +534,10 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date        MOD 		'2022\-01\-13'			'2020\-09\-27'
+source:www.foxpost.hu:date        MOD 		'2022\-02\-11'			'2020\-09\-27'
 vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681555&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D37-43%7Caddr%3Apostcode%3D1222%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2022.%20ker.%20Campona%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20TESCO%20bej%C3%A1rat%C3%A1n%C3%A1l%20az%20OTP%20ATM%20mellett%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2007%3A00-08%3A00%20%C3%A9s%2018%3A30-19%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2010%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681555&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D37-43%7Caddr%3Apostcode%3D1222%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2022.%20ker.%20Campona%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20a%20TESCO%20bej%C3%A1rat%C3%A1n%C3%A1l%20az%20OTP%20ATM%20mellett%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2007%3A00-08%3A00%20%C3%A9s%2018%3A30-19%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2010%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1222 Budapest XXII, 22 Nagytétényi út 37-43.', 'postcode': '1222', 'city': 'Budapest', 'street': 'Nagytétényi út', 'housenumber': '37-43', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681555" lat="47.406968" lon="19.015177" timestamp="2021-02-23T21:02:51Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Budapest"/>
@@ -565,7 +565,7 @@ vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- Original coordinates: POINT (47.399455 19.005477) -->
@@ -597,12 +597,12 @@ payment:visa                     N		'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2022\-01\-13'
+source:www.foxpost.hu:date       N		'2022\-02\-11'
 vending                          N		'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D145-147%7Caddr%3Apostcode%3D1225%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2022.%20ker.%20ALDI%20Nagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1val%20szemben%20tal%C3%A1lhat%C3%B3%2C%20a%20Nagyt%C3%A9t%C3%A9nyi%20%C3%BAt%20fel%C3%A9.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2002%3A30-03%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D145-147%7Caddr%3Apostcode%3D1225%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2022.%20ker.%20ALDI%20Nagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1val%20szemben%20tal%C3%A1lhat%C3%B3%2C%20a%20Nagyt%C3%A9t%C3%A9nyi%20%C3%BAt%20fel%C3%A9.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2002%3A30-03%3A30%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1225 Budapest XXII, 12 Nagytétényi út 145-147.', 'postcode': '1225', 'city': 'Budapest', 'street': 'Nagytétényi út', 'housenumber': '145-147', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-10" lat="47.399455" lon="19.005477" timestamp="2022-01-13T14:06:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-10" lat="47.399455" lon="19.005477" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="145-147"/>
     <tag k="addr:postcode" v="1225"/>
@@ -628,7 +628,7 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- OSM link: https://osm.org/node/7059681554 -->
@@ -661,10 +661,10 @@ payment:visa                      EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
 ref:vatin                         EQU 		'HU25034644'			'HU25034644'
 ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
-source:www.foxpost.hu:date        MOD 		'2022\-01\-13'			'2020\-09\-27'
+source:www.foxpost.hu:date        MOD 		'2022\-02\-11'			'2020\-09\-27'
 vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681554&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D1239%7Caddr%3Astreet%3DBev%C3%A1s%C3%A1rl%C3%B3%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2023.%20ker.%20Soroks%C3%A1r%20Auchan%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20az%20oldals%C3%B3%20bej%C3%A1ratt%C3%B3l%20jobbra%20a%20vir%C3%A1g%C3%BCzlettel%20szemben%20tal%C3%A1lhat%C3%B3..%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A00-09%3A00%20%C3%A9s%2015%3A00-16%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DSu%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7059681554&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D1239%7Caddr%3Astreet%3DBev%C3%A1s%C3%A1rl%C3%B3%20utca%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2023.%20ker.%20Soroks%C3%A1r%20Auchan%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%200369%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DAutomat%C3%A1nk%20az%20oldals%C3%B3%20bej%C3%A1ratt%C3%B3l%20jobbra%20a%20vir%C3%A1g%C3%BCzlettel%20szemben%20tal%C3%A1lhat%C3%B3..%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2008%3A00-09%3A00%20%C3%A9s%2015%3A00-16%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cname%3DFoxpost%7Copening_hours%3DSu%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1239 Budapest XXIII, 23 Bevásárló utca 2.', 'postcode': '1239', 'city': 'Budapest', 'street': 'Bevásárló utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7059681554" lat="47.419549" lon="19.1578" timestamp="2020-09-27T13:20:52Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Budapest"/>
@@ -692,7 +692,7 @@ vending                           EQU 		'parcel_pickup;parcel_mail_in'			'parcel
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
   <!-- Original coordinates: POINT (47.386833 19.11005) -->
@@ -724,12 +724,12 @@ payment:visa                     N		'yes'
 ref:HU:company                   N		'10 10 020309'
 ref:vatin                        N		'HU25034644'
 ref:vatin:hu                     N		'25034644\-2\-10'
-source:www.foxpost.hu:date       N		'2022\-01\-13'
+source:www.foxpost.hu:date       N		'2022\-02\-11'
 vending                          N		'parcel_pickup;parcel_mail_in'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D32/A%7Caddr%3Apostcode%3D1239%7Caddr%3Astreet%3DHaraszti%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2023.%20ker.%20OMV%20Haraszti%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20OMV%20shop%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%2C%20az%20ALDI%20fel%C5%91li%20oldalfalon%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2019%3A00-20%3A00%20%C3%A9s%2002%3A30-03%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-01-13%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D32/A%7Caddr%3Apostcode%3D1239%7Caddr%3Astreet%3DHaraszti%20%C3%BAt%7Camenity%3Dvending_machine%7Cbranch%3DBp.%2023.%20ker.%20OMV%20Haraszti%20%C3%BAt%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DK%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20OMV%20shop%20bej%C3%A1rat%C3%A1t%C3%B3l%20jobbra%2C%20az%20ALDI%20fel%C5%91li%20oldalfalon%20tal%C3%A1lhat%C3%B3.%20Az%20automat%C3%A1t%20minden%20h%C3%A9tk%C3%B6znap%2019%3A00-20%3A00%20%C3%A9s%2002%3A30-03%3A00%20k%C3%B6z%C3%B6tt%20%C3%BCr%C3%ADtj%C3%BCk%20%C3%A9s%20t%C3%B6ltj%C3%BCk.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Awww.foxpost.hu%3Adate%3D2022-02-11%7Cvending%3Dparcel_pickup%3Bparcel_mail_in -->
   <!--ˇ'original': '1239 Budapest XXIII, 23 Haraszti út 32/A', 'postcode': '1239', 'city': 'Budapest', 'street': 'Haraszti út', 'housenumber': '32/A', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-12" lat="47.386833" lon="19.11005" timestamp="2022-01-13T14:06:57Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-12" lat="47.386833" lon="19.11005" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="32/A"/>
     <tag k="addr:postcode" v="1239"/>
@@ -755,7 +755,7 @@ vending                          N		'parcel_pickup;parcel_mail_in'
     <tag k="ref:HU:company" v="10 10 020309"/>
     <tag k="ref:vatin" v="HU25034644"/>
     <tag k="ref:vatin:hu" v="25034644-2-10"/>
-    <tag k="source:www.foxpost.hu:date" v="2022-01-13"/>
+    <tag k="source:www.foxpost.hu:date" v="2022-02-11"/>
     <tag k="vending" v="parcel_pickup;parcel_mail_in"/>
   </node>
 </osm>
