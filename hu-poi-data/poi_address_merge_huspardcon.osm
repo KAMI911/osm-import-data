@@ -1,5 +1,90 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- Original coordinates: POINT (46.723627 17.022276) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        N		'Pacsa'
+addr:housenumber                 N		'7'
+addr:postcode                    N		'8761'
+addr:street                      N		'75 ÖS főút'
+branch                           N		'DESpar Pacsa'
+brand                            N		'Spar'
+brand:wikidata                   N		'Q610492'
+brand:wikipedia                  N		'hu:Spar'
+contact:email                    N		'vevoszolgalat@spar.hu'
+contact:facebook                 N		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                N		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    N		'+36208237727'
+contact:website                  N		'https://www.spar.hu/uzletek/despar\-pacsa\-8761\-75\-os\-f\-ut\-7\-hrsz'
+contact:youtube                  N		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            N		'verify import'
+name                             N		'DeSpar'
+operator                         N		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         N		'yes'
+payment:cash                     N		'yes'
+payment:contactless              N		'yes'
+payment:edenred_card             N		'yes'
+payment:edenred_voucher          N		'yes'
+payment:erzsebet                 N		'yes'
+payment:erzsebet_plus            N		'yes'
+payment:jcb                      N		'yes'
+payment:maestro                  N		'yes'
+payment:mastercard               N		'yes'
+payment:mastercard_contactless   N		'yes'
+payment:mastercard_electronic    N		'yes'
+payment:multipay                 N		'yes'
+payment:otp_bankpont             N		'yes'
+payment:otp_cafeteria            N		'yes'
+payment:unionpay                 N		'yes'
+payment:v_pay                    N		'yes'
+payment:visa                     N		'yes'
+payment:visa_electron            N		'yes'
+shop                             N		'convenience'
+source:www.spar.hu:date          N		'2022\-02\-16'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DPacsa%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D8761%7Caddr%3Astreet%3D75%20%C3%96S%20f%C5%91%C3%BAt%7Cbranch%3DDESpar%20Pacsa%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-pacsa-8761-75-os-f-ut-7-hrsz%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-16 -->
+  <!--ˇ'original': '75 ÖS FŐÚT 7 HRSZ', 'postcode': '8761', 'city': 'Pacsa', 'street': '75 ÖS főút', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-1" lat="46.723627" lon="17.022276" timestamp="2022-02-16T15:07:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Pacsa"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="8761"/>
+    <tag k="addr:street" v="75 ÖS főút"/>
+    <tag k="branch" v="DESpar Pacsa"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/despar-pacsa-8761-75-os-f-ut-7-hrsz"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="DeSpar"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="convenience"/>
+    <tag k="source:www.spar.hu:date" v="2022-02-16"/>
+  </node>
   <!-- Original coordinates: POINT (46.466685 16.985351) -->
   <!-- OSM <-> POI distance: Non exist-->
   <!--
@@ -41,11 +126,11 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:www.spar.hu:date          N		'2022\-02\-11'
+source:www.spar.hu:date          N		'2022\-02\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Ahousenumber%3D118%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DMagyar%20utca%7Cbranch%3DDESpar%20Nagykanizsa%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-nagykanizsa-8800-magyar-utca-118-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-11 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Ahousenumber%3D118%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DMagyar%20utca%7Cbranch%3DDESpar%20Nagykanizsa%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-nagykanizsa-8800-magyar-utca-118-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-16 -->
   <!--ˇ'original': 'Magyar utca 118.', 'postcode': '8800', 'city': 'Nagykanizsa', 'street': 'Magyar utca', 'housenumber': '118', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="46.466685" lon="16.985351" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-2" lat="46.466685" lon="16.985351" timestamp="2022-02-16T15:07:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nagykanizsa"/>
     <tag k="addr:housenumber" v="118"/>
     <tag k="addr:postcode" v="8800"/>
@@ -83,7 +168,7 @@ source:www.spar.hu:date          N		'2022\-02\-11'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:www.spar.hu:date" v="2022-02-11"/>
+    <tag k="source:www.spar.hu:date" v="2022-02-16"/>
   </node>
   <!-- Original coordinates: POINT (46.859612 16.851035) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -126,11 +211,11 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:www.spar.hu:date          N		'2022\-02\-11'
+source:www.spar.hu:date          N		'2022\-02\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DKaszah%C3%A1zi%20%C3%BAt%7Cbranch%3DDESpar%20Zalaegerszeg%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-zalaegerszeg-8900-haszahazi-ut-96-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-11 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DKaszah%C3%A1zi%20%C3%BAt%7Cbranch%3DDESpar%20Zalaegerszeg%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-zalaegerszeg-8900-haszahazi-ut-96-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-16 -->
   <!--ˇ'original': 'Kaszaházi út 96.', 'postcode': '8900', 'city': 'Zalaegerszeg', 'street': 'Kaszaházi út', 'housenumber': '96', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="46.859612" lon="16.851035" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="46.859612" lon="16.851035" timestamp="2022-02-16T15:07:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Zalaegerszeg"/>
     <tag k="addr:housenumber" v="96"/>
     <tag k="addr:postcode" v="8900"/>
@@ -168,7 +253,7 @@ source:www.spar.hu:date          N		'2022\-02\-11'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:www.spar.hu:date" v="2022-02-11"/>
+    <tag k="source:www.spar.hu:date" v="2022-02-16"/>
   </node>
   <!-- Original coordinates: POINT (47.62567 17.78597) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -211,11 +296,11 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:www.spar.hu:date          N		'2022\-02\-11'
+source:www.spar.hu:date          N		'2022\-02\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DP%C3%A9r%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D9099%7Caddr%3Astreet%3DFEH%C3%89RV%C3%81RI%20%C3%BAt%7Cbranch%3DDESpar%20P%C3%A9r%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-per-9099-fehervari-ut-25%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-11 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DP%C3%A9r%7Caddr%3Ahousenumber%3D25%7Caddr%3Apostcode%3D9099%7Caddr%3Astreet%3DFEH%C3%89RV%C3%81RI%20%C3%BAt%7Cbranch%3DDESpar%20P%C3%A9r%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-per-9099-fehervari-ut-25%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-16 -->
   <!--ˇ'original': 'FEHÉRVÁRI ÚT 25', 'postcode': '9099', 'city': 'Pér', 'street': 'FEHÉRVÁRI út', 'housenumber': '25', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="47.62567" lon="17.78597" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-4" lat="47.62567" lon="17.78597" timestamp="2022-02-16T15:07:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Pér"/>
     <tag k="addr:housenumber" v="25"/>
     <tag k="addr:postcode" v="9099"/>
@@ -253,7 +338,7 @@ source:www.spar.hu:date          N		'2022\-02\-11'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:www.spar.hu:date" v="2022-02-11"/>
+    <tag k="source:www.spar.hu:date" v="2022-02-16"/>
   </node>
   <!-- Original coordinates: POINT (47.64686 17.43345) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -295,11 +380,11 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:www.spar.hu:date          N		'2022\-02\-11'
+source:www.spar.hu:date          N		'2022\-02\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DEnese%7Caddr%3Apostcode%3D9143%7Caddr%3Astreet%3D85%20%C3%96S%20f%C5%91%C3%BAt%7Cbranch%3DDESpar%20Enese%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-enese-9143-85-os-f-ut%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-11 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DEnese%7Caddr%3Apostcode%3D9143%7Caddr%3Astreet%3D85%20%C3%96S%20f%C5%91%C3%BAt%7Cbranch%3DDESpar%20Enese%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-enese-9143-85-os-f-ut%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-16 -->
   <!--ˇ'original': '85 ÖS FŐÚT', 'postcode': '9143', 'city': 'Enese', 'street': '85 ÖS főút', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="47.64686" lon="17.43345" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-5" lat="47.64686" lon="17.43345" timestamp="2022-02-16T15:07:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Enese"/>
     <tag k="addr:postcode" v="9143"/>
     <tag k="addr:street" v="85 ÖS főút"/>
@@ -336,7 +421,7 @@ source:www.spar.hu:date          N		'2022\-02\-11'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:www.spar.hu:date" v="2022-02-11"/>
+    <tag k="source:www.spar.hu:date" v="2022-02-16"/>
   </node>
   <!-- Original coordinates: POINT (47.70424 17.52959) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -379,11 +464,11 @@ payment:v_pay                    N		'yes'
 payment:visa                     N		'yes'
 payment:visa_electron            N		'yes'
 shop                             N		'convenience'
-source:www.spar.hu:date          N		'2022\-02\-11'
+source:www.spar.hu:date          N		'2022\-02\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DAbda%7Caddr%3Ahousenumber%3D186%7Caddr%3Apostcode%3D9151%7Caddr%3Astreet%3DB%C3%89CSI%20%C3%BAt%7Cbranch%3DDESpar%20Abda%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-abda-9151-becsi-ut-186%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-11 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DAbda%7Caddr%3Ahousenumber%3D186%7Caddr%3Apostcode%3D9151%7Caddr%3Astreet%3DB%C3%89CSI%20%C3%BAt%7Cbranch%3DDESpar%20Abda%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/despar-abda-9151-becsi-ut-186%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DDeSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Awww.spar.hu%3Adate%3D2022-02-16 -->
   <!--ˇ'original': 'BÉCSI ÚT 186', 'postcode': '9151', 'city': 'Abda', 'street': 'BÉCSI út', 'housenumber': '186', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-5" lat="47.70424" lon="17.52959" timestamp="2022-02-11T09:58:26Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-6" lat="47.70424" lon="17.52959" timestamp="2022-02-16T15:07:47Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Abda"/>
     <tag k="addr:housenumber" v="186"/>
     <tag k="addr:postcode" v="9151"/>
@@ -421,6 +506,6 @@ source:www.spar.hu:date          N		'2022\-02\-11'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:www.spar.hu:date" v="2022-02-11"/>
+    <tag k="source:www.spar.hu:date" v="2022-02-16"/>
   </node>
 </osm>
