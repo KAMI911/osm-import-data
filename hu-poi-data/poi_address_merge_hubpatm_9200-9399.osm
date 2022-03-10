@@ -1,37 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/8163456905 -->
   <!-- Original coordinates: POINT (47.8771 17.2687) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 22.62661142 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        N		'Mosonmagyaróvár'
-addr:housenumber                 N		'22'
-addr:postcode                    N		'9200'
-addr:street                      N		'Fő utca'
-air_conditioning                 N		'yes'
-amenity                          N		'atm'
-bic                              N		'BUDAHUHB'
-branch                           N		'Mosonmagyaróvár'
-brand                            N		'Budapest Bank'
-brand:wikidata                   N		'Q27493463'
-brand:wikipedia                  N		'en:Budapest Bank'
-contact:website                  N		'https://www.budapestbank.hu'
-name                             N		'Budapest Bank ATM'
-opening_hours                    N		'24/7'
-operator                         N		'Budapest Bank Zrt.'
-operator:addr                    N		'1138 Budapest, Váci út 193.'
-ref:HU:company                   N		'01 10 041037'
-ref:vatin                        N		'HU10196445'
-ref:vatin:hu                     N		'10196445\-4\-44'
-source:www.budapestbank.hu:date  N		'2022\-02\-21'
+addr:city                         EQU 		'Mosonmagyaróvár'			'Mosonmagyaróvár'
+addr:housenumber                  EQU 		'22'			'22'
+addr:postcode                     EQU 		'9200'			'9200'
+addr:street                       EQU 		'Fő út'			'Fő út'
+air_conditioning                  EQU 		'yes'			'yes'
+amenity                           EQU 		'atm'			'atm'
+bic                               EQU 		'BUDAHUHB'			'BUDAHUHB'
+branch                            EQU 		'Mosonmagyaróvár'			'Mosonmagyaróvár'
+brand                             EQU 		'Budapest Bank'			'Budapest Bank'
+brand:wikidata                    EQU 		'Q27493463'			'Q27493463'
+brand:wikipedia                   EQU 		'en:Budapest Bank'			'en:Budapest Bank'
+contact:website                   EQU 		'https://www.budapestbank.hu'			'https://www.budapestbank.hu'
+name                              EQU 		'Budapest Bank ATM'			'Budapest Bank ATM'
+opening_hours                     EQU 		'24/7'			'24/7'
+operator                          EQU 		'Budapest Bank Zrt.'			'Budapest Bank Zrt.'
+operator:addr                     EQU 		'1138 Budapest, Váci út 193.'			'1138 Budapest, Váci út 193.'
+ref:HU:company                    EQU 		'01 10 041037'			'01 10 041037'
+ref:vatin                         EQU 		'HU10196445'			'HU10196445'
+ref:vatin:hu                      EQU 		'10196445\-4\-44'			'10196445\-4\-44'
+source                            EQU 		'website'			'website'
+source:date                       MOD 		'2022\-03\-07'			'2020\-11\-25'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DMosonmagyar%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D22%7Caddr%3Apostcode%3D9200%7Caddr%3Astreet%3DF%C5%91%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DMosonmagyar%C3%B3v%C3%A1r%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Awww.budapestbank.hu%3Adate%3D2022-02-21 -->
-  <!--ˇ'original': 'Fő u. 22.', 'postcode': '9200', 'city': 'Mosonmagyaróvár', 'street': 'Fő utca', 'housenumber': '22', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.8771" lon="17.2687" timestamp="2022-02-21T08:16:00Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163456905&addtags=%7Caddr%3Acity%3DMosonmagyar%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D22%7Caddr%3Apostcode%3D9200%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DMosonmagyar%C3%B3v%C3%A1r%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Dwebsite%7Csource%3Adate%3D2022-03-07 -->
+  <!--ˇ'original': 'Fő u. 22.', 'postcode': '9200', 'city': 'Mosonmagyaróvár', 'street': 'Fő út', 'housenumber': '22', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="8163456905" lat="47.8769157" lon="17.2688286" timestamp="2021-12-17T18:58:59Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Mosonmagyaróvár"/>
     <tag k="addr:housenumber" v="22"/>
     <tag k="addr:postcode" v="9200"/>
-    <tag k="addr:street" v="Fő utca"/>
+    <tag k="addr:street" v="Fő út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="BUDAHUHB"/>
@@ -47,6 +49,7 @@ source:www.budapestbank.hu:date  N		'2022\-02\-21'
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
-    <tag k="source:www.budapestbank.hu:date" v="2022-02-21"/>
+    <tag k="source" v="website"/>
+    <tag k="source:date" v="2022-03-07"/>
   </node>
 </osm>

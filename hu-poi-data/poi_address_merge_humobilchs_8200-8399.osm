@@ -29,13 +29,15 @@ parking:fee                      N		'no'
 ref:HU:company                   N		'01\-09\-965868'
 ref:vatin                        N		'HU23443486'
 ref:vatin:hu                     N		'23443486\-2\-42'
+socket:chademo:output            N		'nan'
 socket:type2_cable               N		'2'
 socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+socket:type2_combo:output        N		'nan'
+source:date                      N		'2022\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D18%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DJutasi%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DVeszpr%C3%A9m%20-%20Jutasi%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DVeszpr%C3%A9m%7Caddr%3Ahousenumber%3D18%7Caddr%3Apostcode%3D8200%7Caddr%3Astreet%3DJutasi%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DVeszpr%C3%A9m%20-%20Jutasi%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3Aoutput%3Dnan%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3Aoutput%3Dnan%7Csource%3Adate%3D2022-03-07 -->
   <!--ˇ'original': 'Jutasi út 18. - Spar ', 'postcode': '8200', 'city': 'Veszprém', 'street': 'Jutasi út', 'housenumber': '18', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.10776" lon="17.91075" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-1" lat="47.10776" lon="17.91075" timestamp="2022-03-07T11:06:58Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Veszprém"/>
     <tag k="addr:housenumber" v="18"/>
     <tag k="addr:postcode" v="8200"/>
@@ -61,9 +63,11 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:HU:company" v="01-09-965868"/>
     <tag k="ref:vatin" v="HU23443486"/>
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo:output" v="nan"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="socket:type2_combo:output" v="nan"/>
+    <tag k="source:date" v="2022-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.87777 17.44047) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -93,13 +97,15 @@ parking:fee                      N		'no'
 ref:HU:company                   N		'01\-09\-965868'
 ref:vatin                        N		'HU23443486'
 ref:vatin:hu                     N		'23443486\-2\-42'
+socket:chademo:output            N		'nan'
 socket:type2_cable               N		'2'
 socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+socket:type2_combo:output        N		'nan'
+source:date                      N		'2022\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DTapolca%7Caddr%3Apostcode%3D8300%7Caddr%3Astreet%3DD%C3%A9li%20V%C3%A1roskapu%20park%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DTapolca%20-%20D%C3%A9li%20V%C3%A1roskapu%20parkol%C3%B3%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DTapolca%7Caddr%3Apostcode%3D8300%7Caddr%3Astreet%3DD%C3%A9li%20V%C3%A1roskapu%20park%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DTapolca%20-%20D%C3%A9li%20V%C3%A1roskapu%20parkol%C3%B3%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3Aoutput%3Dnan%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3Aoutput%3Dnan%7Csource%3Adate%3D2022-03-07 -->
   <!--ˇ'original': 'Déli Városkapu parkoló ', 'postcode': '8300', 'city': 'Tapolca', 'street': 'Déli Városkapu park', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="46.87777" lon="17.44047" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-2" lat="46.87777" lon="17.44047" timestamp="2022-03-07T11:06:58Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tapolca"/>
     <tag k="addr:postcode" v="8300"/>
     <tag k="addr:street" v="Déli Városkapu park"/>
@@ -124,9 +130,11 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:HU:company" v="01-09-965868"/>
     <tag k="ref:vatin" v="HU23443486"/>
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo:output" v="nan"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="socket:type2_combo:output" v="nan"/>
+    <tag k="source:date" v="2022-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.88283 17.43999) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -157,13 +165,15 @@ parking:fee                      N		'no'
 ref:HU:company                   N		'01\-09\-965868'
 ref:vatin                        N		'HU23443486'
 ref:vatin:hu                     N		'23443486\-2\-42'
+socket:chademo:output            N		'nan'
 socket:type2_cable               N		'2'
 socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+socket:type2_combo:output        N		'nan'
+source:date                      N		'2022\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DTapolca%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8300%7Caddr%3Astreet%3DF%C5%91%20t%C3%A9r%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DTapolca%20-%20F%C5%91%20t%C3%A9r%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DTapolca%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8300%7Caddr%3Astreet%3DF%C5%91%20t%C3%A9r%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DTapolca%20-%20F%C5%91%20t%C3%A9r%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEnsto%7Cmodel%3DEVF200%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3Aoutput%3Dnan%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3Aoutput%3Dnan%7Csource%3Adate%3D2022-03-07 -->
   <!--ˇ'original': 'Fő tér 2. ', 'postcode': '8300', 'city': 'Tapolca', 'street': 'Fő tér', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="46.88283" lon="17.43999" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="46.88283" lon="17.43999" timestamp="2022-03-07T11:06:58Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tapolca"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="8300"/>
@@ -189,9 +199,11 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:HU:company" v="01-09-965868"/>
     <tag k="ref:vatin" v="HU23443486"/>
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo:output" v="nan"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="socket:type2_combo:output" v="nan"/>
+    <tag k="source:date" v="2022-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.77392 17.26741) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -221,13 +233,15 @@ parking:fee                      N		'no'
 ref:HU:company                   N		'01\-09\-965868'
 ref:vatin                        N		'HU23443486'
 ref:vatin:hu                     N		'23443486\-2\-42'
+socket:chademo:output            N		'nan'
 socket:type2_cable               N		'2'
 socket:type2_cable:output        N		'22 kW'
-source:www.mobiliti.hu:date      N		'2021\-11\-20'
+socket:type2_combo:output        N		'nan'
+source:date                      N		'2022\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DKeszthely%7Caddr%3Apostcode%3D8360%7Caddr%3Astreet%3DTapolcai%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKeszthely%20-%20Tapolcai%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Awww.mobiliti.hu%3Adate%3D2021-11-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DKeszthely%7Caddr%3Apostcode%3D8360%7Caddr%3Astreet%3DTapolcai%20%C3%BAt%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3DKeszthely%20-%20Tapolcai%20%C3%BAt%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEVBox%7Cmodel%3DBusinessLine%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3Aoutput%3Dnan%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3Aoutput%3Dnan%7Csource%3Adate%3D2022-03-07 -->
   <!--ˇ'original': 'Tapolcai út - INTERSPAR ', 'postcode': '8360', 'city': 'Keszthely', 'street': 'Tapolcai út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="46.77392" lon="17.26741" timestamp="2021-11-20T13:13:50Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-4" lat="46.77392" lon="17.26741" timestamp="2022-03-07T11:06:58Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Keszthely"/>
     <tag k="addr:postcode" v="8360"/>
     <tag k="addr:street" v="Tapolcai út"/>
@@ -252,8 +266,10 @@ source:www.mobiliti.hu:date      N		'2021\-11\-20'
     <tag k="ref:HU:company" v="01-09-965868"/>
     <tag k="ref:vatin" v="HU23443486"/>
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
+    <tag k="socket:chademo:output" v="nan"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:www.mobiliti.hu:date" v="2021-11-20"/>
+    <tag k="socket:type2_combo:output" v="nan"/>
+    <tag k="source:date" v="2022-03-07"/>
   </node>
 </osm>
