@@ -18,38 +18,38 @@ addr:city                         EQU 		'Fehérgyarmat'			'Fehérgyarmat'
 addr:housenumber                  EQU 		'38'			'38'
 addr:postcode                     EQU 		'4900'			'4900'
 addr:street                       EQU 		'Mártírok útja'			'Mártírok útja'
-air_conditioning                 N		'yes'
+air_conditioning                 NEW		'yes'
 amenity                           EQU 		'fuel'			'fuel'
-branch                           N		'FEHÉRGYARMAT'
+branch                           NEW		'FEHÉRGYARMAT'
 brand                             EQU 		'Shell'			'Shell'
 brand:wikidata                    EQU 		'Q154950'			'Q154950'
 brand:wikipedia                   MOD 		'hu:Royal Dutch Shell'			'en:Royal Dutch Shell'
 building                          EQU 		'retail'			'retail'
-compressed_air                   N		'yes'
-contact:facebook                 N		'https://www.facebook.com/ShellMagyarorszag/'
-contact:fax                      N		'+36 1 999 8673'
-contact:phone                    N		'+36 44 510 110'
-contact:twitter                  N		'shell'
-contact:website                  N		'https://shell.hu/https://find.shell.com/hu/fuel/10205935\-fehergyarmat'
-fuel:GTL_diesel                  N		'yes'
-fuel:adblue                      N		'yes'
+compressed_air                   NEW		'yes'
+contact:facebook                 NEW		'https://www.facebook.com/ShellMagyarorszag/'
+contact:fax                      NEW		'+36 1 999 8673'
+contact:phone                    NEW		'+36 44 510 110'
+contact:twitter                  NEW		'shell'
+contact:website                  NEW		'https://shell.hu/https://find.shell.com/hu/fuel/10205935\-fehergyarmat'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:adblue                      NEW		'yes'
 fuel:diesel                       EQU 		'yes'			'yes'
-fuel:octane_100                  N		'yes'
+fuel:octane_100                  NEW		'yes'
 fuel:octane_95                    EQU 		'yes'			'yes'
-loyalty_card                     N		'yes'
+loyalty_card                     NEW		'yes'
 name                              EQU 		'Shell'			'Shell'
 operator                          EQU 		'Shell Hungary Zrt.'			'Shell Hungary Zrt.'
-payment:cash                     N		'yes'
-payment:contactless              N		'yes'
-payment:maestro                  N		'yes'
-payment:mastercard               N		'yes'
-payment:mastercard_contactless   N		'yes'
-payment:mastercard_electronic    N		'yes'
-payment:visa                     N		'yes'
-payment:visa_electron            N		'yes'
-source:date                      N		'2022\-03\-07'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w332394724&addtags=%7Caddr%3Acity%3DFeh%C3%A9rgyarmat%7Caddr%3Ahousenumber%3D38%7Caddr%3Apostcode%3D4900%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DFEH%C3%89RGYARMAT%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2044%20510%20110%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/https%3A//find.shell.com/hu/fuel/10205935-fehergyarmat%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-03-07 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w332394724&addtags=%7Caddr%3Acity%3DFeh%C3%A9rgyarmat%7Caddr%3Ahousenumber%3D38%7Caddr%3Apostcode%3D4900%7Caddr%3Astreet%3DM%C3%A1rt%C3%ADrok%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DFEH%C3%89RGYARMAT%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2044%20510%20110%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//shell.hu/https%3A//find.shell.com/hu/fuel/10205935-fehergyarmat%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': 'MÁRTÍROK ÚTJA 38', 'postcode': '4900', 'city': 'Fehérgyarmat', 'street': 'Mártírok útja', 'housenumber': '38', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="332394724" timestamp="2021-11-05T12:33:45Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="3395154330"/>
@@ -95,6 +95,6 @@ source:date                      N		'2022\-03\-07'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-03-07"/>
+    <tag k="source:date" v="2022-04-26"/>
   </way>
 </osm>

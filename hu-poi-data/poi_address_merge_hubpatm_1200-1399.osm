@@ -12,7 +12,7 @@ addr:street                       EQU 		'Török Flóris utca'			'Török Flóri
 air_conditioning                  EQU 		'yes'			'yes'
 amenity                           EQU 		'atm'			'atm'
 bic                               EQU 		'BUDAHUHB'			'BUDAHUHB'
-branch                            EQU 		'Pestszenterzsébet'			'Pestszenterzsébet'
+branch                            MOD 		'Pesterzsébeti fiók'			'Pestszenterzsébet'
 brand                             EQU 		'Budapest Bank'			'Budapest Bank'
 brand:wikidata                    EQU 		'Q27493463'			'Q27493463'
 brand:wikipedia                   EQU 		'en:Budapest Bank'			'en:Budapest Bank'
@@ -26,10 +26,10 @@ operator:wikipedia                EQU 		'en:Budapest Bank'			'en:Budapest Bank'
 ref:HU:company                    EQU 		'01 10 041037'			'01 10 041037'
 ref:vatin                         EQU 		'HU10196445'			'HU10196445'
 ref:vatin:hu                      EQU 		'10196445\-4\-44'			'10196445\-4\-44'
-source:date                      N		'2022\-03\-07'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458388&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D70%7Caddr%3Apostcode%3D1203%7Caddr%3Astreet%3DT%C3%B6r%C3%B6k%20Fl%C3%B3ris%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DPestszenterzs%C3%A9bet%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Coperator%3Awikidata%3DQ27493463%7Coperator%3Awikipedia%3Den%3ABudapest%20Bank%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-03-07 -->
-  <!--ˇ'original': 'Török Flóris u. 70.', 'postcode': '1203', 'city': 'Budapest', 'street': 'Török Flóris utca', 'housenumber': '70', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458388&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D70%7Caddr%3Apostcode%3D1203%7Caddr%3Astreet%3DT%C3%B6r%C3%B6k%20Fl%C3%B3ris%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DPesterzs%C3%A9beti%20fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Coperator%3Awikidata%3DQ27493463%7Coperator%3Awikipedia%3Den%3ABudapest%20Bank%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'Török Flóris utca 70.', 'postcode': '1203', 'city': 'Budapest', 'street': 'Török Flóris utca', 'housenumber': '70', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8163458388" lat="47.43961" lon="19.10539" timestamp="2022-02-17T11:08:27Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="70"/>
@@ -38,7 +38,7 @@ source:date                      N		'2022\-03\-07'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="BUDAHUHB"/>
-    <tag k="branch" v="Pestszenterzsébet"/>
+    <tag k="branch" v="Pesterzsébeti fiók"/>
     <tag k="brand" v="Budapest Bank"/>
     <tag k="brand:wikidata" v="Q27493463"/>
     <tag k="brand:wikipedia" v="en:Budapest Bank"/>
@@ -52,7 +52,58 @@ source:date                      N		'2022\-03\-07'
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
-    <tag k="source:date" v="2022-03-07"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (47.4237 19.0675) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Budapest'
+addr:housenumber                 NEW		'154'
+addr:postcode                    NEW		'1212'
+addr:street                      NEW		'II. Rákóczi Ferenc utca'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'atm'
+bic                              NEW		'BUDAHUHB'
+branch                           NEW		'Csepel Pláza fiók'
+brand                            NEW		'Budapest Bank'
+brand:wikidata                   NEW		'Q27493463'
+brand:wikipedia                  NEW		'en:Budapest Bank'
+contact:website                  NEW		'https://www.budapestbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Budapest Bank ATM'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'Budapest Bank Zrt.'
+operator:addr                    NEW		'1138 Budapest, Váci út 193.'
+ref:HU:company                   NEW		'01 10 041037'
+ref:vatin                        NEW		'HU10196445'
+ref:vatin:hu                     NEW		'10196445\-4\-44'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D154%7Caddr%3Apostcode%3D1212%7Caddr%3Astreet%3DII.%20R%C3%A1k%C3%B3czi%20Ferenc%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DCsepel%20Pl%C3%A1za%20fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'II. Rákóczi Ferenc utca 154.', 'postcode': '1212', 'city': 'Budapest', 'street': 'II. Rákóczi Ferenc utca', 'housenumber': '154', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-2" lat="47.4237" lon="19.0675" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="154"/>
+    <tag k="addr:postcode" v="1212"/>
+    <tag k="addr:street" v="II. Rákóczi Ferenc utca"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="atm"/>
+    <tag k="bic" v="BUDAHUHB"/>
+    <tag k="branch" v="Csepel Pláza fiók"/>
+    <tag k="brand" v="Budapest Bank"/>
+    <tag k="brand:wikidata" v="Q27493463"/>
+    <tag k="brand:wikipedia" v="en:Budapest Bank"/>
+    <tag k="contact:website" v="https://www.budapestbank.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Budapest Bank ATM"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Budapest Bank Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
+    <tag k="ref:HU:company" v="01 10 041037"/>
+    <tag k="ref:vatin" v="HU10196445"/>
+    <tag k="ref:vatin:hu" v="10196445-4-44"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/8163458387 -->
   <!-- Original coordinates: POINT (47.4339 19.0707) -->
@@ -66,7 +117,7 @@ addr:street                       EQU 		'Kossuth Lajos utca'			'Kossuth Lajos ut
 air_conditioning                  EQU 		'yes'			'yes'
 amenity                           EQU 		'atm'			'atm'
 bic                               EQU 		'BUDAHUHB'			'BUDAHUHB'
-branch                            EQU 		'Csepel'			'Csepel'
+branch                            MOD 		'Csepeli fiók'			'Csepel'
 brand                             EQU 		'Budapest Bank'			'Budapest Bank'
 brand:wikidata                    EQU 		'Q27493463'			'Q27493463'
 brand:wikipedia                   EQU 		'en:Budapest Bank'			'en:Budapest Bank'
@@ -78,10 +129,10 @@ operator:addr                     EQU 		'1138 Budapest, Váci út 193.'			'1138 
 ref:HU:company                    EQU 		'01 10 041037'			'01 10 041037'
 ref:vatin                         EQU 		'HU10196445'			'HU10196445'
 ref:vatin:hu                      EQU 		'10196445\-4\-44'			'10196445\-4\-44'
-source:date                      N		'2022\-03\-07'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458387&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D47-49%7Caddr%3Apostcode%3D1211%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DCsepel%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-03-07 -->
-  <!--ˇ'original': 'Kossuth L. u. 47-49.', 'postcode': '1211', 'city': 'Budapest', 'street': 'Kossuth Lajos utca', 'housenumber': '47-49', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458387&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D47-49%7Caddr%3Apostcode%3D1211%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DCsepeli%20fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'Kossuth L. utca 47-49.', 'postcode': '1211', 'city': 'Budapest', 'street': 'Kossuth Lajos utca', 'housenumber': '47-49', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8163458387" lat="47.43425" lon="19.07069" timestamp="2021-12-17T18:58:59Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Budapest"/>
     <tag k="addr:housenumber" v="47-49"/>
@@ -90,7 +141,7 @@ source:date                      N		'2022\-03\-07'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="BUDAHUHB"/>
-    <tag k="branch" v="Csepel"/>
+    <tag k="branch" v="Csepeli fiók"/>
     <tag k="brand" v="Budapest Bank"/>
     <tag k="brand:wikidata" v="Q27493463"/>
     <tag k="brand:wikipedia" v="en:Budapest Bank"/>
@@ -102,7 +153,7 @@ source:date                      N		'2022\-03\-07'
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
-    <tag k="source:date" v="2022-03-07"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
   <!-- OSM link: https://osm.org/node/8163458386 -->
   <!-- Original coordinates: POINT (47.4079 19.0164) -->
@@ -116,7 +167,7 @@ addr:street                       EQU 		'Nagytétényi út'			'Nagytétényi út
 air_conditioning                  EQU 		'yes'			'yes'
 amenity                           EQU 		'atm'			'atm'
 bic                               EQU 		'BUDAHUHB'			'BUDAHUHB'
-branch                            EQU 		'BB Campona'			'BB Campona'
+branch                            MOD 		'Campona fiók'			'BB Campona'
 brand                             EQU 		'Budapest Bank'			'Budapest Bank'
 brand:wikidata                    EQU 		'Q27493463'			'Q27493463'
 brand:wikipedia                   EQU 		'en:Budapest Bank'			'en:Budapest Bank'
@@ -131,9 +182,9 @@ operator:wikipedia                EQU 		'en:Budapest Bank'			'en:Budapest Bank'
 ref:HU:company                    EQU 		'01 10 041037'			'01 10 041037'
 ref:vatin                         EQU 		'HU10196445'			'HU10196445'
 ref:vatin:hu                      EQU 		'10196445\-4\-44'			'10196445\-4\-44'
-source:date                      N		'2022\-03\-07'
+source:date                      NEW		'2022\-04\-26'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458386&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D37-43%7Caddr%3Apostcode%3D1222%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DBB%20Campona%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dposition%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Coperator%3Awikidata%3DQ27493463%7Coperator%3Awikipedia%3Den%3ABudapest%20Bank%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-03-07 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458386&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D37-43%7Caddr%3Apostcode%3D1222%7Caddr%3Astreet%3DNagyt%C3%A9t%C3%A9nyi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DCampona%20fi%C3%B3k%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dposition%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Coperator%3Awikidata%3DQ27493463%7Coperator%3Awikipedia%3Den%3ABudapest%20Bank%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-04-26 -->
   <!--ˇ'original': 'Nagytétényi út 37-43.', 'postcode': '1222', 'city': 'Budapest', 'street': 'Nagytétényi út', 'housenumber': '37-43', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8163458386" lat="47.4070638" lon="19.0174679" timestamp="2021-12-17T18:58:59Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Budapest"/>
@@ -143,7 +194,7 @@ source:date                      N		'2022\-03\-07'
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="atm"/>
     <tag k="bic" v="BUDAHUHB"/>
-    <tag k="branch" v="BB Campona"/>
+    <tag k="branch" v="Campona fiók"/>
     <tag k="brand" v="Budapest Bank"/>
     <tag k="brand:wikidata" v="Q27493463"/>
     <tag k="brand:wikipedia" v="en:Budapest Bank"/>
@@ -158,6 +209,57 @@ source:date                      N		'2022\-03\-07'
     <tag k="ref:HU:company" v="01 10 041037"/>
     <tag k="ref:vatin" v="HU10196445"/>
     <tag k="ref:vatin:hu" v="10196445-4-44"/>
-    <tag k="source:date" v="2022-03-07"/>
+    <tag k="source:date" v="2022-04-26"/>
+  </node>
+  <!-- Original coordinates: POINT (47.3773 19.125) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Budapest'
+addr:housenumber                 NEW		'1'
+addr:postcode                    NEW		'1239'
+addr:street                      NEW		'Europa út'
+air_conditioning                 NEW		'yes'
+amenity                          NEW		'atm'
+bic                              NEW		'BUDAHUHB'
+branch                           NEW		'MNB Logisztika'
+brand                            NEW		'Budapest Bank'
+brand:wikidata                   NEW		'Q27493463'
+brand:wikipedia                  NEW		'en:Budapest Bank'
+contact:website                  NEW		'https://www.budapestbank.hu'
+fixme                            NEW		'verify import'
+name                             NEW		'Budapest Bank ATM'
+opening_hours                    NEW		'24/7'
+operator                         NEW		'Budapest Bank Zrt.'
+operator:addr                    NEW		'1138 Budapest, Váci út 193.'
+ref:HU:company                   NEW		'01 10 041037'
+ref:vatin                        NEW		'HU10196445'
+ref:vatin:hu                     NEW		'10196445\-4\-44'
+source:date                      NEW		'2022\-04\-26'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D1239%7Caddr%3Astreet%3DEuropa%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DBUDAHUHB%7Cbranch%3DMNB%20Logisztika%7Cbrand%3DBudapest%20Bank%7Cbrand%3Awikidata%3DQ27493463%7Cbrand%3Awikipedia%3Den%3ABudapest%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.budapestbank.hu%7Cfixme%3Dverify%20import%7Cname%3DBudapest%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DBudapest%20Bank%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20V%C3%A1ci%20%C3%BAt%20193.%7Cref%3AHU%3Acompany%3D01%2010%20041037%7Cref%3Avatin%3DHU10196445%7Cref%3Avatin%3Ahu%3D10196445-4-44%7Csource%3Adate%3D2022-04-26 -->
+  <!--ˇ'original': 'Europa út 1.', 'postcode': '1239', 'city': 'Budapest', 'street': 'Europa út', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-5" lat="47.3773" lon="19.125" timestamp="2022-04-26T09:42:01Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Budapest"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1239"/>
+    <tag k="addr:street" v="Europa út"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="atm"/>
+    <tag k="bic" v="BUDAHUHB"/>
+    <tag k="branch" v="MNB Logisztika"/>
+    <tag k="brand" v="Budapest Bank"/>
+    <tag k="brand:wikidata" v="Q27493463"/>
+    <tag k="brand:wikipedia" v="en:Budapest Bank"/>
+    <tag k="contact:website" v="https://www.budapestbank.hu"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Budapest Bank ATM"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="operator" v="Budapest Bank Zrt."/>
+    <tag k="operator:addr" v="1138 Budapest, Váci út 193."/>
+    <tag k="ref:HU:company" v="01 10 041037"/>
+    <tag k="ref:vatin" v="HU10196445"/>
+    <tag k="ref:vatin:hu" v="10196445-4-44"/>
+    <tag k="source:date" v="2022-04-26"/>
   </node>
 </osm>
