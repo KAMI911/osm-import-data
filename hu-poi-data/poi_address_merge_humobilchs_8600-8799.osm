@@ -33,10 +33,11 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989560&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13173%20-%20Si%C3%B3fok%2C%20De%C3%A1k%20Ferenc%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989560&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13173%20-%20Si%C3%B3fok%2C%20De%C3%A1k%20Ferenc%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Deák Ferenc tér 16.', 'postcode': '8600', 'city': 'Siófok', 'street': 'Deák Ferenc tér', 'housenumber': '16', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989560" lat="46.90137" lon="18.01762" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Siófok"/>
@@ -67,7 +68,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989559 -->
@@ -103,10 +105,11 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989559&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D11-13%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DPet%C5%91fi%20s%C3%A9t%C3%A1ny%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13172%20-%20Si%C3%B3fok%2C%20Pet%C5%91fi%20s%C3%A9t%C3%A1ny%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989559&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D11-13%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DPet%C5%91fi%20s%C3%A9t%C3%A1ny%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13172%20-%20Si%C3%B3fok%2C%20Pet%C5%91fi%20s%C3%A9t%C3%A1ny%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Petőfi sétány 11-13.', 'postcode': '8600', 'city': 'Siófok', 'street': 'Petőfi sétány', 'housenumber': '11-13', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989559" lat="46.91308" lon="18.06005" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Siófok"/>
@@ -137,7 +140,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- Original coordinates: POINT (46.89286 18.05566) -->
@@ -169,11 +173,12 @@ ref:vatin                        NEW		'HU23443486'
 ref:vatin:hu                     NEW		'23443486\-2\-42'
 socket:type2_cable               NEW		'2'
 socket:type2_cable:output        NEW		'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D27%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DVak%20Botty%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10274%20-%20Si%C3%B3fok%2C%20Vak%20Botty%C3%A1n%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D27%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DVak%20Botty%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10274%20-%20Si%C3%B3fok%2C%20Vak%20Botty%C3%A1n%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Vak Bottyán utca 27.', 'postcode': '8600', 'city': 'Siófok', 'street': 'Vak Bottyán utca', 'housenumber': '27', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="46.89286" lon="18.05566" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="46.89286" lon="18.05566" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Siófok"/>
     <tag k="addr:housenumber" v="27"/>
     <tag k="addr:postcode" v="8600"/>
@@ -199,7 +204,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- Original coordinates: POINT (46.89278 18.05572) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -230,11 +236,12 @@ ref:vatin                        NEW		'HU23443486'
 ref:vatin:hu                     NEW		'23443486\-2\-42'
 socket:type2_cable               NEW		'2'
 socket:type2_cable:output        NEW		'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D27%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DVak%20Botty%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10275%20-%20Si%C3%B3fok%2C%20Vak%20Botty%C3%A1n%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DSi%C3%B3fok%7Caddr%3Ahousenumber%3D27%7Caddr%3Apostcode%3D8600%7Caddr%3Astreet%3DVak%20Botty%C3%A1n%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D10275%20-%20Si%C3%B3fok%2C%20Vak%20Botty%C3%A1n%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Vak Bottyán utca 27.', 'postcode': '8600', 'city': 'Siófok', 'street': 'Vak Bottyán utca', 'housenumber': '27', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="46.89278" lon="18.05572" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-4" lat="46.89278" lon="18.05572" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Siófok"/>
     <tag k="addr:housenumber" v="27"/>
     <tag k="addr:postcode" v="8600"/>
@@ -260,7 +267,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- Original coordinates: POINT (46.88499 17.943) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -290,11 +298,12 @@ ref:vatin                        NEW		'HU23443486'
 ref:vatin:hu                     NEW		'23443486\-2\-42'
 socket:type2_cable               NEW		'2'
 socket:type2_cable:output        NEW		'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DZam%C3%A1rdi%7Caddr%3Apostcode%3D8621%7Caddr%3Astreet%3DKiss%20Ern%C5%91%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13174%20-%20Zam%C3%A1rdi%2C%20Kiss%20Ern%C5%91%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DZam%C3%A1rdi%7Caddr%3Apostcode%3D8621%7Caddr%3Astreet%3DKiss%20Ern%C5%91%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13174%20-%20Zam%C3%A1rdi%2C%20Kiss%20Ern%C5%91%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kiss Ernő utca', 'postcode': '8621', 'city': 'Zamárdi', 'street': 'Kiss Ernő utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-5" lat="46.88499" lon="17.943" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-5" lat="46.88499" lon="17.943" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Zamárdi"/>
     <tag k="addr:postcode" v="8621"/>
     <tag k="addr:street" v="Kiss Ernő utca"/>
@@ -319,9 +328,10 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
-  <!-- OSM link: https://osm.org/node/8099989557 -->
+  <!-- OSM link: https://osm.org/node/1770488810 -->
   <!-- Original coordinates: POINT (46.85807 17.90202) -->
   <!-- OSM <-> POI distance: 0 m-->
   <!--
@@ -342,7 +352,6 @@ contact:facebook                  EQU 		'https://www.facebook.com/elektromobilit
 contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
 contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
 fee                               EQU 		'yes'			'yes'
-fixme                             EQU 		'verify import'			'verify import'
 manufacturer                      EQU 		'Evopro'			'Evopro'
 name                              MOD 		'Mobiliti'			'e\-töltőpont'
 opening_hours                     EQU 		'24/7'			'24/7'
@@ -354,12 +363,13 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989557&addtags=%7Caddr%3Acity%3DSz%C3%A1nt%C3%B3d%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8622%7Caddr%3Astreet%3DR%C3%B3mai%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13175%20-%20Sz%C3%A1nt%C3%B3d%2C%20R%C3%B3mai%20%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1770488810&addtags=%7Caddr%3Acity%3DSz%C3%A1nt%C3%B3d%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8622%7Caddr%3Astreet%3DR%C3%B3mai%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13175%20-%20Sz%C3%A1nt%C3%B3d%2C%20R%C3%B3mai%20%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Római út 2.', 'postcode': '8622', 'city': 'Szántód', 'street': 'Római út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="8099989557" lat="46.85937" lon="17.90512" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <node action="modify" id="1770488810" lat="46.8581307" lon="17.902205" timestamp="2022-07-11T22:39:24Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szántód"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="8622"/>
@@ -376,7 +386,6 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
-    <tag k="fixme" v="verify import"/>
     <tag k="manufacturer" v="Evopro"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
@@ -388,12 +397,13 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989556 -->
   <!-- Original coordinates: POINT (46.84893 17.87937) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 5.049961 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Balatonföldvár'			'Balatonföldvár'
@@ -411,7 +421,6 @@ contact:facebook                  EQU 		'https://www.facebook.com/elektromobilit
 contact:phone                     MOD 		'+36 62 565 758'			'+36 80 210 012'
 contact:website                   MOD 		'https://www.mobiliti.hu'			'https://e\-mobi.hu/'
 fee                               EQU 		'yes'			'yes'
-fixme                             EQU 		'verify import'			'verify import'
 manufacturer                      EQU 		'Evopro'			'Evopro'
 name                              MOD 		'Mobiliti'			'e\-töltőpont'
 opening_hours                     EQU 		'24/7'			'24/7'
@@ -423,12 +432,13 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989556&addtags=%7Caddr%3Acity%3DBalatonf%C3%B6ldv%C3%A1r%7Caddr%3Apostcode%3D8623%7Caddr%3Astreet%3DBudapest%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13176%20-%20Balatonf%C3%B6ldv%C3%A1r%2C%20Budapest%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989556&addtags=%7Caddr%3Acity%3DBalatonf%C3%B6ldv%C3%A1r%7Caddr%3Apostcode%3D8623%7Caddr%3Astreet%3DBudapest%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13176%20-%20Balatonf%C3%B6ldv%C3%A1r%2C%20Budapest%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Budapest utca', 'postcode': '8623', 'city': 'Balatonföldvár', 'street': 'Budapest utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="8099989556" lat="46.84893" lon="17.87937" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+  <node action="modify" id="8099989556" lat="46.8489295" lon="17.8793036" timestamp="2022-07-11T21:12:08Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Balatonföldvár"/>
     <tag k="addr:postcode" v="8623"/>
     <tag k="addr:street" v="Budapest utca"/>
@@ -444,7 +454,6 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="contact:phone" v="+36 62 565 758"/>
     <tag k="contact:website" v="https://www.mobiliti.hu"/>
     <tag k="fee" v="yes"/>
-    <tag k="fixme" v="verify import"/>
     <tag k="manufacturer" v="Evopro"/>
     <tag k="name" v="Mobiliti"/>
     <tag k="opening_hours" v="24/7"/>
@@ -456,7 +465,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/7825961978 -->
@@ -492,10 +502,11 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7825961978&addtags=%7Caddr%3Acity%3DBalatonszemes%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8636%7Caddr%3Astreet%3DCinka%20Panna%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13177%20-%20Balatonszemes%2C%20Cinka%20Panna%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cdescription%3D22kW%20AC%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7825961978&addtags=%7Caddr%3Acity%3DBalatonszemes%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8636%7Caddr%3Astreet%3DCinka%20Panna%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13177%20-%20Balatonszemes%2C%20Cinka%20Panna%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cdescription%3D22kW%20AC%7Cfee%3Dyes%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Cinka Panna utca 2.', 'postcode': '8636', 'city': 'Balatonszemes', 'street': 'Cinka Panna utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7825961978" lat="46.8113594" lon="17.7707411" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Balatonszemes"/>
@@ -526,7 +537,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989555 -->
@@ -562,10 +574,11 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989555&addtags=%7Caddr%3Acity%3DBalatonlelle%7Caddr%3Ahousenumber%3D193%7Caddr%3Apostcode%3D8638%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13178%20-%20Balatonlelle%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989555&addtags=%7Caddr%3Acity%3DBalatonlelle%7Caddr%3Ahousenumber%3D193%7Caddr%3Apostcode%3D8638%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13178%20-%20Balatonlelle%2C%20R%C3%A1k%C3%B3czi%20%C3%BAt%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Rákóczi út 193.', 'postcode': '8638', 'city': 'Balatonlelle', 'street': 'Rákóczi út', 'housenumber': '193', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989555" lat="46.79119" lon="17.69201" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Balatonlelle"/>
@@ -596,7 +609,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- Original coordinates: POINT (46.74881 17.55747) -->
@@ -627,11 +641,12 @@ ref:vatin                        NEW		'HU23443486'
 ref:vatin:hu                     NEW		'23443486\-2\-42'
 socket:type2_cable               NEW		'2'
 socket:type2_cable:output        NEW		'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DFony%C3%B3d%7Caddr%3Apostcode%3D8640%7Caddr%3Astreet%3DHunyadi%20J%C3%A1nos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13179%20-%20Fony%C3%B3d%2C%20Hunyadi%20J%C3%A1nos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DFony%C3%B3d%7Caddr%3Apostcode%3D8640%7Caddr%3Astreet%3DHunyadi%20J%C3%A1nos%20utca%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13179%20-%20Fony%C3%B3d%2C%20Hunyadi%20J%C3%A1nos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Hunyadi János utca', 'postcode': '8640', 'city': 'Fonyód', 'street': 'Hunyadi János utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-10" lat="46.74881" lon="17.55747" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-10" lat="46.74881" lon="17.55747" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Fonyód"/>
     <tag k="addr:postcode" v="8640"/>
     <tag k="addr:street" v="Hunyadi János utca"/>
@@ -656,7 +671,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989553 -->
   <!-- Original coordinates: POINT (46.71264 17.4772) -->
@@ -691,10 +707,11 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989553&addtags=%7Caddr%3Acity%3DBalatonfenyves%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D8646%7Caddr%3Astreet%3DK%C3%B6lcsey%20Ferenc%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13180%20-%20Balatonfenyves%2C%20K%C3%B6lcsey%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989553&addtags=%7Caddr%3Acity%3DBalatonfenyves%7Caddr%3Ahousenumber%3D1-3%7Caddr%3Apostcode%3D8646%7Caddr%3Astreet%3DK%C3%B6lcsey%20Ferenc%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13180%20-%20Balatonfenyves%2C%20K%C3%B6lcsey%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Kölcsey utca 1-3.', 'postcode': '8646', 'city': 'Balatonfenyves', 'street': 'Kölcsey Ferenc utca', 'housenumber': '1-3', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989553" lat="46.71264" lon="17.4772" timestamp="2021-04-06T12:16:07Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Balatonfenyves"/>
@@ -725,7 +742,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989551 -->
@@ -766,10 +784,11 @@ socket:type2_cable                EQU 		'1'			'1'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
 socket:type2_combo                EQU 		'1'			'1'
 socket:type2_combo:output         EQU 		'50 kW'			'50 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989551&addtags=%7Caddr%3Acity%3DBalatonkereszt%C3%BAr%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D8648%7Caddr%3Astreet%3DM7%20aut%C3%B3p%C3%A1lya%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D23020%20-%20Balatonkereszt%C3%BAr%2C%20M7%20jobb%20-%20Mobiliti%7Ccapacity%3D3%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DDBT%7Cmodel%3DCompact%2050%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D50%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D50%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989551&addtags=%7Caddr%3Acity%3DBalatonkereszt%C3%BAr%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D8648%7Caddr%3Astreet%3DM7%20aut%C3%B3p%C3%A1lya%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D23020%20-%20Balatonkereszt%C3%BAr%2C%20M7%20jobb%20-%20Mobiliti%7Ccapacity%3D3%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DDBT%7Cmodel%3DCompact%2050%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D50%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D50%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'M7 autópálya 167 km (jobb)', 'postcode': '8648', 'city': 'Balatonkeresztúr', 'street': 'M7 autópálya', 'housenumber': '167', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989551" lat="46.68337" lon="17.38031" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Balatonkeresztúr"/>
@@ -805,7 +824,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="socket:type2_cable:output" v="22 kW"/>
     <tag k="socket:type2_combo" v="1"/>
     <tag k="socket:type2_combo:output" v="50 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989551 -->
@@ -846,10 +866,11 @@ socket:type2_cable                EQU 		'1'			'1'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
 socket:type2_combo                EQU 		'1'			'1'
 socket:type2_combo:output         EQU 		'50 kW'			'50 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989551&addtags=%7Caddr%3Acity%3DBalatonkereszt%C3%BAr%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D8648%7Caddr%3Astreet%3DM7%20aut%C3%B3p%C3%A1lya%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D23019%20-%20Balatonkereszt%C3%BAr%2C%20M7%20bal%20-%20Mobiliti%7Ccapacity%3D3%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DDBT%7Cmodel%3DCompact%2050%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D50%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D50%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989551&addtags=%7Caddr%3Acity%3DBalatonkereszt%C3%BAr%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D8648%7Caddr%3Astreet%3DM7%20aut%C3%B3p%C3%A1lya%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D23019%20-%20Balatonkereszt%C3%BAr%2C%20M7%20bal%20-%20Mobiliti%7Ccapacity%3D3%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DDBT%7Cmodel%3DCompact%2050%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Achademo%3D1%7Csocket%3Achademo%3Aoutput%3D50%20kW%7Csocket%3Atype2_cable%3D1%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csocket%3Atype2_combo%3D1%7Csocket%3Atype2_combo%3Aoutput%3D50%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'M7 autópálya 167 km (bal)', 'postcode': '8648', 'city': 'Balatonkeresztúr', 'street': 'M7 autópálya', 'housenumber': '167', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989551" lat="46.68337" lon="17.38031" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Balatonkeresztúr"/>
@@ -885,7 +906,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="socket:type2_cable:output" v="22 kW"/>
     <tag k="socket:type2_combo" v="1"/>
     <tag k="socket:type2_combo:output" v="50 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989550 -->
@@ -920,10 +942,11 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989550&addtags=%7Caddr%3Acity%3DZalakaros%7Caddr%3Apostcode%3D8749%7Caddr%3Astreet%3DD%C3%ADsz%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13209%20-%20Zalakaros%2C%20D%C3%ADsz%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989550&addtags=%7Caddr%3Acity%3DZalakaros%7Caddr%3Apostcode%3D8749%7Caddr%3Astreet%3DD%C3%ADsz%20t%C3%A9r%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13209%20-%20Zalakaros%2C%20D%C3%ADsz%20t%C3%A9r%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Dísz tér', 'postcode': '8749', 'city': 'Zalakaros', 'street': 'Dísz tér', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989550" lat="46.55084" lon="17.12369" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Zalakaros"/>
@@ -953,7 +976,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
   <!-- OSM link: https://osm.org/node/8099989549 -->
@@ -989,10 +1013,11 @@ ref:vatin                         MOD 		'HU23443486'			'HU25539431'
 ref:vatin:hu                      MOD 		'23443486\-2\-42'			'25539431\-2\-41'
 socket:type2_cable                EQU 		'2'			'2'
 socket:type2_cable:output         EQU 		'22 kW'			'22 kW'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989549&addtags=%7Caddr%3Acity%3DKehidakust%C3%A1ny%7Caddr%3Ahousenumber%3D62%7Caddr%3Apostcode%3D8784%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13210%20-%20Kehidakust%C3%A1ny%2C%20Kossuth%20Lajos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Adate%3D2022-06-08%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8099989549&addtags=%7Caddr%3Acity%3DKehidakust%C3%A1ny%7Caddr%3Ahousenumber%3D62%7Caddr%3Apostcode%3D8784%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Calt_name%3De-mobi%7Camenity%3Dcharging_station%7Cauthentication%3Aapp%3Dyes%7Cauthentication%3Amembership_card%3Dyes%7Cauthentication%3Anone%3Dyes%7Cbranch%3D13210%20-%20Kehidakust%C3%A1ny%2C%20Kossuth%20Lajos%20utca%20-%20Mobiliti%7Ccapacity%3D2%7Ccontact%3Aemail%3Dhelp%40mobiliti.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/elektromobilitas%7Ccontact%3Aphone%3D%2B36%2062%20565%20758%7Ccontact%3Awebsite%3Dhttps%3A//www.mobiliti.hu%7Cfee%3Dyes%7Cfixme%3Dverify%20import%7Cmanufacturer%3DEvopro%7Cname%3DMobiliti%7Copening_hours%3D24/7%7Coperator%3DNKM%20Mobilit%C3%A1s%20Kft.%7Coperator%3Aaddr%3D1081%20Budapest%2C%20II.%20J%C3%A1nos%20P%C3%A1l%20p%C3%A1pa%20t%C3%A9r%2020.%7Cparking%3Afee%3Dno%7Cref%3AHU%3Acompany%3D01-09-965868%7Cref%3Avatin%3DHU23443486%7Cref%3Avatin%3Ahu%3D23443486-2-42%7Csocket%3Atype2_cable%3D2%7Csocket%3Atype2_cable%3Aoutput%3D22%20kW%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Ae-mobi.hu%3Adate%3D2020-11-09 -->
   <!--ˇ'original': 'Kossuth Lajos utca 62.', 'postcode': '8784', 'city': 'Kehidakustány', 'street': 'Kossuth Lajos utca', 'housenumber': '62', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8099989549" lat="46.83273" lon="17.10744" timestamp="2020-11-10T08:13:27Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Kehidakustány"/>
@@ -1023,7 +1048,8 @@ source:e-mobi.hu:date             EQU 		'2020\-11\-09'			'2020\-11\-09'
     <tag k="ref:vatin:hu" v="23443486-2-42"/>
     <tag k="socket:type2_cable" v="2"/>
     <tag k="socket:type2_cable:output" v="22 kW"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:e-mobi.hu:date" v="2020-11-09"/>
   </node>
 </osm>

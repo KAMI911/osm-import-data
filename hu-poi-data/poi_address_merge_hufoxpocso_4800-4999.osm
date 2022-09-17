@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm generator="JOSM" version="0.6">
+  <!-- OSM link: https://osm.org/node/9903560576 -->
+  <!-- Original coordinates: POINT (48.127026 22.320839) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Vásárosnamény'			'Vásárosnamény'
+addr:housenumber                  EQU 		'1/B'			'1/B'
+addr:postcode                     EQU 		'4800'			'4800'
+addr:street                       EQU 		'Beregszászi út'			'Beregszászi út'
+amenity                           EQU 		'parcel_locker'			'parcel_locker'
+branch                            EQU 		'Vásárosnamény Tesco'			'Vásárosnamény Tesco'
+brand                             EQU 		'Foxpost'			'Foxpost'
+contact:email                     EQU 		'info@foxpost.hu'			'info@foxpost.hu'
+contact:facebook                  EQU 		'https://www.facebook.com/foxpostzrt'			'https://www.facebook.com/foxpostzrt'
+contact:phone                     EQU 		'+36 1 999 03 69'			'+36 1 999 03 69'
+contact:website                   EQU 		'https://www.foxpost.hu'			'https://www.foxpost.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'			'https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w'
+description                       EQU 		'HU1532 számú kültéri automatánk az áruház bejáratával szemben található.'			'HU1532 számú kültéri automatánk az áruház bejáratával szemben található.'
+fixme                             EQU 		'verify import'			'verify import'
+name                              EQU 		'Foxpost'			'Foxpost'
+opening_hours                     EQU 		'24/7; PH off'			'24/7; PH off'
+operator                          EQU 		'FoxPost Zrt.'			'FoxPost Zrt.'
+operator:addr                     EQU 		'3200 Gyöngyös, Batsányi János utca 9.'			'3200 Gyöngyös, Batsányi János utca 9.'
+parcel_mail_in                    EQU 		'yes'			'yes'
+payment:cash                      EQU 		'no'			'no'
+payment:contactless               EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'10 10 020309'			'10 10 020309'
+ref:vatin                         EQU 		'HU25034644'			'HU25034644'
+ref:vatin:hu                      EQU 		'25034644\-2\-10'			'25034644\-2\-10'
+source                            MOD 		'import;website'			'website'
+source:date                       MOD 		'2022\-09\-16'			'2022\-07\-19'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9903560576&addtags=%7Caddr%3Acity%3DV%C3%A1s%C3%A1rosnam%C3%A9ny%7Caddr%3Ahousenumber%3D1/B%7Caddr%3Apostcode%3D4800%7Caddr%3Astreet%3DBeregsz%C3%A1szi%20%C3%BAt%7Camenity%3Dparcel_locker%7Cbranch%3DV%C3%A1s%C3%A1rosnam%C3%A9ny%20Tesco%7Cbrand%3DFoxpost%7Ccontact%3Aemail%3Dinfo%40foxpost.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/foxpostzrt%7Ccontact%3Aphone%3D%2B36%201%20999%2003%2069%7Ccontact%3Awebsite%3Dhttps%3A//www.foxpost.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w%7Cdescription%3DHU1532%20sz%C3%A1m%C3%BA%20k%C3%BClt%C3%A9ri%20automat%C3%A1nk%20az%20%C3%A1ruh%C3%A1z%20bej%C3%A1rat%C3%A1val%20szemben%20tal%C3%A1lhat%C3%B3.%7Cfixme%3Dverify%20import%7Cname%3DFoxpost%7Copening_hours%3D24/7%3B%20PH%20off%7Coperator%3DFoxPost%20Zrt.%7Coperator%3Aaddr%3D3200%20Gy%C3%B6ngy%C3%B6s%2C%20Bats%C3%A1nyi%20J%C3%A1nos%20utca%209.%7Cparcel_mail_in%3Dyes%7Cpayment%3Acash%3Dno%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3AHU%3Acompany%3D10%2010%20020309%7Cref%3Avatin%3DHU25034644%7Cref%3Avatin%3Ahu%3D25034644-2-10%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': '4800 Vásárosnamény, Beregszászi út 1/B.', 'postcode': '4800', 'city': 'Vásárosnamény', 'street': 'Beregszászi út', 'housenumber': '1/B', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="9903560576" lat="48.127026" lon="22.320839" timestamp="2022-07-22T08:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="1">
+    <tag k="addr:city" v="Vásárosnamény"/>
+    <tag k="addr:housenumber" v="1/B"/>
+    <tag k="addr:postcode" v="4800"/>
+    <tag k="addr:street" v="Beregszászi út"/>
+    <tag k="amenity" v="parcel_locker"/>
+    <tag k="branch" v="Vásárosnamény Tesco"/>
+    <tag k="brand" v="Foxpost"/>
+    <tag k="contact:email" v="info@foxpost.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/foxpostzrt"/>
+    <tag k="contact:phone" v="+36 1 999 03 69"/>
+    <tag k="contact:website" v="https://www.foxpost.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC3zt91sNKPimgA32Nmcu97w"/>
+    <tag k="description" v="HU1532 számú kültéri automatánk az áruház bejáratával szemben található."/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Foxpost"/>
+    <tag k="opening_hours" v="24/7; PH off"/>
+    <tag k="operator" v="FoxPost Zrt."/>
+    <tag k="operator:addr" v="3200 Gyöngyös, Batsányi János utca 9."/>
+    <tag k="parcel_mail_in" v="yes"/>
+    <tag k="payment:cash" v="no"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="ref:HU:company" v="10 10 020309"/>
+    <tag k="ref:vatin" v="HU25034644"/>
+    <tag k="ref:vatin:hu" v="25034644-2-10"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
+  </node>
+</osm>

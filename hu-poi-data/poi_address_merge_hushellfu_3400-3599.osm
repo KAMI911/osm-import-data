@@ -6,7 +6,7 @@
   <node id="6026851056" lat="47.809226" lon="20.5510448" timestamp="2019-07-25T11:22:35Z" uid="1559158" user="vakulya" version="2"/>
   <!-- OSM link: https://osm.org/way/639634161 -->
   <!-- Original coordinates: POINT (47.80921 20.550983) -->
-  <!-- OSM <-> POI distance: 4.90870299 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Mezőkövesd'			'Mezőkövesd'
@@ -43,9 +43,10 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 self_service                      EQU 		'no'			'no'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w639634161&addtags=%7Caddr%3Acity%3DMez%C5%91k%C3%B6vesd%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D3400%7Caddr%3Astreet%3DEgri%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMEZ%C5%90K%C3%96V.%20II%20571%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20706%20002%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368423-mezokov-ii-571%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cself_service%3Dno%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w639634161&addtags=%7Caddr%3Acity%3DMez%C5%91k%C3%B6vesd%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D3400%7Caddr%3Astreet%3DEgri%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMEZ%C5%90K%C3%96V.%20II%20571%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20706%20002%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368423-mezokov-ii-571%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3DMo-Su%2006%3A00-22%3A00%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cself_service%3Dno%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'EGRI UTCA 51', 'postcode': '3400', 'city': 'Mezőkövesd', 'street': 'Egri út', 'housenumber': '51', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="639634161" timestamp="2022-05-04T09:08:13Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="6026851053"/>
@@ -87,7 +88,95 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="self_service" v="no"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
+  </way>
+  <node id="3070680688" lat="47.8416" lon="20.7439626" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
+  <node id="3070680590" lat="47.8417407" lon="20.7440241" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
+  <node id="3070680597" lat="47.841782" lon="20.7438144" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
+  <node id="3070680694" lat="47.8416413" lon="20.7437528" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
+  <node id="3070680857" lat="47.8416192" lon="20.7438649" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
+  <!-- OSM link: https://osm.org/way/302786739 -->
+  <!-- Original coordinates: POINT (47.84146 20.74446) -->
+  <!-- OSM <-> POI distance: 40.25409094 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Gelej'
+addr:postcode                    NEW		'3444'
+air_conditioning                 NEW		'yes'
+amenity                           EQU 		'fuel'			'fuel'
+branch                           NEW		'GELEJ A KONTÉNER KÁVÉZÓ'
+brand                             EQU 		'Shell'			'Shell'
+brand:wikidata                   NEW		'Q154950'
+brand:wikipedia                  NEW		'hu:Royal Dutch Shell'
+building                          EQU 		'retail'			'retail'
+contact:facebook                 NEW		'https://www.facebook.com/ShellMagyarorszag/'
+contact:fax                      NEW		'+36 1 999 8673'
+contact:phone                    NEW		'+36 1 480 1114'
+contact:twitter                  NEW		'shell'
+contact:website                  NEW		'https://find.shell.com/hu/fuel/13004762\-gelej\-a\-kontener\-kavezo'
+food                             NEW		'yes'
+fuel:GTL_diesel                  NEW		'yes'
+fuel:diesel                      NEW		'yes'
+fuel:octane_100                  NEW		'yes'
+fuel:octane_95                   NEW		'yes'
+loyalty_card                     NEW		'yes'
+name                              EQU 		'Shell'			'Shell'
+operator                          EQU 		'Shell Hungary Zrt.'			'Shell Hungary Zrt.'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+shop                              EQU 		'yes'			'yes'
+source                            MOD 		'import;website'			'Bing'
+source:date                      NEW		'2022\-09\-16'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w302786739&addtags=%7Caddr%3Acity%3DGelej%7Caddr%3Apostcode%3D3444%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGELEJ%20A%20KONT%C3%89NER%20K%C3%81V%C3%89Z%C3%93%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%201%20480%201114%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/13004762-gelej-a-kontener-kavezo%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'KÜLTERÜLET', 'postcode': '3444', 'city': 'Gelej', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="302786739" timestamp="2019-03-21T15:39:09Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <nd ref="3070680688"/>
+    <nd ref="3070680590"/>
+    <nd ref="3070680597"/>
+    <nd ref="3070680694"/>
+    <nd ref="3070680857"/>
+    <nd ref="3070680688"/>
+    <tag k="addr:city" v="Gelej"/>
+    <tag k="addr:postcode" v="3444"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="branch" v="GELEJ A KONTÉNER KÁVÉZÓ"/>
+    <tag k="brand" v="Shell"/>
+    <tag k="brand:wikidata" v="Q154950"/>
+    <tag k="brand:wikipedia" v="hu:Royal Dutch Shell"/>
+    <tag k="building" v="retail"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/ShellMagyarorszag/"/>
+    <tag k="contact:fax" v="+36 1 999 8673"/>
+    <tag k="contact:phone" v="+36 1 480 1114"/>
+    <tag k="contact:twitter" v="shell"/>
+    <tag k="contact:website" v="https://find.shell.com/hu/fuel/13004762-gelej-a-kontener-kavezo"/>
+    <tag k="food" v="yes"/>
+    <tag k="fuel:GTL_diesel" v="yes"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_100" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="loyalty_card" v="yes"/>
+    <tag k="name" v="Shell"/>
+    <tag k="operator" v="Shell Hungary Zrt."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="yes"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="3070679628" lat="47.8429863" lon="20.7427175" timestamp="2019-01-23T14:44:22Z" uid="1559158" user="vakulya" version="2"/>
   <node id="3070680934" lat="47.8430252" lon="20.7425037" timestamp="2019-01-23T14:44:22Z" uid="1559158" user="vakulya" version="2"/>
@@ -133,10 +222,10 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 restaurant                       NEW		'yes'
 shop                              EQU 		'yes'			'yes'
-source                            EQU 		'Bing'			'Bing'
-source:date                      NEW		'2022\-06\-08'
+source                            MOD 		'import;website'			'Bing'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w302786738&addtags=%7Caddr%3Acity%3DMezokeresztes%7Caddr%3Apostcode%3D3444%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGELEJ%20M3%20B%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20700%20571%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205469-gelej-m3-b%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Cshop%3Dyes%7Csource%3DBing%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w302786738&addtags=%7Caddr%3Acity%3DMezokeresztes%7Caddr%3Apostcode%3D3444%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGELEJ%20M3%20B%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20700%20571%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205469-gelej-m3-b%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Cshop%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'KÜLTERÜLET', 'postcode': '3444', 'city': 'Mezokeresztes', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="302786738" timestamp="2019-03-21T15:39:10Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="3070679628"/>
@@ -179,14 +268,9 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="restaurant" v="yes"/>
     <tag k="shop" v="yes"/>
-    <tag k="source" v="Bing"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
-  <node id="3070680688" lat="47.8416" lon="20.7439626" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
-  <node id="3070680590" lat="47.8417407" lon="20.7440241" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
-  <node id="3070680597" lat="47.841782" lon="20.7438144" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
-  <node id="3070680694" lat="47.8416413" lon="20.7437528" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
-  <node id="3070680857" lat="47.8416192" lon="20.7438649" timestamp="2019-01-23T14:44:19Z" uid="1559158" user="vakulya" version="2"/>
   <!-- OSM link: https://osm.org/way/302786739 -->
   <!-- Original coordinates: POINT (47.841584 20.74396) -->
   <!-- OSM <-> POI distance: 1.7896719 m-->
@@ -227,10 +311,10 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 restaurant                       NEW		'yes'
 shop                              EQU 		'yes'			'yes'
-source                            EQU 		'Bing'			'Bing'
-source:date                      NEW		'2022\-06\-08'
+source                            MOD 		'import;website'			'Bing'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w302786739&addtags=%7Caddr%3Acity%3DGelej%7Caddr%3Apostcode%3D3444%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGELEJ%20M3%20A.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20704%20230%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205468-gelej-m3-a%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Cshop%3Dyes%7Csource%3DBing%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w302786739&addtags=%7Caddr%3Acity%3DGelej%7Caddr%3Apostcode%3D3444%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGELEJ%20M3%20A.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20704%20230%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205468-gelej-m3-a%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Cshop%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'KÜLTERÜLET', 'postcode': '3444', 'city': 'Gelej', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="302786739" timestamp="2019-03-21T15:39:09Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="3070680688"/>
@@ -274,8 +358,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="restaurant" v="yes"/>
     <tag k="shop" v="yes"/>
-    <tag k="source" v="Bing"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="1332742399" lat="48.1066493" lon="20.8208935" timestamp="2014-12-08T02:41:50Z" uid="1559158" user="vakulya" version="5"/>
   <node id="1332742465" lat="48.1066124" lon="20.8209998" timestamp="2014-12-08T02:41:50Z" uid="1559158" user="vakulya" version="5"/>
@@ -295,7 +379,7 @@ air_conditioning                 NEW		'yes'
 amenity                           EQU 		'fuel'			'fuel'
 branch                           NEW		'MISKOLC I.'
 brand                             EQU 		'Shell'			'Shell'
-brand:wikidata                    EQU 		'Q154950'			'Q154950'
+brand:wikidata                    MOD 		'Q154950'			'Q110716465'
 brand:wikipedia                   MOD 		'hu:Royal Dutch Shell'			'en:Royal Dutch Shell'
 building                          EQU 		'yes'			'yes'
 compressed_air                   NEW		'yes'
@@ -322,11 +406,12 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 restaurant                       NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118506998&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D76%7Caddr%3Apostcode%3D3527%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20I.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20507%20867%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205474-miskolc-i%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118506998&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Ahousenumber%3D76%7Caddr%3Apostcode%3D3527%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20I.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20507%20867%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205474-miskolc-i%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'JÓZSEF A. ÚT 76', 'postcode': '3527', 'city': 'Miskolc', 'street': 'József Attila út', 'housenumber': '76', 'conscriptionnumber': 'None'°-->
-  <way action="modify" id="118506998" timestamp="2021-03-24T08:25:32Z" uid="8635934" user="osm_poi_matchmaker" version="8">
+  <way action="modify" id="118506998" timestamp="2022-08-03T10:42:02Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <nd ref="1332742399"/>
     <nd ref="1332742465"/>
     <nd ref="1332742476"/>
@@ -368,7 +453,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="restaurant" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="1337152570" lat="48.1080157" lon="20.8436187" timestamp="2015-06-15T15:16:01Z" uid="1645575" user="GeoLaci" version="4"/>
   <node id="1337152548" lat="48.1079869" lon="20.8438563" timestamp="2015-06-15T15:16:01Z" uid="1645575" user="GeoLaci" version="4"/>
@@ -414,9 +500,10 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                      EQU 		'yes'			'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118946539&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Apostcode%3D3527%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20IV.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20504%20150%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205477-miskolc-iv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118946539&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Apostcode%3D3527%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20IV.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20504%20150%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205477-miskolc-iv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': '3. SZ. FŐÚT FELSŐZSOLCAI KÖRFORG', 'postcode': '3527', 'city': 'Miskolc', 'street': 'József Attila út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="118946539" timestamp="2021-06-02T18:57:55Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <nd ref="1337152570"/>
@@ -459,7 +546,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <!-- OSM link: https://osm.org/node/1337352156 -->
   <!-- Original coordinates: POINT (48.128167 20.783228) -->
@@ -468,7 +556,7 @@ source:date                      NEW		'2022\-06\-08'
 Key				Status		New value		OSM value
 addr:city                        NEW		'Miskolc'
 addr:postcode                    NEW		'3526'
-addr:street                      NEW		'szentpéteri kapu'
+addr:street                      NEW		'Szentpéteri kapu'
 air_conditioning                 NEW		'yes'
 amenity                           EQU 		'fuel'			'fuel'
 branch                           NEW		'MISKOLC III.'
@@ -498,14 +586,15 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1337352156&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Apostcode%3D3526%7Caddr%3Astreet%3Dszentp%C3%A9teri%20kapu%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20III.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20428%20058%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205505-miskolc-iii%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cname%3Ahu%3DSHELL%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
-  <!--ˇ'original': 'SZENTPÉTERI KAPU', 'postcode': '3526', 'city': 'Miskolc', 'street': 'szentpéteri kapu', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1337352156&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Apostcode%3D3526%7Caddr%3Astreet%3DSzentp%C3%A9teri%20kapu%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20III.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20428%20058%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205505-miskolc-iii%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cname%3Ahu%3DSHELL%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'SZENTPÉTERI KAPU', 'postcode': '3526', 'city': 'Miskolc', 'street': 'Szentpéteri kapu', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="1337352156" lat="48.1282154" lon="20.7833186" timestamp="2021-02-06T14:20:53Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Miskolc"/>
     <tag k="addr:postcode" v="3526"/>
-    <tag k="addr:street" v="szentpéteri kapu"/>
+    <tag k="addr:street" v="Szentpéteri kapu"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="MISKOLC III."/>
@@ -535,7 +624,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="1330410598" lat="48.1063484" lon="20.7688782" timestamp="2013-01-30T22:21:38Z" uid="408450" user="BáthoryPéter" version="2"/>
   <node id="1330410493" lat="48.106218" lon="20.7689062" timestamp="2013-01-30T22:21:38Z" uid="408450" user="BáthoryPéter" version="2"/>
@@ -583,9 +673,10 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 restaurant                       NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118265529&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Apostcode%3D3525%7Caddr%3Astreet%3DVologda%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20428%20051%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205506-miskolc-ii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w118265529&addtags=%7Caddr%3Acity%3DMiskolc%7Caddr%3Apostcode%3D3525%7Caddr%3Astreet%3DVologda%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DMISKOLC%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2046%20428%20051%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205506-miskolc-ii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'VOLOGDA ÚT', 'postcode': '3525', 'city': 'Miskolc', 'street': 'Vologda utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="118265529" timestamp="2022-06-06T09:34:01Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="1330410598"/>
@@ -630,7 +721,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="restaurant" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="2951387254" lat="47.9308009" lon="21.0249185" timestamp="2015-05-15T14:14:49Z" uid="2166799" user="gazember8" version="4"/>
   <node id="2951387255" lat="47.9309862" lon="21.0250157" timestamp="2015-05-15T14:14:49Z" uid="2166799" user="gazember8" version="4"/>
@@ -676,9 +768,10 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w291672728&addtags=%7Caddr%3Acity%3DTisza%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D1/A%7Caddr%3Apostcode%3D3580%7Caddr%3Astreet%3D%C3%96r%C3%B6si%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTISZA%C3%9AJV%20II%20548%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20708%20004%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11367876-tiszaujv-ii-548%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w291672728&addtags=%7Caddr%3Acity%3DTisza%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D1/A%7Caddr%3Apostcode%3D3580%7Caddr%3Astreet%3D%C3%96r%C3%B6si%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTISZA%C3%9AJV%20II%20548%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2049%20708%20004%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11367876-tiszaujv-ii-548%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'ÖRÖSI ÚT 1/A', 'postcode': '3580', 'city': 'Tiszaújváros', 'street': 'Örösi út', 'housenumber': '1/A', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="291672728" timestamp="2022-06-04T09:16:05Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <nd ref="2951387254"/>
@@ -721,6 +814,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
 </osm>

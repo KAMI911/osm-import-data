@@ -1,46 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <node id="3932897740" lat="46.9569612" lon="18.9467449" timestamp="2016-01-07T20:26:12Z" uid="604012" user="pattka" version="1"/>
+  <node id="3932897742" lat="46.9572574" lon="18.9471542" timestamp="2016-01-07T20:26:12Z" uid="604012" user="pattka" version="1"/>
+  <node id="3932897743" lat="46.9574494" lon="18.946856" timestamp="2016-01-07T20:26:12Z" uid="604012" user="pattka" version="1"/>
+  <node id="3932897741" lat="46.9571532" lon="18.9464467" timestamp="2016-01-07T20:26:12Z" uid="604012" user="pattka" version="1"/>
+  <!-- OSM link: https://osm.org/way/390127533 -->
   <!-- Original coordinates: POINT (46.9564 18.9492) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 182.20235226 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                        NEW		'Dunaújváros'
 addr:housenumber                 NEW		'4'
 addr:postcode                    NEW		'2400'
 addr:street                      NEW		'Eszperantó út'
-air_conditioning                 NEW		'yes'
-brand                            NEW		'Aldi'
-brand:wikidata                   NEW		'Q125054'
-brand:wikipedia                  NEW		'hu:Aldi'
-contact:facebook                 NEW		'https://www.facebook.com/ALDI.Magyarorszag'
-contact:instagram                NEW		'https://www.instagram.com/aldi.magyarorszag'
+air_conditioning                  EQU 		'yes'			'yes'
+brand                             MOD 		'Aldi'			'ALDI'
+brand:wikidata                    MOD 		'Q125054'			'Q41171672'
+brand:wikipedia                   MOD 		'hu:Aldi'			'en:Aldi'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/ALDI.Magyarorszag'			'https://www.facebook.com/ALDI.Magyarorszag'
+contact:instagram                 EQU 		'https://www.instagram.com/aldi.magyarorszag'			'https://www.instagram.com/aldi.magyarorszag'
 contact:phone                    NEW		'+36 80 088 264'
-contact:website                  NEW		'https://www.aldi.hu'
-contact:youtube                  NEW		'https://www.youtube.com/user/ALDIMagyarorszag'
-fixme                            NEW		'verify import'
-name                             NEW		'Aldi'
-opening_hours                    NEW		'Mo 07:00\-19:00; Tu\-Su 07:00\-20:00; PH off'
-operator                         NEW		'ALDI Magyarország Élelmiszer Bt.'
-operator:addr                    NEW		'2051 Biatorbágy, Mészárosok útja 2.'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-ref:HU:company                   NEW		'13 06 058506'
-ref:company:HU                   NEW		'13\-06\-058506'
-ref:vatin                        NEW		'HU22234663'
-ref:vatin:hu                     NEW		'22234663\-2\-44'
-shop                             NEW		'supermarket'
+contact:website                   MOD 		'https://www.aldi.hu'			'https://www.aldi.hu/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/ALDIMagyarorszag'			'https://www.youtube.com/user/ALDIMagyarorszag'
+name                              MOD 		'Aldi'			'ALDI'
+name:fa                           EQU 		'آلدی'			'آلدی'
+opening_hours                    NEW		'Mo\-Sa 07:00\-20:00; Su 07:00\-19:00; PH off'
+opening_hours:covid19             EQU 		'Mo\-Sa 06:00\-19:00;Su 07:00\-19:00;PF off'			'Mo\-Sa 06:00\-19:00;Su 07:00\-19:00;PF off'
+operator                          EQU 		'ALDI Magyarország Élelmiszer Bt.'			'ALDI Magyarország Élelmiszer Bt.'
+operator:addr                     EQU 		'2051 Biatorbágy, Mészárosok útja 2.'			'2051 Biatorbágy, Mészárosok útja 2.'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+ref:company:HU                    MOD 		'13 06 058506'			'13\-06\-058506'
+ref:vatin                         EQU 		'HU22234663'			'HU22234663'
+ref:vatin:hu                      EQU 		'22234663\-2\-44'			'22234663\-2\-44'
+shop                              EQU 		'supermarket'			'supermarket'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-08\-10'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DDuna%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D2400%7Caddr%3Astreet%3DEszperant%C3%B3%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cfixme%3Dverify%20import%7Cname%3DAldi%7Copening_hours%3DMo%2007%3A00-19%3A00%3B%20Tu-Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2006%20058506%7Cref%3Acompany%3AHU%3D13-06-058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-08-10 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w390127533&addtags=%7Caddr%3Acity%3DDuna%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D2400%7Caddr%3Astreet%3DEszperant%C3%B3%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Copening_hours%3DMo-Sa%2007%3A00-20%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3BSu%2007%3A00-19%3A00%3BPF%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D13%2006%20058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Eszperantó út 4.', 'postcode': '2400', 'city': 'Dunaújváros', 'street': 'Eszperantó út', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="46.9564" lon="18.9492" timestamp="2022-08-10T08:28:24Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <way action="modify" id="390127533" timestamp="2022-06-08T12:26:23Z" uid="8635934" user="osm_poi_matchmaker" version="9">
+    <nd ref="3932897740"/>
+    <nd ref="3932897742"/>
+    <nd ref="3932897743"/>
+    <nd ref="3932897741"/>
+    <nd ref="3932897740"/>
     <tag k="addr:city" v="Dunaújváros"/>
     <tag k="addr:housenumber" v="4"/>
     <tag k="addr:postcode" v="2400"/>
@@ -49,14 +60,16 @@ source:date                      NEW		'2022\-08\-10'
     <tag k="brand" v="Aldi"/>
     <tag k="brand:wikidata" v="Q125054"/>
     <tag k="brand:wikipedia" v="hu:Aldi"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/ALDI.Magyarorszag"/>
     <tag k="contact:instagram" v="https://www.instagram.com/aldi.magyarorszag"/>
     <tag k="contact:phone" v="+36 80 088 264"/>
     <tag k="contact:website" v="https://www.aldi.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/ALDIMagyarorszag"/>
-    <tag k="fixme" v="verify import"/>
     <tag k="name" v="Aldi"/>
-    <tag k="opening_hours" v="Mo 07:00-19:00; Tu-Su 07:00-20:00; PH off"/>
+    <tag k="name:fa" v="آلدی"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-20:00; Su 07:00-19:00; PH off"/>
+    <tag k="opening_hours:covid19" v="Mo-Sa 06:00-19:00;Su 07:00-19:00;PF off"/>
     <tag k="operator" v="ALDI Magyarország Élelmiszer Bt."/>
     <tag k="operator:addr" v="2051 Biatorbágy, Mészárosok útja 2."/>
     <tag k="payment:cash" v="yes"/>
@@ -67,14 +80,13 @@ source:date                      NEW		'2022\-08\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="ref:HU:company" v="13 06 058506"/>
-    <tag k="ref:company:HU" v="13-06-058506"/>
+    <tag k="ref:company:HU" v="13 06 058506"/>
     <tag k="ref:vatin" v="HU22234663"/>
     <tag k="ref:vatin:hu" v="22234663-2-44"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-08-10"/>
-  </node>
+    <tag k="source:date" v="2022-09-16"/>
+  </way>
   <node id="1573854250" lat="46.9607992" lon="18.9079356" timestamp="2013-02-06T14:26:53Z" uid="332909" user="GPS-Mic" version="2"/>
   <node id="2388781480" lat="46.9602711" lon="18.9080966" timestamp="2013-07-18T19:08:35Z" uid="311866" user="papesz" version="1"/>
   <node id="1573854239" lat="46.9602349" lon="18.9081077" timestamp="2013-02-06T14:26:53Z" uid="332909" user="GPS-Mic" version="2"/>
@@ -105,7 +117,7 @@ contact:website                   MOD 		'https://www.aldi.hu'			'https://www.ald
 contact:youtube                   EQU 		'https://www.youtube.com/user/ALDIMagyarorszag'			'https://www.youtube.com/user/ALDIMagyarorszag'
 name                              EQU 		'Aldi'			'Aldi'
 name:fa                           EQU 		'آلدی'			'آلدی'
-opening_hours                    NEW		'Mo 07:00\-19:00; Tu\-Su 07:00\-20:00; PH off'
+opening_hours                    NEW		'Mo\-Sa 07:00\-20:00; Su 07:00\-19:00; PH off'
 opening_hours:covid19             EQU 		'Mo\-Sa 06:00\-19:00;Su 07:00\-19:00;PF off'			'Mo\-Sa 06:00\-19:00;Su 07:00\-19:00;PF off'
 operator                          EQU 		'ALDI Magyarország Élelmiszer Bt.'			'ALDI Magyarország Élelmiszer Bt.'
 operator:addr                     EQU 		'2051 Biatorbágy, Mészárosok útja 2.'			'2051 Biatorbágy, Mészárosok útja 2.'
@@ -117,15 +129,14 @@ payment:mastercard_contactless    EQU 		'yes'			'yes'
 payment:mastercard_electronic     EQU 		'yes'			'yes'
 payment:visa                      EQU 		'yes'			'yes'
 payment:visa_electron             EQU 		'yes'			'yes'
-ref:HU:company                   NEW		'13 06 058506'
-ref:company:HU                    EQU 		'13\-06\-058506'			'13\-06\-058506'
+ref:company:HU                    MOD 		'13 06 058506'			'13\-06\-058506'
 ref:vatin                         EQU 		'HU22234663'			'HU22234663'
 ref:vatin:hu                      EQU 		'22234663\-2\-44'			'22234663\-2\-44'
 shop                              EQU 		'supermarket'			'supermarket'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-08\-10'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w143823004&addtags=%7Caddr%3Acity%3DDuna%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D2400%7Caddr%3Astreet%3DKand%C3%B3%20K%C3%A1lm%C3%A1n%20t%C3%A9r%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Copening_hours%3DMo%2007%3A00-19%3A00%3B%20Tu-Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3BSu%2007%3A00-19%3A00%3BPF%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2006%20058506%7Cref%3Acompany%3AHU%3D13-06-058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-08-10 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w143823004&addtags=%7Caddr%3Acity%3DDuna%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D2400%7Caddr%3Astreet%3DKand%C3%B3%20K%C3%A1lm%C3%A1n%20t%C3%A9r%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Copening_hours%3DMo-Sa%2007%3A00-20%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3BSu%2007%3A00-19%3A00%3BPF%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D13%2006%20058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kandó Kálmán tér 10.', 'postcode': '2400', 'city': 'Dunaújváros', 'street': 'Kandó Kálmán tér', 'housenumber': '10', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="143823004" timestamp="2022-04-10T09:27:07Z" uid="8635934" user="osm_poi_matchmaker" version="12">
     <nd ref="1573854250"/>
@@ -154,7 +165,7 @@ source:date                      NEW		'2022\-08\-10'
     <tag k="contact:youtube" v="https://www.youtube.com/user/ALDIMagyarorszag"/>
     <tag k="name" v="Aldi"/>
     <tag k="name:fa" v="آلدی"/>
-    <tag k="opening_hours" v="Mo 07:00-19:00; Tu-Su 07:00-20:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-20:00; Su 07:00-19:00; PH off"/>
     <tag k="opening_hours:covid19" v="Mo-Sa 06:00-19:00;Su 07:00-19:00;PF off"/>
     <tag k="operator" v="ALDI Magyarország Élelmiszer Bt."/>
     <tag k="operator:addr" v="2051 Biatorbágy, Mészárosok útja 2."/>
@@ -166,13 +177,12 @@ source:date                      NEW		'2022\-08\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="ref:HU:company" v="13 06 058506"/>
-    <tag k="ref:company:HU" v="13-06-058506"/>
+    <tag k="ref:company:HU" v="13 06 058506"/>
     <tag k="ref:vatin" v="HU22234663"/>
     <tag k="ref:vatin:hu" v="22234663-2-44"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-08-10"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="1704414191" lat="47.2022185" lon="18.6181314" timestamp="2016-12-11T08:09:20Z" uid="1559158" user="vakulya" version="3"/>
   <node id="2285636877" lat="47.2020661" lon="18.6179004" timestamp="2016-12-11T08:09:20Z" uid="1559158" user="vakulya" version="2"/>
@@ -207,7 +217,7 @@ contact:website                   MOD 		'https://www.aldi.hu'			'https://www.ald
 contact:youtube                   EQU 		'https://www.youtube.com/user/ALDIMagyarorszag'			'https://www.youtube.com/user/ALDIMagyarorszag'
 name                              MOD 		'Aldi'			'ALDI'
 name:fa                           EQU 		'آلدی'			'آلدی'
-opening_hours                    NEW		'Mo 07:00\-20:00; Tu\-Su 07:00\-22:00; PH off'
+opening_hours                    NEW		'Mo\-Sa 07:00\-21:00; Su 07:00\-19:00; PH off'
 opening_hours:covid19             EQU 		'Mo\-Sa 06:00\-19:00; Su 07:00\-19:00; PH off'			'Mo\-Sa 06:00\-19:00; Su 07:00\-19:00; PH off'
 operator                          EQU 		'ALDI Magyarország Élelmiszer Bt.'			'ALDI Magyarország Élelmiszer Bt.'
 operator:addr                     EQU 		'2051 Biatorbágy, Mészárosok útja 2.'			'2051 Biatorbágy, Mészárosok útja 2.'
@@ -219,15 +229,14 @@ payment:mastercard_contactless    EQU 		'yes'			'yes'
 payment:mastercard_electronic     EQU 		'yes'			'yes'
 payment:visa                      EQU 		'yes'			'yes'
 payment:visa_electron             EQU 		'yes'			'yes'
-ref:HU:company                   NEW		'13 06 058506'
-ref:company:HU                    EQU 		'13\-06\-058506'			'13\-06\-058506'
+ref:company:HU                    MOD 		'13 06 058506'			'13\-06\-058506'
 ref:vatin                         EQU 		'HU22234663'			'HU22234663'
 ref:vatin:hu                      EQU 		'22234663\-2\-44'			'22234663\-2\-44'
 shop                              EQU 		'supermarket'			'supermarket'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-08\-10'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w158209125&addtags=%7Caddr%3Acity%3DG%C3%A1rdony%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D2484%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Caddr%3Asuburb%3DAg%C3%A1rd%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Copening_hours%3DMo%2007%3A00-20%3A00%3B%20Tu-Su%2007%3A00-22%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2006%20058506%7Cref%3Acompany%3AHU%3D13-06-058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-08-10 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w158209125&addtags=%7Caddr%3Acity%3DG%C3%A1rdony%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D2484%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Caddr%3Asuburb%3DAg%C3%A1rd%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Copening_hours%3DMo-Sa%2007%3A00-21%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D13%2006%20058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Szabadság út 21.', 'postcode': '2484', 'city': 'Gárdony', 'street': 'Szabadság út', 'housenumber': '21', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="158209125" timestamp="2021-12-07T07:42:56Z" uid="8635934" user="osm_poi_matchmaker" version="14">
     <nd ref="1704414191"/>
@@ -259,7 +268,7 @@ source:date                      NEW		'2022\-08\-10'
     <tag k="contact:youtube" v="https://www.youtube.com/user/ALDIMagyarorszag"/>
     <tag k="name" v="Aldi"/>
     <tag k="name:fa" v="آلدی"/>
-    <tag k="opening_hours" v="Mo 07:00-20:00; Tu-Su 07:00-22:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-21:00; Su 07:00-19:00; PH off"/>
     <tag k="opening_hours:covid19" v="Mo-Sa 06:00-19:00; Su 07:00-19:00; PH off"/>
     <tag k="operator" v="ALDI Magyarország Élelmiszer Bt."/>
     <tag k="operator:addr" v="2051 Biatorbágy, Mészárosok útja 2."/>
@@ -271,13 +280,12 @@ source:date                      NEW		'2022\-08\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="ref:HU:company" v="13 06 058506"/>
-    <tag k="ref:company:HU" v="13-06-058506"/>
+    <tag k="ref:company:HU" v="13 06 058506"/>
     <tag k="ref:vatin" v="HU22234663"/>
     <tag k="ref:vatin:hu" v="22234663-2-44"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-08-10"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="479871290" lat="47.774806" lon="18.7564128" timestamp="2020-06-09T18:42:07Z" uid="5314035" user="Turboscsiga" version="6"/>
   <node id="479871294" lat="47.7747153" lon="18.756465" timestamp="2020-06-09T18:42:07Z" uid="5314035" user="Turboscsiga" version="6"/>
@@ -290,7 +298,7 @@ source:date                      NEW		'2022\-08\-10'
   <node id="5492201319" lat="47.7747862" lon="18.7563365" timestamp="2020-06-09T18:42:07Z" uid="5314035" user="Turboscsiga" version="2"/>
   <!-- OSM link: https://osm.org/way/39956718 -->
   <!-- Original coordinates: POINT (47.7744 18.75543) -->
-  <!-- OSM <-> POI distance: 14.9784247 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Esztergom'			'Esztergom'
@@ -310,7 +318,7 @@ contact:youtube                   EQU 		'https://www.youtube.com/user/ALDIMagyar
 image                             EQU 		'https://www.flickr.com/photos/194368586@N06/shares/3t5o1f'			'https://www.flickr.com/photos/194368586@N06/shares/3t5o1f'
 name                              MOD 		'Aldi'			'ALDI'
 name:fa                           EQU 		'آلدی'			'آلدی'
-opening_hours                    NEW		'Mo 07:00\-19:00; Tu\-Su 07:00\-20:00; PH off'
+opening_hours                    NEW		'Mo\-Sa 07:00\-20:00; Su 07:00\-19:00; PH off'
 opening_hours:covid19             EQU 		'Mo\-Sa 06:00\-19:00; Su 07:00\-19:00; PF off'			'Mo\-Sa 06:00\-19:00; Su 07:00\-19:00; PF off'
 operator                          EQU 		'ALDI Magyarország Élelmiszer Bt.'			'ALDI Magyarország Élelmiszer Bt.'
 operator:addr                     EQU 		'2051 Biatorbágy, Mészárosok útja 2.'			'2051 Biatorbágy, Mészárosok útja 2.'
@@ -322,16 +330,15 @@ payment:mastercard_contactless    EQU 		'yes'			'yes'
 payment:mastercard_electronic     EQU 		'yes'			'yes'
 payment:visa                      EQU 		'yes'			'yes'
 payment:visa_electron             EQU 		'yes'			'yes'
-ref:HU:company                   NEW		'13 06 058506'
-ref:company:HU                    EQU 		'13\-06\-058506'			'13\-06\-058506'
+ref:company:HU                    MOD 		'13 06 058506'			'13\-06\-058506'
 ref:vatin                         EQU 		'HU22234663'			'HU22234663'
 ref:vatin:hu                      EQU 		'22234663\-2\-44'			'22234663\-2\-44'
 shop                              EQU 		'supermarket'			'supermarket'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-08\-10'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w39956718&addtags=%7Caddr%3Acity%3DEsztergom%7Caddr%3Ahousenumber%3D86%7Caddr%3Apostcode%3D2500%7Caddr%3Astreet%3DDobog%C3%B3k%C5%91i%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cimage%3Dhttps%3A//www.flickr.com/photos/194368586%40N06/shares/3t5o1f%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Copening_hours%3DMo%2007%3A00-19%3A00%3B%20Tu-Su%2007%3A00-20%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PF%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2006%20058506%7Cref%3Acompany%3AHU%3D13-06-058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-08-10%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w39956718&addtags=%7Caddr%3Acity%3DEsztergom%7Caddr%3Ahousenumber%3D86%7Caddr%3Apostcode%3D2500%7Caddr%3Astreet%3DDobog%C3%B3k%C5%91i%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cimage%3Dhttps%3A//www.flickr.com/photos/194368586%40N06/shares/3t5o1f%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Copening_hours%3DMo-Sa%2007%3A00-20%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PF%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D13%2006%20058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Dobogókői utca 86.', 'postcode': '2500', 'city': 'Esztergom', 'street': 'Dobogókői út', 'housenumber': '86', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="39956718" timestamp="2021-11-09T22:19:29Z" uid="8635934" user="osm_poi_matchmaker" version="16">
     <nd ref="479871290"/>
@@ -361,7 +368,7 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="image" v="https://www.flickr.com/photos/194368586@N06/shares/3t5o1f"/>
     <tag k="name" v="Aldi"/>
     <tag k="name:fa" v="آلدی"/>
-    <tag k="opening_hours" v="Mo 07:00-19:00; Tu-Su 07:00-20:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-20:00; Su 07:00-19:00; PH off"/>
     <tag k="opening_hours:covid19" v="Mo-Sa 06:00-19:00; Su 07:00-19:00; PF off"/>
     <tag k="operator" v="ALDI Magyarország Élelmiszer Bt."/>
     <tag k="operator:addr" v="2051 Biatorbágy, Mészárosok útja 2."/>
@@ -373,13 +380,12 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="ref:HU:company" v="13 06 058506"/>
-    <tag k="ref:company:HU" v="13-06-058506"/>
+    <tag k="ref:company:HU" v="13 06 058506"/>
     <tag k="ref:vatin" v="HU22234663"/>
     <tag k="ref:vatin:hu" v="22234663-2-44"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-08-10"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <node id="6167017488" lat="47.738475" lon="18.6587115" timestamp="2021-03-22T20:52:20Z" uid="2982309" user="vasony" version="2"/>
@@ -406,7 +412,7 @@ contact:phone                    NEW		'+36 80 088 264'
 contact:website                  NEW		'https://www.aldi.hu'
 contact:youtube                  NEW		'https://www.youtube.com/user/ALDIMagyarorszag'
 name                              EQU 		'Aldi'			'Aldi'
-opening_hours                     MOD 		'Mo 07:00\-19:00; Tu\-Su 06:30\-20:00; PH off'			'Mo\-Sa 07:00\-20:00; Su 08:00\-18:00'
+opening_hours                     MOD 		'Mo\-Sa 06:30\-20:00; Su 07:00\-19:00; PH off'			'Mo\-Sa 07:00\-20:00; Su 08:00\-18:00'
 operator                         NEW		'ALDI Magyarország Élelmiszer Bt.'
 operator:addr                    NEW		'2051 Biatorbágy, Mészárosok útja 2.'
 payment:cash                     NEW		'yes'
@@ -417,16 +423,15 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-ref:HU:company                   NEW		'13 06 058506'
-ref:company:HU                   NEW		'13\-06\-058506'
+ref:company:HU                   NEW		'13 06 058506'
 ref:vatin                        NEW		'HU22234663'
 ref:vatin:hu                     NEW		'22234663\-2\-44'
 shop                              EQU 		'supermarket'			'supermarket'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-08\-10'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w658585853&addtags=%7Caddr%3Acity%3DT%C3%A1t%7Caddr%3Ahousenumber%3D35-36%7Caddr%3Apostcode%3D2534%7Caddr%3Astreet%3DB%C3%A9csi%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Copening_hours%3DMo%2007%3A00-19%3A00%3B%20Tu-Su%2006%3A30-20%3A00%3B%20PH%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2006%20058506%7Cref%3Acompany%3AHU%3D13-06-058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-08-10%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w658585853&addtags=%7Caddr%3Acity%3DT%C3%A1t%7Caddr%3Ahousenumber%3D35-36%7Caddr%3Apostcode%3D2534%7Caddr%3Astreet%3DB%C3%A9csi%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Copening_hours%3DMo-Sa%2006%3A30-20%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D13%2006%20058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Bécsi út 35-36.', 'postcode': '2534', 'city': 'Tát', 'street': 'Bécsi út', 'housenumber': '35-36', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="658585853" timestamp="2021-03-22T20:52:20Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <nd ref="6167017488"/>
@@ -449,7 +454,7 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="contact:website" v="https://www.aldi.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/ALDIMagyarorszag"/>
     <tag k="name" v="Aldi"/>
-    <tag k="opening_hours" v="Mo 07:00-19:00; Tu-Su 06:30-20:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Sa 06:30-20:00; Su 07:00-19:00; PH off"/>
     <tag k="operator" v="ALDI Magyarország Élelmiszer Bt."/>
     <tag k="operator:addr" v="2051 Biatorbágy, Mészárosok útja 2."/>
     <tag k="payment:cash" v="yes"/>
@@ -460,13 +465,12 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="ref:HU:company" v="13 06 058506"/>
-    <tag k="ref:company:HU" v="13-06-058506"/>
+    <tag k="ref:company:HU" v="13 06 058506"/>
     <tag k="ref:vatin" v="HU22234663"/>
     <tag k="ref:vatin:hu" v="22234663-2-44"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-08-10"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
 </osm>

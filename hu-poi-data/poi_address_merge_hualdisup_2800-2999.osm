@@ -1,26 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm generator="JOSM" version="0.6">
+  <node id="2502768225" lat="47.5603399" lon="18.4103333" timestamp="2017-03-30T16:06:42Z" uid="2338878" user="sui_hun" version="4"/>
+  <node id="2502768226" lat="47.5605106" lon="18.4100904" timestamp="2017-03-30T16:06:42Z" uid="2338878" user="sui_hun" version="4"/>
+  <node id="2502768227" lat="47.5606119" lon="18.4102343" timestamp="2017-03-30T16:06:42Z" uid="2338878" user="sui_hun" version="4"/>
+  <node id="4764461108" lat="47.5607194" lon="18.4103868" timestamp="2017-03-30T16:06:40Z" uid="2338878" user="sui_hun" version="1"/>
+  <node id="4764461109" lat="47.5607481" lon="18.4103527" timestamp="2017-03-30T16:06:40Z" uid="2338878" user="sui_hun" version="1"/>
+  <node id="2502771642" lat="47.5608882" lon="18.4105665" timestamp="2017-03-30T16:06:42Z" uid="2338878" user="sui_hun" version="4"/>
+  <node id="2502768228" lat="47.5606872" lon="18.4108499" timestamp="2017-03-30T16:06:42Z" uid="2338878" user="sui_hun" version="4"/>
+  <node id="4764461110" lat="47.560555" lon="18.4106533" timestamp="2017-03-30T16:06:40Z" uid="2338878" user="sui_hun" version="1"/>
+  <node id="4764461112" lat="47.5605184" lon="18.4106982" timestamp="2017-03-30T16:06:40Z" uid="2338878" user="sui_hun" version="1"/>
+  <node id="4764461113" lat="47.5604848" lon="18.4106468" timestamp="2017-03-30T16:06:40Z" uid="2338878" user="sui_hun" version="1"/>
+  <node id="4764461114" lat="47.5604512" lon="18.4105958" timestamp="2017-03-30T16:06:40Z" uid="2338878" user="sui_hun" version="1"/>
+  <node id="4764461111" lat="47.5604837" lon="18.4105472" timestamp="2017-03-30T16:06:40Z" uid="2338878" user="sui_hun" version="1"/>
+  <!-- OSM link: https://osm.org/way/242824014 -->
   <!-- Original coordinates: POINT (47.56131 18.40967) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 80.51098698 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Tatabánya'
+addr:city                         EQU 		'Tatabánya'			'Tatabánya'
 addr:housenumber                 NEW		'35'
-addr:postcode                    NEW		'2800'
-addr:street                      NEW		'Szent Borbála út'
+addr:postcode                     EQU 		'2800'			'2800'
+addr:street                       EQU 		'Szepesi Gusztáv utca'			'Szepesi Gusztáv utca'
 air_conditioning                 NEW		'yes'
 brand                            NEW		'Aldi'
-brand:wikidata                   NEW		'Q125054'
-brand:wikipedia                  NEW		'hu:Aldi'
+brand:wikidata                    EQU 		'Q125054'			'Q125054'
+brand:wikipedia                   EQU 		'hu:Aldi'			'hu:Aldi'
+building                          EQU 		'retail'			'retail'
 contact:facebook                 NEW		'https://www.facebook.com/ALDI.Magyarorszag'
 contact:instagram                NEW		'https://www.instagram.com/aldi.magyarorszag'
 contact:phone                    NEW		'+36 80 088 264'
 contact:website                  NEW		'https://www.aldi.hu'
 contact:youtube                  NEW		'https://www.youtube.com/user/ALDIMagyarorszag'
-fixme                            NEW		'verify import'
-name                             NEW		'Aldi'
-opening_hours                    NEW		'Mo 07:00\-19:00; Tu\-Su 07:00\-20:00; PH off'
-operator                         NEW		'ALDI Magyarország Élelmiszer Bt.'
+name                              MOD 		'Aldi'			'ALDI'
+name:fa                           EQU 		'آلدی'			'آلدی'
+name:it                           EQU 		'Aldi'			'Aldi'
+opening_hours                    NEW		'Mo\-Sa 07:00\-20:00; Su 07:00\-19:00; PH off'
+operator                          MOD 		'ALDI Magyarország Élelmiszer Bt.'			'ALDI'
 operator:addr                    NEW		'2051 Biatorbágy, Mészárosok útja 2.'
 payment:cash                     NEW		'yes'
 payment:contactless              NEW		'yes'
@@ -30,33 +45,47 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-ref:HU:company                   NEW		'13 06 058506'
-ref:company:HU                   NEW		'13\-06\-058506'
+ref:company:HU                   NEW		'13 06 058506'
 ref:vatin                        NEW		'HU22234663'
 ref:vatin:hu                     NEW		'22234663\-2\-44'
-shop                             NEW		'supermarket'
+shop                              EQU 		'supermarket'			'supermarket'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-08\-10'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DTatab%C3%A1nya%7Caddr%3Ahousenumber%3D35%7Caddr%3Apostcode%3D2800%7Caddr%3Astreet%3DSzent%20Borb%C3%A1la%20%C3%BAt%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cfixme%3Dverify%20import%7Cname%3DAldi%7Copening_hours%3DMo%2007%3A00-19%3A00%3B%20Tu-Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D13%2006%20058506%7Cref%3Acompany%3AHU%3D13-06-058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-08-10 -->
-  <!--ˇ'original': 'Szent Borbála út 35.', 'postcode': '2800', 'city': 'Tatabánya', 'street': 'Szent Borbála út', 'housenumber': '35', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.56131" lon="18.40967" timestamp="2022-08-10T08:28:24Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w242824014&addtags=%7Caddr%3Acity%3DTatab%C3%A1nya%7Caddr%3Ahousenumber%3D35%7Caddr%3Apostcode%3D2800%7Caddr%3Astreet%3DSzepesi%20Guszt%C3%A1v%20utca%7Cair_conditioning%3Dyes%7Cbrand%3DAldi%7Cbrand%3Awikidata%3DQ125054%7Cbrand%3Awikipedia%3Dhu%3AAldi%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ALDI.Magyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/aldi.magyarorszag%7Ccontact%3Aphone%3D%2B36%2080%20088%20264%7Ccontact%3Awebsite%3Dhttps%3A//www.aldi.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/ALDIMagyarorszag%7Cname%3DAldi%7Cname%3Afa%3D%D8%A2%D9%84%D8%AF%DB%8C%7Cname%3Ait%3DAldi%7Copening_hours%3DMo-Sa%2007%3A00-20%3A00%3B%20Su%2007%3A00-19%3A00%3B%20PH%20off%7Coperator%3DALDI%20Magyarorsz%C3%A1g%20%C3%89lelmiszer%20Bt.%7Coperator%3Aaddr%3D2051%20Biatorb%C3%A1gy%2C%20M%C3%A9sz%C3%A1rosok%20%C3%BAtja%202.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Acompany%3AHU%3D13%2006%20058506%7Cref%3Avatin%3DHU22234663%7Cref%3Avatin%3Ahu%3D22234663-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'Szent Borbála út 35.', 'postcode': '2800', 'city': 'Tatabánya', 'street': 'Szepesi Gusztáv utca', 'housenumber': '35', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="242824014" timestamp="2020-11-30T16:26:04Z" uid="8635934" user="osm_poi_matchmaker" version="12">
+    <nd ref="2502768225"/>
+    <nd ref="2502768226"/>
+    <nd ref="2502768227"/>
+    <nd ref="4764461108"/>
+    <nd ref="4764461109"/>
+    <nd ref="2502771642"/>
+    <nd ref="2502768228"/>
+    <nd ref="4764461110"/>
+    <nd ref="4764461112"/>
+    <nd ref="4764461113"/>
+    <nd ref="4764461114"/>
+    <nd ref="4764461111"/>
+    <nd ref="2502768225"/>
     <tag k="addr:city" v="Tatabánya"/>
     <tag k="addr:housenumber" v="35"/>
     <tag k="addr:postcode" v="2800"/>
-    <tag k="addr:street" v="Szent Borbála út"/>
+    <tag k="addr:street" v="Szepesi Gusztáv utca"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="brand" v="Aldi"/>
     <tag k="brand:wikidata" v="Q125054"/>
     <tag k="brand:wikipedia" v="hu:Aldi"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/ALDI.Magyarorszag"/>
     <tag k="contact:instagram" v="https://www.instagram.com/aldi.magyarorszag"/>
     <tag k="contact:phone" v="+36 80 088 264"/>
     <tag k="contact:website" v="https://www.aldi.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/ALDIMagyarorszag"/>
-    <tag k="fixme" v="verify import"/>
     <tag k="name" v="Aldi"/>
-    <tag k="opening_hours" v="Mo 07:00-19:00; Tu-Su 07:00-20:00; PH off"/>
+    <tag k="name:fa" v="آلدی"/>
+    <tag k="name:it" v="Aldi"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-20:00; Su 07:00-19:00; PH off"/>
     <tag k="operator" v="ALDI Magyarország Élelmiszer Bt."/>
     <tag k="operator:addr" v="2051 Biatorbágy, Mészárosok útja 2."/>
     <tag k="payment:cash" v="yes"/>
@@ -67,12 +96,11 @@ source:date                      NEW		'2022\-08\-10'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="ref:HU:company" v="13 06 058506"/>
-    <tag k="ref:company:HU" v="13-06-058506"/>
+    <tag k="ref:company:HU" v="13 06 058506"/>
     <tag k="ref:vatin" v="HU22234663"/>
     <tag k="ref:vatin:hu" v="22234663-2-44"/>
     <tag k="shop" v="supermarket"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-08-10"/>
-  </node>
+    <tag k="source:date" v="2022-09-16"/>
+  </way>
 </osm>

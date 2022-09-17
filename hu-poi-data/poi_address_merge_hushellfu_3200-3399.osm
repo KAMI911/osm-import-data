@@ -14,7 +14,7 @@ Key				Status		New value		OSM value
 addr:city                        NEW		'Gyöngyös'
 addr:housenumber                 NEW		'74'
 addr:postcode                    NEW		'3200'
-addr:street                      NEW		'Pesti utca'
+addr:street                      NEW		'Pesti út'
 air_conditioning                 NEW		'yes'
 amenity                           EQU 		'fuel'			'fuel'
 branch                           NEW		'GYÖNGYÖS'
@@ -46,10 +46,11 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 restaurant                       NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w432327712&addtags=%7Caddr%3Acity%3DGy%C3%B6ngy%C3%B6s%7Caddr%3Ahousenumber%3D74%7Caddr%3Apostcode%3D3200%7Caddr%3Astreet%3DPesti%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C3%96NGY%C3%96S%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2037%20313%20133%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205326-gyongyos%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Adate%3D2022-06-08 -->
-  <!--ˇ'original': 'PESTI U. 74', 'postcode': '3200', 'city': 'Gyöngyös', 'street': 'Pesti utca', 'housenumber': '74', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w432327712&addtags=%7Caddr%3Acity%3DGy%C3%B6ngy%C3%B6s%7Caddr%3Ahousenumber%3D74%7Caddr%3Apostcode%3D3200%7Caddr%3Astreet%3DPesti%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C3%96NGY%C3%96S%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2037%20313%20133%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205326-gyongyos%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'PESTI U. 74', 'postcode': '3200', 'city': 'Gyöngyös', 'street': 'Pesti út', 'housenumber': '74', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="432327712" timestamp="2019-11-24T07:28:21Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <nd ref="4314040856"/>
     <nd ref="4314040857"/>
@@ -61,7 +62,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="addr:city" v="Gyöngyös"/>
     <tag k="addr:housenumber" v="74"/>
     <tag k="addr:postcode" v="3200"/>
-    <tag k="addr:street" v="Pesti utca"/>
+    <tag k="addr:street" v="Pesti út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="GYÖNGYÖS"/>
@@ -93,7 +94,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="restaurant" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="4314040886" lat="47.7696695" lon="19.9141332" timestamp="2021-10-08T21:08:04Z" uid="1755379" user="ozmium" version="2"/>
   <node id="4314040887" lat="47.7695196" lon="19.914319" timestamp="2021-10-08T21:08:04Z" uid="1755379" user="ozmium" version="2"/>
@@ -137,9 +139,10 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w432327717&addtags=%7Caddr%3Acity%3DGy%C3%B6ngy%C3%B6s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D3200%7Caddr%3Astreet%3DV%C3%A1s%C3%A1r%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C3%96NGY%C3%96S%20II%20566%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2037%20705%20000%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368356-gyongyos-ii-566%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w432327717&addtags=%7Caddr%3Acity%3DGy%C3%B6ngy%C3%B6s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D3200%7Caddr%3Astreet%3DV%C3%A1s%C3%A1r%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DGY%C3%96NGY%C3%96S%20II%20566%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2037%20705%20000%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368356-gyongyos-ii-566%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'VÁSÁR UTCA 2', 'postcode': '3200', 'city': 'Gyöngyös', 'street': 'Vásár utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="432327717" timestamp="2019-11-24T07:28:21Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="4314040886"/>
@@ -180,7 +183,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="2297867611" lat="47.9263811" lon="20.3689911" timestamp="2013-05-10T06:35:54Z" uid="1231764" user="Egri Napok Blog" version="1"/>
   <node id="2297867612" lat="47.9263874" lon="20.3691987" timestamp="2013-05-10T06:35:54Z" uid="1231764" user="Egri Napok Blog" version="1"/>
@@ -225,9 +229,10 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w220694261&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D100%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DEGER%20II%20568%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2036%20700%20602%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368285-eger-ii-568%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w220694261&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D100%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DEGER%20II%20568%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2036%20700%20602%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368285-eger-ii-568%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'RÁKÓCZI ÚT 100', 'postcode': '3300', 'city': 'Eger', 'street': 'Rákóczi út', 'housenumber': '100', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="220694261" timestamp="2019-03-21T15:34:04Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <nd ref="2297867611"/>
@@ -269,7 +274,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="2299674239" lat="47.9207342" lon="20.3691067" timestamp="2013-05-11T14:30:01Z" uid="1231764" user="Egri Napok Blog" version="1"/>
   <node id="2299674240" lat="47.9206457" lon="20.369111" timestamp="2013-05-11T14:30:01Z" uid="1231764" user="Egri Napok Blog" version="1"/>
@@ -319,9 +325,10 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w220889187&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D95%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DEGER%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2036%20412%20676%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205409-eger%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w220889187&addtags=%7Caddr%3Acity%3DEger%7Caddr%3Ahousenumber%3D95%7Caddr%3Apostcode%3D3300%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DEGER%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2036%20412%20676%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205409-eger%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'RÁKÓCZI ÚT 95', 'postcode': '3300', 'city': 'Eger', 'street': 'Rákóczi út', 'housenumber': '95', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="220889187" timestamp="2019-03-26T06:23:45Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <nd ref="2299674239"/>
@@ -368,6 +375,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
 </osm>

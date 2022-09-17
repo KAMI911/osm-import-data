@@ -39,10 +39,11 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1975881312&addtags=%7Caddr%3Acity%3DTatab%C3%A1nya%7Caddr%3Ahousenumber%3D53%7Caddr%3Apostcode%3D2800%7Caddr%3Astreet%3DFels%C5%91gallai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATAB%C3%81NYA%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20310%20753%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205054-tatabanya-ii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1975881312&addtags=%7Caddr%3Acity%3DTatab%C3%A1nya%7Caddr%3Ahousenumber%3D53%7Caddr%3Apostcode%3D2800%7Caddr%3Astreet%3DFels%C5%91gallai%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATAB%C3%81NYA%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20310%20753%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205054-tatabanya-ii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': '100. SZ. FŐÚT 53. KM', 'postcode': '2800', 'city': 'Tatabánya', 'street': 'Felsőgallai út', 'housenumber': '53', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="1975881312" lat="47.5716922" lon="18.4259669" timestamp="2019-03-21T13:11:02Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <tag k="addr:city" v="Tatabánya"/>
@@ -79,7 +80,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- OSM link: https://osm.org/node/2357455741 -->
@@ -120,10 +122,11 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 restaurant                       NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2357455741&addtags=%7Caddr%3Acity%3DTatab%C3%A1nya%7Caddr%3Apostcode%3D2800%7Caddr%3Astreet%3DK%C3%B6zt%C3%A1rsas%C3%A1g%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATAB%C3%81NYA%20I.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20510%20544%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205038-tatabanya-i%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2357455741&addtags=%7Caddr%3Acity%3DTatab%C3%A1nya%7Caddr%3Apostcode%3D2800%7Caddr%3Astreet%3DK%C3%B6zt%C3%A1rsas%C3%A1g%20%C3%BAtja%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATAB%C3%81NYA%20I.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20510%20544%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205038-tatabanya-i%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Crestaurant%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'KÖZTÁRSASÁG ÚT', 'postcode': '2800', 'city': 'Tatabánya', 'street': 'Köztársaság útja', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2357455741" lat="47.582081" lon="18.3975411" timestamp="2019-03-26T05:15:06Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Tatabánya"/>
@@ -159,7 +162,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="restaurant" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </node>
   <!-- Original coordinates: POINT (47.495058 18.321344) -->
@@ -198,11 +202,12 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DOroszl%C3%A1ny%7Caddr%3Ahousenumber%3D3-5%7Caddr%3Apostcode%3D2840%7Caddr%3Astreet%3DK%C3%B6rnyei%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DOROSZL%C3%81NY%20II%20585%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20704%20006%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368677-oroszlany-ii-585%7Cfixme%3Dverify%20import%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DOroszl%C3%A1ny%7Caddr%3Ahousenumber%3D3-5%7Caddr%3Apostcode%3D2840%7Caddr%3Astreet%3DK%C3%B6rnyei%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DOROSZL%C3%81NY%20II%20585%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20704%20006%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368677-oroszlany-ii-585%7Cfixme%3Dverify%20import%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'KÖRNYEI ÚT 3-5', 'postcode': '2840', 'city': 'Oroszlány', 'street': 'Környei út', 'housenumber': '3-5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="47.495058" lon="18.321344" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="47.495058" lon="18.321344" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Oroszlány"/>
     <tag k="addr:housenumber" v="3-5"/>
     <tag k="addr:postcode" v="2840"/>
@@ -235,7 +240,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="2305268430" lat="47.6506618" lon="18.3157527" timestamp="2013-10-27T01:45:29Z" uid="38952" user="grin" version="2"/>
   <node id="2305268434" lat="47.6507813" lon="18.3159672" timestamp="2020-12-18T23:53:33Z" uid="10274440" user="Ágoston Sipos" version="3"/>
@@ -248,7 +254,7 @@ source:date                      NEW		'2022\-06\-08'
 Key				Status		New value		OSM value
 addr:city                        NEW		'Tata'
 addr:postcode                    NEW		'2890'
-addr:street                      NEW		'Május 1 út'
+addr:street                      NEW		'Május 1. út'
 air_conditioning                 NEW		'yes'
 amenity                           EQU 		'fuel'			'fuel'
 branch                           NEW		'TATA'
@@ -279,10 +285,11 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w221500107&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Apostcode%3D2890%7Caddr%3Astreet%3DM%C3%A1jus%201%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20586%20475%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205167-tata%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Clayer%3D1%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
-  <!--ˇ'original': 'MÁJUS 1 ÚT', 'postcode': '2890', 'city': 'Tata', 'street': 'Május 1 út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w221500107&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Apostcode%3D2890%7Caddr%3Astreet%3DM%C3%A1jus%201.%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20586%20475%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205167-tata%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Clayer%3D1%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'MÁJUS 1 ÚT', 'postcode': '2890', 'city': 'Tata', 'street': 'Május 1. út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="221500107" timestamp="2021-03-19T22:06:52Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="2305268430"/>
     <nd ref="2305268434"/>
@@ -291,7 +298,7 @@ source:date                      NEW		'2022\-06\-08'
     <nd ref="2305268430"/>
     <tag k="addr:city" v="Tata"/>
     <tag k="addr:postcode" v="2890"/>
-    <tag k="addr:street" v="Május 1 út"/>
+    <tag k="addr:street" v="Május 1. út"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="TATA"/>
@@ -322,7 +329,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="8840572172" lat="47.6296633" lon="18.3133123" timestamp="2021-06-17T02:35:05Z" uid="1559158" user="vakulya" version="1"/>
   <node id="8840572173" lat="47.6296853" lon="18.3134242" timestamp="2021-06-17T02:35:05Z" uid="1559158" user="vakulya" version="1"/>
@@ -366,10 +374,11 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'limited'			'limited'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w955163032&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2890%7Caddr%3Astreet%3DEszterh%C3%A1zy%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%20IV%20580%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20708%20029%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368681-tata-iv-580%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dlimited -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w955163032&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2890%7Caddr%3Astreet%3DEszterh%C3%A1zy%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%20IV%20580%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20708%20029%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11368681-tata-iv-580%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%20Hungary%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dlimited -->
   <!--ˇ'original': 'RING UTCA 1', 'postcode': '2890', 'city': 'Tata', 'street': 'Eszterházy körút', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="955163032" timestamp="2021-06-17T02:35:05Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <nd ref="8840572172"/>
@@ -410,7 +419,8 @@ wheelchair                        EQU 		'limited'			'limited'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="limited"/>
   </way>
   <!-- OSM link: https://osm.org/node/448022802 -->
@@ -453,9 +463,10 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'convenience'			'convenience'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n448022802&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Apostcode%3D2890%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%20M1%20B.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20588%20155%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205161-tata-m1-b%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3AHGV_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n448022802&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Apostcode%3D2890%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%20M1%20B.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20588%20155%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205161-tata-m1-b%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3AHGV_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'REMETESÉGPUSZTA B. OLD.', 'postcode': '2890', 'city': 'Tata', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="448022802" lat="47.6170104" lon="18.3407668" timestamp="2022-02-13T02:09:36Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Tata"/>
@@ -493,7 +504,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/448022804 -->
   <!-- Original coordinates: POINT (47.617768 18.341642) -->
@@ -535,9 +547,10 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'convenience'			'convenience'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n448022804&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Apostcode%3D2890%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%20M1%20A.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20588%20152%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205160-tata-m1-a%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3AHGV_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n448022804&addtags=%7Caddr%3Acity%3DTata%7Caddr%3Apostcode%3D2890%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DTATA%20M1%20A.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2034%20588%20152%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10205160-tata-m1-a%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3AHGV_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cfuel%3Aoctane_98%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Copening_hours%3D24/7%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'REMETESÉGPUSZTA A. OLD.', 'postcode': '2890', 'city': 'Tata', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="448022804" lat="47.6177874" lon="18.3416947" timestamp="2022-02-13T02:09:36Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <tag k="addr:city" v="Tata"/>
@@ -575,6 +588,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
 </osm>

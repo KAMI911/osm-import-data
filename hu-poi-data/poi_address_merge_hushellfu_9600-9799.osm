@@ -37,12 +37,13 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 truck                            NEW		'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DS%C3%A1rv%C3%A1r%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D9600%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DS%C3%81RV%C3%81R.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2095%20325%20200%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203344-sarvar%7Cfixme%3Dverify%20import%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DS%C3%A1rv%C3%A1r%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D9600%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DS%C3%81RV%C3%81R.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2095%20325%20200%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203344-sarvar%7Cfixme%3Dverify%20import%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Ctruck%3Dyes -->
   <!--ˇ'original': 'DEÁK FERENC UTCA 16.', 'postcode': '9600', 'city': 'Sárvár', 'street': 'Deák Ferenc utca', 'housenumber': '16', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.25803" lon="16.93817" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-1" lat="47.25803" lon="16.93817" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Sárvár"/>
     <tag k="addr:housenumber" v="16"/>
     <tag k="addr:postcode" v="9600"/>
@@ -76,7 +77,8 @@ truck                            NEW		'yes'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="truck" v="yes"/>
   </node>
   <node id="2383408178" lat="47.2293307" lon="16.6176297" timestamp="2015-07-21T15:36:47Z" uid="715512" user="mp3t3r" version="2"/>
@@ -125,10 +127,11 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w229795769&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DKiskar%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%20III.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20509%20182%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203508-szombathely-iii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w229795769&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DKiskar%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%20III.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20509%20182%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203508-szombathely-iii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'KISKAR U. 6', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Kiskar utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="229795769" timestamp="2019-08-30T09:16:50Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <nd ref="2383408178"/>
@@ -173,7 +176,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <!-- OSM link: https://osm.org/node/2379280211 -->
@@ -213,11 +217,12 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 truck                            NEW		'yes'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2379280211&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DK%C5%91szegi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20506%20261%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203476-szombathely%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dyes%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2379280211&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DK%C5%91szegi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20506%20261%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203476-szombathely%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Ctruck%3Dyes%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'KŐSZEGI ÚT (FARKAS K.U.)', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Kőszegi út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2379280211" lat="47.2582992" lon="16.6128368" timestamp="2019-03-29T07:22:42Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Szombathely"/>
@@ -252,7 +257,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="truck" v="yes"/>
     <tag k="wheelchair" v="yes"/>
   </node>
@@ -293,9 +299,10 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1134273495&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DOladi%20lak%C3%B3telep%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20506%20990%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203477-szombathely-ii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1134273495&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DOladi%20lak%C3%B3telep%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20506%20990%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10203477-szombathely-ii%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'OLADI LTP. (DOLGOZÓK U.)', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Oladi lakótelep', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="1134273495" lat="47.2421163" lon="16.5907415" timestamp="2019-03-29T07:19:45Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Szombathely"/>
@@ -330,7 +337,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/2390611100 -->
   <!-- Original coordinates: POINT (47.24139 16.652838) -->
@@ -369,9 +377,10 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2390611100&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D70%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DZanati%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%20IV.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20714%20225%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11367859-szombathely-iv%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2390611100&addtags=%7Caddr%3Acity%3DSzombathely%7Caddr%3Ahousenumber%3D70%7Caddr%3Apostcode%3D9700%7Caddr%3Astreet%3DZanati%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DSZOMBATHELY%20IV.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2094%20714%20225%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/11367859-szombathely-iv%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Coperator%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'ZANATI ÚT 70', 'postcode': '9700', 'city': 'Szombathely', 'street': 'Zanati út', 'housenumber': '70', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2390611100" lat="47.2413674" lon="16.6529595" timestamp="2019-08-31T22:00:00Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Szombathely"/>
@@ -406,6 +415,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
 </osm>

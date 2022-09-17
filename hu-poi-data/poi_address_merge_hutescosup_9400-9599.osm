@@ -20,6 +20,7 @@ brand                             EQU 		'Tesco'			'Tesco'
 brand:wikidata                    EQU 		'Q487494'			'Q487494'
 brand:wikipedia                   MOD 		'hu:Tesco'			'en:Tesco'
 building                          EQU 		'retail'			'retail'
+building:levels                   EQU 		'1'			'1'
 contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
 contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
 contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-sopron\-hipermarket/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-sopron\-hipermarket/'
@@ -58,15 +59,18 @@ payment:wire_transfer             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
 ref:vatin                         EQU 		'HU10307078'			'HU10307078'
 ref:vatin:hu                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+roof:levels                       EQU 		'0'			'0'
+roof:shape                        EQU 		'flat'			'flat'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                            MOD 		'import;website'			'website'
+source:date                       MOD 		'2022\-09\-16'			'2020\-09\-28'
 source:wheelchair                 EQU 		'website'			'website'
 toilets:wheelchair                EQU 		'yes'			'yes'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w89688335&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIpar%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Cbranch%3DSopron%20Hipermarket%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-sopron-hipermarket/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Clayer%3D1%7Cloyalty_card%3Dyes%7Cname%3DTesco%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Csource%3Awheelchair%3Dwebsite%7Ctoilets%3Awheelchair%3Dyes%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w89688335&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIpar%20k%C3%B6r%C3%BAt%7Cair_conditioning%3Dyes%7Cbranch%3DSopron%20Hipermarket%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Cbuilding%3Alevels%3D1%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-sopron-hipermarket/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Clayer%3D1%7Cloyalty_card%3Dyes%7Cname%3DTesco%7Copening_hours%3DMo-Sa%2006%3A00-22%3A00%3B%20Su%2007%3A00-20%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Croof%3Alevels%3D0%7Croof%3Ashape%3Dflat%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Awheelchair%3Dwebsite%7Ctoilets%3Awheelchair%3Dyes%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Ipar körút 30.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Ipar körút', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
-  <way action="modify" id="89688335" timestamp="2022-01-13T14:24:49Z" uid="8635934" user="osm_poi_matchmaker" version="12">
+  <way action="modify" id="89688335" timestamp="2022-06-26T15:12:27Z" uid="8635934" user="osm_poi_matchmaker" version="15">
     <nd ref="251436343"/>
     <nd ref="1039365158"/>
     <nd ref="1039365179"/>
@@ -83,6 +87,7 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
     <tag k="building" v="retail"/>
+    <tag k="building:levels" v="1"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-sopron-hipermarket/"/>
@@ -121,8 +126,11 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="ref:HU:company" v="13-10-040628"/>
     <tag k="ref:vatin" v="HU10307078"/>
     <tag k="ref:vatin:hu" v="10307078-2-44"/>
+    <tag k="roof:levels" v="0"/>
+    <tag k="roof:shape" v="flat"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:wheelchair" v="website"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="wheelchair" v="yes"/>
@@ -186,14 +194,15 @@ ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
 ref:vatin                         EQU 		'HU10307078'			'HU10307078'
 ref:vatin:hu                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                            MOD 		'import;website'			'website'
+source:date                       MOD 		'2022\-09\-16'			'2020\-09\-28'
 source:wheelchair                 EQU 		'website'			'website'
 toilets:wheelchair                EQU 		'limited'			'limited'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w188689765&addtags=%7Caddr%3Acity%3DCelld%C3%B6m%C3%B6lk%7Caddr%3Ahousenumber%3D41%7Caddr%3Apostcode%3D9500%7Caddr%3Astreet%3DS%C3%A1gi%20utca%7Cair_conditioning%3Dyes%7Cbranch%3DCelld%C3%B6m%C3%B6lk%20Szupermarket%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-celldomolk-szupermarket/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DTesco%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Csource%3Awheelchair%3Dwebsite%7Ctoilets%3Awheelchair%3Dlimited%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w188689765&addtags=%7Caddr%3Acity%3DCelld%C3%B6m%C3%B6lk%7Caddr%3Ahousenumber%3D41%7Caddr%3Apostcode%3D9500%7Caddr%3Astreet%3DS%C3%A1gi%20utca%7Cair_conditioning%3Dyes%7Cbranch%3DCelld%C3%B6m%C3%B6lk%20Szupermarket%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-celldomolk-szupermarket/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DTesco%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-18%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Csource%3Awheelchair%3Dwebsite%7Ctoilets%3Awheelchair%3Dlimited%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Sági u. 41.', 'postcode': '9500', 'city': 'Celldömölk', 'street': 'Sági utca', 'housenumber': '41', 'conscriptionnumber': 'None'°-->
-  <way action="modify" id="188689765" timestamp="2021-06-18T16:18:06Z" uid="8635934" user="osm_poi_matchmaker" version="7">
+  <way action="modify" id="188689765" timestamp="2022-07-10T06:30:11Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <nd ref="1993115706"/>
     <nd ref="1993115701"/>
     <nd ref="1993115715"/>
@@ -249,7 +258,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="ref:vatin" v="HU10307078"/>
     <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="source:wheelchair" v="website"/>
     <tag k="toilets:wheelchair" v="limited"/>
     <tag k="wheelchair" v="yes"/>

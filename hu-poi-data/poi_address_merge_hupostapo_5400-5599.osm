@@ -27,9 +27,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2948927105&addtags=%7Caddr%3Acity%3DMez%C5%91t%C3%BAr%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D5401%7Caddr%3Astreet%3DKossuth%20Lajos%20t%C3%A9r%7Camenity%3Dpost_office%7Cbranch%3DMez%C5%91t%C3%BAr%201.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2948927105&addtags=%7Caddr%3Acity%3DMez%C5%91t%C3%BAr%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D5401%7Caddr%3Astreet%3DKossuth%20Lajos%20t%C3%A9r%7Camenity%3Dpost_office%7Cbranch%3DMez%C5%91t%C3%BAr%201.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kossuth 10', 'postcode': '5401', 'city': 'Mezőtúr', 'street': 'Kossuth Lajos tér', 'housenumber': '10', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2948927105" lat="46.9999927" lon="20.6311264" timestamp="2021-03-31T12:49:19Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <tag k="addr:city" v="Mezőtúr"/>
@@ -54,7 +55,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="2968695248" lat="46.9969229" lon="20.6084548" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
   <node id="2968695249" lat="46.9969576" lon="20.6085849" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="3"/>
@@ -92,10 +94,10 @@ payment:mastercard                EQU 		'yes'			'yes'
 payment:visa                      EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source                            EQU 		'website'			'website'
-source:date                       MOD 		'2022\-06\-08'			'2020\-10\-13'
+source                            MOD 		'import;website'			'website'
+source:date                       MOD 		'2022\-09\-16'			'2020\-10\-13'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w293290608&addtags=%7Caddr%3Acity%3DMez%C5%91t%C3%BAr%7Caddr%3Ahousenumber%3D85%7Caddr%3Apostcode%3D5405%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DMez%C5%91t%C3%BAr%20%C3%9Ajv%C3%A1rosi%20postapartner%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dwebsite%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w293290608&addtags=%7Caddr%3Acity%3DMez%C5%91t%C3%BAr%7Caddr%3Ahousenumber%3D85%7Caddr%3Apostcode%3D5405%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DMez%C5%91t%C3%BAr%20%C3%9Ajv%C3%A1rosi%20postapartner%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'X. 14', 'postcode': '5405', 'city': 'Mezőtúr', 'street': 'Kossuth Lajos utca', 'housenumber': '85', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="293290608" timestamp="2021-03-30T19:14:24Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="2968695248"/>
@@ -130,8 +132,8 @@ source:date                       MOD 		'2022\-06\-08'			'2020\-10\-13'
     <tag k="payment:visa" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source" v="website"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <!-- OSM link: https://osm.org/node/8014504503 -->
   <!-- Original coordinates: POINT (47.07527 20.47803) -->
@@ -161,9 +163,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504503&addtags=%7Caddr%3Acity%3DK%C3%A9tp%C3%B3%7Caddr%3Ahousenumber%3D101%7Caddr%3Apostcode%3D5411%7Caddr%3Astreet%3DKossuth%20utca%7Camenity%3Dpost_office%7Cbranch%3DK%C3%A9tp%C3%B3%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504503&addtags=%7Caddr%3Acity%3DK%C3%A9tp%C3%B3%7Caddr%3Ahousenumber%3D101%7Caddr%3Apostcode%3D5411%7Caddr%3Astreet%3DKossuth%20utca%7Camenity%3Dpost_office%7Cbranch%3DK%C3%A9tp%C3%B3%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Ond Vezér 25', 'postcode': '5411', 'city': 'Kétpó', 'street': 'Kossuth utca', 'housenumber': '101', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504503" lat="47.07527" lon="20.47803" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Kétpó"/>
@@ -189,11 +192,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/5599783289 -->
   <!-- Original coordinates: POINT (47.12731 20.55433) -->
-  <!-- OSM <-> POI distance: 1.13050855 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Kuncsorba'			'Kuncsorba'
@@ -218,9 +222,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5599783289&addtags=%7Caddr%3Acity%3DKuncsorba%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D5412%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DKuncsorba%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n5599783289&addtags=%7Caddr%3Acity%3DKuncsorba%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D5412%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DKuncsorba%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Dózsa György 26', 'postcode': '5412', 'city': 'Kuncsorba', 'street': 'Dózsa György út', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="5599783289" lat="47.1273139" lon="20.5543438" timestamp="2021-03-31T13:35:12Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Kuncsorba"/>
@@ -245,7 +250,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/3065133933 -->
   <!-- Original coordinates: POINT (47.10222 20.74351) -->
@@ -275,9 +281,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3065133933&addtags=%7Caddr%3Acity%3DT%C3%BArkeve%7Caddr%3Ahousenumber%3D36%7Caddr%3Apostcode%3D5421%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Dpost_office%7Cbranch%3DT%C3%BArkeve%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Tu%2008%3A00-16%3A00%3B%20We%2008%3A00-18%3A00%3B%20Th%2008%3A00-16%3A00%3B%20Fr%2008%3A00-15%3A00%3B%20Sa%2008%3A00-11%3A00%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3065133933&addtags=%7Caddr%3Acity%3DT%C3%BArkeve%7Caddr%3Ahousenumber%3D36%7Caddr%3Apostcode%3D5421%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Dpost_office%7Cbranch%3DT%C3%BArkeve%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Tu%2008%3A00-16%3A00%3B%20We%2008%3A00-18%3A00%3B%20Th%2008%3A00-16%3A00%3B%20Fr%2008%3A00-15%3A00%3B%20Sa%2008%3A00-11%3A00%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Széchenyi 36', 'postcode': '5421', 'city': 'Túrkeve', 'street': 'Széchenyi utca', 'housenumber': '36', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3065133933" lat="47.1021329" lon="20.743683" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Túrkeve"/>
@@ -303,11 +310,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504502 -->
   <!-- Original coordinates: POINT (46.98336 20.25331) -->
-  <!-- OSM <-> POI distance: 1.1119508 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Tiszaföldvár'			'Tiszaföldvár'
@@ -333,9 +341,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504502&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D5431%7Caddr%3Astreet%3DKossuth%20Lajos%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DTiszaf%C3%B6ldv%C3%A1r%201.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504502&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D167%7Caddr%3Apostcode%3D5431%7Caddr%3Astreet%3DKossuth%20Lajos%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DTiszaf%C3%B6ldv%C3%A1r%201.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kossuth Lajos 167', 'postcode': '5431', 'city': 'Tiszaföldvár', 'street': 'Kossuth Lajos út', 'housenumber': '167', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504502" lat="46.98336" lon="20.25331" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Tiszaföldvár"/>
@@ -361,11 +370,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/3489429104 -->
   <!-- Original coordinates: POINT (47.01662 20.28042) -->
-  <!-- OSM <-> POI distance: 27.04593265 m-->
+  <!-- OSM <-> POI distance: 25.57512451 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Martfű'			'Martfű'
@@ -384,19 +394,23 @@ contact:phone                     MOD 		'+36 1 767 8272'			'+36 56 512 404'
 contact:website                   EQU 		'https://www.posta.hu'			'https://www.posta.hu'
 contact:youtube                   EQU 		'https://www.youtube.com/user/magyarpostaofficial'			'https://www.youtube.com/user/magyarpostaofficial'
 name                              EQU 		'Posta'			'Posta'
-operator                          EQU 		'Magyar Posta Zrt.'			'Magyar Posta Zrt.'
+operator                          MOD 		'Magyar Posta Zrt.'			'Magyar Posta'
 operator:addr                     EQU 		'1138 Budapest, Dunavirág utca 2\-6.'			'1138 Budapest, Dunavirág utca 2\-6.'
+operator:wikidata                 EQU 		'Q145614'			'Q145614'
 payment:cash                      EQU 		'yes'			'yes'
-payment:debit_cards               EQU 		'yes'			'yes'
+payment:debit_cards              NEW		'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source                            EQU 		'turistautak.hu'			'turistautak.hu'
-source:date                       MOD 		'2022\-06\-08'			'2012\-02\-21'
+source                            MOD 		'import;website'			'turistautak.hu;website'
+source:date                       MOD 		'2022\-09\-16'			'2020\-10\-13'
 url                               EQU 		'http://turistautak.hu/poi.php?id=133983'			'http://turistautak.hu/poi.php?id=133983'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3489429104&addtags=%7Caddr%3Acity%3DMartf%C5%B1%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5435%7Caddr%3Astreet%3DM%C3%A1jus%201.%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DMartf%C5%B1%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2022-06-08%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D133983 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3489429104&addtags=%7Caddr%3Acity%3DMartf%C5%B1%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5435%7Caddr%3Astreet%3DM%C3%A1jus%201.%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DMartf%C5%B1%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D133983 -->
   <!--ˇ'original': 'Május 1. 3', 'postcode': '5435', 'city': 'Martfű', 'street': 'Május 1. út', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="3489429104" lat="47.01641" lon="20.28024" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <node action="modify" id="3489429104" lat="47.01641" lon="20.2805576" timestamp="2022-08-10T16:44:27Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Martfű"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="5435"/>
@@ -415,17 +429,21 @@ url                               EQU 		'http://turistautak.hu/poi.php?id=133983
     <tag k="name" v="Posta"/>
     <tag k="operator" v="Magyar Posta Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="operator:wikidata" v="Q145614"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source" v="turistautak.hu"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=133983"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504501 -->
   <!-- Original coordinates: POINT (46.83917 20.28559) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Kunszentmárton'			'Kunszentmárton'
@@ -451,9 +469,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504501&addtags=%7Caddr%3Acity%3DKunszentm%C3%A1rton%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D5441%7Caddr%3Astreet%3DK%C3%B6lcsey%20utca%7Camenity%3Dpost_office%7Cbranch%3DKunszentm%C3%A1rton%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504501&addtags=%7Caddr%3Acity%3DKunszentm%C3%A1rton%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D5441%7Caddr%3Astreet%3DK%C3%B6lcsey%20utca%7Camenity%3Dpost_office%7Cbranch%3DKunszentm%C3%A1rton%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kölcsey 5', 'postcode': '5441', 'city': 'Kunszentmárton', 'street': 'Kölcsey utca', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504501" lat="46.83917" lon="20.28559" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Kunszentmárton"/>
@@ -479,11 +498,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504500 -->
   <!-- Original coordinates: POINT (46.90582 20.28308) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Kunszentmárton'			'Kunszentmárton'
@@ -509,9 +529,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504500&addtags=%7Caddr%3Acity%3DKunszentm%C3%A1rton%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D5449%7Caddr%3Astreet%3DRadn%C3%B3ti%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DKunszentm%C3%A1rton%20-%20Kungyalu%20kirendelts%C3%A9g%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504500&addtags=%7Caddr%3Acity%3DKunszentm%C3%A1rton%7Caddr%3Ahousenumber%3D32%7Caddr%3Apostcode%3D5449%7Caddr%3Astreet%3DRadn%C3%B3ti%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DKunszentm%C3%A1rton%20-%20Kungyalu%20kirendelts%C3%A9g%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Radnóti 32', 'postcode': '5449', 'city': 'Kunszentmárton', 'street': 'Radnóti út', 'housenumber': '32', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504500" lat="46.90582" lon="20.28308" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Kunszentmárton"/>
@@ -537,11 +558,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/3485146915 -->
   <!-- Original coordinates: POINT (46.90583 20.38318) -->
-  <!-- OSM <-> POI distance: 8.43966709 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Öcsöd'			'Öcsöd'
@@ -567,11 +589,11 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source                            EQU 		'turistautak.hu'			'turistautak.hu'
-source:date                       MOD 		'2022\-06\-08'			'2012\-07\-31'
+source                            MOD 		'import;website'			'turistautak.hu'
+source:date                       MOD 		'2022\-09\-16'			'2012\-07\-31'
 url                               EQU 		'http://turistautak.hu/poi.php?id=142409'			'http://turistautak.hu/poi.php?id=142409'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3485146915&addtags=%7Caddr%3Acity%3D%C3%96cs%C3%B6d%7Caddr%3Ahousenumber%3D37%7Caddr%3Apostcode%3D5451%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3D%C3%96cs%C3%B6d%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2022-06-08%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D142409 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3485146915&addtags=%7Caddr%3Acity%3D%C3%96cs%C3%B6d%7Caddr%3Ahousenumber%3D37%7Caddr%3Apostcode%3D5451%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3D%C3%96cs%C3%B6d%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D142409 -->
   <!--ˇ'original': 'Dózsa György 37', 'postcode': '5451', 'city': 'Öcsöd', 'street': 'Dózsa György út', 'housenumber': '37', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3485146915" lat="46.905867" lon="20.383083" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Öcsöd"/>
@@ -597,13 +619,13 @@ url                               EQU 		'http://turistautak.hu/poi.php?id=142409
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source" v="turistautak.hu"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=142409"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504499 -->
   <!-- Original coordinates: POINT (46.9557 20.42793) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Mesterszállás'			'Mesterszállás'
@@ -630,9 +652,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504499&addtags=%7Caddr%3Acity%3DMestersz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D24/a%7Caddr%3Apostcode%3D5452%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DMestersz%C3%A1ll%C3%A1s%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504499&addtags=%7Caddr%3Acity%3DMestersz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D24/a%7Caddr%3Apostcode%3D5452%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DMestersz%C3%A1ll%C3%A1s%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Szabadság 24/a', 'postcode': '5452', 'city': 'Mesterszállás', 'street': 'Szabadság út', 'housenumber': '24/a', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504499" lat="46.9557" lon="20.42793" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Mesterszállás"/>
@@ -659,11 +682,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504498 -->
   <!-- Original coordinates: POINT (46.94934 20.26204) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Tiszaföldvár'			'Tiszaföldvár'
@@ -690,9 +714,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504498&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D171%7Caddr%3Apostcode%3D5461%7Caddr%3Astreet%3DD%C3%B6brei%20J%C3%A1nos%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DTiszaf%C3%B6ldv%C3%A1r%20-%20Homok%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504498&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D171%7Caddr%3Apostcode%3D5461%7Caddr%3Astreet%3DD%C3%B6brei%20J%C3%A1nos%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DTiszaf%C3%B6ldv%C3%A1r%20-%20Homok%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Döbrei János 171', 'postcode': '5461', 'city': 'Tiszaföldvár', 'street': 'Döbrei János út', 'housenumber': '171', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504498" lat="46.94934" lon="20.26204" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Tiszaföldvár"/>
@@ -719,7 +744,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504497 -->
   <!-- Original coordinates: POINT (46.95802 20.20161) -->
@@ -750,9 +776,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504497&addtags=%7Caddr%3Acity%3DCibakh%C3%A1za%7Caddr%3Ahousenumber%3D10/b%7Caddr%3Apostcode%3D5462%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20tere%7Camenity%3Dpost_office%7Cbranch%3DCibakh%C3%A1za%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo%2CTu%2CTh%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20We%2008%3A00-12%3A00%2C12%3A30-17%3A00%3B%20Fr%2008%3A00-12%3A00%2C12%3A30-15%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504497&addtags=%7Caddr%3Acity%3DCibakh%C3%A1za%7Caddr%3Ahousenumber%3D10/b%7Caddr%3Apostcode%3D5462%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20tere%7Camenity%3Dpost_office%7Cbranch%3DCibakh%C3%A1za%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo%2CTu%2CTh%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20We%2008%3A00-12%3A00%2C12%3A30-17%3A00%3B%20Fr%2008%3A00-12%3A00%2C12%3A30-15%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Hősök 10/b', 'postcode': '5462', 'city': 'Cibakháza', 'street': 'Hősök tere', 'housenumber': '10/b', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504497" lat="46.95802" lon="20.20161" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Cibakháza"/>
@@ -779,7 +806,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504496 -->
   <!-- Original coordinates: POINT (46.94634 20.13992) -->
@@ -810,9 +838,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504496&addtags=%7Caddr%3Acity%3DNagyr%C3%A9v%7Caddr%3Ahousenumber%3D99%7Caddr%3Apostcode%3D5463%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DNagyr%C3%A9v%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504496&addtags=%7Caddr%3Acity%3DNagyr%C3%A9v%7Caddr%3Ahousenumber%3D99%7Caddr%3Apostcode%3D5463%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DNagyr%C3%A9v%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Árpád 99', 'postcode': '5463', 'city': 'Nagyrév', 'street': 'Árpád út', 'housenumber': '99', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504496" lat="46.94634" lon="20.13992" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Nagyrév"/>
@@ -839,7 +868,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="9008263417" lat="46.8692946" lon="20.2064477" timestamp="2021-08-15T16:28:38Z" uid="2355253" user="gymate" version="1"/>
   <node id="9008263418" lat="46.8692356" lon="20.206619" timestamp="2021-08-15T16:28:38Z" uid="2355253" user="gymate" version="1"/>
@@ -877,9 +907,10 @@ payment:credit_cards              EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                        NEW		'HU10901232'
 ref:vatin:hu                     NEW		'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w973290236&addtags=%7Caddr%3Acity%3DCserkesz%C5%91l%C5%91%7Caddr%3Ahousenumber%3D2/B%7Caddr%3Apostcode%3D5465%7Caddr%3Astreet%3DSzinyei%20Merse%20P%C3%A1l%20utca%7Camenity%3Dpost_office%7Cbranch%3DCserkesz%C5%91l%C5%91%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Coperator%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w973290236&addtags=%7Caddr%3Acity%3DCserkesz%C5%91l%C5%91%7Caddr%3Ahousenumber%3D2/B%7Caddr%3Apostcode%3D5465%7Caddr%3Astreet%3DSzinyei%20Merse%20P%C3%A1l%20utca%7Camenity%3Dpost_office%7Cbranch%3DCserkesz%C5%91l%C5%91%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Coperator%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acredit_cards%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Szinyei Merse Pál 2/b', 'postcode': '5465', 'city': 'Cserkeszőlő', 'street': 'Szinyei Merse Pál utca', 'housenumber': '2/B', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="973290236" timestamp="2021-08-15T16:28:38Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <nd ref="9008263417"/>
@@ -914,11 +945,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <!-- OSM link: https://osm.org/node/8014504494 -->
   <!-- Original coordinates: POINT (46.88454 20.1232) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Tiszakürt'			'Tiszakürt'
@@ -945,9 +977,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504494&addtags=%7Caddr%3Acity%3DTiszak%C3%BCrt%7Caddr%3Ahousenumber%3D24%7Caddr%3Apostcode%3D5471%7Caddr%3Astreet%3DT%C3%A1ncsics%20Mih%C3%A1ly%20utca%7Camenity%3Dpost_office%7Cbranch%3DTiszak%C3%BCrt%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504494&addtags=%7Caddr%3Acity%3DTiszak%C3%BCrt%7Caddr%3Ahousenumber%3D24%7Caddr%3Apostcode%3D5471%7Caddr%3Astreet%3DT%C3%A1ncsics%20Mih%C3%A1ly%20utca%7Camenity%3Dpost_office%7Cbranch%3DTiszak%C3%BCrt%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Táncsics Mihály 24', 'postcode': '5471', 'city': 'Tiszakürt', 'street': 'Táncsics Mihály utca', 'housenumber': '24', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504494" lat="46.88454" lon="20.1232" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Tiszakürt"/>
@@ -974,7 +1007,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/3485146779 -->
   <!-- Original coordinates: POINT (46.82241 20.07923) -->
@@ -1004,11 +1038,11 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source                            EQU 		'turistautak.hu'			'turistautak.hu'
-source:date                       MOD 		'2022\-06\-08'			'2014\-08\-15'
+source                            MOD 		'import;website'			'turistautak.hu'
+source:date                       MOD 		'2022\-09\-16'			'2014\-08\-15'
 url                               EQU 		'http://turistautak.hu/poi.php?id=170677'			'http://turistautak.hu/poi.php?id=170677'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3485146779&addtags=%7Caddr%3Acity%3DTiszasas%7Caddr%3Ahousenumber%3D58%7Caddr%3Apostcode%3D5474%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DTiszasas%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2022-06-08%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D170677 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3485146779&addtags=%7Caddr%3Acity%3DTiszasas%7Caddr%3Ahousenumber%3D58%7Caddr%3Apostcode%3D5474%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DTiszasas%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D170677 -->
   <!--ˇ'original': 'Fő 58', 'postcode': '5474', 'city': 'Tiszasas', 'street': 'Fő út', 'housenumber': '58', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3485146779" lat="46.822217" lon="20.079283" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Tiszasas"/>
@@ -1034,8 +1068,8 @@ url                               EQU 		'http://turistautak.hu/poi.php?id=170677
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source" v="turistautak.hu"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=170677"/>
   </node>
   <!-- OSM link: https://osm.org/node/3304370923 -->
@@ -1059,16 +1093,17 @@ contact:phone                     MOD 		'+36 1 767 8272'			'+3617678200'
 contact:website                   EQU 		'https://www.posta.hu'			'https://www.posta.hu'
 contact:youtube                   EQU 		'https://www.youtube.com/user/magyarpostaofficial'			'https://www.youtube.com/user/magyarpostaofficial'
 name                              EQU 		'Posta'			'Posta'
-opening_hours                     EQU 		'Mo\-Fr 08:00\-12:00,12:30\-16:00; PH off'			'Mo\-Fr 08:00\-12:00,12:30\-16:00; PH off'
+opening_hours                     MOD 		'Mo\-Fr 08:00\-12:00,12:30\-15:30; PH off'			'Mo\-Fr 08:00\-12:00,12:30\-16:00; PH off'
 operator                          EQU 		'Magyar Posta Zrt.'			'Magyar Posta Zrt.'
 operator:addr                     EQU 		'1138 Budapest, Dunavirág utca 2\-6.'			'1138 Budapest, Dunavirág utca 2\-6.'
 payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3304370923&addtags=%7Caddr%3Acity%3DCs%C3%A9pa%7Caddr%3Ahousenumber%3D160%7Caddr%3Apostcode%3D5475%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Camenity%3Dpost_office%7Cbranch%3DCs%C3%A9pa%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3304370923&addtags=%7Caddr%3Acity%3DCs%C3%A9pa%7Caddr%3Ahousenumber%3D160%7Caddr%3Apostcode%3D5475%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Camenity%3Dpost_office%7Cbranch%3DCs%C3%A9pa%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Béke 160', 'postcode': '5475', 'city': 'Csépa', 'street': 'Béke utca', 'housenumber': '160', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3304370923" lat="46.8076535" lon="20.12626" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Csépa"/>
@@ -1087,18 +1122,19 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="contact:website" v="https://www.posta.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/magyarpostaofficial"/>
     <tag k="name" v="Posta"/>
-    <tag k="opening_hours" v="Mo-Fr 08:00-12:00,12:30-16:00; PH off"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-12:00,12:30-15:30; PH off"/>
     <tag k="operator" v="Magyar Posta Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/3265671515 -->
   <!-- Original coordinates: POINT (46.80293 20.20024) -->
-  <!-- OSM <-> POI distance: 4.54699438 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Szelevény'			'Szelevény'
@@ -1124,9 +1160,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3265671515&addtags=%7Caddr%3Acity%3DSzelev%C3%A9ny%7Caddr%3Ahousenumber%3D48%7Caddr%3Apostcode%3D5476%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DSzelev%C3%A9ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3265671515&addtags=%7Caddr%3Acity%3DSzelev%C3%A9ny%7Caddr%3Ahousenumber%3D48%7Caddr%3Apostcode%3D5476%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DSzelev%C3%A9ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kossuth Lajos 48', 'postcode': '5476', 'city': 'Szelevény', 'street': 'Kossuth Lajos utca', 'housenumber': '48', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3265671515" lat="46.8029019" lon="20.2001966" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Szelevény"/>
@@ -1152,11 +1189,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/3459958251 -->
   <!-- Original coordinates: POINT (46.93502 20.82894) -->
-  <!-- OSM <-> POI distance: 8.12292048 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Gyomaendrőd'			'Gyomaendrőd'
@@ -1184,11 +1222,11 @@ payment:mastercard                EQU 		'yes'			'yes'
 payment:visa                      EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source                            EQU 		'turistautak.hu;website'			'turistautak.hu;website'
-source:date                       MOD 		'2022\-06\-08'			'2020\-10\-13'
+source                            MOD 		'import;website'			'turistautak.hu;website'
+source:date                       MOD 		'2022\-09\-16'			'2020\-10\-13'
 url                               EQU 		'http://turistautak.hu/poi.php?id=127165'			'http://turistautak.hu/poi.php?id=127165'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3459958251&addtags=%7Caddr%3Acity%3DGyomaendr%C5%91d%7Caddr%3Ahousenumber%3D28%7Caddr%3Apostcode%3D5501%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DGyomaendr%C5%91d%201.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dturistautak.hu%3Bwebsite%7Csource%3Adate%3D2022-06-08%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D127165 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3459958251&addtags=%7Caddr%3Acity%3DGyomaendr%C5%91d%7Caddr%3Ahousenumber%3D28%7Caddr%3Apostcode%3D5501%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DGyomaendr%C5%91d%201.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D127165 -->
   <!--ˇ'original': 'Kossuth Lajos 28', 'postcode': '5501', 'city': 'Gyomaendrőd', 'street': 'Kossuth Lajos utca', 'housenumber': '28', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3459958251" lat="46.935093" lon="20.828944" timestamp="2021-01-04T20:47:10Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Gyomaendrőd"/>
@@ -1216,13 +1254,13 @@ url                               EQU 		'http://turistautak.hu/poi.php?id=127165
     <tag k="payment:visa" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source" v="turistautak.hu;website"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=127165"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504493 -->
   <!-- Original coordinates: POINT (46.93027 20.77374) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Gyomaendrőd'			'Gyomaendrőd'
@@ -1249,9 +1287,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504493&addtags=%7Caddr%3Acity%3DGyomaendr%C5%91d%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D5502%7Caddr%3Astreet%3DBlaha%20Lujza%20utca%7Camenity%3Dpost_office%7Cbranch%3DGyomaendr%C5%91d%202.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504493&addtags=%7Caddr%3Acity%3DGyomaendr%C5%91d%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D5502%7Caddr%3Astreet%3DBlaha%20Lujza%20utca%7Camenity%3Dpost_office%7Cbranch%3DGyomaendr%C5%91d%202.%20sz%C3%A1m%C3%BA%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Blaha Lujza 7', 'postcode': '5502', 'city': 'Gyomaendrőd', 'street': 'Blaha Lujza utca', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504493" lat="46.93027" lon="20.77374" timestamp="2022-05-18T17:40:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Gyomaendrőd"/>
@@ -1278,7 +1317,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="2589457442" lat="47.0271128" lon="20.9623246" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
   <node id="2589457443" lat="47.0269958" lon="20.9625499" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
@@ -1288,7 +1328,7 @@ source:date                      NEW		'2022\-06\-08'
   <node id="2589457450" lat="47.0270324" lon="20.9622361" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
   <!-- OSM link: https://osm.org/way/252936695 -->
   <!-- Original coordinates: POINT (47.02716 20.96236) -->
-  <!-- OSM <-> POI distance: 5.89451393 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Dévaványa'			'Dévaványa'
@@ -1307,18 +1347,20 @@ contact:instagram                 EQU 		'https://www.instagram.com/magyar_posta_
 contact:phone                     MOD 		'+36 1 767 8272'			'+36 66 483 020'
 contact:website                   EQU 		'https://www.posta.hu'			'https://www.posta.hu'
 contact:youtube                   EQU 		'https://www.youtube.com/user/magyarpostaofficial'			'https://www.youtube.com/user/magyarpostaofficial'
-name                              EQU 		'Posta'			'Posta'
-operator                          EQU 		'Magyar Posta Zrt.'			'Magyar Posta Zrt.'
+name                             NEW		'Posta'
+operator                          MOD 		'Magyar Posta Zrt.'			'Magyar Posta'
 operator:addr                     EQU 		'1138 Budapest, Dunavirág utca 2\-6.'			'1138 Budapest, Dunavirág utca 2\-6.'
+operator:wikidata                 EQU 		'Q145614'			'Q145614'
 payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w252936695&addtags=%7Caddr%3Acity%3DD%C3%A9vav%C3%A1nya%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D5510%7Caddr%3Astreet%3DK%C3%B6r%C3%B6slad%C3%A1nyi%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DD%C3%A9vav%C3%A1nya%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w252936695&addtags=%7Caddr%3Acity%3DD%C3%A9vav%C3%A1nya%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D5510%7Caddr%3Astreet%3DK%C3%B6r%C3%B6slad%C3%A1nyi%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DD%C3%A9vav%C3%A1nya%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kőrösladányi 6', 'postcode': '5510', 'city': 'Dévaványa', 'street': 'Körösladányi út', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
-  <way action="modify" id="252936695" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <way action="modify" id="252936695" timestamp="2022-08-13T16:05:56Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <nd ref="2589457442"/>
     <nd ref="2589457443"/>
     <nd ref="2589457445"/>
@@ -1345,11 +1387,13 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="name" v="Posta"/>
     <tag k="operator" v="Magyar Posta Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="operator:wikidata" v="Q145614"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <!-- OSM link: https://osm.org/node/8014504492 -->
   <!-- Original coordinates: POINT (47.14655 20.92488) -->
@@ -1380,9 +1424,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504492&addtags=%7Caddr%3Acity%3DEcsegfalva%7Caddr%3Ahousenumber%3D82%7Caddr%3Apostcode%3D5515%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dpost_office%7Cbranch%3DEcsegfalva%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504492&addtags=%7Caddr%3Acity%3DEcsegfalva%7Caddr%3Ahousenumber%3D82%7Caddr%3Apostcode%3D5515%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dpost_office%7Cbranch%3DEcsegfalva%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Fő 82', 'postcode': '5515', 'city': 'Ecsegfalva', 'street': 'Fő utca', 'housenumber': '82', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504492" lat="47.14655" lon="20.92488" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Ecsegfalva"/>
@@ -1409,7 +1454,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="8986699797" lat="46.9572565" lon="21.0811578" timestamp="2022-02-06T23:16:44Z" uid="3067103" user="Kiss_Karoly" version="2"/>
   <node id="8986699793" lat="46.9573336" lon="21.0812476" timestamp="2022-02-06T23:16:43Z" uid="3067103" user="Kiss_Karoly" version="2"/>
@@ -1419,7 +1465,7 @@ source:date                      NEW		'2022\-06\-08'
   <node id="8986699796" lat="46.957133" lon="21.0813855" timestamp="2022-02-06T23:16:44Z" uid="3067103" user="Kiss_Karoly" version="2"/>
   <!-- OSM link: https://osm.org/way/971013623 -->
   <!-- Original coordinates: POINT (46.95714 21.08144) -->
-  <!-- OSM <-> POI distance: 2.75394294 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Körösladány'			'Körösladány'
@@ -1451,9 +1497,10 @@ payment:visa                      EQU 		'yes'			'yes'
 payment:visa_electron             EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w971013623&addtags=%7Caddr%3Acity%3DK%C3%B6r%C3%B6slad%C3%A1ny%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D5516%7Caddr%3Astreet%3DGaribaldi%20t%C3%A9r%7Camenity%3Dpost_office%7Cbranch%3DK%C3%B6r%C3%B6slad%C3%A1ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w971013623&addtags=%7Caddr%3Acity%3DK%C3%B6r%C3%B6slad%C3%A1ny%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D5516%7Caddr%3Astreet%3DGaribaldi%20t%C3%A9r%7Camenity%3Dpost_office%7Cbranch%3DK%C3%B6r%C3%B6slad%C3%A1ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Garibaldi 1', 'postcode': '5516', 'city': 'Körösladány', 'street': 'Garibaldi tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="971013623" timestamp="2021-08-07T21:45:16Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <nd ref="8986699797"/>
@@ -1492,11 +1539,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <!-- OSM link: https://osm.org/node/536805434 -->
   <!-- Original coordinates: POINT (47.02105 21.17535) -->
-  <!-- OSM <-> POI distance: 9.9273367 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Szeghalom'			'Szeghalom'
@@ -1521,9 +1569,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n536805434&addtags=%7Caddr%3Acity%3DSzeghalom%7Caddr%3Ahousenumber%3D2/1%7Caddr%3Apostcode%3D5521%7Caddr%3Astreet%3DNagy%20Mikl%C3%B3s%20utca%7Camenity%3Dpost_office%7Cbranch%3DSzeghalom%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n536805434&addtags=%7Caddr%3Acity%3DSzeghalom%7Caddr%3Ahousenumber%3D2/1%7Caddr%3Apostcode%3D5521%7Caddr%3Astreet%3DNagy%20Mikl%C3%B3s%20utca%7Camenity%3Dpost_office%7Cbranch%3DSzeghalom%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Nagy Miklós 2/1', 'postcode': '5521', 'city': 'Szeghalom', 'street': 'Nagy Miklós utca', 'housenumber': '2/1', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="536805434" lat="47.0210779" lon="21.1754744" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Szeghalom"/>
@@ -1548,11 +1597,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/4743962425 -->
   <!-- Original coordinates: POINT (47.10751 21.21259) -->
-  <!-- OSM <-> POI distance: 11.94467634 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Füzesgyarmat'			'Füzesgyarmat'
@@ -1578,9 +1628,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4743962425&addtags=%7Caddr%3Acity%3DF%C3%BCzesgyarmat%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D5525%7Caddr%3Astreet%3DSzabads%C3%A1g%20t%C3%A9r%7Camenity%3Dpost_office%7Cbranch%3DF%C3%BCzesgyarmat%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-16%3A00%3B%20PH%20closed%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4743962425&addtags=%7Caddr%3Acity%3DF%C3%BCzesgyarmat%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D5525%7Caddr%3Astreet%3DSzabads%C3%A1g%20t%C3%A9r%7Camenity%3Dpost_office%7Cbranch%3DF%C3%BCzesgyarmat%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-16%3A00%3B%20PH%20closed%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Szabadság 6', 'postcode': '5525', 'city': 'Füzesgyarmat', 'street': 'Szabadság tér', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4743962425" lat="47.107474" lon="21.2127387" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Füzesgyarmat"/>
@@ -1606,7 +1657,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504491 -->
   <!-- Original coordinates: POINT (47.20365 20.99931) -->
@@ -1637,9 +1689,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504491&addtags=%7Caddr%3Acity%3DBucsa%7Caddr%3Ahousenumber%3D35%7Caddr%3Apostcode%3D5527%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DBucsa%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504491&addtags=%7Caddr%3Acity%3DBucsa%7Caddr%3Ahousenumber%3D35%7Caddr%3Apostcode%3D5527%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DBucsa%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kossuth 35', 'postcode': '5527', 'city': 'Bucsa', 'street': 'Kossuth Lajos utca', 'housenumber': '35', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504491" lat="47.20365" lon="20.99931" timestamp="2021-03-31T12:49:20Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Bucsa"/>
@@ -1666,11 +1719,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/2704930046 -->
   <!-- Original coordinates: POINT (46.93081 21.26713) -->
-  <!-- OSM <-> POI distance: 1.65343167 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Vésztő'			'Vésztő'
@@ -1697,9 +1751,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2704930046&addtags=%7Caddr%3Acity%3DV%C3%A9szt%C5%91%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D5530%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DV%C3%A9szt%C5%91%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Coperator%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2704930046&addtags=%7Caddr%3Acity%3DV%C3%A9szt%C5%91%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D5530%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dpost_office%7Cbranch%3DV%C3%A9szt%C5%91%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Coperator%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kossuth Lajos 30', 'postcode': '5530', 'city': 'Vésztő', 'street': 'Kossuth Lajos utca', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2704930046" lat="46.9308152" lon="21.2671096" timestamp="2021-08-23T09:57:45Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Vésztő"/>
@@ -1726,7 +1781,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/6338136186 -->
   <!-- Original coordinates: POINT (46.89733 21.34435) -->
@@ -1757,9 +1813,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6338136186&addtags=%7Caddr%3Acity%3DOk%C3%A1ny%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5534%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Camenity%3Dpost_office%7Cbranch%3DOk%C3%A1ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Cname%3Aen%3DPost%20Office%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n6338136186&addtags=%7Caddr%3Acity%3DOk%C3%A1ny%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5534%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Camenity%3Dpost_office%7Cbranch%3DOk%C3%A1ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Cname%3Aen%3DPost%20Office%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Rákóczi 2', 'postcode': '5534', 'city': 'Okány', 'street': 'Rákóczi utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="6338136186" lat="46.8973001" lon="21.3442451" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <tag k="addr:city" v="Okány"/>
@@ -1786,7 +1843,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/4663069389 -->
   <!-- Original coordinates: POINT (46.92248 21.48699) -->
@@ -1817,9 +1875,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4663069389&addtags=%7Caddr%3Acity%3DZsad%C3%A1ny%7Caddr%3Ahousenumber%3D98%7Caddr%3Apostcode%3D5537%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Camenity%3Dpost_office%7Cbranch%3DZsad%C3%A1ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Cname%3Ahu%3DMagyar%20Posta%20Zrt.%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4663069389&addtags=%7Caddr%3Acity%3DZsad%C3%A1ny%7Caddr%3Ahousenumber%3D98%7Caddr%3Apostcode%3D5537%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Camenity%3Dpost_office%7Cbranch%3DZsad%C3%A1ny%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Cname%3Ahu%3DMagyar%20Posta%20Zrt.%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Béke 98', 'postcode': '5537', 'city': 'Zsadány', 'street': 'Béke utca', 'housenumber': '98', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4663069389" lat="46.9223081" lon="21.4869577" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Zsadány"/>
@@ -1846,11 +1905,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504490 -->
-  <!-- Original coordinates: POINT (46.96938 21.5968) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- Original coordinates: POINT (46.97189 21.5972) -->
+  <!-- OSM <-> POI distance: 280.74503448 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Biharugra'			'Biharugra'
@@ -1858,7 +1918,7 @@ addr:housenumber                  EQU 		'52'			'52'
 addr:postcode                     EQU 		'5538'			'5538'
 addr:street                       EQU 		'Erzsébet utca'			'Erzsébet utca'
 amenity                           EQU 		'post_office'			'post_office'
-branch                            EQU 		'Biharugra posta'			'Biharugra posta'
+branch                            MOD 		'Biharugra postapartner'			'Biharugra posta'
 brand                             EQU 		'Magyar Posta'			'Magyar Posta'
 brand:wikidata                    EQU 		'Q145614'			'Q145614'
 brand:wikipedia                   EQU 		'hu:Magyar Posta Zrt.'			'hu:Magyar Posta Zrt.'
@@ -1877,17 +1937,18 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504490&addtags=%7Caddr%3Acity%3DBiharugra%7Caddr%3Ahousenumber%3D52%7Caddr%3Apostcode%3D5538%7Caddr%3Astreet%3DErzs%C3%A9bet%20utca%7Camenity%3Dpost_office%7Cbranch%3DBiharugra%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
-  <!--ˇ'original': 'Erzsébet 52', 'postcode': '5538', 'city': 'Biharugra', 'street': 'Erzsébet utca', 'housenumber': '52', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504490&addtags=%7Caddr%3Acity%3DBiharugra%7Caddr%3Ahousenumber%3D52%7Caddr%3Apostcode%3D5538%7Caddr%3Astreet%3DErzs%C3%A9bet%20utca%7Camenity%3Dpost_office%7Cbranch%3DBiharugra%20postapartner%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'Bölönyi 18/2', 'postcode': '5538', 'city': 'Biharugra', 'street': 'Erzsébet utca', 'housenumber': '52', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504490" lat="46.96938" lon="21.5968" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Biharugra"/>
     <tag k="addr:housenumber" v="52"/>
     <tag k="addr:postcode" v="5538"/>
     <tag k="addr:street" v="Erzsébet utca"/>
     <tag k="amenity" v="post_office"/>
-    <tag k="branch" v="Biharugra posta"/>
+    <tag k="branch" v="Biharugra postapartner"/>
     <tag k="brand" v="Magyar Posta"/>
     <tag k="brand:wikidata" v="Q145614"/>
     <tag k="brand:wikipedia" v="hu:Magyar Posta Zrt."/>
@@ -1906,11 +1967,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/2487194411 -->
   <!-- Original coordinates: POINT (46.86265 20.54693) -->
-  <!-- OSM <-> POI distance: 179.70277317 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Szarvas'			'Szarvas'
@@ -1930,17 +1992,19 @@ contact:website                   EQU 		'https://www.posta.hu'			'https://www.po
 contact:youtube                   EQU 		'https://www.youtube.com/user/magyarpostaofficial'			'https://www.youtube.com/user/magyarpostaofficial'
 name                              EQU 		'Posta'			'Posta'
 opening_hours                     EQU 		'Mo\-Fr 08:00\-18:00; Sa 08:00\-11:00'			'Mo\-Fr 08:00\-18:00; Sa 08:00\-11:00'
-operator                          EQU 		'Magyar Posta Zrt.'			'Magyar Posta Zrt.'
+operator                          MOD 		'Magyar Posta Zrt.'			'Magyar Posta'
 operator:addr                     EQU 		'1138 Budapest, Dunavirág utca 2\-6.'			'1138 Budapest, Dunavirág utca 2\-6.'
+operator:wikidata                 EQU 		'Q145614'			'Q145614'
 payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2487194411&addtags=%7Caddr%3Acity%3DSzarvas%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D5541%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DSzarvas%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-18%3A00%3B%20Sa%2008%3A00-11%3A00%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2487194411&addtags=%7Caddr%3Acity%3DSzarvas%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D5541%7Caddr%3Astreet%3DSzabads%C3%A1g%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DSzarvas%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-18%3A00%3B%20Sa%2008%3A00-11%3A00%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Szabadság 9', 'postcode': '5541', 'city': 'Szarvas', 'street': 'Szabadság út', 'housenumber': '9', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="2487194411" lat="46.8631375" lon="20.5446765" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+  <node action="modify" id="2487194411" lat="46.8631375" lon="20.5446765" timestamp="2022-08-09T15:59:50Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Szarvas"/>
     <tag k="addr:housenumber" v="9"/>
     <tag k="addr:postcode" v="5541"/>
@@ -1960,15 +2024,17 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="opening_hours" v="Mo-Fr 08:00-18:00; Sa 08:00-11:00"/>
     <tag k="operator" v="Magyar Posta Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="operator:wikidata" v="Q145614"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/4397936568 -->
   <!-- Original coordinates: POINT (46.82541 20.64592) -->
-  <!-- OSM <-> POI distance: 291.278655 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Csabacsűd'			'Csabacsűd'
@@ -1994,9 +2060,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4397936568&addtags=%7Caddr%3Acity%3DCsabacs%C5%B1d%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D5551%7Caddr%3Astreet%3DIskola%20utca%7Camenity%3Dpost_office%7Cbranch%3DCsabacs%C5%B1d%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4397936568&addtags=%7Caddr%3Acity%3DCsabacs%C5%B1d%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D5551%7Caddr%3Astreet%3DIskola%20utca%7Camenity%3Dpost_office%7Cbranch%3DCsabacs%C5%B1d%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Iskola 7', 'postcode': '5551', 'city': 'Csabacsűd', 'street': 'Iskola utca', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4397936568" lat="46.8276752" lon="20.6478428" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Csabacsűd"/>
@@ -2022,7 +2089,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="6511641315" lat="46.7941747" lon="20.7147223" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
   <node id="6511641316" lat="46.7941039" lon="20.7146528" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
@@ -2030,7 +2098,7 @@ source:date                      NEW		'2022\-06\-08'
   <node id="6511641318" lat="46.7940868" lon="20.7149133" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2"/>
   <!-- OSM link: https://osm.org/way/693574759 -->
   <!-- Original coordinates: POINT (46.79417 20.7149) -->
-  <!-- OSM <-> POI distance: 7.11310433 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Kardos'			'Kardos'
@@ -2057,9 +2125,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w693574759&addtags=%7Caddr%3Acity%3DKardos%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D5552%7Caddr%3Astreet%3DSzabads%C3%A1g%20utca%7Camenity%3Dpost_office%7Cbranch%3DKardos%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w693574759&addtags=%7Caddr%3Acity%3DKardos%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D5552%7Caddr%3Astreet%3DSzabads%C3%A1g%20utca%7Camenity%3Dpost_office%7Cbranch%3DKardos%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Szabadság 8', 'postcode': '5552', 'city': 'Kardos', 'street': 'Szabadság utca', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="693574759" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <nd ref="6511641315"/>
@@ -2091,7 +2160,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <!-- OSM link: https://osm.org/node/8014504488 -->
   <!-- Original coordinates: POINT (46.75883 20.79704) -->
@@ -2121,9 +2191,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504488&addtags=%7Caddr%3Acity%3DKondoros%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D5553%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20%C3%BAtja%7Camenity%3Dpost_office%7Cbranch%3DKondoros%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504488&addtags=%7Caddr%3Acity%3DKondoros%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D5553%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20%C3%BAtja%7Camenity%3Dpost_office%7Cbranch%3DKondoros%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Hősök 26', 'postcode': '5553', 'city': 'Kondoros', 'street': 'Hősök útja', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504488" lat="46.75883" lon="20.79704" timestamp="2021-03-31T12:38:05Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Kondoros"/>
@@ -2149,7 +2220,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/8014504487 -->
   <!-- Original coordinates: POINT (46.81175 20.84618) -->
@@ -2180,9 +2252,10 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504487&addtags=%7Caddr%3Acity%3DHunya%7Caddr%3Ahousenumber%3D1/1%7Caddr%3Apostcode%3D5555%7Caddr%3Astreet%3DPet%C5%91fi%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DHunya%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8014504487&addtags=%7Caddr%3Acity%3DHunya%7Caddr%3Ahousenumber%3D1/1%7Caddr%3Apostcode%3D5555%7Caddr%3Astreet%3DPet%C5%91fi%20%C3%BAt%7Camenity%3Dpost_office%7Cbranch%3DHunya%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cfixme%3Dverify%20import%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-15%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Petőfi 1/1', 'postcode': '5555', 'city': 'Hunya', 'street': 'Petőfi út', 'housenumber': '1/1', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8014504487" lat="46.81175" lon="20.84618" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Hunya"/>
@@ -2209,11 +2282,12 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/3468129160 -->
   <!-- Original coordinates: POINT (46.82925 20.73488) -->
-  <!-- OSM <-> POI distance: 27.51647846 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Örménykút'			'Örménykút'
@@ -2239,11 +2313,11 @@ payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source                            EQU 		'turistautak.hu'			'turistautak.hu'
-source:date                       MOD 		'2022\-06\-08'			'2013\-11\-01'
+source                            MOD 		'import;website'			'turistautak.hu'
+source:date                       MOD 		'2022\-09\-16'			'2013\-11\-01'
 url                               EQU 		'http://turistautak.hu/poi.php?id=161531'			'http://turistautak.hu/poi.php?id=161531'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3468129160&addtags=%7Caddr%3Acity%3D%C3%96rm%C3%A9nyk%C3%BAt%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D5556%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20utca%7Camenity%3Dpost_office%7Cbranch%3D%C3%96rm%C3%A9nyk%C3%BAt%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-14%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2022-06-08%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D161531 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3468129160&addtags=%7Caddr%3Acity%3D%C3%96rm%C3%A9nyk%C3%BAt%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D5556%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20utca%7Camenity%3Dpost_office%7Cbranch%3D%C3%96rm%C3%A9nyk%C3%BAt%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-14%3A30%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D161531 -->
   <!--ˇ'original': 'Dózsa György 30', 'postcode': '5556', 'city': 'Örménykút', 'street': 'Dózsa György utca', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="3468129160" lat="46.82905" lon="20.734667" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <tag k="addr:city" v="Örménykút"/>
@@ -2269,8 +2343,8 @@ url                               EQU 		'http://turistautak.hu/poi.php?id=161531
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source" v="turistautak.hu"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=161531"/>
   </node>
   <!-- OSM link: https://osm.org/node/3468131014 -->
@@ -2293,21 +2367,22 @@ contact:instagram                 EQU 		'https://www.instagram.com/magyar_posta_
 contact:phone                     MOD 		'+36 1 767 8272'			'+3617678200'
 contact:website                   EQU 		'https://www.posta.hu'			'https://www.posta.hu'
 contact:youtube                   EQU 		'https://www.youtube.com/user/magyarpostaofficial'			'https://www.youtube.com/user/magyarpostaofficial'
-name                              EQU 		'Posta'			'Posta'
+name                             NEW		'Posta'
 opening_hours                     EQU 		'Mo\-Fr 08:00\-12:00,12:30\-16:00; PH off'			'Mo\-Fr 08:00\-12:00,12:30\-16:00; PH off'
-operator                          EQU 		'Magyar Posta Zrt.'			'Magyar Posta Zrt.'
+operator                          MOD 		'Magyar Posta Zrt.'			'Magyar Posta'
 operator:addr                     EQU 		'1138 Budapest, Dunavirág utca 2\-6.'			'1138 Budapest, Dunavirág utca 2\-6.'
+operator:wikidata                 EQU 		'Q145614'			'Q145614'
 payment:cash                      EQU 		'yes'			'yes'
 payment:debit_cards               EQU 		'yes'			'yes'
 ref:vatin                         EQU 		'HU10901232'			'HU10901232'
 ref:vatin:hu                      EQU 		'10901232\-2\-44'			'10901232\-2\-44'
-source                            EQU 		'turistautak.hu'			'turistautak.hu'
-source:date                       MOD 		'2022\-06\-08'			'2012\-08\-01'
+source                            MOD 		'import;website'			'turistautak.hu'
+source:date                       MOD 		'2022\-09\-16'			'2012\-08\-01'
 url                               EQU 		'http://turistautak.hu/poi.php?id=142481'			'http://turistautak.hu/poi.php?id=142481'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3468131014&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9sszentandr%C3%A1s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5561%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Dpost_office%7Cbranch%3DB%C3%A9k%C3%A9sszentandr%C3%A1s%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dturistautak.hu%7Csource%3Adate%3D2022-06-08%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D142481 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3468131014&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9sszentandr%C3%A1s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5561%7Caddr%3Astreet%3DSz%C3%A9chenyi%20utca%7Camenity%3Dpost_office%7Cbranch%3DB%C3%A9k%C3%A9sszentandr%C3%A1s%20posta%7Cbrand%3DMagyar%20Posta%7Cbrand%3Awikidata%3DQ145614%7Cbrand%3Awikipedia%3Dhu%3AMagyar%20Posta%20Zrt.%7Ccontact%3Aemail%3Dugyfelszolgalat%40posta.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/MagyarPosta%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/magyar_posta_zrt%7Ccontact%3Aphone%3D%2B36%201%20767%208272%7Ccontact%3Awebsite%3Dhttps%3A//www.posta.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/magyarpostaofficial%7Cname%3DPosta%7Copening_hours%3DMo-Fr%2008%3A00-12%3A00%2C12%3A30-16%3A00%3B%20PH%20off%7Coperator%3DMagyar%20Posta%20Zrt.%7Coperator%3Aaddr%3D1138%20Budapest%2C%20Dunavir%C3%A1g%20utca%202-6.%7Coperator%3Awikidata%3DQ145614%7Cpayment%3Acash%3Dyes%7Cpayment%3Adebit_cards%3Dyes%7Cref%3Avatin%3DHU10901232%7Cref%3Avatin%3Ahu%3D10901232-2-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D142481 -->
   <!--ˇ'original': 'Széchenyi 2', 'postcode': '5561', 'city': 'Békésszentandrás', 'street': 'Széchenyi utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="3468131014" lat="46.871233" lon="20.48685" timestamp="2020-10-16T20:26:32Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+  <node action="modify" id="3468131014" lat="46.871233" lon="20.48685" timestamp="2022-06-20T16:49:17Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Békésszentandrás"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="5561"/>
@@ -2327,12 +2402,13 @@ url                               EQU 		'http://turistautak.hu/poi.php?id=142481
     <tag k="opening_hours" v="Mo-Fr 08:00-12:00,12:30-16:00; PH off"/>
     <tag k="operator" v="Magyar Posta Zrt."/>
     <tag k="operator:addr" v="1138 Budapest, Dunavirág utca 2-6."/>
+    <tag k="operator:wikidata" v="Q145614"/>
     <tag k="payment:cash" v="yes"/>
     <tag k="payment:debit_cards" v="yes"/>
     <tag k="ref:vatin" v="HU10901232"/>
     <tag k="ref:vatin:hu" v="10901232-2-44"/>
-    <tag k="source" v="turistautak.hu"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="url" v="http://turistautak.hu/poi.php?id=142481"/>
   </node>
 </osm>

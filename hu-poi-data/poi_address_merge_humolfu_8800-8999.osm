@@ -26,7 +26,7 @@ contact:website                   EQU 		'https://www.mol.hu'			'https://www.mol.
 contact:youtube                   EQU 		'https://www.youtube.com/user/molgrouptv'			'https://www.youtube.com/user/molgrouptv'
 food                              EQU 		'no'			'no'
 fuel:GTL_diesel                   EQU 		'yes'			'yes'
-fuel:adblue                       EQU 		'no'			'no'
+fuel:adblue                       MOD 		'yes'			'no'
 fuel:diesel                       EQU 		'yes'			'yes'
 fuel:lpg                          EQU 		'no'			'no'
 fuel:octane_100                   EQU 		'yes'			'yes'
@@ -45,10 +45,11 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                           NEW		'import;website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w251784837&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DBalatoni%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w251784837&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DBalatoni%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
   <!--ˇ'original': 'Balatoni u.', 'postcode': '8800', 'city': 'Nagykanizsa', 'street': 'Balatoni utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="251784837" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <nd ref="2579602837"/>
@@ -73,7 +74,7 @@ truck                             EQU 		'no'			'no'
     <tag k="contact:youtube" v="https://www.youtube.com/user/molgrouptv"/>
     <tag k="food" v="no"/>
     <tag k="fuel:GTL_diesel" v="yes"/>
-    <tag k="fuel:adblue" v="no"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:lpg" v="no"/>
     <tag k="fuel:octane_100" v="yes"/>
@@ -92,7 +93,8 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </way>
   <node id="5324318631" lat="46.4671569" lon="16.9944742" timestamp="2021-08-27T15:30:37Z" uid="6202598" user="MacBookAir15" version="2"/>
@@ -107,7 +109,7 @@ truck                             EQU 		'no'			'no'
   <node id="5324318638" lat="46.4672274" lon="16.9942199" timestamp="2021-08-27T15:30:37Z" uid="6202598" user="MacBookAir15" version="2"/>
   <!-- OSM link: https://osm.org/way/551313122 -->
   <!-- Original coordinates: POINT (46.46706 16.99475) -->
-  <!-- OSM <-> POI distance: 0 m-->
+  <!-- OSM <-> POI distance: 12.40114202 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Nagykanizsa'			'Nagykanizsa'
@@ -133,6 +135,7 @@ fuel:lpg                          EQU 		'yes'			'yes'
 fuel:octane_100                   EQU 		'yes'			'yes'
 fuel:octane_95                    EQU 		'yes'			'yes'
 name                              EQU 		'MOL'			'MOL'
+opening_hours                     EQU 		'Mo\-Su 00:00\-24:00'			'Mo\-Su 00:00\-24:00'
 operator                          EQU 		'MOL Nyrt.'			'MOL Nyrt.'
 operator:addr                     EQU 		'1117 Budapest, Október huszonharmadika utca 18.'			'1117 Budapest, Október huszonharmadika utca 18.'
 payment:cash                      EQU 		'yes'			'yes'
@@ -146,13 +149,13 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source                            EQU 		'website'			'website'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                            MOD 		'import;website'			'website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w551313122&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Ahousenumber%3D15%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DGaray%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dwebsite%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
-  <!--ˇ'original': 'Garay u. 15.', 'postcode': '8800', 'city': 'Nagykanizsa', 'street': 'Garay utca', 'housenumber': '15', 'conscriptionnumber': 'None'°-->
-  <way action="modify" id="551313122" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="9">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w551313122&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Ahousenumber%3D15%7Caddr%3Apostcode%3D8800%7Caddr%3Astreet%3DGaray%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Copening_hours%3DMo-Su%2000%3A00-24%3A00%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
+  <!--ˇ'original': 'Elkerülő út', 'postcode': '8800', 'city': 'Nagykanizsa', 'street': 'Garay utca', 'housenumber': '15', 'conscriptionnumber': 'None'°-->
+  <way action="modify" id="551313122" timestamp="2022-07-21T21:55:26Z" uid="8635934" user="osm_poi_matchmaker" version="10">
     <nd ref="5324318631"/>
     <nd ref="9041208902"/>
     <nd ref="5324318632"/>
@@ -187,6 +190,7 @@ truck                             EQU 		'no'			'no'
     <tag k="fuel:octane_100" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="MOL"/>
+    <tag k="opening_hours" v="Mo-Su 00:00-24:00"/>
     <tag k="operator" v="MOL Nyrt."/>
     <tag k="operator:addr" v="1117 Budapest, Október huszonharmadika utca 18."/>
     <tag k="payment:cash" v="yes"/>
@@ -200,8 +204,8 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source" v="website"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </way>
   <node id="9035716727" lat="46.4532069" lon="16.9711491" timestamp="2021-08-25T18:15:21Z" uid="6202598" user="MacBookAir15" version="1"/>
@@ -231,7 +235,7 @@ contact:website                   EQU 		'https://www.mol.hu'			'https://www.mol.
 contact:youtube                   EQU 		'https://www.youtube.com/user/molgrouptv'			'https://www.youtube.com/user/molgrouptv'
 food                              EQU 		'no'			'no'
 fuel:GTL_diesel                   EQU 		'yes'			'yes'
-fuel:adblue                       EQU 		'no'			'no'
+fuel:adblue                       MOD 		'yes'			'no'
 fuel:diesel                       EQU 		'yes'			'yes'
 fuel:lpg                          EQU 		'yes'			'yes'
 fuel:octane_100                   EQU 		'yes'			'yes'
@@ -250,10 +254,11 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                           NEW		'import;website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w976399269&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Apostcode%3D8800%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w976399269&addtags=%7Caddr%3Acity%3DNagykanizsa%7Caddr%3Apostcode%3D8800%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
   <!--ˇ'original': 'Camping', 'postcode': '8800', 'city': 'Nagykanizsa', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="976399269" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <nd ref="9035716727"/>
@@ -279,7 +284,7 @@ truck                             EQU 		'no'			'no'
     <tag k="contact:youtube" v="https://www.youtube.com/user/molgrouptv"/>
     <tag k="food" v="no"/>
     <tag k="fuel:GTL_diesel" v="yes"/>
-    <tag k="fuel:adblue" v="no"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:lpg" v="yes"/>
     <tag k="fuel:octane_100" v="yes"/>
@@ -298,7 +303,8 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </way>
   <node id="4806661760" lat="46.2753783" lon="17.0969466" timestamp="2017-04-20T23:01:58Z" uid="1559158" user="vakulya" version="1"/>
@@ -328,7 +334,7 @@ contact:website                   EQU 		'https://www.mol.hu'			'https://www.mol.
 contact:youtube                   EQU 		'https://www.youtube.com/user/molgrouptv'			'https://www.youtube.com/user/molgrouptv'
 food                              EQU 		'no'			'no'
 fuel:GTL_diesel                   EQU 		'yes'			'yes'
-fuel:adblue                       EQU 		'no'			'no'
+fuel:adblue                       MOD 		'yes'			'no'
 fuel:diesel                       EQU 		'yes'			'yes'
 fuel:lpg                          EQU 		'no'			'no'
 fuel:octane_100                   EQU 		'yes'			'yes'
@@ -348,10 +354,11 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                           NEW		'import;website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w488352339&addtags=%7Caddr%3Acity%3DCsurg%C3%B3%7Caddr%3Ahousenumber%3D31%7Caddr%3Apostcode%3D8840%7Caddr%3Astreet%3DIharosi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Aphone%3D%2B36%2082%20571%20125%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Copening_hours%3DMo-Su%2006%3A00-21%3A00%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w488352339&addtags=%7Caddr%3Acity%3DCsurg%C3%B3%7Caddr%3Ahousenumber%3D31%7Caddr%3Apostcode%3D8840%7Caddr%3Astreet%3DIharosi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dretail%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Aphone%3D%2B36%2082%20571%20125%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Copening_hours%3DMo-Su%2006%3A00-21%3A00%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
   <!--ˇ'original': 'Iharosi út 31.', 'postcode': '8840', 'city': 'Csurgó', 'street': 'Iharosi út', 'housenumber': '31', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="488352339" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <nd ref="4806661760"/>
@@ -377,7 +384,7 @@ truck                             EQU 		'no'			'no'
     <tag k="contact:youtube" v="https://www.youtube.com/user/molgrouptv"/>
     <tag k="food" v="no"/>
     <tag k="fuel:GTL_diesel" v="yes"/>
-    <tag k="fuel:adblue" v="no"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:lpg" v="no"/>
     <tag k="fuel:octane_100" v="yes"/>
@@ -397,7 +404,8 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </way>
   <node id="5549795395" lat="46.4361379" lon="16.7368052" timestamp="2018-04-13T09:28:36Z" uid="6048467" user="Bandi_" version="1"/>
@@ -407,7 +415,7 @@ truck                             EQU 		'no'			'no'
   <node id="5549795399" lat="46.4362791" lon="16.7367596" timestamp="2018-04-13T09:28:36Z" uid="6048467" user="Bandi_" version="1"/>
   <!-- OSM link: https://osm.org/way/711111293 -->
   <!-- Original coordinates: POINT (46.43611 16.73705) -->
-  <!-- OSM <-> POI distance: 4.43721154 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Letenye'			'Letenye'
@@ -447,13 +455,13 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source                            EQU 		'Maxar'			'Maxar'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                            MOD 		'import;website'			'Maxar'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 toilets:wheelchair                EQU 		'yes'			'yes'
 truck                             EQU 		'no'			'no'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w711111293&addtags=%7Caddr%3Acity%3DLetenye%7Caddr%3Ahousenumber%3D38%7Caddr%3Apostcode%3D8868%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Clayer%3D1%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3DMaxar%7Csource%3Adate%3D2022-06-08%7Ctoilets%3Awheelchair%3Dyes%7Ctruck%3Dno%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w711111293&addtags=%7Caddr%3Acity%3DLetenye%7Caddr%3Ahousenumber%3D38%7Caddr%3Apostcode%3D8868%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Clayer%3D1%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctoilets%3Awheelchair%3Dyes%7Ctruck%3Dno%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Bajcsy-Zsilinszki Endre u. 38.', 'postcode': '8868', 'city': 'Letenye', 'street': 'Bajcsy-Zsilinszky utca', 'housenumber': '38', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="711111293" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="8">
     <nd ref="5549795395"/>
@@ -499,8 +507,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source" v="Maxar"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="toilets:wheelchair" v="yes"/>
     <tag k="truck" v="no"/>
     <tag k="wheelchair" v="yes"/>
@@ -552,10 +560,11 @@ ref                               EQU 		'35182'			'35182'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                           NEW		'import;website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w206814849&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DBalatoni%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Cbuilding%3Alevels%3D1%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Copening_hours%3D24/7%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3D35182%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w206814849&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DBalatoni%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Cbuilding%3Alevels%3D1%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Copening_hours%3D24/7%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3D35182%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
   <!--ˇ'original': 'Balatoni út I.', 'postcode': '8900', 'city': 'Zalaegerszeg', 'street': 'Balatoni út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="206814849" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="16">
     <nd ref="2168633071"/>
@@ -601,7 +610,8 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </way>
   <node id="2178674512" lat="46.8375647" lon="16.8356951" timestamp="2020-08-20T14:03:39Z" uid="10232381" user="LittlePebble" version="2"/>
@@ -614,7 +624,7 @@ truck                             EQU 		'no'			'no'
   <node id="2178674577" lat="46.8376944" lon="16.8356644" timestamp="2020-08-20T14:03:39Z" uid="10232381" user="LittlePebble" version="2"/>
   <!-- OSM link: https://osm.org/way/207616297 -->
   <!-- Original coordinates: POINT (46.83756 16.83554) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Zalaegerszeg'			'Zalaegerszeg'
@@ -634,7 +644,7 @@ contact:website                   EQU 		'https://www.mol.hu'			'https://www.mol.
 contact:youtube                   EQU 		'https://www.youtube.com/user/molgrouptv'			'https://www.youtube.com/user/molgrouptv'
 food                              EQU 		'yes'			'yes'
 fuel:GTL_diesel                   EQU 		'yes'			'yes'
-fuel:adblue                       EQU 		'no'			'no'
+fuel:adblue                       MOD 		'yes'			'no'
 fuel:diesel                       EQU 		'yes'			'yes'
 fuel:lpg                          EQU 		'no'			'no'
 fuel:octane_100                   EQU 		'yes'			'yes'
@@ -654,10 +664,11 @@ ref                               EQU 		'65250'			'65250'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                           NEW		'import;website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w207616297&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D37/A%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DG%C3%B6cseji%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3D65250%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w207616297&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D37/A%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DG%C3%B6cseji%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3D65250%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
   <!--ˇ'original': 'Göcseji u. 37/A', 'postcode': '8900', 'city': 'Zalaegerszeg', 'street': 'Göcseji út', 'housenumber': '37/A', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="207616297" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="14">
     <nd ref="2178674512"/>
@@ -686,7 +697,7 @@ truck                             EQU 		'no'			'no'
     <tag k="contact:youtube" v="https://www.youtube.com/user/molgrouptv"/>
     <tag k="food" v="yes"/>
     <tag k="fuel:GTL_diesel" v="yes"/>
-    <tag k="fuel:adblue" v="no"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:lpg" v="no"/>
     <tag k="fuel:octane_100" v="yes"/>
@@ -706,12 +717,13 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </way>
-  <!-- OSM link: https://osm.org/node/9347246590 -->
+  <!-- OSM link: https://osm.org/node/3479941514 -->
   <!-- Original coordinates: POINT (46.83188 16.84768) -->
-  <!-- OSM <-> POI distance: 0.0 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Zalaegerszeg'			'Zalaegerszeg'
@@ -728,10 +740,9 @@ contact:facebook                  EQU 		'https://www.facebook.com/mol.magyarorsz
 contact:instagram                 EQU 		'https://www.instagram.com/mol.magyarorszag/'			'https://www.instagram.com/mol.magyarorszag/'
 contact:website                   EQU 		'https://www.mol.hu'			'https://www.mol.hu'
 contact:youtube                   EQU 		'https://www.youtube.com/user/molgrouptv'			'https://www.youtube.com/user/molgrouptv'
-fixme                             EQU 		'verify import'			'verify import'
 food                              EQU 		'no'			'no'
 fuel:GTL_diesel                   EQU 		'yes'			'yes'
-fuel:adblue                       EQU 		'no'			'no'
+fuel:adblue                       MOD 		'yes'			'no'
 fuel:diesel                       EQU 		'yes'			'yes'
 fuel:lpg                          EQU 		'no'			'no'
 fuel:octane_100                   EQU 		'yes'			'yes'
@@ -750,12 +761,16 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                            MOD 		'import;website'			'turistautak.hu'
+source:date                       MOD 		'2022\-09\-15'			'2012\-01\-20'
+toilets:wheelchair                EQU 		'no'			'no'
 truck                             EQU 		'no'			'no'
+url                               EQU 		'http://turistautak.hu/poi.php?id=124645'			'http://turistautak.hu/poi.php?id=124645'
+wheelchair                        EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9347246590&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D20%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DZr%C3%ADnyi%20Mikl%C3%B3s%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfixme%3Dverify%20import%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3479941514&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Ahousenumber%3D20%7Caddr%3Apostcode%3D8900%7Caddr%3Astreet%3DZr%C3%ADnyi%20Mikl%C3%B3s%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctoilets%3Awheelchair%3Dno%7Ctruck%3Dno%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D124645%7Cwheelchair%3Dno -->
   <!--ˇ'original': 'Zrínyi Miklós út 20.', 'postcode': '8900', 'city': 'Zalaegerszeg', 'street': 'Zrínyi Miklós utca', 'housenumber': '20', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="9347246590" lat="46.83188" lon="16.84768" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+  <node action="modify" id="3479941514" lat="46.8220164" lon="16.8477936" timestamp="2020-09-29T13:26:49Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <tag k="addr:city" v="Zalaegerszeg"/>
     <tag k="addr:housenumber" v="20"/>
     <tag k="addr:postcode" v="8900"/>
@@ -770,10 +785,9 @@ truck                             EQU 		'no'			'no'
     <tag k="contact:instagram" v="https://www.instagram.com/mol.magyarorszag/"/>
     <tag k="contact:website" v="https://www.mol.hu"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/molgrouptv"/>
-    <tag k="fixme" v="verify import"/>
     <tag k="food" v="no"/>
     <tag k="fuel:GTL_diesel" v="yes"/>
-    <tag k="fuel:adblue" v="no"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:lpg" v="no"/>
     <tag k="fuel:octane_100" v="yes"/>
@@ -792,8 +806,12 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
+    <tag k="toilets:wheelchair" v="no"/>
     <tag k="truck" v="no"/>
+    <tag k="url" v="http://turistautak.hu/poi.php?id=124645"/>
+    <tag k="wheelchair" v="no"/>
   </node>
   <node id="2862127514" lat="46.6236718" lon="16.5467911" timestamp="2014-10-15T18:11:18Z" uid="8219" user="hunsly" version="2"/>
   <node id="2862127515" lat="46.6236905" lon="16.5467572" timestamp="2014-10-15T18:11:18Z" uid="8219" user="hunsly" version="2"/>
@@ -823,7 +841,7 @@ contact:website                   EQU 		'https://www.mol.hu'			'https://www.mol.
 contact:youtube                   EQU 		'https://www.youtube.com/user/molgrouptv'			'https://www.youtube.com/user/molgrouptv'
 food                              EQU 		'yes'			'yes'
 fuel:GTL_diesel                   EQU 		'yes'			'yes'
-fuel:adblue                       EQU 		'no'			'no'
+fuel:adblue                       MOD 		'yes'			'no'
 fuel:diesel                       EQU 		'yes'			'yes'
 fuel:lpg                          EQU 		'yes'			'yes'
 fuel:octane_100                   EQU 		'yes'			'yes'
@@ -843,10 +861,11 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                           NEW		'import;website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w307926808&addtags=%7Caddr%3Acity%3DLenti%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D8960%7Caddr%3Astreet%3DSz%C3%A9chenyi%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dno%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Copening_hours%3D24/7%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w307926808&addtags=%7Caddr%3Acity%3DLenti%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D8960%7Caddr%3Astreet%3DSz%C3%A9chenyi%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Cbuilding%3Dyes%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Copening_hours%3D24/7%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
   <!--ˇ'original': 'Széchenyi tér 3.', 'postcode': '8960', 'city': 'Lenti', 'street': 'Széchenyi tér', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="307926808" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="11">
     <nd ref="2862127514"/>
@@ -873,7 +892,7 @@ truck                             EQU 		'no'			'no'
     <tag k="contact:youtube" v="https://www.youtube.com/user/molgrouptv"/>
     <tag k="food" v="yes"/>
     <tag k="fuel:GTL_diesel" v="yes"/>
-    <tag k="fuel:adblue" v="no"/>
+    <tag k="fuel:adblue" v="yes"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:lpg" v="yes"/>
     <tag k="fuel:octane_100" v="yes"/>
@@ -893,7 +912,8 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </way>
   <!-- OSM link: https://osm.org/node/7954651051 -->
@@ -936,10 +956,11 @@ payment:visa_electron             EQU 		'yes'			'yes'
 ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
 ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
 rent:lpg_bottles                  EQU 		'yes'			'yes'
-source:date                       MOD 		'2022\-06\-08'			'2022\-05\-21'
+source                           NEW		'import;website'
+source:date                       MOD 		'2022\-09\-15'			'2022\-05\-21'
 truck                             EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7954651051&addtags=%7Caddr%3Acity%3DR%C3%A9dics%7Caddr%3Apostcode%3D8978%7Caddr%3Astreet%3D86.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfixme%3Dverify%20import%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Adate%3D2022-06-08%7Ctruck%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n7954651051&addtags=%7Caddr%3Acity%3DR%C3%A9dics%7Caddr%3Apostcode%3D8978%7Caddr%3Astreet%3D86.%20sz%C3%A1m%C3%BA%20f%C5%91k%C3%B6zleked%C3%A9si%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfixme%3Dverify%20import%7Cfood%3Dyes%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
   <!--ˇ'original': '86.sz.fkl. út', 'postcode': '8978', 'city': 'Rédics', 'street': '86. számú főközlekedési út', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="7954651051" lat="46.59726" lon="16.46141" timestamp="2022-05-23T06:19:43Z" uid="8635934" user="osm_poi_matchmaker" version="3">
     <tag k="addr:city" v="Rédics"/>
@@ -977,7 +998,92 @@ truck                             EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01-10-041683"/>
     <tag k="ref:vatin:hu" v="10625790-4-44"/>
     <tag k="rent:lpg_bottles" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
+    <tag k="truck" v="no"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/9347246587 -->
+  <!-- Original coordinates: POINT (46.89144 16.83609) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Zalaegerszeg'			'Zalaegerszeg'
+addr:conscriptionnumber           EQU 		'0779/9'			'0779/9'
+addr:postcode                     EQU 		'8900'			'8900'
+air_conditioning                  MOD 		'yes'			'no'
+amenity                           EQU 		'fuel'			'fuel'
+brand                             EQU 		'MOL'			'MOL'
+brand:wikidata                    EQU 		'Q549181'			'Q549181'
+brand:wikipedia                   EQU 		'hu:MOL Magyar Olaj\- és Gázipari Nyrt.'			'hu:MOL Magyar Olaj\- és Gázipari Nyrt.'
+compressed_air                    MOD 		'yes'			'no'
+contact:facebook                  EQU 		'https://www.facebook.com/mol.magyarorszag/'			'https://www.facebook.com/mol.magyarorszag/'
+contact:instagram                 EQU 		'https://www.instagram.com/mol.magyarorszag/'			'https://www.instagram.com/mol.magyarorszag/'
+contact:website                   EQU 		'https://www.mol.hu'			'https://www.mol.hu'
+contact:youtube                   EQU 		'https://www.youtube.com/user/molgrouptv'			'https://www.youtube.com/user/molgrouptv'
+food                              EQU 		'no'			'no'
+fuel:GTL_diesel                   EQU 		'yes'			'yes'
+fuel:adblue                       EQU 		'yes'			'yes'
+fuel:diesel                       EQU 		'yes'			'yes'
+fuel:lpg                          EQU 		'no'			'no'
+fuel:octane_100                   EQU 		'yes'			'yes'
+fuel:octane_95                    EQU 		'yes'			'yes'
+name                              EQU 		'MOL'			'MOL'
+operator                          EQU 		'MOL Nyrt.'			'MOL Nyrt.'
+operator:addr                     EQU 		'1117 Budapest, Október huszonharmadika utca 18.'			'1117 Budapest, Október huszonharmadika utca 18.'
+payment:cash                      MOD 		'yes'			'no'
+payment:contactless               EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'01\-10\-041683'			'01\-10\-041683'
+ref:vatin:hu                      EQU 		'10625790\-4\-44'			'10625790\-4\-44'
+rent:lpg_bottles                  EQU 		'no'			'no'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-15'
+truck                             EQU 		'no'			'no'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9347246587&addtags=%7Caddr%3Acity%3DZalaegerszeg%7Caddr%3Aconscriptionnumber%3D0779/9%7Caddr%3Apostcode%3D8900%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbrand%3DMOL%7Cbrand%3Awikidata%3DQ549181%7Cbrand%3Awikipedia%3Dhu%3AMOL%20Magyar%20Olaj-%20%C3%A9s%20G%C3%A1zipari%20Nyrt.%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/mol.magyarorszag/%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/mol.magyarorszag/%7Ccontact%3Awebsite%3Dhttps%3A//www.mol.hu%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/molgrouptv%7Cfood%3Dno%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Alpg%3Dno%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cname%3DMOL%7Coperator%3DMOL%20Nyrt.%7Coperator%3Aaddr%3D1117%20Budapest%2C%20Okt%C3%B3ber%20huszonharmadika%20utca%2018.%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3AHU%3Acompany%3D01-10-041683%7Cref%3Avatin%3Ahu%3D10625790-4-44%7Crent%3Alpg_bottles%3Dno%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-15%7Ctruck%3Dno -->
+  <!--ˇ'original': 'HRSZ 0779/9', 'postcode': '8900', 'city': 'Zalaegerszeg', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': '0779/9'°-->
+  <node action="modify" id="9347246587" lat="46.8906863" lon="16.8359312" timestamp="2022-09-05T10:24:30Z" uid="8635934" user="osm_poi_matchmaker" version="3">
+    <tag k="addr:city" v="Zalaegerszeg"/>
+    <tag k="addr:conscriptionnumber" v="0779/9"/>
+    <tag k="addr:postcode" v="8900"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="MOL"/>
+    <tag k="brand:wikidata" v="Q549181"/>
+    <tag k="brand:wikipedia" v="hu:MOL Magyar Olaj- és Gázipari Nyrt."/>
+    <tag k="compressed_air" v="yes"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/mol.magyarorszag/"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/mol.magyarorszag/"/>
+    <tag k="contact:website" v="https://www.mol.hu"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/user/molgrouptv"/>
+    <tag k="food" v="no"/>
+    <tag k="fuel:GTL_diesel" v="yes"/>
+    <tag k="fuel:adblue" v="yes"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:lpg" v="no"/>
+    <tag k="fuel:octane_100" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
+    <tag k="name" v="MOL"/>
+    <tag k="operator" v="MOL Nyrt."/>
+    <tag k="operator:addr" v="1117 Budapest, Október huszonharmadika utca 18."/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="ref:HU:company" v="01-10-041683"/>
+    <tag k="ref:vatin:hu" v="10625790-4-44"/>
+    <tag k="rent:lpg_bottles" v="no"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-15"/>
     <tag k="truck" v="no"/>
   </node>
 </osm>

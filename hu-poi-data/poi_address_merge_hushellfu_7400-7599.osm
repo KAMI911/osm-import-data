@@ -19,7 +19,7 @@
 Key				Status		New value		OSM value
 addr:city                        NEW		'Kaposvar'
 addr:postcode                    NEW		'7400'
-addr:street                      NEW		'Berzsenyi dániel utca'
+addr:street                      NEW		'Berzsenyi Dániel utca'
 air_conditioning                 NEW		'yes'
 amenity                           EQU 		'fuel'			'fuel'
 branch                           NEW		'KAPOSVÁR II.'
@@ -48,10 +48,11 @@ payment:mastercard_contactless   NEW		'yes'
 payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w228898993&addtags=%7Caddr%3Acity%3DKaposvar%7Caddr%3Apostcode%3D7400%7Caddr%3Astreet%3DBerzsenyi%20d%C3%A1niel%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DKAPOSV%C3%81R%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2082%20510%20614%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10201600-kaposvar-ii%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Adate%3D2022-06-08 -->
-  <!--ˇ'original': 'BERZSENYI DÁNIEL U.', 'postcode': '7400', 'city': 'Kaposvar', 'street': 'Berzsenyi dániel utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w228898993&addtags=%7Caddr%3Acity%3DKaposvar%7Caddr%3Apostcode%3D7400%7Caddr%3Astreet%3DBerzsenyi%20D%C3%A1niel%20utca%7Cair_conditioning%3Dyes%7Camenity%3Dfuel%7Cbranch%3DKAPOSV%C3%81R%20II.%7Cbrand%3DShell%7Cbrand%3Awikidata%3DQ154950%7Cbrand%3Awikipedia%3Dhu%3ARoyal%20Dutch%20Shell%7Cbuilding%3Droof%7Ccompressed_air%3Dyes%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/ShellMagyarorszag/%7Ccontact%3Afax%3D%2B36%201%20999%208673%7Ccontact%3Aphone%3D%2B36%2082%20510%20614%7Ccontact%3Atwitter%3Dshell%7Ccontact%3Awebsite%3Dhttps%3A//find.shell.com/hu/fuel/10201600-kaposvar-ii%7Cfuel%3AGTL_diesel%3Dyes%7Cfuel%3Aadblue%3Dyes%7Cfuel%3Adiesel%3Dyes%7Cfuel%3Aoctane_100%3Dyes%7Cfuel%3Aoctane_95%3Dyes%7Cloyalty_card%3Dyes%7Cname%3DShell%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'BERZSENYI DÁNIEL U.', 'postcode': '7400', 'city': 'Kaposvar', 'street': 'Berzsenyi Dániel utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="228898993" timestamp="2022-04-17T16:34:11Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <nd ref="2375555574"/>
     <nd ref="2375553314"/>
@@ -68,7 +69,7 @@ source:date                      NEW		'2022\-06\-08'
     <nd ref="2375555574"/>
     <tag k="addr:city" v="Kaposvar"/>
     <tag k="addr:postcode" v="7400"/>
-    <tag k="addr:street" v="Berzsenyi dániel utca"/>
+    <tag k="addr:street" v="Berzsenyi Dániel utca"/>
     <tag k="air_conditioning" v="yes"/>
     <tag k="amenity" v="fuel"/>
     <tag k="branch" v="KAPOSVÁR II."/>
@@ -97,6 +98,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:mastercard_electronic" v="yes"/>
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
 </osm>

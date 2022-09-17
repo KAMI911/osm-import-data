@@ -49,11 +49,11 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'supermarket'			'supermarket'
-source                            EQU 		'survey'			'survey'
-source:date                      NEW		'2022\-06\-08'
+source                            MOD 		'import;website'			'survey'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w78220327&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DAvar%20utca%7Cbranch%3DSpar%20szupermarket%20V%C3%A1c%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-vac-2600-avar-utca-6-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Copening_hours%3DMo-Fr%2007%3A00-21%3A00%3B%20Sa-Su%2007%3A00-18%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dsurvey%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w78220327&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DAvar%20utca%7Cbranch%3DSpar%20szupermarket%20V%C3%A1c%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-vac-2600-avar-utca-6-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Copening_hours%3DMo-Fr%2007%3A00-21%3A00%3B%20Sa-Su%2007%3A00-18%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Avar utca 6.', 'postcode': '2600', 'city': 'Vác', 'street': 'Avar utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="78220327" timestamp="2019-08-07T08:59:50Z" uid="8635934" user="osm_poi_matchmaker" version="7">
     <nd ref="918711770"/>
@@ -101,8 +101,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source" v="survey"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <node id="2095496805" lat="47.7954913" lon="19.1324946" timestamp="2014-08-17T04:30:01Z" uid="479610" user="igor2" version="2"/>
@@ -152,10 +152,11 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w199555658&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DGomb%C3%A1si%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20V%C3%A1c%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-vac-2600-gombasi-ut-7-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w199555658&addtags=%7Caddr%3Acity%3DV%C3%A1c%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D2600%7Caddr%3Astreet%3DGomb%C3%A1si%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20V%C3%A1c%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-vac-2600-gombasi-ut-7-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Gombási út 7.', 'postcode': '2600', 'city': 'Vác', 'street': 'Gombási út', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="199555658" timestamp="2021-03-12T08:25:49Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <nd ref="2095496805"/>
@@ -201,7 +202,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <node id="6682066240" lat="47.802323" lon="19.2517894" timestamp="2019-08-04T21:25:28Z" uid="574675" user="Bálint" version="1"/>
@@ -216,7 +218,7 @@ Key				Status		New value		OSM value
 addr:city                        NEW		'Penc'
 addr:housenumber                 NEW		'21'
 addr:postcode                    NEW		'2614'
-addr:street                      NEW		'Rákóczi utca'
+addr:street                      NEW		'Rákóczi út'
 branch                           NEW		'Spar market Penc'
 brand                             EQU 		'Spar'			'Spar'
 brand:wikidata                    EQU 		'Q610492'			'Q610492'
@@ -250,10 +252,11 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w710730840&addtags=%7Caddr%3Acity%3DPenc%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D2614%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Cbranch%3DSpar%20market%20Penc%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-penc-2614-rakoczi-utca-21-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08 -->
-  <!--ˇ'original': 'Rákóczi utca 21.', 'postcode': '2614', 'city': 'Penc', 'street': 'Rákóczi utca', 'housenumber': '21', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w710730840&addtags=%7Caddr%3Acity%3DPenc%7Caddr%3Ahousenumber%3D21%7Caddr%3Apostcode%3D2614%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cbranch%3DSpar%20market%20Penc%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-penc-2614-rakoczi-utca-21-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'Rákóczi utca 21.', 'postcode': '2614', 'city': 'Penc', 'street': 'Rákóczi út', 'housenumber': '21', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="710730840" timestamp="2019-08-04T21:25:28Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <nd ref="6682066240"/>
     <nd ref="6682066241"/>
@@ -263,7 +266,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="addr:city" v="Penc"/>
     <tag k="addr:housenumber" v="21"/>
     <tag k="addr:postcode" v="2614"/>
-    <tag k="addr:street" v="Rákóczi utca"/>
+    <tag k="addr:street" v="Rákóczi út"/>
     <tag k="branch" v="Spar market Penc"/>
     <tag k="brand" v="Spar"/>
     <tag k="brand:wikidata" v="Q610492"/>
@@ -297,7 +300,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <!-- OSM link: https://osm.org/node/2881483045 -->
   <!-- Original coordinates: POINT (47.8009 18.91) -->
@@ -342,10 +346,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 ref                               EQU 		'6915400'			'6915400'
 shop                              MOD 		'supermarket'			'convenience'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'limited'			'limited'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2881483045&addtags=%7Caddr%3Acity%3DZebeg%C3%A9ny%7Caddr%3Ahousenumber%3D15%7Caddr%3Apostcode%3D2627%7Caddr%3Astreet%3DPet%C5%91fi%20t%C3%A9r%7Cbranch%3DSpar%20market%20Zebeg%C3%A9ny%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-zebegeny-2627-petfi-ter-15%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Copening_hours%3DMo-Sa%2007%3A00-19%3A30%20Su%2008%3A00-12%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3D6915400%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dlimited -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2881483045&addtags=%7Caddr%3Acity%3DZebeg%C3%A9ny%7Caddr%3Ahousenumber%3D15%7Caddr%3Apostcode%3D2627%7Caddr%3Astreet%3DPet%C5%91fi%20t%C3%A9r%7Cbranch%3DSpar%20market%20Zebeg%C3%A9ny%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-zebegeny-2627-petfi-ter-15%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Copening_hours%3DMo-Sa%2007%3A00-19%3A30%20Su%2008%3A00-12%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cref%3D6915400%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dlimited -->
   <!--ˇ'original': 'Petőfi tér 15', 'postcode': '2627', 'city': 'Zebegény', 'street': 'Petőfi tér', 'housenumber': '15', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="2881483045" lat="47.8010585" lon="18.9103196" timestamp="2021-07-31T18:37:24Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <tag k="addr:city" v="Zebegény"/>
@@ -386,7 +391,8 @@ wheelchair                        EQU 		'limited'			'limited'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="ref" v="6915400"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="limited"/>
   </node>
   <node id="2910736483" lat="48.0808118" lon="19.2968468" timestamp="2021-11-24T14:48:31Z" uid="1956015" user="balint36" version="11"/>
@@ -400,7 +406,7 @@ wheelchair                        EQU 		'limited'			'limited'
   <node id="6398650732" lat="48.0809937" lon="19.2968435" timestamp="2021-11-24T14:48:31Z" uid="1956015" user="balint36" version="7"/>
   <!-- OSM link: https://osm.org/way/631311023 -->
   <!-- Original coordinates: POINT (48.080688 19.297245) -->
-  <!-- OSM <-> POI distance: 14.88570507 m-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
 addr:city                         EQU 		'Balassagyarmat'			'Balassagyarmat'
@@ -440,10 +446,11 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w631311023&addtags=%7Caddr%3Acity%3DBalassagyarmat%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D2660%7Caddr%3Astreet%3DMiksz%C3%A1th%20K%C3%A1lm%C3%A1n%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Balassagyarmat%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-balassagyarmat-2660-mikszath-kalman-utca-14-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w631311023&addtags=%7Caddr%3Acity%3DBalassagyarmat%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D2660%7Caddr%3Astreet%3DMiksz%C3%A1th%20K%C3%A1lm%C3%A1n%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Balassagyarmat%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-balassagyarmat-2660-mikszath-kalman-utca-14-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Mikszáth Kálmán utca 14.', 'postcode': '2660', 'city': 'Balassagyarmat', 'street': 'Mikszáth Kálmán út', 'housenumber': '14', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="631311023" timestamp="2022-04-18T19:47:28Z" uid="8635934" user="osm_poi_matchmaker" version="6">
     <nd ref="2910736483"/>
@@ -493,7 +500,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <!-- Original coordinates: POINT (47.178803 19.800078) -->
@@ -537,11 +545,12 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D29%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DKossuth%20Ferenc%20utca%7Cbranch%3DSpar%20szupermarket%20Cegl%C3%A9d%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-cegled-2700-kossuth-ferenc-utca-29-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D29%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DKossuth%20Ferenc%20utca%7Cbranch%3DSpar%20szupermarket%20Cegl%C3%A9d%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-cegled-2700-kossuth-ferenc-utca-29-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Kossuth Ferenc utca 29.', 'postcode': '2700', 'city': 'Cegléd', 'street': 'Kossuth Ferenc utca', 'housenumber': '29', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-6" lat="47.178803" lon="19.800078" timestamp="2022-06-08T15:28:46Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-6" lat="47.178803" lon="19.800078" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Cegléd"/>
     <tag k="addr:housenumber" v="29"/>
     <tag k="addr:postcode" v="2700"/>
@@ -579,7 +588,95 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
+  </node>
+  <!-- Original coordinates: POINT (47.1704 19.7966) -->
+  <!-- OSM <-> POI distance: Non exist-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Cegléd'
+addr:housenumber                 NEW		'10'
+addr:postcode                    NEW		'2700'
+addr:street                      NEW		'Kossuth tér'
+branch                           NEW		'Spar market Cegléd'
+brand                            NEW		'Spar'
+brand:wikidata                   NEW		'Q610492'
+brand:wikipedia                  NEW		'hu:Spar'
+contact:email                    NEW		'vevoszolgalat@spar.hu'
+contact:facebook                 NEW		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                NEW		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    NEW		'+36208237727'
+contact:website                  NEW		'https://www.spar.hu/uzletek/spar\-market\-cegled\-2700\-kossuth\-ter\-10'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+fixme                            NEW		'verify import'
+name                             NEW		'Spar'
+operator                         NEW		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         NEW		'yes'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:edenred_card             NEW		'yes'
+payment:edenred_voucher          NEW		'yes'
+payment:erzsebet                 NEW		'yes'
+payment:erzsebet_plus            NEW		'yes'
+payment:jcb                      NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:multipay                 NEW		'yes'
+payment:otp_bankpont             NEW		'yes'
+payment:otp_cafeteria            NEW		'yes'
+payment:unionpay                 NEW		'yes'
+payment:v_pay                    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+shop                             NEW		'supermarket'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Cbranch%3DSpar%20market%20Cegl%C3%A9d%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-cegled-2700-kossuth-ter-10%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cfixme%3Dverify%20import%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'Kossuth tér 10', 'postcode': '2700', 'city': 'Cegléd', 'street': 'Kossuth tér', 'housenumber': '10', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-7" lat="47.1704" lon="19.7966" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+    <tag k="addr:city" v="Cegléd"/>
+    <tag k="addr:housenumber" v="10"/>
+    <tag k="addr:postcode" v="2700"/>
+    <tag k="addr:street" v="Kossuth tér"/>
+    <tag k="branch" v="Spar market Cegléd"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-market-cegled-2700-kossuth-ter-10"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="fixme" v="verify import"/>
+    <tag k="name" v="Spar"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <!-- OSM link: https://osm.org/node/4226490992 -->
   <!-- Original coordinates: POINT (47.179877 19.783658) -->
@@ -625,9 +722,10 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4226490992&addtags=%7Cabandoned%3Ashop%3Dconvenience%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D30/b%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3D%C3%96sszek%C3%B6t%C5%91%20%C3%BAt%7Cbranch%3DSpar%20partner%20Cegl%C3%A9d%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-partner-cegled-2700-oesszekoet-ut-30-b%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Cold_name%3DCBA%20Pr%C3%ADma%7Copening_hours%3DMo-Fr%2005%3A30-20%3A00%3B%20Sa%2006%3A00-20%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4226490992&addtags=%7Cabandoned%3Ashop%3Dconvenience%7Caddr%3Acity%3DCegl%C3%A9d%7Caddr%3Ahousenumber%3D30/b%7Caddr%3Apostcode%3D2700%7Caddr%3Astreet%3D%C3%96sszek%C3%B6t%C5%91%20%C3%BAt%7Cbranch%3DSpar%20partner%20Cegl%C3%A9d%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-partner-cegled-2700-oesszekoet-ut-30-b%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Cold_name%3DCBA%20Pr%C3%ADma%7Copening_hours%3DMo-Fr%2005%3A30-20%3A00%3B%20Sa%2006%3A00-20%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
   <!--ˇ'original': 'Összekötő út 30/b', 'postcode': '2700', 'city': 'Cegléd', 'street': 'Összekötő út', 'housenumber': '30/b', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4226490992" lat="47.1802376" lon="19.7837478" timestamp="2020-05-12T21:34:29Z" uid="8635934" user="osm_poi_matchmaker" version="9">
     <tag k="abandoned:shop" v="convenience"/>
@@ -669,7 +767,94 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
+  </node>
+  <!-- OSM link: https://osm.org/node/4810192960 -->
+  <!-- Original coordinates: POINT (47.3409 19.7466) -->
+  <!-- OSM <-> POI distance: 20.06071583 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Tápiószentmárton'
+addr:housenumber                 NEW		'22'
+addr:postcode                    NEW		'2711'
+addr:street                      NEW		'Kossuth Lajos utca'
+branch                           NEW		'Spar market Tápiószentmárton'
+brand                             EQU 		'Spar'			'Spar'
+brand:wikidata                    EQU 		'Q610492'			'Q610492'
+brand:wikipedia                   MOD 		'hu:Spar'			'en:Spar (retailer)'
+contact:email                    NEW		'vevoszolgalat@spar.hu'
+contact:facebook                 NEW		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                NEW		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                    NEW		'+36208237727'
+contact:website                  NEW		'https://www.spar.hu/uzletek/spar\-market\-tapioszentmarton\-2711\-kossuth\-lajos\-u\-22\-'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                              EQU 		'Spar'			'Spar'
+operator                         NEW		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         NEW		'yes'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:edenred_card             NEW		'yes'
+payment:edenred_voucher          NEW		'yes'
+payment:erzsebet                 NEW		'yes'
+payment:erzsebet_plus            NEW		'yes'
+payment:jcb                      NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:multipay                 NEW		'yes'
+payment:otp_bankpont             NEW		'yes'
+payment:otp_cafeteria            NEW		'yes'
+payment:unionpay                 NEW		'yes'
+payment:v_pay                    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+shop                              EQU 		'supermarket'			'supermarket'
+source                            MOD 		'import;website'			'OSM Note 923374'
+source:date                      NEW		'2022\-09\-16'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4810192960&addtags=%7Caddr%3Acity%3DT%C3%A1pi%C3%B3szentm%C3%A1rton%7Caddr%3Ahousenumber%3D22%7Caddr%3Apostcode%3D2711%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Cbranch%3DSpar%20market%20T%C3%A1pi%C3%B3szentm%C3%A1rton%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-tapioszentmarton-2711-kossuth-lajos-u-22-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'Kossuth Lajos u. 22.', 'postcode': '2711', 'city': 'Tápiószentmárton', 'street': 'Kossuth Lajos utca', 'housenumber': '22', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="4810192960" lat="47.3407197" lon="19.7466093" timestamp="2020-10-24T10:04:50Z" uid="8635934" user="osm_poi_matchmaker" version="2">
+    <tag k="addr:city" v="Tápiószentmárton"/>
+    <tag k="addr:housenumber" v="22"/>
+    <tag k="addr:postcode" v="2711"/>
+    <tag k="addr:street" v="Kossuth Lajos utca"/>
+    <tag k="branch" v="Spar market Tápiószentmárton"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36208237727"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-market-tapioszentmarton-2711-kossuth-lajos-u-22-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </node>
   <node id="4862133164" lat="47.2606595" lon="19.502154" timestamp="2017-05-18T15:38:46Z" uid="2077889" user="zsolt d" version="1"/>
   <node id="4862133163" lat="47.2604857" lon="19.5019864" timestamp="2017-05-18T15:38:46Z" uid="2077889" user="zsolt d" version="1"/>
@@ -683,7 +868,7 @@ Key				Status		New value		OSM value
 addr:city                        NEW		'Nyáregyháza'
 addr:housenumber                 NEW		'4\-6'
 addr:postcode                    NEW		'2723'
-addr:street                      NEW		'NYÁRY PÁL u'
+addr:street                      NEW		'Nyári Pál út'
 branch                           NEW		'Spar market Nyáregyháza'
 brand                            NEW		'Spar'
 brand:wikidata                   NEW		'Q610492'
@@ -717,10 +902,11 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              MOD 		'supermarket'			'convenience'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w494453834&addtags=%7Caddr%3Acity%3DNy%C3%A1regyh%C3%A1za%7Caddr%3Ahousenumber%3D4-6%7Caddr%3Apostcode%3D2723%7Caddr%3Astreet%3DNY%C3%81RY%20P%C3%81L%20u%7Cbranch%3DSpar%20market%20Ny%C3%A1regyh%C3%A1za%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-nyaregyhaza-2723-nyary-pal-u-4-6%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08 -->
-  <!--ˇ'original': 'NYÁRY PÁL U 4-6', 'postcode': '2723', 'city': 'Nyáregyháza', 'street': 'NYÁRY PÁL u', 'housenumber': '4-6', 'conscriptionnumber': 'None'°-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w494453834&addtags=%7Caddr%3Acity%3DNy%C3%A1regyh%C3%A1za%7Caddr%3Ahousenumber%3D4-6%7Caddr%3Apostcode%3D2723%7Caddr%3Astreet%3DNy%C3%A1ri%20P%C3%A1l%20%C3%BAt%7Cbranch%3DSpar%20market%20Ny%C3%A1regyh%C3%A1za%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-market-nyaregyhaza-2723-nyary-pal-u-4-6%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'NYÁRY PÁL U 4-6', 'postcode': '2723', 'city': 'Nyáregyháza', 'street': 'Nyári Pál út', 'housenumber': '4-6', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="494453834" timestamp="2022-02-23T09:48:22Z" uid="8635934" user="osm_poi_matchmaker" version="2">
     <nd ref="4862133164"/>
     <nd ref="4862133163"/>
@@ -730,7 +916,7 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="addr:city" v="Nyáregyháza"/>
     <tag k="addr:housenumber" v="4-6"/>
     <tag k="addr:postcode" v="2723"/>
-    <tag k="addr:street" v="NYÁRY PÁL u"/>
+    <tag k="addr:street" v="Nyári Pál út"/>
     <tag k="branch" v="Spar market Nyáregyháza"/>
     <tag k="brand" v="Spar"/>
     <tag k="brand:wikidata" v="Q610492"/>
@@ -764,7 +950,8 @@ source:date                      NEW		'2022\-06\-08'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
   </way>
   <node id="2663983370" lat="47.1880996" lon="20.0007156" timestamp="2014-02-09T21:12:23Z" uid="311866" user="papesz" version="1"/>
   <node id="2663983372" lat="47.1877587" lon="20.0009463" timestamp="2014-02-09T21:12:23Z" uid="311866" user="papesz" version="1"/>
@@ -813,10 +1000,11 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w260830046&addtags=%7Caddr%3Acity%3DAbony%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D2740%7Caddr%3Astreet%3DCegl%C3%A9di%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Abony%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-abony-2740-cegledi-ut-8-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w260830046&addtags=%7Caddr%3Acity%3DAbony%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D2740%7Caddr%3Astreet%3DCegl%C3%A9di%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Abony%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-abony-2740-cegledi-ut-8-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Ceglédi út 8.', 'postcode': '2740', 'city': 'Abony', 'street': 'Ceglédi út', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="260830046" timestamp="2021-08-25T20:56:12Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="2663983370"/>
@@ -862,7 +1050,8 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
   <node id="3110951137" lat="47.0391938" lon="19.7842525" timestamp="2014-10-04T13:27:33Z" uid="2364982" user="szogignem" version="1"/>
@@ -912,10 +1101,11 @@ payment:v_pay                    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'supermarket'			'supermarket'
-source:date                      NEW		'2022\-06\-08'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
 wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w306244501&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DCegl%C3%A9di%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Nagyk%C5%91r%C3%B6s%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-nagykroes-2750-cegledi-ut-14-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Adate%3D2022-06-08%7Cwheelchair%3Dyes -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w306244501&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DCegl%C3%A9di%20%C3%BAt%7Cbranch%3DSpar%20szupermarket%20Nagyk%C5%91r%C3%B6s%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Cbuilding%3Dretail%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36208237727%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-szupermarket-nagykroes-2750-cegledi-ut-14-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Ceglédi út 14.', 'postcode': '2750', 'city': 'Nagykőrös', 'street': 'Ceglédi út', 'housenumber': '14', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="306244501" timestamp="2021-08-26T20:04:41Z" uid="8635934" user="osm_poi_matchmaker" version="5">
     <nd ref="3110951137"/>
@@ -961,7 +1151,98 @@ wheelchair                        EQU 		'yes'			'yes'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="supermarket"/>
-    <tag k="source:date" v="2022-06-08"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
+  <!-- OSM link: https://osm.org/node/3204428417 -->
+  <!-- Original coordinates: POINT (47.331968 19.874766) -->
+  <!-- OSM <-> POI distance: 0 m-->
+  <!--
+Key				Status		New value		OSM value
+addr:city                         EQU 		'Tápiószele'			'Tápiószele'
+addr:housenumber                  EQU 		'1'			'1'
+addr:postcode                     EQU 		'2766'			'2766'
+addr:street                       EQU 		'Blaskovich testvérek tere'			'Blaskovich testvérek tere'
+alt_name                          EQU 		'Korpusz'			'Korpusz'
+branch                           NEW		'Spar partner Tápiószele'
+brand                             EQU 		'Spar'			'Spar'
+brand:wikidata                    EQU 		'Q610492'			'Q610492'
+brand:wikipedia                   MOD 		'hu:Spar'			'en:Spar (retailer)'
+contact:email                     MOD 		'vevoszolgalat@spar.hu'			'frvevoszolgalat@spar.hu'
+contact:facebook                 NEW		'https://www.facebook.com/sparmagyarorszag'
+contact:instagram                NEW		'https://www.instagram.com/sparmagyarorszag'
+contact:phone                     EQU 		'+36 20 823 8676'			'+36 20 823 8676'
+contact:website                   EQU 		'https://www.spar.hu/uzletek/spar\-partner\-tapioszele\-2766\-blaskovich\-testverek\-tere\-1\-'			'https://www.spar.hu/uzletek/spar\-partner\-tapioszele\-2766\-blaskovich\-testverek\-tere\-1\-'
+contact:youtube                  NEW		'https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A'
+name                              EQU 		'Spar'			'Spar'
+opening_hours                     EQU 		'Mo\-Fr 06:00\-20:00; Sa 06:00\-16:00; Su 07:00\-14:00'			'Mo\-Fr 06:00\-20:00; Sa 06:00\-16:00; Su 07:00\-14:00'
+operator                         NEW		'SPAR Magyarország Kereskedelmi Kft.'
+payment:american_express         NEW		'yes'
+payment:cash                     NEW		'yes'
+payment:contactless              NEW		'yes'
+payment:edenred_card             NEW		'yes'
+payment:edenred_voucher          NEW		'yes'
+payment:erzsebet                 NEW		'yes'
+payment:erzsebet_plus            NEW		'yes'
+payment:jcb                      NEW		'yes'
+payment:maestro                  NEW		'yes'
+payment:mastercard               NEW		'yes'
+payment:mastercard_contactless   NEW		'yes'
+payment:mastercard_electronic    NEW		'yes'
+payment:multipay                 NEW		'yes'
+payment:otp_bankpont             NEW		'yes'
+payment:otp_cafeteria            NEW		'yes'
+payment:unionpay                 NEW		'yes'
+payment:v_pay                    NEW		'yes'
+payment:visa                     NEW		'yes'
+payment:visa_electron            NEW		'yes'
+shop                              MOD 		'supermarket'			'convenience'
+source                           NEW		'import;website'
+source:date                      NEW		'2022\-09\-16'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3204428417&addtags=%7Caddr%3Acity%3DT%C3%A1pi%C3%B3szele%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D2766%7Caddr%3Astreet%3DBlaskovich%20testv%C3%A9rek%20tere%7Calt_name%3DKorpusz%7Cbranch%3DSpar%20partner%20T%C3%A1pi%C3%B3szele%7Cbrand%3DSpar%7Cbrand%3Awikidata%3DQ610492%7Cbrand%3Awikipedia%3Dhu%3ASpar%7Ccontact%3Aemail%3Dvevoszolgalat%40spar.hu%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/sparmagyarorszag%7Ccontact%3Ainstagram%3Dhttps%3A//www.instagram.com/sparmagyarorszag%7Ccontact%3Aphone%3D%2B36%2020%20823%208676%7Ccontact%3Awebsite%3Dhttps%3A//www.spar.hu/uzletek/spar-partner-tapioszele-2766-blaskovich-testverek-tere-1-%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A%7Cname%3DSpar%7Copening_hours%3DMo-Fr%2006%3A00-20%3A00%3B%20Sa%2006%3A00-16%3A00%3B%20Su%2007%3A00-14%3A00%7Coperator%3DSPAR%20Magyarorsz%C3%A1g%20Kereskedelmi%20Kft.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dsupermarket%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!--ˇ'original': 'Blaskovich Testvérek tere 1.', 'postcode': '2766', 'city': 'Tápiószele', 'street': 'Blaskovich testvérek tere', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="3204428417" lat="47.3319316" lon="19.8745977" timestamp="2020-10-28T18:24:10Z" uid="8635934" user="osm_poi_matchmaker" version="5">
+    <tag k="addr:city" v="Tápiószele"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="2766"/>
+    <tag k="addr:street" v="Blaskovich testvérek tere"/>
+    <tag k="alt_name" v="Korpusz"/>
+    <tag k="branch" v="Spar partner Tápiószele"/>
+    <tag k="brand" v="Spar"/>
+    <tag k="brand:wikidata" v="Q610492"/>
+    <tag k="brand:wikipedia" v="hu:Spar"/>
+    <tag k="contact:email" v="vevoszolgalat@spar.hu"/>
+    <tag k="contact:facebook" v="https://www.facebook.com/sparmagyarorszag"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/sparmagyarorszag"/>
+    <tag k="contact:phone" v="+36 20 823 8676"/>
+    <tag k="contact:website" v="https://www.spar.hu/uzletek/spar-partner-tapioszele-2766-blaskovich-testverek-tere-1-"/>
+    <tag k="contact:youtube" v="https://www.youtube.com/channel/UC9tu8COHiy4WkeTIN1k_Y8A"/>
+    <tag k="name" v="Spar"/>
+    <tag k="opening_hours" v="Mo-Fr 06:00-20:00; Sa 06:00-16:00; Su 07:00-14:00"/>
+    <tag k="operator" v="SPAR Magyarország Kereskedelmi Kft."/>
+    <tag k="payment:american_express" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:contactless" v="yes"/>
+    <tag k="payment:edenred_card" v="yes"/>
+    <tag k="payment:edenred_voucher" v="yes"/>
+    <tag k="payment:erzsebet" v="yes"/>
+    <tag k="payment:erzsebet_plus" v="yes"/>
+    <tag k="payment:jcb" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:mastercard_contactless" v="yes"/>
+    <tag k="payment:mastercard_electronic" v="yes"/>
+    <tag k="payment:multipay" v="yes"/>
+    <tag k="payment:otp_bankpont" v="yes"/>
+    <tag k="payment:otp_cafeteria" v="yes"/>
+    <tag k="payment:unionpay" v="yes"/>
+    <tag k="payment:v_pay" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2022-09-16"/>
+  </node>
 </osm>
