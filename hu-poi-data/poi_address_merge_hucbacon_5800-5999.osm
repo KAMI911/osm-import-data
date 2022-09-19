@@ -13,7 +13,7 @@ brand                            NEW		'CBA'
 contact:email                    NEW		'franczekestarsa{t\-online.hu'
 contact:phone                    NEW		'+36 68 468 360'
 contact:website                  NEW		'https://www.cba.hu'
-fixme                            NEW		'verify import'
+fixme                            NEW		'Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place'
 name                             NEW		'CBA'
 opening_hours                    NEW		'Mo\-Sa 05:00\-20:00; PH off'
 payment:cash                     NEW		'yes'
@@ -26,11 +26,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'convenience'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DMez%C5%91hegyes%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D5820%7Caddr%3Astreet%3DPosta%20utca%7Cbranch%3DExpress%20ABC%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dfranczekestarsa%7Bt-online.hu%7Ccontact%3Aphone%3D%2B36%2068%20468%20360%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2005%3A00-20%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DMez%C5%91hegyes%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D5820%7Caddr%3Astreet%3DPosta%20utca%7Cbranch%3DExpress%20ABC%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dfranczekestarsa%7Bt-online.hu%7Ccontact%3Aphone%3D%2B36%2068%20468%20360%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3DEllen%C5%91rizni%20a%20megl%C3%A9t%C3%A9t%20%C3%A9s%20a%20pontos%20hely%C3%A9re%20tenni%3BCheck%20its%20existence%20and%20put%20it%20in%20the%20right%20place%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2005%3A00-20%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Posta u. 1.', 'postcode': '5820', 'city': 'Mezőhegyes', 'street': 'Posta utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="46.31179" lon="20.81524" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-1" lat="46.31179" lon="20.81524" timestamp="2022-09-18T21:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Mezőhegyes"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="5820"/>
@@ -40,7 +40,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="contact:email" v="franczekestarsa{t-online.hu"/>
     <tag k="contact:phone" v="+36 68 468 360"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Sa 05:00-20:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
@@ -53,7 +53,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <node id="5621309188" lat="46.3392833" lon="21.1320202" timestamp="2018-05-16T06:38:22Z" uid="6682300" user="Szerkesztő12321" version="1"/>
   <node id="5621309189" lat="46.3393214" lon="21.1321152" timestamp="2018-05-16T06:38:22Z" uid="6682300" user="Szerkesztő12321" version="1"/>
@@ -89,9 +89,9 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              MOD 		'convenience'			'supermarket'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w588560565&addtags=%7Caddr%3Acity%3DDombegyh%C3%A1z%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5836%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Cbranch%3DABC%20%C3%81ruh%C3%A1z%7Cbrand%3DCBA%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dcbadombegyhaz%40gmail.com%7Ccontact%3Aphone%3D%2B36%2068%20432%20255%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%7Copening_hours%3DMo-Fr%2006%3A00-18%3A00%3B%20Sa%2006%3A00-12%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w588560565&addtags=%7Caddr%3Acity%3DDombegyh%C3%A1z%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5836%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Cbranch%3DABC%20%C3%81ruh%C3%A1z%7Cbrand%3DCBA%7Cbuilding%3Dyes%7Ccontact%3Aemail%3Dcbadombegyhaz%40gmail.com%7Ccontact%3Aphone%3D%2B36%2068%20432%20255%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%7Copening_hours%3DMo-Fr%2006%3A00-18%3A00%3B%20Sa%2006%3A00-12%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Béke utca 2.', 'postcode': '5836', 'city': 'Dombegyház', 'street': 'Béke utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
   <way action="modify" id="588560565" timestamp="2018-05-16T06:38:24Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <nd ref="5621309188"/>
@@ -124,7 +124,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </way>
   <!-- Original coordinates: POINT (46.53036 20.8051) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -139,7 +139,7 @@ brand                            NEW		'CBA'
 contact:email                    NEW		'harangos@freemail.hu'
 contact:phone                    NEW		'+36 68 422 653'
 contact:website                  NEW		'https://www.cba.hu'
-fixme                            NEW		'verify import'
+fixme                            NEW		'Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place'
 name                             NEW		'CBA'
 opening_hours                    NEW		'Mo\-Sa 05:30\-19:00; Su 06:00\-11:00; PH off'
 payment:cash                     NEW		'yes'
@@ -152,11 +152,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'convenience'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DPusztaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D89%7Caddr%3Apostcode%3D5919%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cbranch%3DF%C3%B6ldv%C3%A1r-%C3%9Czleth%C3%A1z%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dharangos%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2068%20422%20653%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2005%3A30-19%3A00%3B%20Su%2006%3A00-11%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DPusztaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D89%7Caddr%3Apostcode%3D5919%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cbranch%3DF%C3%B6ldv%C3%A1r-%C3%9Czleth%C3%A1z%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dharangos%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2068%20422%20653%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3DEllen%C5%91rizni%20a%20megl%C3%A9t%C3%A9t%20%C3%A9s%20a%20pontos%20hely%C3%A9re%20tenni%3BCheck%20its%20existence%20and%20put%20it%20in%20the%20right%20place%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2005%3A30-19%3A00%3B%20Su%2006%3A00-11%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Rákóczi utca 89.', 'postcode': '5919', 'city': 'Pusztaföldvár', 'street': 'Rákóczi út', 'housenumber': '89', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="46.53036" lon="20.8051" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-3" lat="46.53036" lon="20.8051" timestamp="2022-09-18T21:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Pusztaföldvár"/>
     <tag k="addr:housenumber" v="89"/>
     <tag k="addr:postcode" v="5919"/>
@@ -166,7 +166,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="contact:email" v="harangos@freemail.hu"/>
     <tag k="contact:phone" v="+36 68 422 653"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Sa 05:30-19:00; Su 06:00-11:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
@@ -179,7 +179,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- Original coordinates: POINT (46.63204 20.82414) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -194,7 +194,7 @@ brand                            NEW		'CBA'
 contact:email                    NEW		'maloms@freemail.hu'
 contact:phone                    NEW		'+36 66 258 212'
 contact:website                  NEW		'https://www.cba.hu'
-fixme                            NEW		'verify import'
+fixme                            NEW		'Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place'
 name                             NEW		'CBA'
 opening_hours                    NEW		'Mo\-Sa 06:00\-19:00; Su 07:00\-13:00; PH off'
 payment:cash                     NEW		'yes'
@@ -207,11 +207,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'convenience'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DCsorv%C3%A1s%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D5920%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%20Market%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dmaloms%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2066%20258%20212%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2007%3A00-13%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DCsorv%C3%A1s%7Caddr%3Ahousenumber%3D30%7Caddr%3Apostcode%3D5920%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%20Market%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dmaloms%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2066%20258%20212%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3DEllen%C5%91rizni%20a%20megl%C3%A9t%C3%A9t%20%C3%A9s%20a%20pontos%20hely%C3%A9re%20tenni%3BCheck%20its%20existence%20and%20put%20it%20in%20the%20right%20place%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2006%3A00-19%3A00%3B%20Su%2007%3A00-13%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Rákóczi utca 30.', 'postcode': '5920', 'city': 'Csorvás', 'street': 'Rákóczi utca', 'housenumber': '30', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="46.63204" lon="20.82414" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-4" lat="46.63204" lon="20.82414" timestamp="2022-09-18T21:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Csorvás"/>
     <tag k="addr:housenumber" v="30"/>
     <tag k="addr:postcode" v="5920"/>
@@ -221,7 +221,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="contact:email" v="maloms@freemail.hu"/>
     <tag k="contact:phone" v="+36 66 258 212"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-19:00; Su 07:00-13:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
@@ -234,7 +234,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- Original coordinates: POINT (46.59606 20.86027) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -249,7 +249,7 @@ brand                            NEW		'CBA'
 contact:email                    NEW		'pinter.norbert83@freemail.hu'
 contact:phone                    NEW		'+36 30 683 7366'
 contact:website                  NEW		'https://www.cba.hu'
-fixme                            NEW		'verify import'
+fixme                            NEW		'Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place'
 name                             NEW		'CBA'
 opening_hours                    NEW		'Mo\-Fr 05:30\-19:00; Sa 05:30\-18:00; PH off'
 payment:cash                     NEW		'yes'
@@ -262,11 +262,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'convenience'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DGerend%C3%A1s%7Caddr%3Ahousenumber%3D31-33%7Caddr%3Apostcode%3D5925%7Caddr%3Astreet%3DKossuth%20utca%7Cbranch%3DH%C3%A1rsfa%20ABC%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dpinter.norbert83%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2030%20683%207366%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DCBA%7Copening_hours%3DMo-Fr%2005%3A30-19%3A00%3B%20Sa%2005%3A30-18%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DGerend%C3%A1s%7Caddr%3Ahousenumber%3D31-33%7Caddr%3Apostcode%3D5925%7Caddr%3Astreet%3DKossuth%20utca%7Cbranch%3DH%C3%A1rsfa%20ABC%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dpinter.norbert83%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2030%20683%207366%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3DEllen%C5%91rizni%20a%20megl%C3%A9t%C3%A9t%20%C3%A9s%20a%20pontos%20hely%C3%A9re%20tenni%3BCheck%20its%20existence%20and%20put%20it%20in%20the%20right%20place%7Cname%3DCBA%7Copening_hours%3DMo-Fr%2005%3A30-19%3A00%3B%20Sa%2005%3A30-18%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Kossuth utca 31-33.', 'postcode': '5925', 'city': 'Gerendás', 'street': 'Kossuth utca', 'housenumber': '31-33', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-5" lat="46.59606" lon="20.86027" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-5" lat="46.59606" lon="20.86027" timestamp="2022-09-18T21:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Gerendás"/>
     <tag k="addr:housenumber" v="31-33"/>
     <tag k="addr:postcode" v="5925"/>
@@ -276,7 +276,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="contact:email" v="pinter.norbert83@freemail.hu"/>
     <tag k="contact:phone" v="+36 30 683 7366"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Fr 05:30-19:00; Sa 05:30-18:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
@@ -289,7 +289,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- Original coordinates: POINT (46.67549 20.6628) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -304,7 +304,7 @@ brand                            NEW		'CBA'
 contact:email                    NEW		'kurticsi@freemail.hu'
 contact:phone                    NEW		'+36 68 443 164'
 contact:website                  NEW		'https://www.cba.hu'
-fixme                            NEW		'verify import'
+fixme                            NEW		'Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place'
 name                             NEW		'CBA'
 opening_hours                    NEW		'Mo\-Sa 06:00\-18:30; Su 07:00\-11:00; PH off'
 payment:cash                     NEW		'yes'
@@ -317,11 +317,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'convenience'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DNagysz%C3%A9n%C3%A1s%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D5931%7Caddr%3Astreet%3DPet%C5%91fi%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dkurticsi%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2068%20443%20164%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2006%3A00-18%3A30%3B%20Su%2007%3A00-11%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DNagysz%C3%A9n%C3%A1s%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D5931%7Caddr%3Astreet%3DPet%C5%91fi%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dkurticsi%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2068%20443%20164%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3DEllen%C5%91rizni%20a%20megl%C3%A9t%C3%A9t%20%C3%A9s%20a%20pontos%20hely%C3%A9re%20tenni%3BCheck%20its%20existence%20and%20put%20it%20in%20the%20right%20place%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2006%3A00-18%3A30%3B%20Su%2007%3A00-11%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Petőfi utca 66.', 'postcode': '5931', 'city': 'Nagyszénás', 'street': 'Petőfi utca', 'housenumber': '66', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-6" lat="46.67549" lon="20.6628" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-6" lat="46.67549" lon="20.6628" timestamp="2022-09-18T21:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nagyszénás"/>
     <tag k="addr:housenumber" v="66"/>
     <tag k="addr:postcode" v="5931"/>
@@ -331,7 +331,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="contact:email" v="kurticsi@freemail.hu"/>
     <tag k="contact:phone" v="+36 68 443 164"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-18:30; Su 07:00-11:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
@@ -344,7 +344,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- Original coordinates: POINT (46.67069 20.6815) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -359,7 +359,7 @@ brand                            NEW		'CBA'
 contact:email                    NEW		'kurticsi@freemail.hu'
 contact:phone                    NEW		'+36 68 443 164'
 contact:website                  NEW		'https://www.cba.hu'
-fixme                            NEW		'verify import'
+fixme                            NEW		'Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place'
 name                             NEW		'CBA'
 opening_hours                    NEW		'Mo\-Sa 05:00\-20:00; Su 06:00\-20:00; PH off'
 payment:cash                     NEW		'yes'
@@ -372,11 +372,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'convenience'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DNagysz%C3%A9n%C3%A1s%7Caddr%3Ahousenumber%3D17%7Caddr%3Apostcode%3D5931%7Caddr%3Astreet%3DZr%C3%ADnyi%20utca%7Cbranch%3DKurticsi%20Csemege%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dkurticsi%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2068%20443%20164%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2005%3A00-20%3A00%3B%20Su%2006%3A00-20%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DNagysz%C3%A9n%C3%A1s%7Caddr%3Ahousenumber%3D17%7Caddr%3Apostcode%3D5931%7Caddr%3Astreet%3DZr%C3%ADnyi%20utca%7Cbranch%3DKurticsi%20Csemege%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dkurticsi%40freemail.hu%7Ccontact%3Aphone%3D%2B36%2068%20443%20164%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3DEllen%C5%91rizni%20a%20megl%C3%A9t%C3%A9t%20%C3%A9s%20a%20pontos%20hely%C3%A9re%20tenni%3BCheck%20its%20existence%20and%20put%20it%20in%20the%20right%20place%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2005%3A00-20%3A00%3B%20Su%2006%3A00-20%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Zrínyi utca 17.', 'postcode': '5931', 'city': 'Nagyszénás', 'street': 'Zrínyi utca', 'housenumber': '17', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-7" lat="46.67069" lon="20.6815" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-7" lat="46.67069" lon="20.6815" timestamp="2022-09-18T21:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Nagyszénás"/>
     <tag k="addr:housenumber" v="17"/>
     <tag k="addr:postcode" v="5931"/>
@@ -386,7 +386,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="contact:email" v="kurticsi@freemail.hu"/>
     <tag k="contact:phone" v="+36 68 443 164"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Sa 05:00-20:00; Su 06:00-20:00; PH off"/>
     <tag k="payment:cash" v="yes"/>
@@ -399,7 +399,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- OSM link: https://osm.org/node/4939179033 -->
   <!-- Original coordinates: POINT (46.66613 20.59803) -->
@@ -426,10 +426,10 @@ payment:mastercard_electronic    NEW		'yes'
 payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                              EQU 		'convenience'			'convenience'
-source                            MOD 		'import;website'			'Route4U'
-source:date                      NEW		'2022\-09\-16'
+source                            MOD 		'Route4U;website'			'Route4U'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4939179033&addtags=%7Caddr%3Acity%3DG%C3%A1doros%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D5932%7Caddr%3Astreet%3DKossuth%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dcba.gadoros%40gmail.com%7Ccontact%3Aphone%3D%2B36%2068%20490%20350%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%20%C3%89lelmiszer%7Copening_hours%3DMo-Fr%2005%3A30-19%3A00%3B%20Sa%2005%3A30-17%3A00%3B%20Su%2007%3A00-11%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n4939179033&addtags=%7Caddr%3Acity%3DG%C3%A1doros%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D5932%7Caddr%3Astreet%3DKossuth%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%7Cbrand%3DCBA%7Ccontact%3Aemail%3Dcba.gadoros%40gmail.com%7Ccontact%3Aphone%3D%2B36%2068%20490%20350%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cname%3DCBA%20%C3%89lelmiszer%7Copening_hours%3DMo-Fr%2005%3A30-19%3A00%3B%20Sa%2005%3A30-17%3A00%3B%20Su%2007%3A00-11%3A00%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3DRoute4U%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Kossuth utca 6.', 'postcode': '5932', 'city': 'Gádoros', 'street': 'Kossuth utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="4939179033" lat="46.6662058" lon="20.5980228" timestamp="2017-09-27T08:51:51Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Gádoros"/>
@@ -452,8 +452,8 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa" v="yes"/>
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source" v="Route4U;website"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- Original coordinates: POINT (46.40876 20.73484) -->
   <!-- OSM <-> POI distance: Non exist-->
@@ -466,7 +466,7 @@ addr:street                      NEW		'Liszt Ferenc utca'
 branch                           NEW		'CBA Élelmiszer'
 brand                            NEW		'CBA'
 contact:website                  NEW		'https://www.cba.hu'
-fixme                            NEW		'verify import'
+fixme                            NEW		'Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place'
 name                             NEW		'CBA'
 opening_hours                    NEW		'Mo\-Sa 06:00\-19:30; PH off'
 payment:cash                     NEW		'yes'
@@ -479,11 +479,11 @@ payment:visa                     NEW		'yes'
 payment:visa_electron            NEW		'yes'
 shop                             NEW		'convenience'
 source                           NEW		'import;website'
-source:date                      NEW		'2022\-09\-16'
+source:date                      NEW		'2022\-09\-19'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DT%C3%B3tkoml%C3%B3s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5940%7Caddr%3Astreet%3DLiszt%20Ferenc%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%7Cbrand%3DCBA%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3Dverify%20import%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2006%3A00-19%3A30%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DT%C3%B3tkoml%C3%B3s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5940%7Caddr%3Astreet%3DLiszt%20Ferenc%20utca%7Cbranch%3DCBA%20%C3%89lelmiszer%7Cbrand%3DCBA%7Ccontact%3Awebsite%3Dhttps%3A//www.cba.hu%7Cfixme%3DEllen%C5%91rizni%20a%20megl%C3%A9t%C3%A9t%20%C3%A9s%20a%20pontos%20hely%C3%A9re%20tenni%3BCheck%20its%20existence%20and%20put%20it%20in%20the%20right%20place%7Cname%3DCBA%7Copening_hours%3DMo-Sa%2006%3A00-19%3A30%3B%20PH%20off%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Liszt Ferenc u. 2.', 'postcode': '5940', 'city': 'Tótkomlós', 'street': 'Liszt Ferenc utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-9" lat="46.40876" lon="20.73484" timestamp="2022-09-16T09:37:36Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
+  <node action="modify" id="-9" lat="46.40876" lon="20.73484" timestamp="2022-09-18T21:10:21Z" uid="8635934" user="osm_poi_matchmaker" version="99999">
     <tag k="addr:city" v="Tótkomlós"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="5940"/>
@@ -491,7 +491,7 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="branch" v="CBA Élelmiszer"/>
     <tag k="brand" v="CBA"/>
     <tag k="contact:website" v="https://www.cba.hu"/>
-    <tag k="fixme" v="verify import"/>
+    <tag k="fixme" v="Ellenőrizni a meglétét és a pontos helyére tenni;Check its existence and put it in the right place"/>
     <tag k="name" v="CBA"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-19:30; PH off"/>
     <tag k="payment:cash" v="yes"/>
@@ -504,6 +504,6 @@ source:date                      NEW		'2022\-09\-16'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="shop" v="convenience"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
 </osm>

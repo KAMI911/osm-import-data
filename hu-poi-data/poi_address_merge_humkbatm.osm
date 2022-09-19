@@ -25,11 +25,11 @@ operator:addr                     EQU 		'1056 Budapest, Váci u. 38.'			'1056 Bu
 ref:HU:company                    EQU 		'01 10 040952'			'01 10 040952'
 ref:vatin                         EQU 		'HU10011922'			'HU10011922'
 ref:vatin:hu                      EQU 		'10011922\-4\-44'			'10011922\-4\-44'
-source                            MOD 		'import;website'			'website'
-source:date                       MOD 		'2022\-09\-16'			'2022\-06\-22'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2022\-09\-19'			'2022\-06\-22'
 wheelchair                        EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n272563354&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D1053%7Caddr%3Astreet%3DVeres%20P%C3%A1ln%C3%A9%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccheck_date%3D2022-05-31%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3D0-24%20%C3%B3r%C3%A1s%20ATM%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16%7Cwheelchair%3Dno -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n272563354&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D1053%7Caddr%3Astreet%3DVeres%20P%C3%A1ln%C3%A9%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccheck_date%3D2022-05-31%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3D0-24%20%C3%B3r%C3%A1s%20ATM%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2022-09-19%7Cwheelchair%3Dno -->
   <!--ˇ'original': 'Veres Pálné u. 2.', 'postcode': '1053', 'city': 'Budapest', 'street': 'Veres Pálné utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="272563354" lat="47.4924278" lon="19.0546507" timestamp="2022-06-29T11:52:42Z" uid="8635934" user="osm_poi_matchmaker" version="10">
     <tag k="addr:city" v="Budapest"/>
@@ -52,8 +52,8 @@ wheelchair                        EQU 		'no'			'no'
     <tag k="ref:HU:company" v="01 10 040952"/>
     <tag k="ref:vatin" v="HU10011922"/>
     <tag k="ref:vatin:hu" v="10011922-4-44"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2022-09-19"/>
     <tag k="wheelchair" v="no"/>
   </node>
   <!-- OSM link: https://osm.org/node/9853108079 -->
@@ -82,9 +82,9 @@ ref:HU:company                    EQU 		'01 10 040952'			'01 10 040952'
 ref:vatin                         EQU 		'HU10011922'			'HU10011922'
 ref:vatin:hu                      EQU 		'10011922\-4\-44'			'10011922\-4\-44'
 source                           NEW		'import;website'
-source:date                       MOD 		'2022\-09\-16'			'2022\-06\-22'
+source:date                       MOD 		'2022\-09\-19'			'2022\-06\-22'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9853108079&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D23%7Caddr%3Apostcode%3D1134%7Caddr%3Astreet%3DD%C3%A9vai%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3DAkad%C3%A1lymentesen%20megk%C3%B6zel%C3%ADthet%C5%91%20ATM.%7Cfixme%3Dverify%20import%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9853108079&addtags=%7Caddr%3Acity%3DBudapest%7Caddr%3Ahousenumber%3D23%7Caddr%3Apostcode%3D1134%7Caddr%3Astreet%3DD%C3%A9vai%20utca%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3DAkad%C3%A1lymentesen%20megk%C3%B6zel%C3%ADthet%C5%91%20ATM.%7Cfixme%3Dverify%20import%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Dévai u. 23.', 'postcode': '1134', 'city': 'Budapest', 'street': 'Dévai utca', 'housenumber': '23', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="9853108079" lat="47.52009" lon="19.06349" timestamp="2022-06-28T11:13:58Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Budapest"/>
@@ -108,7 +108,7 @@ source:date                       MOD 		'2022\-09\-16'			'2022\-06\-22'
     <tag k="ref:vatin" v="HU10011922"/>
     <tag k="ref:vatin:hu" v="10011922-4-44"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- OSM link: https://osm.org/node/9853108076 -->
   <!-- Original coordinates: POINT (46.17891 18.95185) -->
@@ -136,9 +136,9 @@ ref:HU:company                    EQU 		'01 10 040952'			'01 10 040952'
 ref:vatin                         EQU 		'HU10011922'			'HU10011922'
 ref:vatin:hu                      EQU 		'10011922\-4\-44'			'10011922\-4\-44'
 source                           NEW		'import;website'
-source:date                       MOD 		'2022\-09\-16'			'2022\-06\-22'
+source:date                       MOD 		'2022\-09\-19'			'2022\-06\-22'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9853108076&addtags=%7Caddr%3Acity%3DBaja%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6500%7Caddr%3Astreet%3DT%C3%B3th%20K%C3%A1lm%C3%A1n%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3DAkad%C3%A1lymentesen%20megk%C3%B6zel%C3%ADthet%C5%91%20fi%C3%B3k%20%C3%A9s%20ATM%7Cfixme%3Dverify%20import%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n9853108076&addtags=%7Caddr%3Acity%3DBaja%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6500%7Caddr%3Astreet%3DT%C3%B3th%20K%C3%A1lm%C3%A1n%20t%C3%A9r%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3DAkad%C3%A1lymentesen%20megk%C3%B6zel%C3%ADthet%C5%91%20fi%C3%B3k%20%C3%A9s%20ATM%7Cfixme%3Dverify%20import%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Tóth Kálmán tér 1.', 'postcode': '6500', 'city': 'Baja', 'street': 'Tóth Kálmán tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="9853108076" lat="46.17891" lon="18.95185" timestamp="2022-06-28T11:13:58Z" uid="8635934" user="osm_poi_matchmaker" version="1">
     <tag k="addr:city" v="Baja"/>
@@ -162,7 +162,7 @@ source:date                       MOD 		'2022\-09\-16'			'2022\-06\-22'
     <tag k="ref:vatin" v="HU10011922"/>
     <tag k="ref:vatin:hu" v="10011922-4-44"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
   <!-- OSM link: https://osm.org/node/8163458322 -->
   <!-- Original coordinates: POINT (46.07328 18.2309) -->
@@ -189,10 +189,10 @@ operator:addr                     EQU 		'1056 Budapest, Váci u. 38.'			'1056 Bu
 ref:HU:company                    EQU 		'01 10 040952'			'01 10 040952'
 ref:vatin                         EQU 		'HU10011922'			'HU10011922'
 ref:vatin:hu                      EQU 		'10011922\-4\-44'			'10011922\-4\-44'
-source                            MOD 		'import;website'			'website'
-source:date                       MOD 		'2022\-09\-16'			'2022\-06\-22'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2022\-09\-19'			'2022\-06\-22'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458322&addtags=%7Caddr%3Acity%3DP%C3%A9cs%7Caddr%3Ahousenumber%3D58%7Caddr%3Apostcode%3D7621%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3D0-24%20%C3%B3r%C3%A1s%20ATM%2C%20Akad%C3%A1lymentesen%20megk%C3%B6zel%C3%ADthet%C5%91.%7Cfixme%3Dverify%20import%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-09-16 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n8163458322&addtags=%7Caddr%3Acity%3DP%C3%A9cs%7Caddr%3Ahousenumber%3D58%7Caddr%3Apostcode%3D7621%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20%C3%BAt%7Cair_conditioning%3Dyes%7Camenity%3Datm%7Cbic%3DMKKBHUHB%7Cbrand%3DMKB%20Bank%7Cbrand%3Awikidata%3DQ916185%7Cbrand%3Awikipedia%3Dhu%3AMKB%20Bank%7Ccontact%3Awebsite%3Dhttps%3A//www.mkb.hu%7Cdescription%3D0-24%20%C3%B3r%C3%A1s%20ATM%2C%20Akad%C3%A1lymentesen%20megk%C3%B6zel%C3%ADthet%C5%91.%7Cfixme%3Dverify%20import%7Cname%3DMKB%20Bank%20ATM%7Copening_hours%3D24/7%7Coperator%3DMKB%20Bank%20Nyrt.%7Coperator%3Aaddr%3D1056%20Budapest%2C%20V%C3%A1ci%20u.%2038.%7Cref%3AHU%3Acompany%3D01%2010%20040952%7Cref%3Avatin%3DHU10011922%7Cref%3Avatin%3Ahu%3D10011922-4-44%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2022-09-19 -->
   <!--ˇ'original': 'Rákóczi út 58.', 'postcode': '7621', 'city': 'Pécs', 'street': 'Rákóczi út', 'housenumber': '58', 'conscriptionnumber': 'None'°-->
   <node action="modify" id="8163458322" lat="46.07333" lon="18.23119" timestamp="2022-06-29T14:36:39Z" uid="8635934" user="osm_poi_matchmaker" version="4">
     <tag k="addr:city" v="Pécs"/>
@@ -215,7 +215,7 @@ source:date                       MOD 		'2022\-09\-16'			'2022\-06\-22'
     <tag k="ref:HU:company" v="01 10 040952"/>
     <tag k="ref:vatin" v="HU10011922"/>
     <tag k="ref:vatin:hu" v="10011922-4-44"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-09-16"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2022-09-19"/>
   </node>
 </osm>
