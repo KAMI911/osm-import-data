@@ -1,62 +1,74 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version="0.6" generator="JOSM">
+  <node id="2710132011" lat="47.6811373" lon="17.6392562" user="osm_poi_matchmaker" uid="8635934" version="4" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="2710132012" lat="47.681225" lon="17.6395044" user="osm_poi_matchmaker" uid="8635934" version="4" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1725488360" lat="47.6810551" lon="17.6396367" user="osm_poi_matchmaker" uid="8635934" version="5" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1725488357" lat="47.6809675" lon="17.6393885" user="osm_poi_matchmaker" uid="8635934" version="5" timestamp="2020-04-05T05:25:37Z"/>
+  <!-- OSM link: https://osm.org/way/160491512 -->
   <!-- Original coordinates: POINT (47.68219 17.63823) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Győr'
-addr:housenumber                 NEW		'13'
-addr:postcode                    NEW		'9024'
-addr:street                      NEW		'Bartók Béla út'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Győr \- Bartók Béla utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-bartok\-bela\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Győr'			'Győr'
+addr:housenumber                  EQU 		'13'			'13'
+addr:postcode                     MOD 		'9024'			'9023'
+addr:street                       EQU 		'Bartók Béla út'			'Bartók Béla út'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Győr \- Bartók Béla utca'			'Expressz Győr \- Bartók Béla utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-bartok\-bela\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-bartok\-bela\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     EQU 		'Mo\-Sa 06:00\-21:00; PH off'			'Mo\-Sa 06:00\-21:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DBart%C3%B3k%20B%C3%A9la%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20Bart%C3%B3k%20B%C3%A9la%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-bartok-bela-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w160491512&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D13%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DBart%C3%B3k%20B%C3%A9la%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20Bart%C3%B3k%20B%C3%A9la%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-bartok-bela-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14 -->
   <!--ˇ'original': 'Bartók Béla u. 13.', 'postcode': '9024', 'city': 'Győr', 'street': 'Bartók Béla út', 'housenumber': '13', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="47.68219" lon="17.63823" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <way action="modify" id="160491512" user="osm_poi_matchmaker" uid="8635934" version="11" timestamp="2022-12-01T12:19:12Z">
+    <nd ref="2710132011"/>
+    <nd ref="2710132012"/>
+    <nd ref="1725488360"/>
+    <nd ref="1725488357"/>
+    <nd ref="2710132011"/>
     <tag k="addr:city" v="Győr"/>
     <tag k="addr:housenumber" v="13"/>
     <tag k="addr:postcode" v="9024"/>
@@ -67,10 +79,12 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-bartok-bela-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
@@ -101,69 +115,83 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
-  </node>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+  </way>
+  <node id="1751083796" lat="47.6800109" lon="17.633018" user="osm_poi_matchmaker" uid="8635934" version="5" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="2708784053" lat="47.679955" lon="17.6327096" user="osm_poi_matchmaker" uid="8635934" version="4" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="2708784054" lat="47.679852" lon="17.6327203" user="osm_poi_matchmaker" uid="8635934" version="4" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1751083791" lat="47.6798177" lon="17.6330824" user="osm_poi_matchmaker" uid="8635934" version="5" timestamp="2020-04-05T05:25:37Z"/>
+  <!-- OSM link: https://osm.org/way/265217396 -->
   <!-- Original coordinates: POINT (47.68045 17.63266) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Győr'
-addr:housenumber                 NEW		'2'
-addr:postcode                    NEW		'9024'
-addr:street                      NEW		'Hunyadi utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Győr \- Hunyadi utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-hunyadi\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-20:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Győr'			'Győr'
+addr:housenumber                  EQU 		'2'			'2'
+addr:postcode                     EQU 		'9024'			'9024'
+addr:street                       EQU 		'Hunyadi utca'			'Hunyadi utca'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Győr \- Hunyadi utca'			'Expressz Győr \- Hunyadi utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-hunyadi\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-hunyadi\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-20:00; PH off'			'Mo\-Sa 06:00\-21:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+toilets:wheelchair                EQU 		'no'			'no'
+wheelchair                        EQU 		'no'			'no'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DHunyadi%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20Hunyadi%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-hunyadi-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w265217396&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DHunyadi%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20Hunyadi%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-hunyadi-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dno -->
   <!--ˇ'original': 'Hunyadi u. 2.', 'postcode': '9024', 'city': 'Győr', 'street': 'Hunyadi utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="47.68045" lon="17.63266" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <way action="modify" id="265217396" user="osm_poi_matchmaker" uid="8635934" version="9" timestamp="2022-12-01T12:19:14Z">
+    <nd ref="1751083796"/>
+    <nd ref="2708784053"/>
+    <nd ref="2708784054"/>
+    <nd ref="1751083791"/>
+    <nd ref="1751083796"/>
     <tag k="addr:city" v="Győr"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="9024"/>
@@ -174,10 +202,12 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-hunyadi-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
@@ -208,69 +238,89 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
-  </node>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="toilets:wheelchair" v="no"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <node id="1375621786" lat="47.668219" lon="17.6403773" user="osm_poi_matchmaker" uid="8635934" version="7" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1416081188" lat="47.6682766" lon="17.6406568" user="osm_poi_matchmaker" uid="8635934" version="6" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="4587721819" lat="47.6681088" lon="17.6407335" user="osm_poi_matchmaker" uid="8635934" version="4" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1416081171" lat="47.6679872" lon="17.6407895" user="osm_poi_matchmaker" uid="8635934" version="6" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="4587721842" lat="47.6679316" lon="17.6408147" user="osm_poi_matchmaker" uid="8635934" version="4" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1416081169" lat="47.6678738" lon="17.6405342" user="osm_poi_matchmaker" uid="8635934" version="6" timestamp="2020-04-05T05:25:37Z"/>
+  <!-- OSM link: https://osm.org/way/128070372 -->
   <!-- Original coordinates: POINT (47.66936 17.63962) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 138.96973884 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Győr'
-addr:housenumber                 NEW		'12'
-addr:postcode                    NEW		'9024'
-addr:street                      NEW		'Lajta utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Győr Expressz \- Lajta utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-gyor\-expressz\-lajta\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 07:00\-16:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Győr'			'Győr'
+addr:housenumber                  EQU 		'12'			'12'
+addr:postcode                     EQU 		'9024'			'9024'
+addr:street                       MOD 		'Lajta utca'			'Lajta út'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Győr Expressz \- Lajta utca'			'Győr Expressz \- Lajta utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-gyor\-expressz\-lajta\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-gyor\-expressz\-lajta\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-21:00; Su 07:00\-16:00; PH off'			'Mo\-Sa 06:00\-22:00; Su 07:00\-18:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+toilets:wheelchair                EQU 		'no'			'no'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DLajta%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DGy%C5%91r%20Expressz%20-%20Lajta%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-gyor-expressz-lajta-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w128070372&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D9024%7Caddr%3Astreet%3DLajta%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DGy%C5%91r%20Expressz%20-%20Lajta%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-gyor-expressz-lajta-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2007%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Lajta u. 12.', 'postcode': '9024', 'city': 'Győr', 'street': 'Lajta utca', 'housenumber': '12', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="47.66936" lon="17.63962" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <way action="modify" id="128070372" user="osm_poi_matchmaker" uid="8635934" version="14" timestamp="2022-12-01T12:19:12Z">
+    <nd ref="1375621786"/>
+    <nd ref="1416081188"/>
+    <nd ref="4587721819"/>
+    <nd ref="1416081171"/>
+    <nd ref="4587721842"/>
+    <nd ref="1416081169"/>
+    <nd ref="1375621786"/>
     <tag k="addr:city" v="Győr"/>
     <tag k="addr:housenumber" v="12"/>
     <tag k="addr:postcode" v="9024"/>
@@ -281,10 +331,12 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-gyor-expressz-lajta-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
@@ -315,69 +367,76 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
-  </node>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="toilets:wheelchair" v="no"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <!-- OSM link: https://osm.org/node/3473677615 -->
   <!-- Original coordinates: POINT (47.68635 17.61824) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Győr'
-addr:housenumber                 NEW		'8'
-addr:postcode                    NEW		'9025'
-addr:street                      NEW		'Köztelek utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Győr \- Köztelek utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-koztelek\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 06:00\-14:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Győr'			'Győr'
+addr:housenumber                  EQU 		'8'			'8'
+addr:postcode                     EQU 		'9025'			'9025'
+addr:street                       EQU 		'Köztelek utca'			'Köztelek utca'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Győr \- Köztelek utca'			'Expressz Győr \- Köztelek utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-koztelek\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-koztelek\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-21:00; Su 06:00\-14:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+toilets:wheelchair                EQU 		'no'			'no'
+wheelchair                        EQU 		'limited'			'limited'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9025%7Caddr%3Astreet%3DK%C3%B6ztelek%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20K%C3%B6ztelek%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-koztelek-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2006%3A00-14%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3473677615&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9025%7Caddr%3Astreet%3DK%C3%B6ztelek%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20K%C3%B6ztelek%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-koztelek-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2006%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dlimited -->
   <!--ˇ'original': 'Köztelek u. 8.', 'postcode': '9025', 'city': 'Győr', 'street': 'Köztelek utca', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="47.68635" lon="17.61824" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <node action="modify" id="3473677615" lat="47.6867044" lon="17.6191691" user="osm_poi_matchmaker" uid="8635934" version="9" timestamp="2022-11-28T14:39:50Z">
     <tag k="addr:city" v="Győr"/>
     <tag k="addr:housenumber" v="8"/>
     <tag k="addr:postcode" v="9025"/>
@@ -392,12 +451,14 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-koztelek-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
     <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="S-Market"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 06:00-14:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="TESCO-GLOBAL Áruházak Zrt."/>
     <tag k="operator:addr" v="2040 Budaörs, Kinizsi út 1-3."/>
     <tag k="payment:american_express" v="yes"/>
@@ -422,69 +483,76 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="toilets:wheelchair" v="no"/>
+    <tag k="wheelchair" v="limited"/>
   </node>
+  <!-- OSM link: https://osm.org/node/3210031716 -->
   <!-- Original coordinates: POINT (47.69457 17.63028) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Győr'
-addr:housenumber                 NEW		'20'
-addr:postcode                    NEW		'9026'
-addr:street                      NEW		'Hédervári út'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Győr \- Hédervári út'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
+addr:city                         EQU 		'Győr'			'Győr'
+addr:housenumber                  EQU 		'20'			'20'
+addr:postcode                     EQU 		'9026'			'9026'
+addr:street                       EQU 		'Hédervári út'			'Hédervári út'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          MOD 		'Tesco Expressz'			'S\-Market'
+branch                            EQU 		'Expressz Győr \- Hédervári út'			'Expressz Győr \- Hédervári út'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
 contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-gyor\-hedervari\-ut/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              MOD 		'S\-Market'			'Tesco Expressz'
+opening_hours                     EQU 		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+wheelchair                        EQU 		'limited'			'limited'
+wheelchair:description            EQU 		'Bejárat szélessége 145cm.Rámpa 12%\-os ,1méter széles'			'Bejárat szélessége 145cm.Rámpa 12%\-os ,1méter széles'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D20%7Caddr%3Apostcode%3D9026%7Caddr%3Astreet%3DH%C3%A9derv%C3%A1ri%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20H%C3%A9derv%C3%A1ri%20%C3%BAt%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-hedervari-ut/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3210031716&addtags=%7Caddr%3Acity%3DGy%C5%91r%7Caddr%3Ahousenumber%3D20%7Caddr%3Apostcode%3D9026%7Caddr%3Astreet%3DH%C3%A9derv%C3%A1ri%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Gy%C5%91r%20-%20H%C3%A9derv%C3%A1ri%20%C3%BAt%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-hedervari-ut/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Cwheelchair%3Dlimited%7Cwheelchair%3Adescription%3DBej%C3%A1rat%20sz%C3%A9less%C3%A9ge%20145cm.R%C3%A1mpa%2012%25-os%20%2C1m%C3%A9ter%20sz%C3%A9les -->
   <!--ˇ'original': 'Hédervári u. 20.', 'postcode': '9026', 'city': 'Győr', 'street': 'Hédervári út', 'housenumber': '20', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-5" lat="47.69457" lon="17.63028" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <node action="modify" id="3210031716" lat="47.6952669" lon="17.6303441" user="osm_poi_matchmaker" uid="8635934" version="17" timestamp="2022-11-28T14:40:36Z">
     <tag k="addr:city" v="Győr"/>
     <tag k="addr:housenumber" v="20"/>
     <tag k="addr:postcode" v="9026"/>
@@ -499,12 +567,14 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-gyor-hedervari-ut/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
     <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="S-Market"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 08:00-16:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="TESCO-GLOBAL Áruházak Zrt."/>
     <tag k="operator:addr" v="2040 Budaörs, Kinizsi út 1-3."/>
     <tag k="payment:american_express" v="yes"/>
@@ -529,69 +599,74 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="wheelchair" v="limited"/>
+    <tag k="wheelchair:description" v="Bejárat szélessége 145cm.Rámpa 12%-os ,1méter széles"/>
   </node>
+  <!-- OSM link: https://osm.org/node/971131151 -->
   <!-- Original coordinates: POINT (47.86276 17.27494) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Mosonmagyaróvár'
-addr:housenumber                 NEW		'44'
-addr:postcode                    NEW		'9200'
-addr:street                      NEW		'Szent István király út'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Móvár \- Szent I. kir. utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-movar\-szent\-i\-kir\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 06:00\-14:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Mosonmagyaróvár'			'Mosonmagyaróvár'
+addr:housenumber                  EQU 		'44'			'44'
+addr:postcode                     EQU 		'9200'			'9200'
+addr:street                       EQU 		'Szent István király út'			'Szent István király út'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Móvár \- Szent I. kir. utca'			'Expressz Móvár \- Szent I. kir. utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-movar\-szent\-i\-kir\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-movar\-szent\-i\-kir\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-21:00; Su 06:00\-14:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DMosonmagyar%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D44%7Caddr%3Apostcode%3D9200%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20kir%C3%A1ly%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20M%C3%B3v%C3%A1r%20-%20Szent%20I.%20kir.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-movar-szent-i-kir-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2006%3A00-14%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n971131151&addtags=%7Caddr%3Acity%3DMosonmagyar%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D44%7Caddr%3Apostcode%3D9200%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20kir%C3%A1ly%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20M%C3%B3v%C3%A1r%20-%20Szent%20I.%20kir.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-movar-szent-i-kir-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2006%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14 -->
   <!--ˇ'original': 'Szent I. kir. u. 44.', 'postcode': '9200', 'city': 'Mosonmagyaróvár', 'street': 'Szent István király út', 'housenumber': '44', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-6" lat="47.86276" lon="17.27494" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <node action="modify" id="971131151" lat="47.8630734" lon="17.2744595" user="osm_poi_matchmaker" uid="8635934" version="9" timestamp="2022-11-28T14:39:50Z">
     <tag k="addr:city" v="Mosonmagyaróvár"/>
     <tag k="addr:housenumber" v="44"/>
     <tag k="addr:postcode" v="9200"/>
@@ -606,12 +681,14 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-movar-szent-i-kir-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
     <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="S-Market"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 06:00-14:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="TESCO-GLOBAL Áruházak Zrt."/>
     <tag k="operator:addr" v="2040 Budaörs, Kinizsi út 1-3."/>
     <tag k="payment:american_express" v="yes"/>
@@ -636,69 +713,74 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
   </node>
+  <!-- OSM link: https://osm.org/node/2425935283 -->
   <!-- Original coordinates: POINT (47.85557 17.27842) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Mosonmagyaróvár'
-addr:housenumber                 NEW		'96'
-addr:postcode                    NEW		'9200'
-addr:street                      NEW		'Szent István király út'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Móvár \- Szent I. kir. utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-movar\-szent\-i\-kir\-utca\-96/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 06:00\-14:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Mosonmagyaróvár'			'Mosonmagyaróvár'
+addr:housenumber                  EQU 		'96'			'96'
+addr:postcode                     EQU 		'9200'			'9200'
+addr:street                       EQU 		'Szent István király út'			'Szent István király út'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Móvár \- Szent I. kir. utca'			'Expressz Móvár \- Szent I. kir. utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-movar\-szent\-i\-kir\-utca\-96/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-movar\-szent\-i\-kir\-utca\-96/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-21:00; Su 06:00\-14:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+toilets:wheelchair                EQU 		'no'			'no'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DMosonmagyar%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D9200%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20kir%C3%A1ly%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20M%C3%B3v%C3%A1r%20-%20Szent%20I.%20kir.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-movar-szent-i-kir-utca-96/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2006%3A00-14%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n2425935283&addtags=%7Caddr%3Acity%3DMosonmagyar%C3%B3v%C3%A1r%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D9200%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20kir%C3%A1ly%20%C3%BAt%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20M%C3%B3v%C3%A1r%20-%20Szent%20I.%20kir.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-movar-szent-i-kir-utca-96/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2006%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Ctoilets%3Awheelchair%3Dno%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Szent I. kir. u. 96.', 'postcode': '9200', 'city': 'Mosonmagyaróvár', 'street': 'Szent István király út', 'housenumber': '96', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-7" lat="47.85557" lon="17.27842" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <node action="modify" id="2425935283" lat="47.8568061" lon="17.27686" user="osm_poi_matchmaker" uid="8635934" version="12" timestamp="2022-11-28T14:39:50Z">
     <tag k="addr:city" v="Mosonmagyaróvár"/>
     <tag k="addr:housenumber" v="96"/>
     <tag k="addr:postcode" v="9200"/>
@@ -713,12 +795,14 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-movar-szent-i-kir-utca-96/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
     <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="S-Market"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 06:00-14:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="TESCO-GLOBAL Áruházak Zrt."/>
     <tag k="operator:addr" v="2040 Budaörs, Kinizsi út 1-3."/>
     <tag k="payment:american_express" v="yes"/>
@@ -743,69 +827,78 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="toilets:wheelchair" v="no"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
+  <!-- OSM link: https://osm.org/node/3456417480 -->
   <!-- Original coordinates: POINT (47.89598 17.20989) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Levél'
-addr:housenumber                 NEW		'84'
-addr:postcode                    NEW		'9221'
-addr:street                      NEW		'Szövetkezet utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Levél \- Szövetkezet utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-level\-szovetkezet\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 05:00\-20:00; Su 08:00\-14:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Levél'			'Levél'
+addr:housenumber                  EQU 		'84'			'84'
+addr:postcode                     EQU 		'9221'			'9221'
+addr:street                       EQU 		'Szövetkezet utca'			'Szövetkezet utca'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Levél \- Szövetkezet utca'			'Expressz Levél \- Szövetkezet utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-level\-szovetkezet\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-level\-szovetkezet\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+fixme                             EQU 		'verify'			'verify'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     MOD 		'Mo\-Sa 05:00\-20:00; Su 08:00\-14:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+toilets:wheelchair                EQU 		'limited'			'limited'
+url                               EQU 		'http://turistautak.hu/poi.php?id=47577'			'http://turistautak.hu/poi.php?id=47577'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DLev%C3%A9l%7Caddr%3Ahousenumber%3D84%7Caddr%3Apostcode%3D9221%7Caddr%3Astreet%3DSz%C3%B6vetkezet%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Lev%C3%A9l%20-%20Sz%C3%B6vetkezet%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-level-szovetkezet-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2005%3A00-20%3A00%3B%20Su%2008%3A00-14%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n3456417480&addtags=%7Caddr%3Acity%3DLev%C3%A9l%7Caddr%3Ahousenumber%3D84%7Caddr%3Apostcode%3D9221%7Caddr%3Astreet%3DSz%C3%B6vetkezet%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Lev%C3%A9l%20-%20Sz%C3%B6vetkezet%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-level-szovetkezet-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cfixme%3Dverify%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2005%3A00-20%3A00%3B%20Su%2008%3A00-14%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Ctoilets%3Awheelchair%3Dlimited%7Curl%3Dhttp%3A//turistautak.hu/poi.php%3Fid%3D47577%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Szövetkezet u. 84.', 'postcode': '9221', 'city': 'Levél', 'street': 'Szövetkezet utca', 'housenumber': '84', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-8" lat="47.89598" lon="17.20989" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <node action="modify" id="3456417480" lat="47.8960292" lon="17.2126355" user="osm_poi_matchmaker" uid="8635934" version="10" timestamp="2022-11-28T14:39:50Z">
     <tag k="addr:city" v="Levél"/>
     <tag k="addr:housenumber" v="84"/>
     <tag k="addr:postcode" v="9221"/>
@@ -820,12 +913,15 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-level-szovetkezet-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="fixme" v="verify"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
     <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="S-Market"/>
     <tag k="opening_hours" v="Mo-Sa 05:00-20:00; Su 08:00-14:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="TESCO-GLOBAL Áruházak Zrt."/>
     <tag k="operator:addr" v="2040 Budaörs, Kinizsi út 1-3."/>
     <tag k="payment:american_express" v="yes"/>
@@ -850,69 +946,75 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="toilets:wheelchair" v="limited"/>
+    <tag k="url" v="http://turistautak.hu/poi.php?id=47577"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
+  <!-- OSM link: https://osm.org/node/1442528046 -->
   <!-- Original coordinates: POINT (47.68343 16.59169) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Sopron'
-addr:housenumber                 NEW		'8'
-addr:postcode                    NEW		'9400'
-addr:street                      NEW		'Hátsókapu'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Sopron \- Hátsókapu utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-hatsokapu\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'8'			'8'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Hátsókapu'			'Hátsókapu'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          MOD 		'Tesco Expressz'			'S\-Market'
+branch                            EQU 		'Expressz Sopron \- Hátsókapu utca'			'Expressz Sopron \- Hátsókapu utca'
+brand                             MOD 		'Tesco'			'Tesco Express'
+brand:wikidata                    MOD 		'Q487494'			'Q98456772'
+brand:wikipedia                   MOD 		'hu:Tesco'			'en:Tesco'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-hatsokapu\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-hatsokapu\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              MOD 		'S\-Market'			'Tesco Express'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'			'Mo\-Fr 06:00\-21:00;Sa\-Su 06:00\-18:00'
+opening_hours:covid19             EQU 		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DH%C3%A1ts%C3%B3kapu%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20H%C3%A1ts%C3%B3kapu%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-hatsokapu-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1442528046&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DH%C3%A1ts%C3%B3kapu%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20H%C3%A1ts%C3%B3kapu%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-hatsokapu-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Hátsókapu. u. 8.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Hátsókapu', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-9" lat="47.68343" lon="16.59169" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <node action="modify" id="1442528046" lat="47.6832957" lon="16.5914488" user="osm_poi_matchmaker" uid="8635934" version="9" timestamp="2022-11-28T14:39:50Z">
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:housenumber" v="8"/>
     <tag k="addr:postcode" v="9400"/>
@@ -933,6 +1035,7 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="S-Market"/>
     <tag k="opening_hours" v="Mo-Sa 06:00-21:00; Su 08:00-16:00; PH off"/>
+    <tag k="opening_hours:covid19" v="Mo-Sa 06:00-21:00; Su 08:00-16:00; PH off"/>
     <tag k="operator" v="TESCO-GLOBAL Áruházak Zrt."/>
     <tag k="operator:addr" v="2040 Budaörs, Kinizsi út 1-3."/>
     <tag k="payment:american_express" v="yes"/>
@@ -957,69 +1060,87 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
+  <node id="3054666776" lat="47.6927489" lon="16.5724678" user="vakulya" uid="1559158" version="4" timestamp="2019-11-13T05:38:28Z"/>
+  <node id="3054666777" lat="47.6925216" lon="16.5726297" user="vakulya" uid="1559158" version="4" timestamp="2019-11-13T05:38:28Z"/>
+  <node id="3054666778" lat="47.6924122" lon="16.5722907" user="vakulya" uid="1559158" version="4" timestamp="2019-11-13T05:38:28Z"/>
+  <node id="6970734338" lat="47.6924376" lon="16.5722727" user="vakulya" uid="1559158" version="1" timestamp="2019-11-13T05:38:28Z"/>
+  <node id="3054666779" lat="47.692632" lon="16.5721342" user="vakulya" uid="1559158" version="4" timestamp="2019-11-13T05:38:28Z"/>
+  <node id="6970734341" lat="47.6926394" lon="16.5721288" user="vakulya" uid="1559158" version="1" timestamp="2019-11-13T05:38:28Z"/>
+  <!-- OSM link: https://osm.org/way/301419136 -->
   <!-- Original coordinates: POINT (47.69224 16.5732) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Sopron'
-addr:housenumber                 NEW		'39'
-addr:postcode                    NEW		'9400'
-addr:street                      NEW		'IV. László király utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Sopron \- IV. László utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-iv\-laszlo\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'39'			'39'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'IV. László király utca'			'IV. László király utca'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Sopron \- IV. László utca'			'Expressz Sopron \- IV. László utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-iv\-laszlo\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-iv\-laszlo\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     EQU 		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+wheelchair                        EQU 		'limited'			'limited'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D39%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIV.%20L%C3%A1szl%C3%B3%20kir%C3%A1ly%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20IV.%20L%C3%A1szl%C3%B3%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-iv-laszlo-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w301419136&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D39%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DIV.%20L%C3%A1szl%C3%B3%20kir%C3%A1ly%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20IV.%20L%C3%A1szl%C3%B3%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-iv-laszlo-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Cwheelchair%3Dlimited -->
   <!--ˇ'original': 'IV. László király u. 39.', 'postcode': '9400', 'city': 'Sopron', 'street': 'IV. László király utca', 'housenumber': '39', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-10" lat="47.69224" lon="16.5732" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <way action="modify" id="301419136" user="osm_poi_matchmaker" uid="8635934" version="10" timestamp="2022-12-01T12:19:15Z">
+    <nd ref="3054666776"/>
+    <nd ref="3054666777"/>
+    <nd ref="3054666778"/>
+    <nd ref="6970734338"/>
+    <nd ref="3054666779"/>
+    <nd ref="6970734341"/>
+    <nd ref="3054666776"/>
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:housenumber" v="39"/>
     <tag k="addr:postcode" v="9400"/>
@@ -1030,10 +1151,12 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-iv-laszlo-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
@@ -1064,69 +1187,82 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
-  </node>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <node id="3054666797" lat="47.6745821" lon="16.5832279" user="efi99" uid="12368303" version="6" timestamp="2022-04-14T17:19:50Z"/>
+  <node id="3054666780" lat="47.6746418" lon="16.5830304" user="efi99" uid="12368303" version="6" timestamp="2022-04-14T17:19:50Z"/>
+  <node id="3054666789" lat="47.6748435" lon="16.5831649" user="efi99" uid="12368303" version="6" timestamp="2022-04-14T17:19:50Z"/>
+  <node id="3054666790" lat="47.6747838" lon="16.5833623" user="efi99" uid="12368303" version="6" timestamp="2022-04-14T17:19:50Z"/>
+  <!-- OSM link: https://osm.org/way/301419137 -->
   <!-- Original coordinates: POINT (47.67471 16.58269) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Sopron'
-addr:housenumber                 NEW		'1'
-addr:postcode                    NEW		'9400'
-addr:street                      NEW		'József Attila utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Sopron \- József Attila utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-jozsef\-attila\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'1'			'1'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'József Attila utca'			'József Attila utca'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Sopron \- József Attila utca'			'Expressz Sopron \- József Attila utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   MOD 		'hu:Tesco'			'en:Tesco'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-jozsef\-attila\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-jozsef\-attila\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              MOD 		'S\-Market'			'Tesco'
+opening_hours                     EQU 		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20J%C3%B3zsef%20Attila%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-jozsef-attila-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w301419137&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DJ%C3%B3zsef%20Attila%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20J%C3%B3zsef%20Attila%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-jozsef-attila-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14 -->
   <!--ˇ'original': 'József A. u. 1.', 'postcode': '9400', 'city': 'Sopron', 'street': 'József Attila utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-11" lat="47.67471" lon="16.58269" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <way action="modify" id="301419137" user="osm_poi_matchmaker" uid="8635934" version="9" timestamp="2022-12-01T12:19:15Z">
+    <nd ref="3054666797"/>
+    <nd ref="3054666780"/>
+    <nd ref="3054666789"/>
+    <nd ref="3054666790"/>
+    <nd ref="3054666797"/>
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="9400"/>
@@ -1137,10 +1273,12 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-jozsef-attila-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
@@ -1171,69 +1309,81 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
-  </node>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+  </way>
+  <node id="3054308763" lat="47.6789773" lon="16.5928125" user="efi99" uid="12368303" version="5" timestamp="2022-04-09T11:57:25Z"/>
+  <node id="3054308764" lat="47.6791735" lon="16.5929568" user="efi99" uid="12368303" version="5" timestamp="2022-04-09T11:57:25Z"/>
+  <node id="3054308765" lat="47.67909" lon="16.5932072" user="efi99" uid="12368303" version="5" timestamp="2022-04-09T11:57:25Z"/>
+  <node id="3054308766" lat="47.6788939" lon="16.593063" user="efi99" uid="12368303" version="5" timestamp="2022-04-09T11:57:25Z"/>
+  <!-- OSM link: https://osm.org/way/301373576 -->
   <!-- Original coordinates: POINT (47.67949 16.59297) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Sopron'
-addr:housenumber                 NEW		'3'
-addr:postcode                    NEW		'9400'
-addr:street                      NEW		'Király Jenő utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Sopron \- Király J. utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-kiraly\-j\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'3'			'3'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Király Jenő utca'			'Király Jenő utca'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Sopron \- Király J. utca'			'Expressz Sopron \- Király J. utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   MOD 		'hu:Tesco'			'en:Tesco'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-kiraly\-j\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-kiraly\-j\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              MOD 		'S\-Market'			'Tesco'
+opening_hours                     EQU 		'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'			'Mo\-Sa 06:00\-21:00; Su 08:00\-16:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DKir%C3%A1ly%20Jen%C5%91%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20Kir%C3%A1ly%20J.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-kiraly-j-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w301373576&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DKir%C3%A1ly%20Jen%C5%91%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20Kir%C3%A1ly%20J.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-kiraly-j-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-21%3A00%3B%20Su%2008%3A00-16%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14 -->
   <!--ˇ'original': 'Király J. u. 3.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Király Jenő utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-12" lat="47.67949" lon="16.59297" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <way action="modify" id="301373576" user="osm_poi_matchmaker" uid="8635934" version="11" timestamp="2022-12-01T12:19:15Z">
+    <nd ref="3054308763"/>
+    <nd ref="3054308764"/>
+    <nd ref="3054308765"/>
+    <nd ref="3054308766"/>
+    <nd ref="3054308763"/>
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="9400"/>
@@ -1244,10 +1394,12 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-kiraly-j-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
@@ -1278,69 +1430,86 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
-  </node>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+  </way>
+  <node id="1517944945" lat="47.688916" lon="16.5855482" user="osm_poi_matchmaker" uid="8635934" version="7" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1517944887" lat="47.6890384" lon="16.5856632" user="osm_poi_matchmaker" uid="8635934" version="7" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1517944905" lat="47.6891407" lon="16.5854227" user="osm_poi_matchmaker" uid="8635934" version="7" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="3079730395" lat="47.6891192" lon="16.5854025" user="osm_poi_matchmaker" uid="8635934" version="3" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="3079730362" lat="47.689032" lon="16.5853205" user="osm_poi_matchmaker" uid="8635934" version="3" timestamp="2020-04-05T05:25:37Z"/>
+  <node id="1517944892" lat="47.6890184" lon="16.5853077" user="osm_poi_matchmaker" uid="8635934" version="7" timestamp="2020-04-05T05:25:37Z"/>
+  <!-- OSM link: https://osm.org/way/138442332 -->
   <!-- Original coordinates: POINT (47.68852 16.58626) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Sopron'
-addr:housenumber                 NEW		'11'
-addr:postcode                    NEW		'9400'
-addr:street                      NEW		'Lackner Kristóf utca'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Sopron \- Lackner K. utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-lackner\-k\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 06:00\-20:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'11'			'11'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Lackner Kristóf utca'			'Lackner Kristóf utca'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Sopron \- Lackner K. utca'			'Expressz Sopron \- Lackner K. utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+building                          EQU 		'retail'			'retail'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-lackner\-k\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-lackner\-k\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+import                            EQU 		'osm_poi_matchmaker'			'osm_poi_matchmaker'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              MOD 		'S\-Market'			'Tesco'
+opening_hours                     MOD 		'Mo\-Sa 06:00\-20:00; PH off'			'Mo\-Sa 06:00\-21:00; PH off'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+wheelchair                        EQU 		'yes'			'yes'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DLackner%20Krist%C3%B3f%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20Lackner%20K.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-lackner-k-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=w138442332&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DLackner%20Krist%C3%B3f%20utca%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20Lackner%20K.%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Cbuilding%3Dretail%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-lackner-k-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cimport%3Dosm_poi_matchmaker%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2006%3A00-20%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Cwheelchair%3Dyes -->
   <!--ˇ'original': 'Lackner K. u. 11.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Lackner Kristóf utca', 'housenumber': '11', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-13" lat="47.68852" lon="16.58626" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <way action="modify" id="138442332" user="osm_poi_matchmaker" uid="8635934" version="12" timestamp="2022-12-01T12:19:12Z">
+    <nd ref="1517944945"/>
+    <nd ref="1517944887"/>
+    <nd ref="1517944905"/>
+    <nd ref="3079730395"/>
+    <nd ref="3079730362"/>
+    <nd ref="1517944892"/>
+    <nd ref="1517944945"/>
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:housenumber" v="11"/>
     <tag k="addr:postcode" v="9400"/>
@@ -1351,10 +1520,12 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="brand" v="Tesco"/>
     <tag k="brand:wikidata" v="Q487494"/>
     <tag k="brand:wikipedia" v="hu:Tesco"/>
+    <tag k="building" v="retail"/>
     <tag k="contact:facebook" v="https://www.facebook.com/tescoaruhazak"/>
     <tag k="contact:pinterest" v="https://www.pinterest.com/tescohungary/"/>
     <tag k="contact:website" v="https://tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-lackner-k-utca/"/>
     <tag k="contact:youtube" v="https://www.youtube.com/user/TescoMagyarorszag"/>
+    <tag k="import" v="osm_poi_matchmaker"/>
     <tag k="internet_access" v="wlan"/>
     <tag k="internet_access:fee" v="no"/>
     <tag k="internet_access:ssid" v="tesco-internet"/>
@@ -1385,69 +1556,73 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
-  </node>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <!-- OSM link: https://osm.org/node/1406975311 -->
   <!-- Original coordinates: POINT (47.68508 16.5979) -->
-  <!-- OSM <-> POI distance: Non exist-->
+  <!-- OSM <-> POI distance: 0 m-->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Sopron'
-addr:housenumber                 NEW		'9'
-addr:postcode                    NEW		'9400'
-addr:street                      NEW		'Végfordulat'
-air_conditioning                 NEW		'yes'
-alt_name                         NEW		'Tesco Expressz'
-branch                           NEW		'Expressz Sopron \- Végfordulat utca'
-brand                            NEW		'Tesco'
-brand:wikidata                   NEW		'Q487494'
-brand:wikipedia                  NEW		'hu:Tesco'
-contact:facebook                 NEW		'https://www.facebook.com/tescoaruhazak'
-contact:pinterest                NEW		'https://www.pinterest.com/tescohungary/'
-contact:website                  NEW		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-vegfordulat\-utca/'
-contact:youtube                  NEW		'https://www.youtube.com/user/TescoMagyarorszag'
-internet_access                  NEW		'wlan'
-internet_access:fee              NEW		'no'
-internet_access:ssid             NEW		'tesco\-internet'
-loyalty_card                     NEW		'yes'
-name                             NEW		'S\-Market'
-opening_hours                    NEW		'Mo\-Sa 07:00\-19:00; PH off'
-operator                         NEW		'TESCO\-GLOBAL Áruházak Zrt.'
-operator:addr                    NEW		'2040 Budaörs, Kinizsi út 1\-3.'
-payment:american_express         NEW		'yes'
-payment:cash                     NEW		'yes'
-payment:contactless              NEW		'yes'
-payment:edenred_card             NEW		'yes'
-payment:edenred_voucher          NEW		'yes'
+addr:city                         EQU 		'Sopron'			'Sopron'
+addr:housenumber                  EQU 		'9'			'9'
+addr:postcode                     EQU 		'9400'			'9400'
+addr:street                       EQU 		'Végfordulat'			'Végfordulat'
+air_conditioning                  EQU 		'yes'			'yes'
+alt_name                          EQU 		'Tesco Expressz'			'Tesco Expressz'
+branch                            EQU 		'Expressz Sopron \- Végfordulat utca'			'Expressz Sopron \- Végfordulat utca'
+brand                             EQU 		'Tesco'			'Tesco'
+brand:wikidata                    EQU 		'Q487494'			'Q487494'
+brand:wikipedia                   EQU 		'hu:Tesco'			'hu:Tesco'
+contact:facebook                  EQU 		'https://www.facebook.com/tescoaruhazak'			'https://www.facebook.com/tescoaruhazak'
+contact:pinterest                 EQU 		'https://www.pinterest.com/tescohungary/'			'https://www.pinterest.com/tescohungary/'
+contact:website                   EQU 		'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-vegfordulat\-utca/'			'https://tesco.hu/aruhazak/aruhaz/tesco\-expressz\-sopron\-vegfordulat\-utca/'
+contact:youtube                   EQU 		'https://www.youtube.com/user/TescoMagyarorszag'			'https://www.youtube.com/user/TescoMagyarorszag'
+internet_access                   EQU 		'wlan'			'wlan'
+internet_access:fee               EQU 		'no'			'no'
+internet_access:ssid              EQU 		'tesco\-internet'			'tesco\-internet'
+loyalty_card                      EQU 		'yes'			'yes'
+name                              EQU 		'S\-Market'			'S\-Market'
+opening_hours                     MOD 		'Mo\-Sa 07:00\-19:00; PH off'			'Mo\-Sa 07:00\-21:00; PH off'
+opening_hours:covid19             EQU 		'same'			'same'
+operator                          EQU 		'TESCO\-GLOBAL Áruházak Zrt.'			'TESCO\-GLOBAL Áruházak Zrt.'
+operator:addr                     EQU 		'2040 Budaörs, Kinizsi út 1\-3.'			'2040 Budaörs, Kinizsi út 1\-3.'
+payment:american_express          EQU 		'yes'			'yes'
+payment:cash                      EQU 		'yes'			'yes'
+payment:contactless               EQU 		'yes'			'yes'
+payment:edenred_card              EQU 		'yes'			'yes'
+payment:edenred_voucher           EQU 		'yes'			'yes'
 payment:erzsebet                 NEW		'yes'
 payment:erzsebet_plus            NEW		'yes'
-payment:gift_card                NEW		'yes'
-payment:jcb                      NEW		'yes'
-payment:maestro                  NEW		'yes'
-payment:mastercard               NEW		'yes'
-payment:mastercard_contactless   NEW		'yes'
-payment:mastercard_electronic    NEW		'yes'
-payment:multipay                 NEW		'yes'
-payment:otp_bankpont             NEW		'yes'
-payment:otp_cafeteria            NEW		'yes'
-payment:unionpay                 NEW		'yes'
-payment:v_pay                    NEW		'yes'
-payment:visa                     NEW		'yes'
-payment:visa_electron            NEW		'yes'
-payment:wire_transfer            NEW		'yes'
-ref:HU:company                   NEW		'13\-10\-040628'
-ref:vatin                        NEW		'HU10307078'
-ref:vatin:hu                     NEW		'10307078\-2\-44'
-shop                             NEW		'convenience'
-source                           NEW		'import;website'
-source:date                      NEW		'2022\-12\-20'
+payment:gift_card                 EQU 		'yes'			'yes'
+payment:jcb                       EQU 		'yes'			'yes'
+payment:maestro                   EQU 		'yes'			'yes'
+payment:mastercard                EQU 		'yes'			'yes'
+payment:mastercard_contactless    EQU 		'yes'			'yes'
+payment:mastercard_electronic     EQU 		'yes'			'yes'
+payment:multipay                  EQU 		'yes'			'yes'
+payment:otp_bankpont              EQU 		'yes'			'yes'
+payment:otp_cafeteria             EQU 		'yes'			'yes'
+payment:unionpay                  EQU 		'yes'			'yes'
+payment:v_pay                     EQU 		'yes'			'yes'
+payment:visa                      EQU 		'yes'			'yes'
+payment:visa_electron             EQU 		'yes'			'yes'
+payment:wire_transfer             EQU 		'yes'			'yes'
+ref:HU:company                    EQU 		'13\-10\-040628'			'13\-10\-040628'
+ref:HU:vatin                      EQU 		'10307078\-2\-44'			'10307078\-2\-44'
+ref:vatin                         EQU 		'HU10307078'			'HU10307078'
+shop                              EQU 		'convenience'			'convenience'
+source                            MOD 		'website;import'			'website'
+source:date                       MOD 		'2023\-01\-14'			'2020\-04\-04'
+wheelchair                        EQU 		'limited'			'limited'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DV%C3%A9gfordulat%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20V%C3%A9gfordulat%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-vegfordulat-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2007%3A00-19%3A00%3B%20PH%20off%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3Avatin%3DHU10307078%7Cref%3Avatin%3Ahu%3D10307078-2-44%7Cshop%3Dconvenience%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2022-12-20 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n1406975311&addtags=%7Caddr%3Acity%3DSopron%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D9400%7Caddr%3Astreet%3DV%C3%A9gfordulat%7Cair_conditioning%3Dyes%7Calt_name%3DTesco%20Expressz%7Cbranch%3DExpressz%20Sopron%20-%20V%C3%A9gfordulat%20utca%7Cbrand%3DTesco%7Cbrand%3Awikidata%3DQ487494%7Cbrand%3Awikipedia%3Dhu%3ATesco%7Ccontact%3Afacebook%3Dhttps%3A//www.facebook.com/tescoaruhazak%7Ccontact%3Apinterest%3Dhttps%3A//www.pinterest.com/tescohungary/%7Ccontact%3Awebsite%3Dhttps%3A//tesco.hu/aruhazak/aruhaz/tesco-expressz-sopron-vegfordulat-utca/%7Ccontact%3Ayoutube%3Dhttps%3A//www.youtube.com/user/TescoMagyarorszag%7Cinternet_access%3Dwlan%7Cinternet_access%3Afee%3Dno%7Cinternet_access%3Assid%3Dtesco-internet%7Cloyalty_card%3Dyes%7Cname%3DS-Market%7Copening_hours%3DMo-Sa%2007%3A00-19%3A00%3B%20PH%20off%7Copening_hours%3Acovid19%3Dsame%7Coperator%3DTESCO-GLOBAL%20%C3%81ruh%C3%A1zak%20Zrt.%7Coperator%3Aaddr%3D2040%20Buda%C3%B6rs%2C%20Kinizsi%20%C3%BAt%201-3.%7Cpayment%3Aamerican_express%3Dyes%7Cpayment%3Acash%3Dyes%7Cpayment%3Acontactless%3Dyes%7Cpayment%3Aedenred_card%3Dyes%7Cpayment%3Aedenred_voucher%3Dyes%7Cpayment%3Aerzsebet%3Dyes%7Cpayment%3Aerzsebet_plus%3Dyes%7Cpayment%3Agift_card%3Dyes%7Cpayment%3Ajcb%3Dyes%7Cpayment%3Amaestro%3Dyes%7Cpayment%3Amastercard%3Dyes%7Cpayment%3Amastercard_contactless%3Dyes%7Cpayment%3Amastercard_electronic%3Dyes%7Cpayment%3Amultipay%3Dyes%7Cpayment%3Aotp_bankpont%3Dyes%7Cpayment%3Aotp_cafeteria%3Dyes%7Cpayment%3Aunionpay%3Dyes%7Cpayment%3Av_pay%3Dyes%7Cpayment%3Avisa%3Dyes%7Cpayment%3Avisa_electron%3Dyes%7Cpayment%3Awire_transfer%3Dyes%7Cref%3AHU%3Acompany%3D13-10-040628%7Cref%3AHU%3Avatin%3D10307078-2-44%7Cref%3Avatin%3DHU10307078%7Cshop%3Dconvenience%7Csource%3Dwebsite%3Bimport%7Csource%3Adate%3D2023-01-14%7Cwheelchair%3Dlimited -->
   <!--ˇ'original': 'Végfordulat u. 9.', 'postcode': '9400', 'city': 'Sopron', 'street': 'Végfordulat', 'housenumber': '9', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-14" lat="47.68508" lon="16.5979" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2022-12-19T22:19:25Z">
+  <node action="modify" id="1406975311" lat="47.6851304" lon="16.5981706" user="osm_poi_matchmaker" uid="8635934" version="9" timestamp="2022-11-28T14:39:50Z">
     <tag k="addr:city" v="Sopron"/>
     <tag k="addr:housenumber" v="9"/>
     <tag k="addr:postcode" v="9400"/>
@@ -1468,6 +1643,7 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="loyalty_card" v="yes"/>
     <tag k="name" v="S-Market"/>
     <tag k="opening_hours" v="Mo-Sa 07:00-19:00; PH off"/>
+    <tag k="opening_hours:covid19" v="same"/>
     <tag k="operator" v="TESCO-GLOBAL Áruházak Zrt."/>
     <tag k="operator:addr" v="2040 Budaörs, Kinizsi út 1-3."/>
     <tag k="payment:american_express" v="yes"/>
@@ -1492,10 +1668,11 @@ source:date                      NEW		'2022\-12\-20'
     <tag k="payment:visa_electron" v="yes"/>
     <tag k="payment:wire_transfer" v="yes"/>
     <tag k="ref:HU:company" v="13-10-040628"/>
+    <tag k="ref:HU:vatin" v="10307078-2-44"/>
     <tag k="ref:vatin" v="HU10307078"/>
-    <tag k="ref:vatin:hu" v="10307078-2-44"/>
     <tag k="shop" v="convenience"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2022-12-20"/>
+    <tag k="source" v="website;import"/>
+    <tag k="source:date" v="2023-01-14"/>
+    <tag k="wheelchair" v="limited"/>
   </node>
 </osm>
