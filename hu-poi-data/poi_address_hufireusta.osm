@@ -1,33 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version="0.6" generator="JOSM">
-  <!-- Original coordinates: POINT (46.25333 17.09886) -->
-  <!-- OSM <-> POI distance: Non exist 
-  OSM link: https://osm.org/#map=18/46.25333/17.09886 -->
-  <!--
-Key				Status		New value		OSM value
-addr:postcode                    NEW		'0'
-amenity                          NEW		'fire_station'
-contact:email                    NEW		'csurgo.ot@katved.gov.hu'
-contact:phone                    NEW		'+36 82 471 402'
-contact:website                  NEW		'https://www.katasztrofavedelem.hu'
-fire_station:type                NEW		'municipal'
-name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
-source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Apostcode%3D0%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcsurgo.ot%40katved.gov.hu%7Ccontact%3Aphone%3D%2B36%2082%20471%20402%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
-  <!--ˇ'original': '8840 Csurgó (ÖTP), Baksay S. u. 6/B.', 'postcode': '0', 'city': 'None', 'street': 'None', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-1" lat="46.25333" lon="17.09886" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
-    <tag k="addr:postcode" v="0"/>
-    <tag k="amenity" v="fire_station"/>
-    <tag k="contact:email" v="csurgo.ot@katved.gov.hu"/>
-    <tag k="contact:phone" v="+36 82 471 402"/>
-    <tag k="contact:website" v="https://www.katasztrofavedelem.hu"/>
-    <tag k="fire_station:type" v="municipal"/>
-    <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
-  </node>
   <!-- Original coordinates: POINT (47.64748 19.02718) -->
   <!-- OSM <-> POI distance: Non exist 
   OSM link: https://osm.org/#map=18/47.64748/19.02718 -->
@@ -43,11 +15,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DPom%C3%A1z%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D2013%7Caddr%3Astreet%3DF%C3%A1y%20Andr%C3%A1s%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dpomaz.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-1&addtags=%7Caddr%3Acity%3DPom%C3%A1z%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D2013%7Caddr%3Astreet%3DF%C3%A1y%20Andr%C3%A1s%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dpomaz.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2013 Pomáz Fáy András utca 51', 'postcode': '2013', 'city': 'Pomáz', 'street': 'Fáy András utca', 'housenumber': '51', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-2" lat="47.64748" lon="19.02718" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-1" lat="47.64748" lon="19.02718" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Pomáz"/>
     <tag k="addr:housenumber" v="51"/>
     <tag k="addr:postcode" v="2013"/>
@@ -58,7 +30,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.49627 18.62954) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -74,11 +46,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DBicske%7Caddr%3Ahousenumber%3D46%7Caddr%3Apostcode%3D2060%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-2&addtags=%7Caddr%3Acity%3DBicske%7Caddr%3Ahousenumber%3D46%7Caddr%3Apostcode%3D2060%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2060 Bicske Kossuth Lajos utca 46', 'postcode': '2060', 'city': 'Bicske', 'street': 'Kossuth Lajos utca', 'housenumber': '46', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-3" lat="47.49627" lon="18.62954" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-2" lat="47.49627" lon="18.62954" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Bicske"/>
     <tag k="addr:housenumber" v="46"/>
     <tag k="addr:postcode" v="2060"/>
@@ -88,7 +60,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.15712 18.92996) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -105,11 +77,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DR%C3%A1ckeve%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D2300%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Drackeve.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-3&addtags=%7Caddr%3Acity%3DR%C3%A1ckeve%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D2300%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Drackeve.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2300 Ráckeve Bajcsy\-Zsilinszky utca 66', 'postcode': '2300', 'city': 'Ráckeve', 'street': 'Bajcsy\-Zsilinszky utca', 'housenumber': '66', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-4" lat="47.15712" lon="18.92996" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-3" lat="47.15712" lon="18.92996" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Ráckeve"/>
     <tag k="addr:housenumber" v="66"/>
     <tag k="addr:postcode" v="2300"/>
@@ -120,7 +92,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.36132 18.68107) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -136,11 +108,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DV%C3%A1l%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D2473%7Caddr%3Astreet%3DVajda%20J%C3%A1nos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-4&addtags=%7Caddr%3Acity%3DV%C3%A1l%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D2473%7Caddr%3Astreet%3DVajda%20J%C3%A1nos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2473 Vál Vajda János utca 12', 'postcode': '2473', 'city': 'Vál', 'street': 'Vajda János utca', 'housenumber': '12', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-5" lat="47.36132" lon="18.68107" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-4" lat="47.36132" lon="18.68107" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Vál"/>
     <tag k="addr:housenumber" v="12"/>
     <tag k="addr:postcode" v="2473"/>
@@ -150,7 +122,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.97697 18.78376) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -167,11 +139,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DV%C3%A1mosmikola%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D2635%7Caddr%3Astreet%3DSzobi%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dugyelet.mikolaot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-5&addtags=%7Caddr%3Acity%3DV%C3%A1mosmikola%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D2635%7Caddr%3Astreet%3DSzobi%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dugyelet.mikolaot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2635 Vámosmikola Szobi út 16', 'postcode': '2635', 'city': 'Vámosmikola', 'street': 'Szobi út', 'housenumber': '16', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-6" lat="47.97697" lon="18.78376" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-5" lat="47.97697" lon="18.78376" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Vámosmikola"/>
     <tag k="addr:housenumber" v="16"/>
     <tag k="addr:postcode" v="2635"/>
@@ -182,7 +154,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.03199 19.7818) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -199,11 +171,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dnagykoros.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-6&addtags=%7Caddr%3Acity%3DNagyk%C5%91r%C3%B6s%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D2750%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dnagykoros.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2750 Nagykőrös Rákóczi utca 5', 'postcode': '2750', 'city': 'Nagykőrös', 'street': 'Rákóczi utca', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-7" lat="47.03199" lon="19.7818" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-6" lat="47.03199" lon="19.7818" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Nagykőrös"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="2750"/>
@@ -214,7 +186,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.47675 18.32179) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -230,11 +202,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3DOroszl%C3%A1ny%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D2840%7Caddr%3Astreet%3DT%C3%A1ncsics%20Mih%C3%A1ly%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-7&addtags=%7Caddr%3Acity%3DOroszl%C3%A1ny%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D2840%7Caddr%3Astreet%3DT%C3%A1ncsics%20Mih%C3%A1ly%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2840 Oroszlány Táncsics Mihály utca 66', 'postcode': '2840', 'city': 'Oroszlány', 'street': 'Táncsics Mihály út', 'housenumber': '66', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-8" lat="47.47675" lon="18.32179" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-7" lat="47.47675" lon="18.32179" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Oroszlány"/>
     <tag k="addr:housenumber" v="66"/>
     <tag k="addr:postcode" v="2840"/>
@@ -244,7 +216,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.707 18.01238) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -260,11 +232,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3D%C3%81cs%7Caddr%3Ahousenumber%3D43%7Caddr%3Apostcode%3D2941%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-8&addtags=%7Caddr%3Acity%3D%C3%81cs%7Caddr%3Ahousenumber%3D43%7Caddr%3Apostcode%3D2941%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2941 Ács Fő utca 43', 'postcode': '2941', 'city': 'Ács', 'street': 'Fő utca', 'housenumber': '43', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-9" lat="47.707" lon="18.01238" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-8" lat="47.707" lon="18.01238" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Ács"/>
     <tag k="addr:housenumber" v="43"/>
     <tag k="addr:postcode" v="2941"/>
@@ -274,7 +246,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.63272 18.07111) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -290,11 +262,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DNagyigm%C3%A1nd%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D2942%7Caddr%3Astreet%3D%C3%81csi%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-9&addtags=%7Caddr%3Acity%3DNagyigm%C3%A1nd%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D2942%7Caddr%3Astreet%3D%C3%81csi%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '2942 Nagyigmánd Ácsi út 5', 'postcode': '2942', 'city': 'Nagyigmánd', 'street': 'Ácsi út', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-10" lat="47.63272" lon="18.07111" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-9" lat="47.63272" lon="18.07111" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Nagyigmánd"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="2942"/>
@@ -304,7 +276,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (48.0544 20.34973) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -322,11 +294,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DB%C3%A9lap%C3%A1tfalva%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D3346%7Caddr%3Astreet%3DIV.%20B%C3%A9la%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dbelapatfalva.ot%40katved.gov.hu%7Ccontact%3Aphone%3D%2B36%20354131%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-10&addtags=%7Caddr%3Acity%3DB%C3%A9lap%C3%A1tfalva%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D3346%7Caddr%3Astreet%3DIV.%20B%C3%A9la%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dbelapatfalva.ot%40katved.gov.hu%7Ccontact%3Aphone%3D%2B36%20354131%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '3346 Bélapátfalva, IV. Béla u. 3.', 'postcode': '3346', 'city': 'Bélapátfalva', 'street': 'IV. Béla út', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-11" lat="48.0544" lon="20.34973" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-10" lat="48.0544" lon="20.34973" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Bélapátfalva"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="3346"/>
@@ -338,7 +310,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.55959 20.52628) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -356,11 +328,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DTiszan%C3%A1na%7Caddr%3Ahousenumber%3D108%7Caddr%3Apostcode%3D3385%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtiszanana.ot%40katved.gov.hu%7Ccontact%3Aphone%3D%2B36%20366470%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-11&addtags=%7Caddr%3Acity%3DTiszan%C3%A1na%7Caddr%3Ahousenumber%3D108%7Caddr%3Apostcode%3D3385%7Caddr%3Astreet%3DF%C5%91%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtiszanana.ot%40katved.gov.hu%7Ccontact%3Aphone%3D%2B36%20366470%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '3385 Tiszanána Fő út 108/1', 'postcode': '3385', 'city': 'Tiszanána', 'street': 'Fő út', 'housenumber': '108', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-12" lat="47.55959" lon="20.52628" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-11" lat="47.55959" lon="20.52628" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tiszanána"/>
     <tag k="addr:housenumber" v="108"/>
     <tag k="addr:postcode" v="3385"/>
@@ -372,7 +344,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.61109 21.34677) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -388,11 +360,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DBalmaz%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D4060%7Caddr%3Astreet%3DDebreceni%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-12&addtags=%7Caddr%3Acity%3DBalmaz%C3%BAjv%C3%A1ros%7Caddr%3Ahousenumber%3D12%7Caddr%3Apostcode%3D4060%7Caddr%3Astreet%3DDebreceni%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4060 Balmazújváros Debreceni út 12', 'postcode': '4060', 'city': 'Balmazújváros', 'street': 'Debreceni utca', 'housenumber': '12', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-13" lat="47.61109" lon="21.34677" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-12" lat="47.61109" lon="21.34677" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Balmazújváros"/>
     <tag k="addr:housenumber" v="12"/>
     <tag k="addr:postcode" v="4060"/>
@@ -402,7 +374,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.63116 20.88583) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -418,11 +390,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DEgyek%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D4069%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-13&addtags=%7Caddr%3Acity%3DEgyek%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D4069%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4069 Egyek, Fő u. 3.', 'postcode': '4069', 'city': 'Egyek', 'street': 'Fő utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-14" lat="47.63116" lon="20.88583" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-13" lat="47.63116" lon="20.88583" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Egyek"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="4069"/>
@@ -432,7 +404,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.00481 21.48452) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -448,11 +420,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DKom%C3%A1di%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D4138%7Caddr%3Astreet%3DK%C3%B6zt%C3%A1rsas%C3%A1g%20%C3%BAtja%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-14&addtags=%7Caddr%3Acity%3DKom%C3%A1di%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D4138%7Caddr%3Astreet%3DK%C3%B6zt%C3%A1rsas%C3%A1g%20%C3%BAtja%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4138 Komádi Köztársaság útja 26', 'postcode': '4138', 'city': 'Komádi', 'street': 'Köztársaság útja', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-15" lat="47.00481" lon="21.48452" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-14" lat="47.00481" lon="21.48452" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Komádi"/>
     <tag k="addr:housenumber" v="26"/>
     <tag k="addr:postcode" v="4138"/>
@@ -462,7 +434,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.7597 21.901) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -479,11 +451,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3DSzakoly%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D4234%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dszakoly.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-15&addtags=%7Caddr%3Acity%3DSzakoly%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D4234%7Caddr%3Astreet%3DR%C3%A1k%C3%B3czi%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dszakoly.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4234 Szakoly Rákóczi utca 10', 'postcode': '4234', 'city': 'Szakoly', 'street': 'Rákóczi utca', 'housenumber': '10', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-16" lat="47.7597" lon="21.901" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-15" lat="47.7597" lon="21.901" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Szakoly"/>
     <tag k="addr:housenumber" v="10"/>
     <tag k="addr:postcode" v="4234"/>
@@ -494,7 +466,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.79935 21.68198) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -511,11 +483,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3D%C3%9Ajfeh%C3%A9rt%C3%B3%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D4244%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dujfeherto.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-16&addtags=%7Caddr%3Acity%3D%C3%9Ajfeh%C3%A9rt%C3%B3%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D4244%7Caddr%3Astreet%3DB%C3%A9ke%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dujfeherto.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4244 Újfehértó Béke utca 11', 'postcode': '4244', 'city': 'Újfehértó', 'street': 'Béke utca', 'housenumber': '11', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-17" lat="47.79935" lon="21.68198" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-16" lat="47.79935" lon="21.68198" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Újfehértó"/>
     <tag k="addr:housenumber" v="11"/>
     <tag k="addr:postcode" v="4244"/>
@@ -526,7 +498,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.38262 21.89276) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -542,11 +514,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DL%C3%A9tav%C3%A9rtes%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D4281%7Caddr%3Astreet%3DKossuth%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-17&addtags=%7Caddr%3Acity%3DL%C3%A9tav%C3%A9rtes%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D4281%7Caddr%3Astreet%3DKossuth%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4281 Létavértes Kossuth utca 4', 'postcode': '4281', 'city': 'Létavértes', 'street': 'Kossuth utca', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-18" lat="47.38262" lon="21.89276" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-17" lat="47.38262" lon="21.89276" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Létavértes"/>
     <tag k="addr:housenumber" v="4"/>
     <tag k="addr:postcode" v="4281"/>
@@ -556,7 +528,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.96004 21.35541) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -573,11 +545,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-19&addtags=%7Caddr%3Acity%3DTiszavasv%C3%A1ri%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D4440%7Caddr%3Astreet%3DB%C3%A1thori%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtiszavasvari.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-18&addtags=%7Caddr%3Acity%3DTiszavasv%C3%A1ri%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D4440%7Caddr%3Astreet%3DB%C3%A1thori%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtiszavasvari.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4440 Tiszavasvári Báthori utca 6', 'postcode': '4440', 'city': 'Tiszavasvári', 'street': 'Báthori utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-19" lat="47.96004" lon="21.35541" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-18" lat="47.96004" lon="21.35541" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tiszavasvári"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="4440"/>
@@ -588,7 +560,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (48.12822 21.71201) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -605,11 +577,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-20&addtags=%7Caddr%3Acity%3DIbr%C3%A1ny%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D4484%7Caddr%3Astreet%3DTompa%20Mih%C3%A1ly%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dibrany.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-19&addtags=%7Caddr%3Acity%3DIbr%C3%A1ny%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D4484%7Caddr%3Astreet%3DTompa%20Mih%C3%A1ly%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dibrany.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4484 Ibrány Tompa Mihály utca 6', 'postcode': '4484', 'city': 'Ibrány', 'street': 'Tompa Mihály utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-20" lat="48.12822" lon="21.71201" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-19" lat="48.12822" lon="21.71201" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Ibrány"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="4484"/>
@@ -620,14 +592,14 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.83661 22.67927) -->
   <!-- OSM <-> POI distance: Non exist 
   OSM link: https://osm.org/#map=18/47.83661/22.67927 -->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Csenger'
+addr:city                        NEW		'Csengerújfalu'
 addr:housenumber                 NEW		'14'
 addr:postcode                    NEW		'4764'
 addr:street                      NEW		'Ady Endre út'
@@ -637,12 +609,12 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-21&addtags=%7Caddr%3Acity%3DCsenger%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D4764%7Caddr%3Astreet%3DAdy%20Endre%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcsenger.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
-  <!--ˇ'original': '4764 Csenger Ady Endre utca 14', 'postcode': '4764', 'city': 'Csenger', 'street': 'Ady Endre út', 'housenumber': '14', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-21" lat="47.83661" lon="22.67927" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
-    <tag k="addr:city" v="Csenger"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-20&addtags=%7Caddr%3Acity%3DCsenger%C3%BAjfalu%7Caddr%3Ahousenumber%3D14%7Caddr%3Apostcode%3D4764%7Caddr%3Astreet%3DAdy%20Endre%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcsenger.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
+  <!--ˇ'original': '4764 Csenger Ady Endre utca 14', 'postcode': '4764', 'city': 'Csengerújfalu', 'street': 'Ady Endre út', 'housenumber': '14', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-20" lat="47.83661" lon="22.67927" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
+    <tag k="addr:city" v="Csengerújfalu"/>
     <tag k="addr:housenumber" v="14"/>
     <tag k="addr:postcode" v="4764"/>
     <tag k="addr:street" v="Ady Endre út"/>
@@ -652,7 +624,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (48.12378 22.31773) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -669,11 +641,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DV%C3%A1s%C3%A1rosnam%C3%A9ny%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D4800%7Caddr%3Astreet%3DJ%C3%B3kai%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dvasarosnameny.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-21&addtags=%7Caddr%3Acity%3DV%C3%A1s%C3%A1rosnam%C3%A9ny%7Caddr%3Ahousenumber%3D51%7Caddr%3Apostcode%3D4800%7Caddr%3Astreet%3DJ%C3%B3kai%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dvasarosnameny.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '4800 Vásárosnamény Jókai u. 51', 'postcode': '4800', 'city': 'Vásárosnamény', 'street': 'Jókai utca', 'housenumber': '51', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-22" lat="48.12378" lon="22.31773" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-21" lat="48.12378" lon="22.31773" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Vásárosnamény"/>
     <tag k="addr:housenumber" v="51"/>
     <tag k="addr:postcode" v="4800"/>
@@ -684,7 +656,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.645 19.97832) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -701,11 +673,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-23&addtags=%7Caddr%3Acity%3DJ%C3%A1sz%C3%A1roksz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D5123%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Djaszarokszallas.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-22&addtags=%7Caddr%3Acity%3DJ%C3%A1sz%C3%A1roksz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D5123%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Djaszarokszallas.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5123 Jászárokszállás Árpád tér 1.', 'postcode': '5123', 'city': 'Jászárokszállás', 'street': 'Árpád tér', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-23" lat="47.645" lon="19.97832" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-22" lat="47.645" lon="19.97832" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Jászárokszállás"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="5123"/>
@@ -716,7 +688,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.452 20.2094) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -733,11 +705,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-24&addtags=%7Caddr%3Acity%3DJ%C3%A1szkis%C3%A9r%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D5137%7Caddr%3Astreet%3DKisk%C5%91r%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Djaszkiser.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-23&addtags=%7Caddr%3Acity%3DJ%C3%A1szkis%C3%A9r%7Caddr%3Ahousenumber%3D7%7Caddr%3Apostcode%3D5137%7Caddr%3Astreet%3DKisk%C5%91r%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Djaszkiser.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5137 Jászkisér Kiskör út 7', 'postcode': '5137', 'city': 'Jászkisér', 'street': 'Kiskőr út', 'housenumber': '7', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-24" lat="47.452" lon="20.2094" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-23" lat="47.452" lon="20.2094" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Jászkisér"/>
     <tag k="addr:housenumber" v="7"/>
     <tag k="addr:postcode" v="5137"/>
@@ -748,7 +720,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.17888 20.40908) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -756,7 +728,7 @@ source:date                      NEW		'2023\-01\-17'
   <!--
 Key				Status		New value		OSM value
 addr:city                        NEW		'Törökszentmiklós'
-addr:housenumber                 NEW		'135/a'
+addr:housenumber                 NEW		'135/A'
 addr:postcode                    NEW		'5200'
 addr:street                      NEW		'Kossuth tér'
 amenity                          NEW		'fire_station'
@@ -765,13 +737,13 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DT%C3%B6r%C3%B6kszentmikl%C3%B3s%7Caddr%3Ahousenumber%3D135/a%7Caddr%3Apostcode%3D5200%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtorokszentmiklos.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
-  <!--ˇ'original': '5200 Törökszentmiklós Kossuth u. 135/a', 'postcode': '5200', 'city': 'Törökszentmiklós', 'street': 'Kossuth tér', 'housenumber': '135/a', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-25" lat="47.17888" lon="20.40908" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-24&addtags=%7Caddr%3Acity%3DT%C3%B6r%C3%B6kszentmikl%C3%B3s%7Caddr%3Ahousenumber%3D135/A%7Caddr%3Apostcode%3D5200%7Caddr%3Astreet%3DKossuth%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtorokszentmiklos.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
+  <!--ˇ'original': '5200 Törökszentmiklós Kossuth u. 135/a', 'postcode': '5200', 'city': 'Törökszentmiklós', 'street': 'Kossuth tér', 'housenumber': '135/A', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-24" lat="47.17888" lon="20.40908" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Törökszentmiklós"/>
-    <tag k="addr:housenumber" v="135/a"/>
+    <tag k="addr:housenumber" v="135/A"/>
     <tag k="addr:postcode" v="5200"/>
     <tag k="addr:street" v="Kossuth tér"/>
     <tag k="amenity" v="fire_station"/>
@@ -780,7 +752,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.47873 20.59195) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -797,11 +769,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-26&addtags=%7Caddr%3Acity%3DAb%C3%A1dszal%C3%B3k%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D5241%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dabadszalok.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-25&addtags=%7Caddr%3Acity%3DAb%C3%A1dszal%C3%B3k%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D5241%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dabadszalok.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5241 Abádszalók Deák Ferenc út 8', 'postcode': '5241', 'city': 'Abádszalók', 'street': 'Deák Ferenc utca', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-26" lat="47.47873" lon="20.59195" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-25" lat="47.47873" lon="20.59195" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Abádszalók"/>
     <tag k="addr:housenumber" v="8"/>
     <tag k="addr:postcode" v="5241"/>
@@ -812,7 +784,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.21935 20.75696) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -829,11 +801,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-27&addtags=%7Caddr%3Acity%3DKis%C3%BAjsz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5310%7Caddr%3Astreet%3DNy%C3%A1r%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dkisujszallas.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-26&addtags=%7Caddr%3Acity%3DKis%C3%BAjsz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5310%7Caddr%3Astreet%3DNy%C3%A1r%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dkisujszallas.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5310 Kisújszállás Nyár utca 2.', 'postcode': '5310', 'city': 'Kisújszállás', 'street': 'Nyár utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-27" lat="47.21935" lon="20.75696" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-26" lat="47.21935" lon="20.75696" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Kisújszállás"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="5310"/>
@@ -844,7 +816,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.3704 20.62789) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -861,11 +833,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-28&addtags=%7Caddr%3Acity%3DKunhegyes%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5340%7Caddr%3Astreet%3DAdy%20Endre%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dkunhegyes.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-27&addtags=%7Caddr%3Acity%3DKunhegyes%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D5340%7Caddr%3Astreet%3DAdy%20Endre%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dkunhegyes.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5340 Kunhegyes Ady Endre utca 3', 'postcode': '5340', 'city': 'Kunhegyes', 'street': 'Ady Endre utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-28" lat="47.3704" lon="20.62789" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-27" lat="47.3704" lon="20.62789" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Kunhegyes"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="5340"/>
@@ -876,7 +848,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.99251 20.24739) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -893,11 +865,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-29&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5430%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtiszafoldvar.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-28&addtags=%7Caddr%3Acity%3DTiszaf%C3%B6ldv%C3%A1r%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5430%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtiszafoldvar.ot%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5430 Tiszaföldvár Bajcsy\-Zsilinszky út 2', 'postcode': '5430', 'city': 'Tiszaföldvár', 'street': 'Bajcsy\-Zsilinszky út', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-29" lat="46.99251" lon="20.24739" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-28" lat="46.99251" lon="20.24739" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tiszaföldvár"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="5430"/>
@@ -908,7 +880,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.93426 20.7735) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -924,11 +896,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-30&addtags=%7Caddr%3Acity%3DGyomaendr%C5%91d%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5502%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-29&addtags=%7Caddr%3Acity%3DGyomaendr%C5%91d%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D5502%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5502 Gyomaendrőd Fő utca 2', 'postcode': '5502', 'city': 'Gyomaendrőd', 'street': 'Fő utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-30" lat="46.93426" lon="20.7735" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-29" lat="46.93426" lon="20.7735" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Gyomaendrőd"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="5502"/>
@@ -938,7 +910,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.76782 21.13465) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -954,11 +926,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-31&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9s%7Caddr%3Ahousenumber%3D24%7Caddr%3Apostcode%3D5630%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-30&addtags=%7Caddr%3Acity%3DB%C3%A9k%C3%A9s%7Caddr%3Ahousenumber%3D24%7Caddr%3Apostcode%3D5630%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5630 Békés Petőfi Sándor u. 24', 'postcode': '5630', 'city': 'Békés', 'street': 'Petőfi Sándor utca', 'housenumber': '24', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-31" lat="46.76782" lon="21.13465" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-30" lat="46.76782" lon="21.13465" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Békés"/>
     <tag k="addr:housenumber" v="24"/>
     <tag k="addr:postcode" v="5630"/>
@@ -968,7 +940,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.40837 20.72903) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -984,11 +956,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-32&addtags=%7Caddr%3Acity%3DT%C3%B3tkoml%C3%B3s%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D5940%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-31&addtags=%7Caddr%3Acity%3DT%C3%B3tkoml%C3%B3s%7Caddr%3Ahousenumber%3D16%7Caddr%3Apostcode%3D5940%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '5940 Tótkomlós Kossuth Lajos utca 16', 'postcode': '5940', 'city': 'Tótkomlós', 'street': 'Kossuth Lajos utca', 'housenumber': '16', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-32" lat="46.40837" lon="20.72903" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-31" lat="46.40837" lon="20.72903" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tótkomlós"/>
     <tag k="addr:housenumber" v="16"/>
     <tag k="addr:postcode" v="5940"/>
@@ -998,7 +970,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.93605 19.47582) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1014,11 +986,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-33&addtags=%7Caddr%3Acity%3DKerekegyh%C3%A1za%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D6041%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-32&addtags=%7Caddr%3Acity%3DKerekegyh%C3%A1za%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D6041%7Caddr%3Astreet%3DSzent%20Istv%C3%A1n%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6041 Kerekegyháza Szent István tér 5', 'postcode': '6041', 'city': 'Kerekegyháza', 'street': 'Szent István tér', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-33" lat="46.93605" lon="19.47582" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-32" lat="46.93605" lon="19.47582" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Kerekegyháza"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="6041"/>
@@ -1028,7 +1000,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.02668 19.56525) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1044,11 +1016,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-34&addtags=%7Caddr%3Acity%3DLajosmizse%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D6050%7Caddr%3Astreet%3DMizsei%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-33&addtags=%7Caddr%3Acity%3DLajosmizse%7Caddr%3Ahousenumber%3D5%7Caddr%3Apostcode%3D6050%7Caddr%3Astreet%3DMizsei%20%C3%BAt%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6050 Lajosmizse Mizsei utca 5', 'postcode': '6050', 'city': 'Lajosmizse', 'street': 'Mizsei út', 'housenumber': '5', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-34" lat="47.02668" lon="19.56525" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-33" lat="47.02668" lon="19.56525" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Lajosmizse"/>
     <tag k="addr:housenumber" v="5"/>
     <tag k="addr:postcode" v="6050"/>
@@ -1058,7 +1030,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.93714 20.08244) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1074,11 +1046,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-35&addtags=%7Caddr%3Acity%3DTiszak%C3%A9cske%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D6060%7Caddr%3Astreet%3DAdy%20Endre%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-34&addtags=%7Caddr%3Acity%3DTiszak%C3%A9cske%7Caddr%3Ahousenumber%3D66%7Caddr%3Apostcode%3D6060%7Caddr%3Astreet%3DAdy%20Endre%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6060 Tiszakécske, Ady Endre utca 66.', 'postcode': '6060', 'city': 'Tiszakécske', 'street': 'Ady Endre utca', 'housenumber': '66', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-35" lat="46.93714" lon="20.08244" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-34" lat="46.93714" lon="20.08244" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tiszakécske"/>
     <tag k="addr:housenumber" v="66"/>
     <tag k="addr:postcode" v="6060"/>
@@ -1088,7 +1060,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.87412 19.22265) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1104,11 +1076,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-36&addtags=%7Caddr%3Acity%3DSzabadsz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D6080%7Caddr%3Astreet%3DK%C3%A1lvin%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-35&addtags=%7Caddr%3Acity%3DSzabadsz%C3%A1ll%C3%A1s%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D6080%7Caddr%3Astreet%3DK%C3%A1lvin%20t%C3%A9r%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6080 Szabadszállás, Kálvin tér 6', 'postcode': '6080', 'city': 'Szabadszállás', 'street': 'Kálvin tér', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-36" lat="46.87412" lon="19.22265" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-35" lat="46.87412" lon="19.22265" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Szabadszállás"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="6080"/>
@@ -1118,7 +1090,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.0281 19.11947) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1134,11 +1106,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-37&addtags=%7Caddr%3Acity%3DKunszentmikl%C3%B3s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6090%7Caddr%3Astreet%3DSzent%20Fl%C3%B3ri%C3%A1n%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-36&addtags=%7Caddr%3Acity%3DKunszentmikl%C3%B3s%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6090%7Caddr%3Astreet%3DSzent%20Fl%C3%B3ri%C3%A1n%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6090 Kunszentmiklós Szent Flórián utca 2', 'postcode': '6090', 'city': 'Kunszentmiklós', 'street': 'Szent Flórián utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-37" lat="47.0281" lon="19.11947" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-36" lat="47.0281" lon="19.11947" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Kunszentmiklós"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="6090"/>
@@ -1148,7 +1120,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.58121 19.39023) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1164,11 +1136,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-38&addtags=%7Caddr%3Acity%3DSoltvadkert%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6230%7Caddr%3Astreet%3DArany%20J%C3%A1nos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-37&addtags=%7Caddr%3Acity%3DSoltvadkert%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D6230%7Caddr%3Astreet%3DArany%20J%C3%A1nos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6230 Soltvadkert Arany János utca 2', 'postcode': '6230', 'city': 'Soltvadkert', 'street': 'Arany János utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-38" lat="46.58121" lon="19.39023" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-37" lat="46.58121" lon="19.39023" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Soltvadkert"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="6230"/>
@@ -1178,7 +1150,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.53351 19.24951) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1194,11 +1166,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-39&addtags=%7Caddr%3Acity%3DKecel%7Caddr%3Ahousenumber%3D56%7Caddr%3Apostcode%3D6237%7Caddr%3Astreet%3DVas%C3%BAt%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-38&addtags=%7Caddr%3Acity%3DKecel%7Caddr%3Ahousenumber%3D56%7Caddr%3Apostcode%3D6237%7Caddr%3Astreet%3DVas%C3%BAt%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6237 Kecel, Vasút u. 56.', 'postcode': '6237', 'city': 'Kecel', 'street': 'Vasút utca', 'housenumber': '56', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-39" lat="46.53351" lon="19.24951" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-38" lat="46.53351" lon="19.24951" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Kecel"/>
     <tag k="addr:housenumber" v="56"/>
     <tag k="addr:postcode" v="6237"/>
@@ -1208,7 +1180,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.12542 19.33556) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1224,11 +1196,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-40&addtags=%7Caddr%3Acity%3DB%C3%A1csalm%C3%A1s%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D6430%7Caddr%3Astreet%3DSzent%20J%C3%A1nos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-39&addtags=%7Caddr%3Acity%3DB%C3%A1csalm%C3%A1s%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D6430%7Caddr%3Astreet%3DSzent%20J%C3%A1nos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6430 Bácsalmás Szent János utca 3', 'postcode': '6430', 'city': 'Bácsalmás', 'street': 'Szent János utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-40" lat="46.12542" lon="19.33556" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-39" lat="46.12542" lon="19.33556" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Bácsalmás"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="6430"/>
@@ -1238,7 +1210,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.29986 19.32712) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1254,11 +1226,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-41&addtags=%7Caddr%3Acity%3DJ%C3%A1noshalma%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6440%7Caddr%3Astreet%3DK%C3%B6lcsey%20Ferenc%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-40&addtags=%7Caddr%3Acity%3DJ%C3%A1noshalma%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D6440%7Caddr%3Astreet%3DK%C3%B6lcsey%20Ferenc%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '6440 Jánoshalma, Kölcsey utca 1', 'postcode': '6440', 'city': 'Jánoshalma', 'street': 'Kölcsey Ferenc utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-41" lat="46.29986" lon="19.32712" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-40" lat="46.29986" lon="19.32712" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Jánoshalma"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="6440"/>
@@ -1268,7 +1240,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.6416 18.28455) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1284,11 +1256,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-42&addtags=%7Caddr%3Acity%3DTam%C3%A1si%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D7090%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-41&addtags=%7Caddr%3Acity%3DTam%C3%A1si%7Caddr%3Ahousenumber%3D96%7Caddr%3Apostcode%3D7090%7Caddr%3Astreet%3DD%C3%B3zsa%20Gy%C3%B6rgy%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '7090 Tamási Dózsa György út 96', 'postcode': '7090', 'city': 'Tamási', 'street': 'Dózsa György utca', 'housenumber': '96', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-42" lat="46.6416" lon="18.28455" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-41" lat="46.6416" lon="18.28455" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tamási"/>
     <tag k="addr:housenumber" v="96"/>
     <tag k="addr:postcode" v="7090"/>
@@ -1298,7 +1270,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.42486 18.78925) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1314,11 +1286,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-43&addtags=%7Caddr%3Acity%3DTolna%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D7130%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-42&addtags=%7Caddr%3Acity%3DTolna%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D7130%7Caddr%3Astreet%3DBajcsy-Zsilinszky%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '7130 Tolna Bajcsy\-Zsilinszky utca 11', 'postcode': '7130', 'city': 'Tolna', 'street': 'Bajcsy\-Zsilinszky utca', 'housenumber': '11', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-43" lat="46.42486" lon="18.78925" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-42" lat="46.42486" lon="18.78925" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tolna"/>
     <tag k="addr:housenumber" v="11"/>
     <tag k="addr:postcode" v="7130"/>
@@ -1328,7 +1300,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.19137 18.7211) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1344,11 +1316,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-44&addtags=%7Caddr%3Acity%3DB%C3%A1tasz%C3%A9k%7Caddr%3Ahousenumber%3D46%7Caddr%3Apostcode%3D7140%7Caddr%3Astreet%3DHunyadi%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-43&addtags=%7Caddr%3Acity%3DB%C3%A1tasz%C3%A9k%7Caddr%3Ahousenumber%3D46%7Caddr%3Apostcode%3D7140%7Caddr%3Astreet%3DHunyadi%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '7140 Bátaszék Hunyadi utca 46', 'postcode': '7140', 'city': 'Bátaszék', 'street': 'Hunyadi utca', 'housenumber': '46', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-44" lat="46.19137" lon="18.7211" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-43" lat="46.19137" lon="18.7211" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Bátaszék"/>
     <tag k="addr:housenumber" v="46"/>
     <tag k="addr:postcode" v="7140"/>
@@ -1358,14 +1330,14 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.23073 17.61794) -->
   <!-- OSM <-> POI distance: Non exist 
   OSM link: https://osm.org/#map=18/46.23073/17.61794 -->
   <!--
 Key				Status		New value		OSM value
-addr:city                        NEW		'Kadarkút'
+addr:city                        NEW		'Patosfa'
 addr:housenumber                 NEW		'6'
 addr:postcode                    NEW		'7536'
 addr:street                      NEW		'Petőfi Sándor utca'
@@ -1374,12 +1346,12 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-45&addtags=%7Caddr%3Acity%3DKadark%C3%BAt%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D7536%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
-  <!--ˇ'original': '7536 Kadarkút Petőfi Sándor utca 6', 'postcode': '7536', 'city': 'Kadarkút', 'street': 'Petőfi Sándor utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-45" lat="46.23073" lon="17.61794" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
-    <tag k="addr:city" v="Kadarkút"/>
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-44&addtags=%7Caddr%3Acity%3DPatosfa%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D7536%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
+  <!--ˇ'original': '7536 Kadarkút Petőfi Sándor utca 6', 'postcode': '7536', 'city': 'Patosfa', 'street': 'Petőfi Sándor utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-44" lat="46.23073" lon="17.61794" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
+    <tag k="addr:city" v="Patosfa"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="7536"/>
     <tag k="addr:street" v="Petőfi Sándor utca"/>
@@ -1388,7 +1360,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.38024 18.20973) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1404,11 +1376,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-46&addtags=%7Caddr%3Acity%3DM%C3%B3r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D8060%7Caddr%3Astreet%3DV%C3%A9nhegy%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-45&addtags=%7Caddr%3Acity%3DM%C3%B3r%7Caddr%3Ahousenumber%3D1%7Caddr%3Apostcode%3D8060%7Caddr%3Astreet%3DV%C3%A9nhegy%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8060 Mór Vénhegyi utca 1.', 'postcode': '8060', 'city': 'Mór', 'street': 'Vénhegy utca', 'housenumber': '1', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-46" lat="47.38024" lon="18.20973" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-45" lat="47.38024" lon="18.20973" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Mór"/>
     <tag k="addr:housenumber" v="1"/>
     <tag k="addr:postcode" v="8060"/>
@@ -1418,7 +1390,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.04867 18.30064) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1433,11 +1405,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-47&addtags=%7Caddr%3Acity%3DPolg%C3%A1rdi%7Caddr%3Apostcode%3D8154%7Caddr%3Astreet%3DKossuth%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-46&addtags=%7Caddr%3Acity%3DPolg%C3%A1rdi%7Caddr%3Apostcode%3D8154%7Caddr%3Astreet%3DKossuth%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8154 Polgárdi Kossuth utca', 'postcode': '8154', 'city': 'Polgárdi', 'street': 'Kossuth utca', 'housenumber': 'None', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-47" lat="47.04867" lon="18.30064" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-46" lat="47.04867" lon="18.30064" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Polgárdi"/>
     <tag k="addr:postcode" v="8154"/>
     <tag k="addr:street" v="Kossuth utca"/>
@@ -1446,7 +1418,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.95611 17.87117) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1463,11 +1435,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-48&addtags=%7Caddr%3Acity%3DBalatonf%C3%BCred%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8230%7Caddr%3Astreet%3DLevendula%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtuzoltosagfured%40t-online.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-47&addtags=%7Caddr%3Acity%3DBalatonf%C3%BCred%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D8230%7Caddr%3Astreet%3DLevendula%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtuzoltosagfured%40t-online.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8230 Balatonfüred Levendula utca 2', 'postcode': '8230', 'city': 'Balatonfüred', 'street': 'Levendula utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-48" lat="46.95611" lon="17.87117" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-47" lat="46.95611" lon="17.87117" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Balatonfüred"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="8230"/>
@@ -1478,7 +1450,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.88275 17.43475) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1495,11 +1467,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-49&addtags=%7Caddr%3Acity%3DTapolca%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D8300%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20tere%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtuzoltosag%40tapolca.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-48&addtags=%7Caddr%3Acity%3DTapolca%7Caddr%3Ahousenumber%3D11%7Caddr%3Apostcode%3D8300%7Caddr%3Astreet%3DH%C5%91s%C3%B6k%20tere%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtuzoltosag%40tapolca.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8300 Tapolca Hősök tere 11', 'postcode': '8300', 'city': 'Tapolca', 'street': 'Hősök tere', 'housenumber': '11', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-49" lat="46.88275" lon="17.43475" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-48" lat="46.88275" lon="17.43475" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tapolca"/>
     <tag k="addr:housenumber" v="11"/>
     <tag k="addr:postcode" v="8300"/>
@@ -1510,7 +1482,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.97703 17.28104) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1527,11 +1499,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-50&addtags=%7Caddr%3Acity%3DS%C3%BCmeg%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D8330%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtuzoltosag%40sumeg.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-49&addtags=%7Caddr%3Acity%3DS%C3%BCmeg%7Caddr%3Ahousenumber%3D10%7Caddr%3Apostcode%3D8330%7Caddr%3Astreet%3D%C3%81rp%C3%A1d%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dtuzoltosag%40sumeg.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8330 Sümeg Árpád utca 10', 'postcode': '8330', 'city': 'Sümeg', 'street': 'Árpád utca', 'housenumber': '10', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-50" lat="46.97703" lon="17.28104" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-49" lat="46.97703" lon="17.28104" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Sümeg"/>
     <tag k="addr:housenumber" v="10"/>
     <tag k="addr:postcode" v="8330"/>
@@ -1542,7 +1514,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.26145 17.87345) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1559,11 +1531,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-51&addtags=%7Caddr%3Acity%3DZirc%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D8420%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dzirctuo%40zirctuo.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-50&addtags=%7Caddr%3Acity%3DZirc%7Caddr%3Ahousenumber%3D6%7Caddr%3Apostcode%3D8420%7Caddr%3Astreet%3DPet%C5%91fi%20S%C3%A1ndor%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dzirctuo%40zirctuo.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8420 Zirc Petőfi Sándor utca 6', 'postcode': '8420', 'city': 'Zirc', 'street': 'Petőfi Sándor utca', 'housenumber': '6', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-51" lat="47.26145" lon="17.87345" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-50" lat="47.26145" lon="17.87345" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Zirc"/>
     <tag k="addr:housenumber" v="6"/>
     <tag k="addr:postcode" v="8420"/>
@@ -1574,7 +1546,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.77504 17.65135) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1590,11 +1562,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-52&addtags=%7Caddr%3Acity%3DBalatonbogl%C3%A1r%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D8630%7Caddr%3Astreet%3DKlapka%20Gy%C3%B6rgy%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-51&addtags=%7Caddr%3Acity%3DBalatonbogl%C3%A1r%7Caddr%3Ahousenumber%3D9%7Caddr%3Apostcode%3D8630%7Caddr%3Astreet%3DKlapka%20Gy%C3%B6rgy%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8630 Balatonboglár Klapka Gy. utca 9', 'postcode': '8630', 'city': 'Balatonboglár', 'street': 'Klapka György utca', 'housenumber': '9', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-52" lat="46.77504" lon="17.65135" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-51" lat="46.77504" lon="17.65135" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Balatonboglár"/>
     <tag k="addr:housenumber" v="9"/>
     <tag k="addr:postcode" v="8630"/>
@@ -1604,7 +1576,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.7282 18.02724) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1612,7 +1584,7 @@ source:date                      NEW		'2023\-01\-17'
   <!--
 Key				Status		New value		OSM value
 addr:city                        NEW		'Tab'
-addr:housenumber                 NEW		'148/a'
+addr:housenumber                 NEW		'148'
 addr:postcode                    NEW		'8660'
 addr:street                      NEW		'Kossuth Lajos utca'
 amenity                          NEW		'fire_station'
@@ -1620,13 +1592,13 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-53&addtags=%7Caddr%3Acity%3DTab%7Caddr%3Ahousenumber%3D148/a%7Caddr%3Apostcode%3D8660%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
-  <!--ˇ'original': '8660 Tab Kossuth Lajos utca 148a', 'postcode': '8660', 'city': 'Tab', 'street': 'Kossuth Lajos utca', 'housenumber': '148/a', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-53" lat="46.7282" lon="18.02724" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-52&addtags=%7Caddr%3Acity%3DTab%7Caddr%3Ahousenumber%3D148%7Caddr%3Apostcode%3D8660%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
+  <!--ˇ'original': '8660 Tab Kossuth Lajos utca 148a', 'postcode': '8660', 'city': 'Tab', 'street': 'Kossuth Lajos utca', 'housenumber': '148', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-52" lat="46.7282" lon="18.02724" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Tab"/>
-    <tag k="addr:housenumber" v="148/a"/>
+    <tag k="addr:housenumber" v="148"/>
     <tag k="addr:postcode" v="8660"/>
     <tag k="addr:street" v="Kossuth Lajos utca"/>
     <tag k="amenity" v="fire_station"/>
@@ -1634,39 +1606,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
-  </node>
-  <!-- Original coordinates: POINT (46.40682 17.39375) -->
-  <!-- OSM <-> POI distance: Non exist 
-  OSM link: https://osm.org/#map=18/46.40682/17.39375 -->
-  <!--
-Key				Status		New value		OSM value
-addr:city                        NEW		'Böhönye'
-addr:housenumber                 NEW		'26'
-addr:postcode                    NEW		'8719'
-addr:street                      NEW		'Fő utca'
-amenity                          NEW		'fire_station'
-contact:phone                    NEW		'+36 85 522 004;+36 85 322 210'
-contact:website                  NEW		'https://www.katasztrofavedelem.hu'
-fire_station:type                NEW		'municipal'
-name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
-source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
--->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-54&addtags=%7Caddr%3Acity%3DB%C3%B6h%C3%B6nye%7Caddr%3Ahousenumber%3D26%7Caddr%3Apostcode%3D8719%7Caddr%3Astreet%3DF%C5%91%20utca%7Camenity%3Dfire_station%7Ccontact%3Aphone%3D%2B36%2085%20522%20004%3B%2B36%2085%20322%20210%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
-  <!--ˇ'original': '8719 Böhönye Fő utca 26', 'postcode': '8719', 'city': 'Böhönye', 'street': 'Fő utca', 'housenumber': '26', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-54" lat="46.40682" lon="17.39375" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
-    <tag k="addr:city" v="Böhönye"/>
-    <tag k="addr:housenumber" v="26"/>
-    <tag k="addr:postcode" v="8719"/>
-    <tag k="addr:street" v="Fő utca"/>
-    <tag k="amenity" v="fire_station"/>
-    <tag k="contact:phone" v="+36 85 522 004;+36 85 322 210"/>
-    <tag k="contact:website" v="https://www.katasztrofavedelem.hu"/>
-    <tag k="fire_station:type" v="municipal"/>
-    <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
-    <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (46.94105 17.08056) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1682,11 +1622,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-55&addtags=%7Caddr%3Acity%3DZalaszentgr%C3%B3t%7Caddr%3Ahousenumber%3D44%7Caddr%3Apostcode%3D8790%7Caddr%3Astreet%3DBatthy%C3%A1ny%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-53&addtags=%7Caddr%3Acity%3DZalaszentgr%C3%B3t%7Caddr%3Ahousenumber%3D44%7Caddr%3Apostcode%3D8790%7Caddr%3Astreet%3DBatthy%C3%A1ny%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '8790 Zalaszentgrót Batthyány Lajos utca 44', 'postcode': '8790', 'city': 'Zalaszentgrót', 'street': 'Batthyány Lajos utca', 'housenumber': '44', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-55" lat="46.94105" lon="17.08056" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-53" lat="46.94105" lon="17.08056" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Zalaszentgrót"/>
     <tag k="addr:housenumber" v="44"/>
     <tag k="addr:postcode" v="8790"/>
@@ -1696,7 +1636,41 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
+  </node>
+  <!-- Original coordinates: POINT (46.25333 17.09886) -->
+  <!-- OSM <-> POI distance: Non exist 
+  OSM link: https://osm.org/#map=18/46.25333/17.09886 -->
+  <!--
+Key				Status		New value		OSM value
+addr:city                        NEW		'Csurgó'
+addr:housenumber                 NEW		'6/B'
+addr:postcode                    NEW		'8840'
+addr:street                      NEW		'Baksay Sándor utca'
+amenity                          NEW		'fire_station'
+contact:email                    NEW		'csurgo.ot@katved.gov.hu'
+contact:phone                    NEW		'+36 82 471 402'
+contact:website                  NEW		'https://www.katasztrofavedelem.hu'
+fire_station:type                NEW		'municipal'
+name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
+source                           NEW		'import;website'
+source:date                      NEW		'2023\-03\-07'
+-->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-54&addtags=%7Caddr%3Acity%3DCsurg%C3%B3%7Caddr%3Ahousenumber%3D6/B%7Caddr%3Apostcode%3D8840%7Caddr%3Astreet%3DBaksay%20S%C3%A1ndor%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcsurgo.ot%40katved.gov.hu%7Ccontact%3Aphone%3D%2B36%2082%20471%20402%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
+  <!--ˇ'original': '8840 Csurgó (ÖTP), Baksay S. u. 6/B.', 'postcode': '8840', 'city': 'Csurgó', 'street': 'Baksay Sándor utca', 'housenumber': '6/B', 'conscriptionnumber': 'None'°-->
+  <node action="modify" id="-54" lat="46.25333" lon="17.09886" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
+    <tag k="addr:city" v="Csurgó"/>
+    <tag k="addr:housenumber" v="6/B"/>
+    <tag k="addr:postcode" v="8840"/>
+    <tag k="addr:street" v="Baksay Sándor utca"/>
+    <tag k="amenity" v="fire_station"/>
+    <tag k="contact:email" v="csurgo.ot@katved.gov.hu"/>
+    <tag k="contact:phone" v="+36 82 471 402"/>
+    <tag k="contact:website" v="https://www.katasztrofavedelem.hu"/>
+    <tag k="fire_station:type" v="municipal"/>
+    <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
+    <tag k="source" v="import;website"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.25623 17.14945) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1713,11 +1687,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-56&addtags=%7Caddr%3Acity%3DCelld%C3%B6m%C3%B6lk%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9500%7Caddr%3Astreet%3DKoptik%20Od%C3%B3%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcelldomolk.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-55&addtags=%7Caddr%3Acity%3DCelld%C3%B6m%C3%B6lk%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9500%7Caddr%3Astreet%3DKoptik%20Od%C3%B3%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcelldomolk.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '9500 Celldömölk Koptik Odo u. 8', 'postcode': '9500', 'city': 'Celldömölk', 'street': 'Koptik Odó utca', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-56" lat="47.25623" lon="17.14945" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-55" lat="47.25623" lon="17.14945" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Celldömölk"/>
     <tag k="addr:housenumber" v="8"/>
     <tag k="addr:postcode" v="9500"/>
@@ -1728,7 +1702,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.42286 17.0227) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1745,11 +1719,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-57&addtags=%7Caddr%3Acity%3DR%C3%A9pcelak%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D9653%7Caddr%3Astreet%3DGy%C3%A1ri%20k%C3%B6z%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Drepcelak.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-56&addtags=%7Caddr%3Acity%3DR%C3%A9pcelak%7Caddr%3Ahousenumber%3D4%7Caddr%3Apostcode%3D9653%7Caddr%3Astreet%3DGy%C3%A1ri%20k%C3%B6z%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Drepcelak.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '9653 Répcelak Gyár köz 4', 'postcode': '9653', 'city': 'Répcelak', 'street': 'Gyári köz', 'housenumber': '4', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-57" lat="47.42286" lon="17.0227" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-56" lat="47.42286" lon="17.0227" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Répcelak"/>
     <tag k="addr:housenumber" v="4"/>
     <tag k="addr:postcode" v="9653"/>
@@ -1760,7 +1734,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.38821 16.54337) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1777,11 +1751,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-58&addtags=%7Caddr%3Acity%3DK%C5%91szeg%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D9730%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dkoszeg.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-57&addtags=%7Caddr%3Acity%3DK%C5%91szeg%7Caddr%3Ahousenumber%3D3%7Caddr%3Apostcode%3D9730%7Caddr%3Astreet%3DKossuth%20Lajos%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dkoszeg.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '9730 Kőszeg Kossuth Lajos utca 3', 'postcode': '9730', 'city': 'Kőszeg', 'street': 'Kossuth Lajos utca', 'housenumber': '3', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-58" lat="47.38821" lon="16.54337" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-57" lat="47.38821" lon="16.54337" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Kőszeg"/>
     <tag k="addr:housenumber" v="3"/>
     <tag k="addr:postcode" v="9730"/>
@@ -1792,7 +1766,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.40094 16.70319) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1809,11 +1783,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-59&addtags=%7Caddr%3Acity%3DCsepreg%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D9735%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcsepreg.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-58&addtags=%7Caddr%3Acity%3DCsepreg%7Caddr%3Ahousenumber%3D2%7Caddr%3Apostcode%3D9735%7Caddr%3Astreet%3DDe%C3%A1k%20Ferenc%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dcsepreg.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '9735 Csepreg Deák Ferenc utca 2', 'postcode': '9735', 'city': 'Csepreg', 'street': 'Deák Ferenc utca', 'housenumber': '2', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-59" lat="47.40094" lon="16.70319" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-58" lat="47.40094" lon="16.70319" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Csepreg"/>
     <tag k="addr:housenumber" v="2"/>
     <tag k="addr:postcode" v="9735"/>
@@ -1824,7 +1798,7 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
   <!-- Original coordinates: POINT (47.0517 16.7987) -->
   <!-- OSM <-> POI distance: Non exist 
@@ -1841,11 +1815,11 @@ contact:website                  NEW		'https://www.katasztrofavedelem.hu'
 fire_station:type                NEW		'municipal'
 name                             NEW		'Önkormányzati Tűzoltó\-parancsnokság'
 source                           NEW		'import;website'
-source:date                      NEW		'2023\-01\-17'
+source:date                      NEW		'2023\-03\-07'
 -->
-  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-60&addtags=%7Caddr%3Acity%3DVasv%C3%A1r%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9800%7Caddr%3Astreet%3DAlkotm%C3%A1ny%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dvasvar.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-01-17 -->
+  <!-- JOSM magic link: http://localhost:8111/load_object?new_layer=false&objects=n-59&addtags=%7Caddr%3Acity%3DVasv%C3%A1r%7Caddr%3Ahousenumber%3D8%7Caddr%3Apostcode%3D9800%7Caddr%3Astreet%3DAlkotm%C3%A1ny%20utca%7Camenity%3Dfire_station%7Ccontact%3Aemail%3Dvasvar.otp%40katved.gov.hu%7Ccontact%3Awebsite%3Dhttps%3A//www.katasztrofavedelem.hu%7Cfire_station%3Atype%3Dmunicipal%7Cname%3D%C3%96nkorm%C3%A1nyzati%20T%C5%B1zolt%C3%B3-parancsnoks%C3%A1g%7Csource%3Dimport%3Bwebsite%7Csource%3Adate%3D2023-03-07 -->
   <!--ˇ'original': '9800 Vasvár Alkotmány utca 8', 'postcode': '9800', 'city': 'Vasvár', 'street': 'Alkotmány utca', 'housenumber': '8', 'conscriptionnumber': 'None'°-->
-  <node action="modify" id="-60" lat="47.0517" lon="16.7987" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-01-17T19:42:11Z">
+  <node action="modify" id="-59" lat="47.0517" lon="16.7987" user="osm_poi_matchmaker" uid="8635934" version="99999" timestamp="2023-03-07T20:36:30Z">
     <tag k="addr:city" v="Vasvár"/>
     <tag k="addr:housenumber" v="8"/>
     <tag k="addr:postcode" v="9800"/>
@@ -1856,6 +1830,6 @@ source:date                      NEW		'2023\-01\-17'
     <tag k="fire_station:type" v="municipal"/>
     <tag k="name" v="Önkormányzati Tűzoltó-parancsnokság"/>
     <tag k="source" v="import;website"/>
-    <tag k="source:date" v="2023-01-17"/>
+    <tag k="source:date" v="2023-03-07"/>
   </node>
 </osm>
